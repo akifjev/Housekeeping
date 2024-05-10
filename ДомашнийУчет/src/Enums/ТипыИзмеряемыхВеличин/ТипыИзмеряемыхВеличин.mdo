@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="36397bb7-d329-4a5e-ae04-ce503d690592">
+  <producedTypes>
+    <refType typeId="6f311086-ebd7-460b-be57-1f2ecffffae3" valueTypeId="8f2be183-c970-4d25-9dca-e60849ce1ad3"/>
+    <listType typeId="6ca513fc-5eb0-49ca-afa9-976fca16d367" valueTypeId="5487cdd6-d00a-476d-a631-0ebf28dccb10"/>
+    <managerType typeId="00bc477b-0768-429d-9d14-f353421c4d39" valueTypeId="ceec253f-260f-45ef-a420-938545698249"/>
+  </producedTypes>
+  <name>ТипыИзмеряемыхВеличин</name>
+  <synonym>
+    <key>ru</key>
+    <value>Типы измеряемых величин</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="4890c209-5439-4fd7-a666-247c1975dead">
+    <name>Вес</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вес</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="3d1a74be-1c30-467b-8d0c-9ee9993c9e3d">
+    <name>Объем</name>
+    <synonym>
+      <key>ru</key>
+      <value>Объем</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="5db36f7c-b75b-4191-9d6e-a3f4b4d86b99">
+    <name>Площадь</name>
+    <synonym>
+      <key>ru</key>
+      <value>Площадь</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="72ec65e7-66cf-4f4e-81dc-80a5db4fa0b0">
+    <name>Длина</name>
+    <synonym>
+      <key>ru</key>
+      <value>Длина</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="f42aa094-2f37-4bdc-bb62-3dbdb162dd1d">
+    <name>КоличествоШтук</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество штук</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="d9385dde-4c96-41ac-8f24-35d04906b488">
+    <name>Упаковка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Упаковка</value>
+    </synonym>
+    <comment>Выбирается программно, </comment>
+  </enumValues>
+  <enumValues uuid="c3a95bc8-25b0-4499-9d22-4f95477f8359">
+    <name>Мощность</name>
+    <synonym>
+      <key>ru</key>
+      <value>Мощность</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="6e7fde10-426f-4f3a-af1f-651c645680b7">
+    <name>Энергия</name>
+    <synonym>
+      <key>ru</key>
+      <value>Энергия</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="c19bf305-358a-4a1d-b4b0-cb678372e99d">
+    <name>ЭлектрическийЗаряд</name>
+    <synonym>
+      <key>ru</key>
+      <value>Электрический заряд</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="f65528bf-c36d-43d6-a4c3-fc935bba828c">
+    <name>Время</name>
+    <synonym>
+      <key>ru</key>
+      <value>Время</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

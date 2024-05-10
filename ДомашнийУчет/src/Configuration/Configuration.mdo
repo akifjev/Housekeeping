@@ -1136,6 +1136,7 @@
   <catalogs>Catalog.ГруппыВнешнихПользователей</catalogs>
   <catalogs>Catalog.ГруппыПользователей</catalogs>
   <catalogs>Catalog.ДополнительныеОтчетыИОбработки</catalogs>
+  <catalogs>Catalog.ЕдиницыИзмерения</catalogs>
   <catalogs>Catalog.ЗначенияСвойствОбъектов</catalogs>
   <catalogs>Catalog.ЗначенияСвойствОбъектовИерархия</catalogs>
   <catalogs>Catalog.ИдентификаторыОбъектовМетаданных</catalogs>
@@ -1192,6 +1193,7 @@
   <enums>Enum.СтатусыОбработчиковОбновления</enums>
   <enums>Enum.СтатусыЭлектронныхПисем</enums>
   <enums>Enum.ТипыДанныхКэшаПрограммныхИнтерфейсов</enums>
+  <enums>Enum.ТипыИзмеряемыхВеличин</enums>
   <enums>Enum.ТипыКонтактнойИнформации</enums>
   <enums>Enum.ТипыОтчетов</enums>
   <enums>Enum.ТипыТекстовЭлектронныхПисем</enums>

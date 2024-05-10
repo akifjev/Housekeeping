@@ -13,4 +13,5 @@
   <content>Catalog.Пользователи</content>
   <content>Catalog.СтраныМира</content>
   <content>Catalog.Валюты</content>
+  <content>Catalog.ЕдиницыИзмерения</content>
 </mdclass:Subsystem>
