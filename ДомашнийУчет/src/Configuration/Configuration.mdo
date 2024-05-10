@@ -29,6 +29,7 @@
       <use>true</use>
     </functionality>
   </usedMobileApplicationFunctionalities>
+  <mainSectionPicture/>
   <defaultLanguage>Language.Русский</defaultLanguage>
   <dataLockControlMode>Managed</dataLockControlMode>
   <objectAutonumerationMode>NotAutoFree</objectAutonumerationMode>
@@ -44,7 +45,10 @@
     <languageCode>ru</languageCode>
   </languages>
   <subsystems>Subsystem.Администрирование</subsystems>
+  <subsystems>Subsystem.Кредиты</subsystems>
+  <subsystems>Subsystem.Отчеты</subsystems>
   <subsystems>Subsystem.ПодключаемыеОтчетыИОбработки</subsystems>
+  <subsystems>Subsystem.Справочники</subsystems>
   <subsystems>Subsystem.СтандартныеПодсистемы</subsystems>
   <styleItems>StyleItem.ВажнаяНадписьШрифт</styleItems>
   <styleItems>StyleItem.ВидДняПроизводственногоКалендаряВоскресеньеЦвет</styleItems>
@@ -383,6 +387,10 @@
   <commonPictures>CommonPicture.РабочийКаталогПоУмолчанию</commonPictures>
   <commonPictures>CommonPicture.РазделАдминистрирование</commonPictures>
   <commonPictures>CommonPicture.РазделАдминистрирование48</commonPictures>
+  <commonPictures>CommonPicture.РазделГлавное</commonPictures>
+  <commonPictures>CommonPicture.РазделКредиты</commonPictures>
+  <commonPictures>CommonPicture.РазделОтчеты</commonPictures>
+  <commonPictures>CommonPicture.РазделСправочники</commonPictures>
   <commonPictures>CommonPicture.РазорватьСоединение</commonPictures>
   <commonPictures>CommonPicture.РазрешитьРедактированиеРеквизитовОбъекта</commonPictures>
   <commonPictures>CommonPicture.Рассчитать</commonPictures>
