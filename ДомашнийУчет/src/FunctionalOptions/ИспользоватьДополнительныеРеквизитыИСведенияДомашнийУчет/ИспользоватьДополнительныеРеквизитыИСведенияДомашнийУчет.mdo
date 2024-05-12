@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c5604fc4-2336-4d12-bdb1-99c20c507455">
+  <name>ИспользоватьДополнительныеРеквизитыИСведенияДомашнийУчет</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать дополнительные реквизиты и сведения домашний учет</value>
+  </synonym>
+  <location>Constant.ИспользоватьДополнительныеРеквизитыИСведения</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>Catalog.ВидыНоменклатуры.Attribute.НаборСвойств</content>
+</mdclass:FunctionalOption>

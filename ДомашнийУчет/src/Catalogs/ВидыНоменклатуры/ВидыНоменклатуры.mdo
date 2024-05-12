@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="af0dfe17-cf98-4a26-9cf8-0d8c1c4464ee">
+  <producedTypes>
+    <objectType typeId="a3c71349-2287-43a3-bc04-222d23a9ab2a" valueTypeId="084f6e5d-53b8-490d-9531-4dad813de848"/>
+    <refType typeId="d51e29c7-b277-4cb7-a8ff-284cb3ef5be5" valueTypeId="a50b2c68-21b2-4697-9d41-f87ef282cd55"/>
+    <selectionType typeId="5614ee67-ddf0-4025-9c37-115437302f09" valueTypeId="3f1ac002-32e1-4fcf-9757-8002b0e8826a"/>
+    <listType typeId="b3dd6d56-366a-4e8b-ba37-c810206767df" valueTypeId="dc56dc0c-487b-4171-b18f-8f6fe63596fd"/>
+    <managerType typeId="fa9f43be-8f77-452e-9b4e-460d14a98962" valueTypeId="37e8be0e-f6c6-42d3-baa0-ad13a86b78d7"/>
+  </producedTypes>
+  <name>ВидыНоменклатуры</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды номенклатуры</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ВидыНоменклатуры.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.ВидыНоменклатуры.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Вид номенклатуры</value>
+  </objectPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Виды номенклатуры</value>
+  </listPresentation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>100</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.ВидыНоменклатуры.Form.ФормаЭлемента</defaultObjectForm>
+  <attributes uuid="f4414003-ddc7-4ffe-8f23-a8a70f871938">
+    <name>НаборСвойств</name>
+    <synonym>
+      <key>ru</key>
+      <value>Набор свойств</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.НаборыДополнительныхРеквизитовИСведений</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="f2d0532a-8ec8-4655-8bc6-18103fd7f74b">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

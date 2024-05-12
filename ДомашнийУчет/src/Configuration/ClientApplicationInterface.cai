@@ -5,6 +5,6 @@
     <panels id="3bf80bdf-3ff9-46f8-9753-bf77814c17ba" name="SectionPanel" displayType="PictureAndText"/>
     <panels id="8085b8b2-75e0-43f4-b9f5-532c0eb4b8da" name="FavoritePanel"/>
   </left>
-  <unset id="bd186627-aff0-4a09-924f-32db0f09bee0" name="FunctionsPanel"/>
-  <unset id="4df90c35-783f-4644-b3a6-808da3a886a1" name="HistoryPanel"/>
+  <unset id="c933ac92-92cd-459d-81cc-e0c8a83ced99" name="HistoryPanel"/>
+  <unset id="b2735bd3-d822-4430-ba59-c9e869693b24" name="FunctionsPanel"/>
 </cai:ClientApplicationInterface>

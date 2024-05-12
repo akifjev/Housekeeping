@@ -398,25 +398,25 @@
   <commandInterface>
     <navigationPanel>
       <cmiFragmentRecord>
-        <command>InformationRegister.ВариантыПереупаковки.StandardCommand.OpenByValue.Источник</command>
+        <command>0</command>
         <group>FormNavigationPanelGoTo</group>
         <index>0</index>
         <userVisible/>
       </cmiFragmentRecord>
       <cmiFragmentRecord>
-        <command>InformationRegister.ВариантыПереупаковки.StandardCommand.OpenByValue.МаксимальнаяУпаковкаВВетви</command>
+        <command>0</command>
         <group>FormNavigationPanelGoTo</group>
         <index>1</index>
         <userVisible/>
       </cmiFragmentRecord>
       <cmiFragmentRecord>
-        <command>InformationRegister.ВариантыПереупаковки.StandardCommand.OpenByValue.Упаковка</command>
+        <command>0</command>
         <group>FormNavigationPanelGoTo</group>
         <index>2</index>
         <userVisible/>
       </cmiFragmentRecord>
       <cmiFragmentRecord>
-        <command>InformationRegister.ПрогнозыРасходаУпаковок.StandardCommand.OpenByValue.Упаковка</command>
+        <command>0</command>
         <group>FormNavigationPanelGoTo</group>
         <index>3</index>
         <userVisible/>
