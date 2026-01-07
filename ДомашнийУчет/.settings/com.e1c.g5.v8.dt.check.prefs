@@ -1,4 +1,0 @@
-BASELINE_GIT_BRANCH=vendor/ssl
-HIDE_GIT_BASED_CHECK_RESULTS=true
-disableMassiveChecks=false
-eclipse.preferences.version=1
