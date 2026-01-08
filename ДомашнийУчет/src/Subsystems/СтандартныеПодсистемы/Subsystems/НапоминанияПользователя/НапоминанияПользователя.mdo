@@ -23,5 +23,9 @@
   <content>DefinedType.ПредметНапоминанияОбъект</content>
   <content>CommonModule.НапоминанияПользователяПереопределяемый</content>
   <content>CommonModule.НапоминанияПользователя</content>
+  <content>CommonPicture.ЦентрОповещений</content>
+  <content>CommonModule.НапоминанияПользователяСлужебныйКлиент</content>
+  <content>FunctionalOption.ИспользоватьКомандуНапоминаний</content>
+  <content>Constant.ИспользоватьКомандуНапоминаний</content>
   <parentSubsystem>Subsystem.СтандартныеПодсистемы</parentSubsystem>
 </mdclass:Subsystem>

@@ -182,7 +182,13 @@
     <mdObject>Constant.ВыполнятьЗамерыПроизводительности</mdObject>
   </content>
   <content>
+    <mdObject>InformationRegister.ИерархияГруппПользователей</mdObject>
+  </content>
+  <content>
     <mdObject>InformationRegister.ПредопределенныеВариантыОтчетовВерсийРасширений</mdObject>
+  </content>
+  <content>
+    <mdObject>Constant.НастройкиРегистрацииСобытийДоступаКДанным</mdObject>
   </content>
   <content>
     <mdObject>Constant.СписокРасширенийФайловOpenDocumentОбластиДанных</mdObject>
@@ -234,6 +240,9 @@
   </content>
   <content>
     <mdObject>InformationRegister.ПричиныИзмененияАдресныхСведений</mdObject>
+  </content>
+  <content>
+    <mdObject>InformationRegister.ХранилищеФайлов</mdObject>
   </content>
   <content>
     <mdObject>Constant.СписокРасширенийТекстовыхФайлов</mdObject>
@@ -321,6 +330,9 @@
   </content>
   <content>
     <mdObject>InformationRegister.ПотокиОбновления</mdObject>
+  </content>
+  <content>
+    <mdObject>Constant.ИспользоватьКомандуНапоминаний</mdObject>
   </content>
   <content>
     <mdObject>InformationRegister.ПользовательскиеМакетыПечати</mdObject>
@@ -455,6 +467,9 @@
     <mdObject>InformationRegister.ПараметрыРаботыВерсийРасширений</mdObject>
   </content>
   <content>
+    <mdObject>Catalog.ХранилищеДвоичныхДанных</mdObject>
+  </content>
+  <content>
     <mdObject>Constant.ИспользоватьНапоминанияПользователя</mdObject>
   </content>
   <content>
@@ -462,6 +477,9 @@
   </content>
   <content>
     <mdObject>InformationRegister.АдресныеОбъекты</mdObject>
+  </content>
+  <content>
+    <mdObject>InformationRegister.СвойстваРасширений</mdObject>
   </content>
   <content>
     <mdObject>Catalog.ГруппыВнешнихПользователей</mdObject>
@@ -527,7 +545,7 @@
     <mdObject>Catalog.ВерсииФайлов</mdObject>
   </content>
   <content>
-    <mdObject>InformationRegister.ДвоичныеДанныеФайлов</mdObject>
+    <mdObject>InformationRegister.УдалитьДвоичныеДанныеФайлов</mdObject>
   </content>
   <content>
     <mdObject>InformationRegister.ОбработчикиОбновленияОбщихДанных</mdObject>

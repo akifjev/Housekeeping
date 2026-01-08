@@ -3,6 +3,10 @@
   <items xsi:type="form:FormField">
     <name>ВалютаНадпись</name>
     <id>11</id>
+    <title>
+      <key>ru</key>
+      <value>Валюта</value>
+    </title>
     <visible>true</visible>
     <enabled>true</enabled>
     <userVisible>
@@ -12,13 +16,8 @@
       <segments>ВалютаНадпись</segments>
     </dataPath>
     <extendedTooltip>
-      <name>ВалютаНадписьExtendedTooltip</name>
+      <name>ВалютаНадписьРасширеннаяПодсказка</name>
       <id>13</id>
-      <visible>true</visible>
-      <enabled>true</enabled>
-      <userVisible>
-        <common>true</common>
-      </userVisible>
       <type>Label</type>
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
@@ -29,11 +28,6 @@
     <contextMenu>
       <name>ВалютаНадписьКонтекстноеМеню</name>
       <id>12</id>
-      <visible>true</visible>
-      <enabled>true</enabled>
-      <userVisible>
-        <common>true</common>
-      </userVisible>
       <autoFill>true</autoFill>
     </contextMenu>
     <type>LabelField</type>
@@ -49,6 +43,10 @@
   <items xsi:type="form:FormField">
     <name>ВалютаСписок</name>
     <id>9</id>
+    <title>
+      <key>ru</key>
+      <value>Валюта</value>
+    </title>
     <visible>true</visible>
     <enabled>true</enabled>
     <userVisible>
@@ -62,13 +60,8 @@
       <name>ВалютаПриИзменении</name>
     </handlers>
     <extendedTooltip>
-      <name>ВалютаСписокExtendedTooltip</name>
+      <name>ВалютаСписокРасширеннаяПодсказка</name>
       <id>14</id>
-      <visible>true</visible>
-      <enabled>true</enabled>
-      <userVisible>
-        <common>true</common>
-      </userVisible>
       <type>Label</type>
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
@@ -79,11 +72,6 @@
     <contextMenu>
       <name>ВалютаСписокКонтекстноеМеню</name>
       <id>10</id>
-      <visible>true</visible>
-      <enabled>true</enabled>
-      <userVisible>
-        <common>true</common>
-      </userVisible>
       <autoFill>true</autoFill>
     </contextMenu>
     <type>InputField</type>
@@ -113,13 +101,8 @@
       <segments>Запись.Period</segments>
     </dataPath>
     <extendedTooltip>
-      <name>ПериодExtendedTooltip</name>
+      <name>ПериодРасширеннаяПодсказка</name>
       <id>15</id>
-      <visible>true</visible>
-      <enabled>true</enabled>
-      <userVisible>
-        <common>true</common>
-      </userVisible>
       <type>Label</type>
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
@@ -130,11 +113,6 @@
     <contextMenu>
       <name>ПериодКонтекстноеМеню</name>
       <id>2</id>
-      <visible>true</visible>
-      <enabled>true</enabled>
-      <userVisible>
-        <common>true</common>
-      </userVisible>
       <autoFill>true</autoFill>
     </contextMenu>
     <type>InputField</type>
@@ -162,13 +140,8 @@
       <segments>Запись.Курс</segments>
     </dataPath>
     <extendedTooltip>
-      <name>КурсExtendedTooltip</name>
+      <name>КурсРасширеннаяПодсказка</name>
       <id>16</id>
-      <visible>true</visible>
-      <enabled>true</enabled>
-      <userVisible>
-        <common>true</common>
-      </userVisible>
       <type>Label</type>
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
@@ -179,11 +152,6 @@
     <contextMenu>
       <name>КурсКонтекстноеМеню</name>
       <id>6</id>
-      <visible>true</visible>
-      <enabled>true</enabled>
-      <userVisible>
-        <common>true</common>
-      </userVisible>
       <autoFill>true</autoFill>
     </contextMenu>
     <type>InputField</type>
@@ -211,13 +179,8 @@
       <segments>Запись.Кратность</segments>
     </dataPath>
     <extendedTooltip>
-      <name>КратностьExtendedTooltip</name>
+      <name>КратностьРасширеннаяПодсказка</name>
       <id>17</id>
-      <visible>true</visible>
-      <enabled>true</enabled>
-      <userVisible>
-        <common>true</common>
-      </userVisible>
       <type>Label</type>
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
@@ -228,11 +191,6 @@
     <contextMenu>
       <name>КратностьКонтекстноеМеню</name>
       <id>8</id>
-      <visible>true</visible>
-      <enabled>true</enabled>
-      <userVisible>
-        <common>true</common>
-      </userVisible>
       <autoFill>true</autoFill>
     </contextMenu>
     <type>InputField</type>
@@ -251,11 +209,6 @@
   <autoCommandBar>
     <name>ФормаКоманднаяПанель</name>
     <id>-1</id>
-    <visible>true</visible>
-    <enabled>true</enabled>
-    <userVisible>
-      <common>true</common>
-    </userVisible>
     <horizontalAlign>Left</horizontalAlign>
     <autoFill>true</autoFill>
   </autoCommandBar>

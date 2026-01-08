@@ -7,6 +7,10 @@
   <items xsi:type="form:FormField">
     <name>Период</name>
     <id>1</id>
+    <title>
+      <key>ru</key>
+      <value>Период</value>
+    </title>
     <visible>true</visible>
     <enabled>true</enabled>
     <userVisible>
@@ -18,11 +22,6 @@
     <extendedTooltip>
       <name>ПериодРасширеннаяПодсказка</name>
       <id>3</id>
-      <visible>true</visible>
-      <enabled>true</enabled>
-      <userVisible>
-        <common>true</common>
-      </userVisible>
       <type>Label</type>
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
@@ -33,11 +32,6 @@
     <contextMenu>
       <name>ПериодКонтекстноеМеню</name>
       <id>2</id>
-      <visible>true</visible>
-      <enabled>true</enabled>
-      <userVisible>
-        <common>true</common>
-      </userVisible>
       <autoFill>true</autoFill>
     </contextMenu>
     <type>InputField</type>
@@ -58,6 +52,10 @@
   <items xsi:type="form:FormField">
     <name>КлючеваяОперация</name>
     <id>4</id>
+    <title>
+      <key>ru</key>
+      <value>Ключевая операция</value>
+    </title>
     <visible>true</visible>
     <enabled>true</enabled>
     <userVisible>
@@ -69,11 +67,6 @@
     <extendedTooltip>
       <name>КлючеваяОперацияРасширеннаяПодсказка</name>
       <id>6</id>
-      <visible>true</visible>
-      <enabled>true</enabled>
-      <userVisible>
-        <common>true</common>
-      </userVisible>
       <type>Label</type>
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
@@ -84,11 +77,6 @@
     <contextMenu>
       <name>КлючеваяОперацияКонтекстноеМеню</name>
       <id>5</id>
-      <visible>true</visible>
-      <enabled>true</enabled>
-      <userVisible>
-        <common>true</common>
-      </userVisible>
       <autoFill>true</autoFill>
     </contextMenu>
     <type>InputField</type>
@@ -109,6 +97,10 @@
   <items xsi:type="form:FormField">
     <name>ТекущийApdex</name>
     <id>7</id>
+    <title>
+      <key>ru</key>
+      <value>Текущий APDEX</value>
+    </title>
     <visible>true</visible>
     <enabled>true</enabled>
     <userVisible>
@@ -124,11 +116,6 @@
     <extendedTooltip>
       <name>ТекущийApdexРасширеннаяПодсказка</name>
       <id>9</id>
-      <visible>true</visible>
-      <enabled>true</enabled>
-      <userVisible>
-        <common>true</common>
-      </userVisible>
       <type>Label</type>
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
@@ -139,11 +126,6 @@
     <contextMenu>
       <name>ТекущийApdexКонтекстноеМеню</name>
       <id>8</id>
-      <visible>true</visible>
-      <enabled>true</enabled>
-      <userVisible>
-        <common>true</common>
-      </userVisible>
       <autoFill>true</autoFill>
     </contextMenu>
     <type>InputField</type>
@@ -164,6 +146,10 @@
   <items xsi:type="form:FormField">
     <name>КоличествоЗамеров</name>
     <id>20</id>
+    <title>
+      <key>ru</key>
+      <value>Количество замеров</value>
+    </title>
     <visible>true</visible>
     <enabled>true</enabled>
     <userVisible>
@@ -175,11 +161,6 @@
     <extendedTooltip>
       <name>КоличествоЗамеровРасширеннаяПодсказка</name>
       <id>22</id>
-      <visible>true</visible>
-      <enabled>true</enabled>
-      <userVisible>
-        <common>true</common>
-      </userVisible>
       <type>Label</type>
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
@@ -190,11 +171,6 @@
     <contextMenu>
       <name>КоличествоЗамеровКонтекстноеМеню</name>
       <id>21</id>
-      <visible>true</visible>
-      <enabled>true</enabled>
-      <userVisible>
-        <common>true</common>
-      </userVisible>
       <autoFill>true</autoFill>
     </contextMenu>
     <type>LabelField</type>
@@ -211,6 +187,10 @@
   <items xsi:type="form:FormField">
     <name>ЦелевоеВремя</name>
     <id>14</id>
+    <title>
+      <key>ru</key>
+      <value>Целевое время</value>
+    </title>
     <visible>true</visible>
     <enabled>true</enabled>
     <userVisible>
@@ -226,11 +206,6 @@
     <extendedTooltip>
       <name>ЦелевоеВремяРасширеннаяПодсказка</name>
       <id>16</id>
-      <visible>true</visible>
-      <enabled>true</enabled>
-      <userVisible>
-        <common>true</common>
-      </userVisible>
       <type>Label</type>
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
@@ -241,11 +216,6 @@
     <contextMenu>
       <name>ЦелевоеВремяКонтекстноеМеню</name>
       <id>15</id>
-      <visible>true</visible>
-      <enabled>true</enabled>
-      <userVisible>
-        <common>true</common>
-      </userVisible>
       <autoFill>true</autoFill>
     </contextMenu>
     <type>InputField</type>
@@ -267,6 +237,10 @@
   <items xsi:type="form:FormField">
     <name>РасчетныйAPDEX</name>
     <id>17</id>
+    <title>
+      <key>ru</key>
+      <value>Расчетный APDEX</value>
+    </title>
     <visible>true</visible>
     <enabled>true</enabled>
     <userVisible>
@@ -278,11 +252,6 @@
     <extendedTooltip>
       <name>РасчетныйAPDEXРасширеннаяПодсказка</name>
       <id>19</id>
-      <visible>true</visible>
-      <enabled>true</enabled>
-      <userVisible>
-        <common>true</common>
-      </userVisible>
       <type>Label</type>
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
@@ -293,11 +262,6 @@
     <contextMenu>
       <name>РасчетныйAPDEXКонтекстноеМеню</name>
       <id>18</id>
-      <visible>true</visible>
-      <enabled>true</enabled>
-      <userVisible>
-        <common>true</common>
-      </userVisible>
       <autoFill>true</autoFill>
     </contextMenu>
     <type>LabelField</type>
@@ -329,11 +293,6 @@
     <extendedTooltip>
       <name>ДиаграммаЗамеровВремениРасширеннаяПодсказка</name>
       <id>25</id>
-      <visible>true</visible>
-      <enabled>true</enabled>
-      <userVisible>
-        <common>true</common>
-      </userVisible>
       <type>Label</type>
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
@@ -344,11 +303,6 @@
     <contextMenu>
       <name>ДиаграммаЗамеровВремениКонтекстноеМеню</name>
       <id>24</id>
-      <visible>true</visible>
-      <enabled>true</enabled>
-      <userVisible>
-        <common>true</common>
-      </userVisible>
       <autoFill>true</autoFill>
     </contextMenu>
     <type>ChartField</type>
@@ -371,6 +325,10 @@
     <items xsi:type="form:Button">
       <name>ФормаПодобратьЦелевоеВремя</name>
       <id>10</id>
+      <title>
+        <key>ru</key>
+        <value>Подобрать целевое время</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -379,11 +337,6 @@
       <extendedTooltip>
         <name>ФормаПодобратьЦелевоеВремяРасширеннаяПодсказка</name>
         <id>11</id>
-        <visible>true</visible>
-        <enabled>true</enabled>
-        <userVisible>
-          <common>true</common>
-        </userVisible>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
@@ -399,11 +352,6 @@
       <placementArea>UserCmds</placementArea>
       <representationInContextMenu>Auto</representationInContextMenu>
     </items>
-    <visible>true</visible>
-    <enabled>true</enabled>
-    <userVisible>
-      <common>true</common>
-    </userVisible>
     <horizontalAlign>Left</horizontalAlign>
   </autoCommandBar>
   <handlers>

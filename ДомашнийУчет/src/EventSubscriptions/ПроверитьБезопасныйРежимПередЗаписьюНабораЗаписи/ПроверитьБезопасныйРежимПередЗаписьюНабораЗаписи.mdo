@@ -17,12 +17,14 @@
     <types>InformationRegisterRecordSet.КодировкиФайлов</types>
     <types>InformationRegisterRecordSet.СведенияОПользователях</types>
     <types>InformationRegisterRecordSet.ОбработчикиОбновления</types>
+    <types>InformationRegisterRecordSet.ИерархияГруппПользователей</types>
     <types>InformationRegisterRecordSet.ДлительныеОперации</types>
     <types>InformationRegisterRecordSet.НастройкиОчисткиФайлов</types>
     <types>InformationRegisterRecordSet.ПараметрыРаботыПрограммы</types>
     <types>InformationRegisterRecordSet.ПараметрыРаботыВерсийРасширений</types>
     <types>InformationRegisterRecordSet.ОтправленныеСерверныеОповещения</types>
     <types>InformationRegisterRecordSet.ФайлыВРабочемКаталоге</types>
+    <types>InformationRegisterRecordSet.ХранилищеФайлов</types>
     <types>InformationRegisterRecordSet.ИдентификаторыОбъектовВерсийРасширений</types>
     <types>InformationRegisterRecordSet.РабочиеКаталогиФайлов</types>
     <types>InformationRegisterRecordSet.ПользовательскиеНастройкиДоступаКОбработкам</types>

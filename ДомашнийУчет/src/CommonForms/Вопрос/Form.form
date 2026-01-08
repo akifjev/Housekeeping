@@ -17,13 +17,8 @@
         <common>true</common>
       </userVisible>
       <extendedTooltip>
-        <name>ПредупреждениеExtendedTooltip</name>
+        <name>ПредупреждениеРасширеннаяПодсказка</name>
         <id>18</id>
-        <visible>true</visible>
-        <enabled>true</enabled>
-        <userVisible>
-          <common>true</common>
-        </userVisible>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
@@ -34,18 +29,13 @@
       <contextMenu>
         <name>ПредупреждениеКонтекстноеМеню</name>
         <id>6</id>
-        <visible>true</visible>
-        <enabled>true</enabled>
-        <userVisible>
-          <common>true</common>
-        </userVisible>
         <autoFill>true</autoFill>
       </contextMenu>
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
       <extInfo xsi:type="form:PictureDecorationExtInfo">
         <picture xsi:type="core:PictureRef">
-          <picture>CommonPicture.Вопрос32</picture>
+          <picture>StdPicture.DialogQuestion</picture>
         </picture>
       </extInfo>
     </items>
@@ -66,11 +56,6 @@
           <extendedTooltip>
             <name>ТекстСообщенияФорматированнаяСтрокаРасширеннаяПодсказка</name>
             <id>25</id>
-            <visible>true</visible>
-            <enabled>true</enabled>
-            <userVisible>
-              <common>true</common>
-            </userVisible>
             <type>Label</type>
             <autoMaxWidth>true</autoMaxWidth>
             <autoMaxHeight>true</autoMaxHeight>
@@ -81,11 +66,6 @@
           <contextMenu>
             <name>ТекстСообщенияФорматированнаяСтрокаКонтекстноеМеню</name>
             <id>24</id>
-            <visible>true</visible>
-            <enabled>true</enabled>
-            <userVisible>
-              <common>true</common>
-            </userVisible>
             <autoFill>true</autoFill>
           </contextMenu>
           <formatted>true</formatted>
@@ -106,11 +86,6 @@
         <extendedTooltip>
           <name>ТекстСообщенияФорматированнаяСтрокаГруппаРасширеннаяПодсказка</name>
           <id>27</id>
-          <visible>true</visible>
-          <enabled>true</enabled>
-          <userVisible>
-            <common>true</common>
-          </userVisible>
           <type>Label</type>
           <autoMaxWidth>true</autoMaxWidth>
           <autoMaxHeight>true</autoMaxHeight>
@@ -143,13 +118,8 @@
         <skipOnInput>true</skipOnInput>
         <titleLocation>None</titleLocation>
         <extendedTooltip>
-          <name>МногострочныйТекстСообщенияExtendedTooltip</name>
+          <name>МногострочныйТекстСообщенияРасширеннаяПодсказка</name>
           <id>21</id>
-          <visible>true</visible>
-          <enabled>true</enabled>
-          <userVisible>
-            <common>true</common>
-          </userVisible>
           <type>Label</type>
           <autoMaxWidth>true</autoMaxWidth>
           <autoMaxHeight>true</autoMaxHeight>
@@ -160,11 +130,6 @@
         <contextMenu>
           <name>МногострочныйТекстСообщенияКонтекстноеМеню</name>
           <id>11</id>
-          <visible>true</visible>
-          <enabled>true</enabled>
-          <userVisible>
-            <common>true</common>
-          </userVisible>
           <autoFill>true</autoFill>
         </contextMenu>
         <type>InputField</type>
@@ -189,6 +154,10 @@
       <items xsi:type="form:FormField">
         <name>БольшеНеЗадаватьЭтотВопрос</name>
         <id>3</id>
+        <title>
+          <key>ru</key>
+          <value>Больше не задавать этот вопрос</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -199,13 +168,8 @@
         </dataPath>
         <titleLocation>Right</titleLocation>
         <extendedTooltip>
-          <name>БольшеНеЗадаватьЭтотВопросExtendedTooltip</name>
+          <name>БольшеНеЗадаватьЭтотВопросРасширеннаяПодсказка</name>
           <id>22</id>
-          <visible>true</visible>
-          <enabled>true</enabled>
-          <userVisible>
-            <common>true</common>
-          </userVisible>
           <type>Label</type>
           <autoMaxWidth>true</autoMaxWidth>
           <autoMaxHeight>true</autoMaxHeight>
@@ -216,11 +180,6 @@
         <contextMenu>
           <name>БольшеНеЗадаватьЭтотВопросКонтекстноеМеню</name>
           <id>4</id>
-          <visible>true</visible>
-          <enabled>true</enabled>
-          <userVisible>
-            <common>true</common>
-          </userVisible>
           <autoFill>true</autoFill>
         </contextMenu>
         <type>CheckBoxField</type>
@@ -241,13 +200,8 @@
       </title>
       <width>35</width>
       <extendedTooltip>
-        <name>СтрокиExtendedTooltip</name>
+        <name>СтрокиРасширеннаяПодсказка</name>
         <id>19</id>
-        <visible>true</visible>
-        <enabled>true</enabled>
-        <userVisible>
-          <common>true</common>
-        </userVisible>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
@@ -274,13 +228,8 @@
       <value>Колонки</value>
     </title>
     <extendedTooltip>
-      <name>КолонкиExtendedTooltip</name>
+      <name>КолонкиРасширеннаяПодсказка</name>
       <id>17</id>
-      <visible>true</visible>
-      <enabled>true</enabled>
-      <userVisible>
-        <common>true</common>
-      </userVisible>
       <type>Label</type>
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
@@ -301,11 +250,6 @@
   <autoCommandBar>
     <name>ФормаКоманднаяПанель</name>
     <id>-1</id>
-    <visible>true</visible>
-    <enabled>true</enabled>
-    <userVisible>
-      <common>true</common>
-    </userVisible>
     <horizontalAlign>Right</horizontalAlign>
   </autoCommandBar>
   <handlers>

@@ -10,6 +10,10 @@
     <items xsi:type="form:FormField">
       <name>ПоказыватьДиалогСканера</name>
       <id>92</id>
+      <title>
+        <key>ru</key>
+        <value>Задать настройки</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -28,8 +32,8 @@
         <id>94</id>
         <title>
           <key>ru</key>
-          <value>&lt;b>Основные в приложении&lt;/> - диалог сканера не открывается, а применяются настройки, заданные в приложении.
-&lt;b>Расширенные в диалоге сканера&lt;/> - отображается диалог сканера, в котором можно задать другие дополнительные настройки, специфичные для конкретного устройства.
+          <value>&lt;b>Основные&lt;/>&lt;b> &lt;/>&lt;b>в&lt;/>&lt;b> &lt;/>&lt;b>приложении&lt;/>&lt;b> &lt;/>&lt;b>-&lt;/> диалог сканера не открывается, а применяются настройки, заданные в приложении.
+&lt;b>Расширенные&lt;/>&lt;b> &lt;/>&lt;b>в&lt;/>&lt;b> &lt;/>&lt;b>диалоге&lt;/>&lt;b> &lt;/>&lt;b>сканера&lt;/> - отображается диалог сканера, в котором можно задать другие дополнительные настройки, специфичные для конкретного устройства.
 </value>
         </title>
         <formatted>true</formatted>
@@ -82,7 +86,7 @@
     </userVisible>
     <title>
       <key>ru</key>
-      <value>Группа диалога</value>
+      <value>Диалога</value>
     </title>
     <extendedTooltip>
       <name>ГруппаДиалогаРасширеннаяПодсказка</name>
@@ -113,6 +117,10 @@
       <items xsi:type="form:FormField">
         <name>Разрешение</name>
         <id>14</id>
+        <title>
+          <key>ru</key>
+          <value>Разрешение</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -123,14 +131,14 @@
         </dataPath>
         <toolTipRepresentation>Button</toolTipRepresentation>
         <extendedTooltip>
-          <name>РазрешениеExtendedTooltip</name>
+          <name>РазрешениеРасширеннаяПодсказка</name>
           <id>63</id>
           <title>
             <key>ru</key>
-            <value>&lt;b>200 dpi&lt;/> достаточно для отправки изображений по электронной почте, факсу, размещения на сайте или просмотра на экране.
-&lt;b>300 dpi&lt;/> подходит для большинства документов и изображений, а также для распознавания текста.
-&lt;b>600 dpi&lt;/> подходит для сканирования цветных изображений типографского качества, которые потом можно вывести на высококачественном или широкоформатном принтере. Изображения занимают большой объем.
-&lt;b>1200 dpi&lt;/> для сканирования профессиональных фотографий типографского качества. Изображения занимают большой объем.
+            <value>&lt;b>200&lt;/>&lt;b> &lt;/>&lt;b>dpi&lt;/> достаточно для отправки изображений по электронной почте, факсу, размещения на сайте или просмотра на экране.
+&lt;b>300&lt;/>&lt;b> &lt;/>&lt;b>dpi&lt;/> подходит для большинства документов и изображений, а также для распознавания текста.
+&lt;b>600&lt;/>&lt;b> &lt;/>&lt;b>dpi&lt;/> подходит для сканирования цветных изображений типографского качества, которые потом можно вывести на высококачественном или широкоформатном принтере. Изображения занимают большой объем.
+&lt;b>1200&lt;/>&lt;b> &lt;/>&lt;b>dpi&lt;/> для сканирования профессиональных фотографий типографского качества. Изображения занимают большой объем.
 </value>
           </title>
           <formatted>true</formatted>
@@ -165,6 +173,10 @@
       <items xsi:type="form:FormField">
         <name>Цветность</name>
         <id>16</id>
+        <title>
+          <key>ru</key>
+          <value>Цветность</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -174,7 +186,7 @@
           <segments>Цветность</segments>
         </dataPath>
         <extendedTooltip>
-          <name>ЦветностьExtendedTooltip</name>
+          <name>ЦветностьРасширеннаяПодсказка</name>
           <id>64</id>
           <type>Label</type>
           <autoMaxWidth>true</autoMaxWidth>
@@ -220,7 +232,7 @@
           <segments>Поворот</segments>
         </dataPath>
         <extendedTooltip>
-          <name>ПоворотExtendedTooltip</name>
+          <name>ПоворотРасширеннаяПодсказка</name>
           <id>65</id>
           <type>Label</type>
           <autoMaxWidth>true</autoMaxWidth>
@@ -253,6 +265,10 @@
       <items xsi:type="form:FormField">
         <name>РазмерБумаги</name>
         <id>22</id>
+        <title>
+          <key>ru</key>
+          <value>Размер бумаги</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -262,7 +278,7 @@
           <segments>РазмерБумаги</segments>
         </dataPath>
         <extendedTooltip>
-          <name>РазмерБумагиExtendedTooltip</name>
+          <name>РазмерБумагиРасширеннаяПодсказка</name>
           <id>66</id>
           <type>Label</type>
           <autoMaxWidth>true</autoMaxWidth>
@@ -295,6 +311,10 @@
       <items xsi:type="form:FormField">
         <name>ДвустороннееСканирование</name>
         <id>28</id>
+        <title>
+          <key>ru</key>
+          <value>Двустороннее сканирование</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -305,7 +325,7 @@
         </dataPath>
         <titleLocation>Right</titleLocation>
         <extendedTooltip>
-          <name>ДвустороннееСканированиеExtendedTooltip</name>
+          <name>ДвустороннееСканированиеРасширеннаяПодсказка</name>
           <id>67</id>
           <type>Label</type>
           <autoMaxWidth>true</autoMaxWidth>
@@ -368,6 +388,10 @@
           <items xsi:type="form:FormField">
             <name>ФорматСканированногоИзображения</name>
             <id>37</id>
+            <title>
+              <key>ru</key>
+              <value>Сохранить как</value>
+            </title>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
@@ -381,7 +405,7 @@
               <name>ФорматСканированногоИзображенияПриИзменении</name>
             </handlers>
             <extendedTooltip>
-              <name>ФорматСканированногоИзображенияExtendedTooltip</name>
+              <name>ФорматСканированногоИзображенияРасширеннаяПодсказка</name>
               <id>56</id>
               <type>Label</type>
               <autoMaxWidth>true</autoMaxWidth>
@@ -413,7 +437,7 @@
             </extInfo>
           </items>
           <items xsi:type="form:FormField">
-            <name>СохранятьВPDF</name>
+            <name>ПреобразоватьВPDF</name>
             <id>84</id>
             <title>
               <key>ru</key>
@@ -430,16 +454,16 @@
             <titleLocation>Right</titleLocation>
             <toolTipRepresentation>Button</toolTipRepresentation>
             <extendedTooltip>
-              <name>СохранятьВPDFРасширеннаяПодсказка</name>
+              <name>ПреобразоватьВPDFРасширеннаяПодсказка</name>
               <id>86</id>
               <title>
                 <key>ru</key>
-                <value>&lt;b>PNG&lt;/> подходит для большинства документов и изображений. Изображения без потери качества, файлы небольших размеров. 
-&lt;b>JPG&lt;/> подходит для большинства документов и изображений. Позволяет сжимать изображение с потерей качества. Можно настроить величину сжатия. 
+                <value>&lt;b>JPG&lt;/> подходит для большинства документов и изображений. Позволяет сжимать изображение с потерей качества. Можно настроить величину сжатия. 
+&lt;b>PNG&lt;/> подходит для большинства документов и изображений. Изображения без потери качества, файлы небольших размеров. 
 &lt;b>TIF&lt;/> позволяет сохранять изображение без потери качества, используется для хранения изображений для дальнейшей печати. Возможно хранение многостраничных изображений.
 &lt;b>GIF&lt;/> устаревший формат для хранения изображений в низком качестве. Файлы небольшого размера.
 
-&lt;b>Преобразовать в PDF&lt;/> позволяет поместить отсканированное изображение в PDF-файл. Возможно хранение многостраничных изображений.</value>
+&lt;b>Преобразовать в PDF позволяет поместить отсканированное изображение в PDF-файл. Возможно хранение многостраничных изображений.</value>
               </title>
               <formatted>true</formatted>
               <type>Label</type>
@@ -450,7 +474,7 @@
               </extInfo>
             </extendedTooltip>
             <contextMenu>
-              <name>СохранятьВPDFКонтекстноеМеню</name>
+              <name>ПреобразоватьВPDFКонтекстноеМеню</name>
               <id>85</id>
               <autoFill>true</autoFill>
             </contextMenu>
@@ -471,7 +495,7 @@
             <value>Формата сканирования</value>
           </title>
           <extendedTooltip>
-            <name>ГруппаФорматаСканированияExtendedTooltip</name>
+            <name>ГруппаФорматаСканированияРасширеннаяПодсказка</name>
             <id>55</id>
             <type>Label</type>
             <autoMaxWidth>true</autoMaxWidth>
@@ -530,6 +554,10 @@
           <items xsi:type="form:FormField">
             <name>КачествоJPG</name>
             <id>78</id>
+            <title>
+              <key>ru</key>
+              <value>Качество</value>
+            </title>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
@@ -644,6 +672,10 @@
         <items xsi:type="form:FormField">
           <name>СжатиеTIFF</name>
           <id>43</id>
+          <title>
+            <key>ru</key>
+            <value>Сжатие</value>
+          </title>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -653,7 +685,7 @@
             <segments>СжатиеTIFF</segments>
           </dataPath>
           <extendedTooltip>
-            <name>СжатиеTIFFExtendedTooltip</name>
+            <name>СжатиеTIFFРасширеннаяПодсказка</name>
             <id>59</id>
             <type>Label</type>
             <autoMaxWidth>true</autoMaxWidth>
@@ -734,7 +766,7 @@
           <value>Для одностраничных изображений</value>
         </title>
         <extendedTooltip>
-          <name>ГруппаФорматХраненияОдиночныйExtendedTooltip</name>
+          <name>ГруппаФорматХраненияОдиночныйРасширеннаяПодсказка</name>
           <id>51</id>
           <type>Label</type>
           <autoMaxWidth>true</autoMaxWidth>
@@ -760,6 +792,10 @@
         <items xsi:type="form:FormField">
           <name>ФорматХраненияМногостраничный</name>
           <id>46</id>
+          <title>
+            <key>ru</key>
+            <value>Формат</value>
+          </title>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -769,7 +805,7 @@
             <segments>ФорматХраненияМногостраничный</segments>
           </dataPath>
           <extendedTooltip>
-            <name>ФорматХраненияМногостраничныйExtendedTooltip</name>
+            <name>ФорматХраненияМногостраничныйРасширеннаяПодсказка</name>
             <id>61</id>
             <type>Label</type>
             <autoMaxWidth>true</autoMaxWidth>
@@ -810,7 +846,7 @@
           <value>Для многостраничных изображений</value>
         </title>
         <extendedTooltip>
-          <name>ГруппаФорматХраненияМногостраничныйExtendedTooltip</name>
+          <name>ГруппаФорматХраненияМногостраничныйРасширеннаяПодсказка</name>
           <id>60</id>
           <type>Label</type>
           <autoMaxWidth>true</autoMaxWidth>
@@ -893,6 +929,10 @@
     <items xsi:type="form:Button">
       <name>ОК</name>
       <id>7</id>
+      <title>
+        <key>ru</key>
+        <value>ОК</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -900,7 +940,7 @@
       </userVisible>
       <skipOnInput>false</skipOnInput>
       <extendedTooltip>
-        <name>ОКExtendedTooltip</name>
+        <name>ОКРасширеннаяПодсказка</name>
         <id>48</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
@@ -927,7 +967,7 @@
       </userVisible>
       <skipOnInput>false</skipOnInput>
       <extendedTooltip>
-        <name>ОтменаExtendedTooltip</name>
+        <name>ОтменаРасширеннаяПодсказка</name>
         <id>49</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
@@ -953,7 +993,7 @@
       </userVisible>
       <skipOnInput>false</skipOnInput>
       <extendedTooltip>
-        <name>СправкаExtendedTooltip</name>
+        <name>СправкаРасширеннаяПодсказка</name>
         <id>50</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
@@ -1219,7 +1259,7 @@
     <name>СохранятьВPDF</name>
     <title>
       <key>ru</key>
-      <value>Сохранять ВPDF</value>
+      <value>Сохранять в PDF</value>
     </title>
     <id>19</id>
     <valueType>

@@ -8,7 +8,6 @@
   <location>Constant.НеИспользоватьРазделениеПоОбластямДанных</location>
   <privilegedGetMode>true</privilegedGetMode>
   <content>Catalog.Пользователи.Command.ПользователиИнформационнойБазы</content>
-  <content>Report.АнализЖурналаРегистрации</content>
   <content>DataProcessor.УправлениеИтогамиИАгрегатами</content>
   <content>DataProcessor.СдвигГраницыИтогов</content>
   <content>DataProcessor.АвтоматическоеИзвлечениеТекстов</content>

@@ -10,7 +10,7 @@
     <title>
       <key>ru</key>
       <value>
-Адресный классификатор изменен на формат государственного адресного реестра (ГАР), согласно Приказу ФНС России от 13.05.2020 № ЕД-7-6/329@ &quot;Об утверждении формата выгрузки сведений об адресах, содержащихся в Государственном адресном реестре...&quot; , ранее загруженный классификатор стал недействительным. Загрузка новых адресных сведений в программу занимает длительное время и больше места на компьютере, поэтому для ввода и проверки адресов рекомендуется использовать веб-сервис. С его помощью не потребуется регулярно загружать классификатор и следить за его актуальностью.
+Адресный классификатор изменен на формат государственного адресного реестра (ГАР), согласно Приказу ФНС России от 13.05.2020 № ЕД-7-6/329@ &quot;Об утверждении формата выгрузки сведений об адресах, содержащихся в Государственном адресном реестре...&quot; , ранее загруженный классификатор стал недействительным. Загрузка новых адресных сведений в приложение занимает длительное время и больше места на компьютере, поэтому для ввода и проверки адресов рекомендуется использовать веб-сервис. С его помощью не потребуется регулярно загружать классификатор и следить за его актуальностью.
 
 
 Выберите один из вариантов:</value>
@@ -23,11 +23,6 @@
     <extendedTooltip>
       <name>НадписьЗаголовкаРасширеннаяПодсказка</name>
       <id>35</id>
-      <visible>true</visible>
-      <enabled>true</enabled>
-      <userVisible>
-        <common>true</common>
-      </userVisible>
       <type>Label</type>
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
@@ -38,11 +33,6 @@
     <contextMenu>
       <name>НадписьЗаголовкаКонтекстноеМеню</name>
       <id>34</id>
-      <visible>true</visible>
-      <enabled>true</enabled>
-      <userVisible>
-        <common>true</common>
-      </userVisible>
       <autoFill>true</autoFill>
     </contextMenu>
     <formatted>true</formatted>
@@ -57,6 +47,10 @@
   <items xsi:type="form:FormField">
     <name>ВариантыАктуализации</name>
     <id>4</id>
+    <title>
+      <key>ru</key>
+      <value>Необходимо актуализировать адресный классификатор</value>
+    </title>
     <visible>true</visible>
     <enabled>true</enabled>
     <userVisible>
@@ -69,11 +63,6 @@
     <extendedTooltip>
       <name>ВариантыАктуализацииРасширеннаяПодсказка</name>
       <id>6</id>
-      <visible>true</visible>
-      <enabled>true</enabled>
-      <userVisible>
-        <common>true</common>
-      </userVisible>
       <type>Label</type>
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
@@ -84,11 +73,6 @@
     <contextMenu>
       <name>ВариантыАктуализацииКонтекстноеМеню</name>
       <id>5</id>
-      <visible>true</visible>
-      <enabled>true</enabled>
-      <userVisible>
-        <common>true</common>
-      </userVisible>
       <autoFill>true</autoFill>
     </contextMenu>
     <type>RadioButtonField</type>
@@ -110,7 +94,7 @@
       <choiceList>
         <presentation>
           <key>ru</key>
-          <value>Загрузить классификатор в программу</value>
+          <value>Загрузить классификатор в приложение</value>
         </presentation>
         <value xsi:type="core:NumberValue">
           <value>1</value>
@@ -124,6 +108,10 @@
     <items xsi:type="form:Button">
       <name>ОК</name>
       <id>9</id>
+      <title>
+        <key>ru</key>
+        <value>ОК</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -132,11 +120,6 @@
       <extendedTooltip>
         <name>ОКРасширеннаяПодсказка</name>
         <id>10</id>
-        <visible>true</visible>
-        <enabled>true</enabled>
-        <userVisible>
-          <common>true</common>
-        </userVisible>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
@@ -163,11 +146,6 @@
       <extendedTooltip>
         <name>ОтменаРасширеннаяПодсказка</name>
         <id>37</id>
-        <visible>true</visible>
-        <enabled>true</enabled>
-        <userVisible>
-          <common>true</common>
-        </userVisible>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
@@ -194,11 +172,6 @@
     <extendedTooltip>
       <name>ГруппаКоманднаяПанельРасширеннаяПодсказка</name>
       <id>8</id>
-      <visible>true</visible>
-      <enabled>true</enabled>
-      <userVisible>
-        <common>true</common>
-      </userVisible>
       <type>Label</type>
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
@@ -214,11 +187,6 @@
   <autoCommandBar>
     <name>ФормаКоманднаяПанель</name>
     <id>-1</id>
-    <visible>true</visible>
-    <enabled>true</enabled>
-    <userVisible>
-      <common>true</common>
-    </userVisible>
     <horizontalAlign>Left</horizontalAlign>
   </autoCommandBar>
   <handlers>

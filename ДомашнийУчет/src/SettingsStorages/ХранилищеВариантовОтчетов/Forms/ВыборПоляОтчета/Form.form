@@ -19,11 +19,6 @@
     <extendedTooltip>
       <name>ГруппаДоступныеПоляРасширеннаяПодсказка</name>
       <id>95</id>
-      <visible>true</visible>
-      <enabled>true</enabled>
-      <userVisible>
-        <common>true</common>
-      </userVisible>
       <type>Label</type>
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
@@ -46,6 +41,10 @@
     <items xsi:type="form:Button">
       <name>Выбрать</name>
       <id>26</id>
+      <title>
+        <key>ru</key>
+        <value>Выбрать</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -54,11 +53,6 @@
       <extendedTooltip>
         <name>ВыбратьРасширеннаяПодсказка</name>
         <id>27</id>
-        <visible>true</visible>
-        <enabled>true</enabled>
-        <userVisible>
-          <common>true</common>
-        </userVisible>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
@@ -77,6 +71,10 @@
     <items xsi:type="form:Button">
       <name>ДобавитьФормулу</name>
       <id>96</id>
+      <title>
+        <key>ru</key>
+        <value>Добавить формулу</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -85,11 +83,6 @@
       <extendedTooltip>
         <name>ДобавитьФормулуРасширеннаяПодсказка</name>
         <id>97</id>
-        <visible>true</visible>
-        <enabled>true</enabled>
-        <userVisible>
-          <common>true</common>
-        </userVisible>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
@@ -107,6 +100,10 @@
     <items xsi:type="form:Button">
       <name>ИзменитьФормулу</name>
       <id>98</id>
+      <title>
+        <key>ru</key>
+        <value>Изменить формулу</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -115,11 +112,6 @@
       <extendedTooltip>
         <name>ИзменитьФормулуРасширеннаяПодсказка</name>
         <id>99</id>
-        <visible>true</visible>
-        <enabled>true</enabled>
-        <userVisible>
-          <common>true</common>
-        </userVisible>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
@@ -137,6 +129,10 @@
     <items xsi:type="form:Button">
       <name>УдалитьФормулу</name>
       <id>100</id>
+      <title>
+        <key>ru</key>
+        <value>Удалить формулу</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -145,11 +141,6 @@
       <extendedTooltip>
         <name>УдалитьФормулуРасширеннаяПодсказка</name>
         <id>101</id>
-        <visible>true</visible>
-        <enabled>true</enabled>
-        <userVisible>
-          <common>true</common>
-        </userVisible>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
@@ -164,11 +155,6 @@
       <placementArea>UserCmds</placementArea>
       <representationInContextMenu>Auto</representationInContextMenu>
     </items>
-    <visible>true</visible>
-    <enabled>true</enabled>
-    <userVisible>
-      <common>true</common>
-    </userVisible>
     <horizontalAlign>Left</horizontalAlign>
   </autoCommandBar>
   <handlers>

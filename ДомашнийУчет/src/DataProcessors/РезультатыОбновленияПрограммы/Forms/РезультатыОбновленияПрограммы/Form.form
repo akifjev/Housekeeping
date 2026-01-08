@@ -2,7 +2,7 @@
 <form:Form xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:form="http://g5.1c.ru/v8/dt/form">
   <title>
     <key>ru</key>
-    <value>Результаты обновления программы</value>
+    <value>Результаты обновления приложения</value>
   </title>
   <items xsi:type="form:FormGroup">
     <name>ГруппаИнформацияОбУдаленииПатчей</name>
@@ -30,12 +30,12 @@
         <id>258</id>
         <autoFill>true</autoFill>
       </contextMenu>
-      <width>5</width>
+      <width>7</width>
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
       <extInfo xsi:type="form:PictureDecorationExtInfo">
         <picture xsi:type="core:PictureRef">
-          <picture>CommonPicture.Предупреждение32</picture>
+          <picture>StdPicture.DialogExclamation</picture>
         </picture>
         <fileDragMode>AsFileRef</fileDragMode>
       </extInfo>
@@ -45,12 +45,12 @@
       <id>260</id>
       <title>
         <key>ru</key>
-        <value>Удаление устаревших исправлений (патчей) не было выполнено штатно при обновлении на новую версию, поэтому они удалены при первом входе администратора в программу. 
+        <value>Удаление устаревших исправлений (патчей) не было выполнено штатно при обновлении на новую версию, поэтому они удалены при первом входе администратора в приложение. 
 Возможные причины:
 • обновление выполнялось нерекомендуемыми сторонними средствами;
-• патч, который не подходит для этой версии программы, был установлен вручную, например, с помощью конфигуратора.
+• патч, который не подходит для этой версии приложения, был установлен вручную, например, с помощью конфигуратора.
 
-Подобные действия могут приводить к различным ошибкам при работе программы и при ее обновлении на новую версию. Рекомендуется использовать штатные средства для обновления.</value>
+Подобные действия могут приводить к различным ошибкам при работе приложения и при ее обновлении на новую версию. Рекомендуется использовать штатные средства для обновления.</value>
       </title>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -129,7 +129,7 @@
             <common>true</common>
           </userVisible>
           <extendedTooltip>
-            <name>КартинкаИнформацияExtendedTooltip</name>
+            <name>КартинкаИнформацияРасширеннаяПодсказка</name>
             <id>129</id>
             <type>Label</type>
             <autoMaxWidth>true</autoMaxWidth>
@@ -143,7 +143,7 @@
             <id>84</id>
             <autoFill>true</autoFill>
           </contextMenu>
-          <width>5</width>
+          <width>7</width>
           <autoMaxWidth>true</autoMaxWidth>
           <autoMaxHeight>true</autoMaxHeight>
           <extInfo xsi:type="form:PictureDecorationExtInfo">
@@ -157,7 +157,7 @@
           <id>86</id>
           <title>
             <key>ru</key>
-            <value>Версия программы успешно обновлена на версию %1
+            <value>Версия приложения успешно обновлена на версию %1
 %2 в %3 за %4.</value>
           </title>
           <visible>true</visible>
@@ -166,7 +166,7 @@
             <common>true</common>
           </userVisible>
           <extendedTooltip>
-            <name>ИнформацияОбновлениеЗавершеноExtendedTooltip</name>
+            <name>ИнформацияОбновлениеЗавершеноРасширеннаяПодсказка</name>
             <id>131</id>
             <type>Label</type>
             <autoMaxWidth>true</autoMaxWidth>
@@ -198,7 +198,7 @@
         </title>
         <verticalStretch>false</verticalStretch>
         <extendedTooltip>
-          <name>ГруппаОбновлениеЗавершеноExtendedTooltip</name>
+          <name>ГруппаОбновлениеЗавершеноРасширеннаяПодсказка</name>
           <id>128</id>
           <type>Label</type>
           <autoMaxWidth>true</autoMaxWidth>
@@ -243,12 +243,12 @@
             <id>189</id>
             <autoFill>true</autoFill>
           </contextMenu>
-          <width>5</width>
+          <width>7</width>
           <autoMaxWidth>true</autoMaxWidth>
           <autoMaxHeight>true</autoMaxHeight>
           <extInfo xsi:type="form:PictureDecorationExtInfo">
             <picture xsi:type="core:PictureRef">
-              <picture>CommonPicture.Ошибка32</picture>
+              <picture>StdPicture.DialogStop</picture>
             </picture>
           </extInfo>
         </items>
@@ -260,7 +260,7 @@
             <id>199</id>
             <title>
               <key>ru</key>
-              <value>Во время обновления программы возникли некоторые проблемы. Информация о них сохранена в &lt;link ЖурналРегистрации>журнал регистрации&lt;/>.</value>
+              <value>Во время обновления приложения возникли некоторые проблемы. Информация о них сохранена в &lt;link ЖурналРегистрации>журнал регистрации&lt;/>.</value>
             </title>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -298,6 +298,10 @@
           <items xsi:type="form:Button">
             <name>ИнформацияДляТехническойПоддержки</name>
             <id>238</id>
+            <title>
+              <key>ru</key>
+              <value>Информация для технической поддержки</value>
+            </title>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
@@ -428,7 +432,7 @@
             <autoFill>true</autoFill>
           </contextMenu>
           <type>Label</type>
-          <width>5</width>
+          <width>7</width>
           <autoMaxWidth>true</autoMaxWidth>
           <autoMaxHeight>true</autoMaxHeight>
           <extInfo xsi:type="form:LabelDecorationExtInfo">
@@ -557,7 +561,7 @@
             <autoFill>true</autoFill>
           </contextMenu>
           <type>Label</type>
-          <width>3</width>
+          <width>7</width>
           <autoMaxWidth>true</autoMaxWidth>
           <autoMaxHeight>true</autoMaxHeight>
           <extInfo xsi:type="form:LabelDecorationExtInfo">
@@ -688,6 +692,10 @@
     <userVisible>
       <common>true</common>
     </userVisible>
+    <title>
+      <key>ru</key>
+      <value>Группа</value>
+    </title>
     <extendedTooltip>
       <name>Группа1РасширеннаяПодсказка</name>
       <id>231</id>
@@ -730,7 +738,7 @@
             <common>true</common>
           </userVisible>
           <extendedTooltip>
-            <name>КартинкаИнформацияФайловаяБазаExtendedTooltip</name>
+            <name>КартинкаИнформацияФайловаяБазаРасширеннаяПодсказка</name>
             <id>136</id>
             <type>Label</type>
             <autoMaxWidth>true</autoMaxWidth>
@@ -744,12 +752,12 @@
             <id>33</id>
             <autoFill>true</autoFill>
           </contextMenu>
-          <width>5</width>
+          <width>7</width>
           <autoMaxWidth>true</autoMaxWidth>
           <autoMaxHeight>true</autoMaxHeight>
           <extInfo xsi:type="form:PictureDecorationExtInfo">
             <picture xsi:type="core:PictureRef">
-              <picture>CommonPicture.Предупреждение32</picture>
+              <picture>StdPicture.DialogExclamation</picture>
             </picture>
           </extInfo>
         </items>
@@ -759,7 +767,7 @@
           <title>
             <key>ru</key>
             <value>Необходимо выполнить дополнительные процедуры обработки данных.
-Работа с этими данными в программе временно ограничена.</value>
+Работа с этими данными в приложении временно ограничена.</value>
           </title>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -767,7 +775,7 @@
             <common>true</common>
           </userVisible>
           <extendedTooltip>
-            <name>ЗаголовокИнформацииФайловаяБазаExtendedTooltip</name>
+            <name>ЗаголовокИнформацииФайловаяБазаРасширеннаяПодсказка</name>
             <id>139</id>
             <type>Label</type>
             <autoMaxWidth>true</autoMaxWidth>
@@ -835,7 +843,7 @@
               <common>true</common>
             </userVisible>
             <extendedTooltip>
-              <name>ОткрытьСписокОтложенныхОбработчиков1ExtendedTooltip</name>
+              <name>ОткрытьСписокОтложенныхОбработчиков1РасширеннаяПодсказка</name>
               <id>140</id>
               <type>Label</type>
               <autoMaxWidth>true</autoMaxWidth>
@@ -855,13 +863,17 @@
           <items xsi:type="form:Button">
             <name>Выполнить</name>
             <id>70</id>
+            <title>
+              <key>ru</key>
+              <value>Выполнить процедуры обработки данных</value>
+            </title>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
               <common>true</common>
             </userVisible>
             <extendedTooltip>
-              <name>ВыполнитьExtendedTooltip</name>
+              <name>ВыполнитьРасширеннаяПодсказка</name>
               <id>141</id>
               <title>
                 <key>ru</key>
@@ -923,7 +935,7 @@
           <value>Информация файловая база</value>
         </title>
         <extendedTooltip>
-          <name>ГруппаИнформацияФайловаяБазаExtendedTooltip</name>
+          <name>ГруппаИнформацияФайловаяБазаРасширеннаяПодсказка</name>
           <id>137</id>
           <type>Label</type>
           <autoMaxWidth>true</autoMaxWidth>
@@ -951,7 +963,7 @@
         <value>Обновление в файловой базе</value>
       </title>
       <extendedTooltip>
-        <name>ОбновлениеВФайловойБазеExtendedTooltip</name>
+        <name>ОбновлениеВФайловойБазеРасширеннаяПодсказка</name>
         <id>134</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
@@ -985,7 +997,7 @@
             <common>true</common>
           </userVisible>
           <extendedTooltip>
-            <name>КартинкаИнформацияПользователюExtendedTooltip</name>
+            <name>КартинкаИнформацияПользователюРасширеннаяПодсказка</name>
             <id>146</id>
             <type>Label</type>
             <autoMaxWidth>true</autoMaxWidth>
@@ -999,12 +1011,12 @@
             <id>122</id>
             <autoFill>true</autoFill>
           </contextMenu>
-          <width>5</width>
+          <width>7</width>
           <autoMaxWidth>true</autoMaxWidth>
           <autoMaxHeight>true</autoMaxHeight>
           <extInfo xsi:type="form:PictureDecorationExtInfo">
             <picture xsi:type="core:PictureRef">
-              <picture>CommonPicture.Предупреждение32</picture>
+              <picture>StdPicture.DialogExclamation</picture>
             </picture>
           </extInfo>
         </items>
@@ -1014,7 +1026,7 @@
           <title>
             <key>ru</key>
             <value>Не выполнены дополнительные процедуры обработки данных.
-Работа с этими данными в программе временно ограничена, необходимо дождаться
+Работа с этими данными в приложении временно ограничена, необходимо дождаться
 окончания их обработки.</value>
           </title>
           <visible>true</visible>
@@ -1023,7 +1035,7 @@
             <common>true</common>
           </userVisible>
           <extendedTooltip>
-            <name>ЗаголовокИнформацииДляПользователяExtendedTooltip</name>
+            <name>ЗаголовокИнформацииДляПользователяРасширеннаяПодсказка</name>
             <id>148</id>
             <type>Label</type>
             <autoMaxWidth>true</autoMaxWidth>
@@ -1085,7 +1097,7 @@
           <common>true</common>
         </userVisible>
         <extendedTooltip>
-          <name>ОткрытьСписокОтложенныхОбработчиков2ExtendedTooltip</name>
+          <name>ОткрытьСписокОтложенныхОбработчиков2РасширеннаяПодсказка</name>
           <id>149</id>
           <type>Label</type>
           <autoMaxWidth>true</autoMaxWidth>
@@ -1112,7 +1124,7 @@
         <value>Статус обновления для пользователя</value>
       </title>
       <extendedTooltip>
-        <name>СтатусОбновленияДляПользователяExtendedTooltip</name>
+        <name>СтатусОбновленияДляПользователяРасширеннаяПодсказка</name>
         <id>145</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
@@ -1148,7 +1160,7 @@
               <common>true</common>
             </userVisible>
             <extendedTooltip>
-              <name>КартинкаДействиеВыполняетсяExtendedTooltip</name>
+              <name>КартинкаДействиеВыполняетсяРасширеннаяПодсказка</name>
               <id>152</id>
               <type>Label</type>
               <autoMaxWidth>true</autoMaxWidth>
@@ -1162,6 +1174,7 @@
               <id>4</id>
               <autoFill>true</autoFill>
             </contextMenu>
+            <width>7</width>
             <autoMaxWidth>true</autoMaxWidth>
             <autoMaxHeight>true</autoMaxHeight>
             <extInfo xsi:type="form:PictureDecorationExtInfo">
@@ -1184,7 +1197,7 @@
               <common>true</common>
             </userVisible>
             <extendedTooltip>
-              <name>ЗаголовокИнформацииExtendedTooltip</name>
+              <name>ЗаголовокИнформацииРасширеннаяПодсказка</name>
               <id>154</id>
               <type>Label</type>
               <autoMaxWidth>true</autoMaxWidth>
@@ -1367,7 +1380,7 @@
                     <autoFill>true</autoFill>
                   </contextMenu>
                   <type>Label</type>
-                  <width>5</width>
+                  <width>7</width>
                   <autoMaxWidth>true</autoMaxWidth>
                   <autoMaxHeight>true</autoMaxHeight>
                   <extInfo xsi:type="form:LabelDecorationExtInfo">
@@ -1630,7 +1643,7 @@
                       <common>true</common>
                     </userVisible>
                     <extendedTooltip>
-                      <name>ИнформацияСтатусОбновленияExtendedTooltip</name>
+                      <name>ИнформацияСтатусОбновленияРасширеннаяПодсказка</name>
                       <id>155</id>
                       <type>Label</type>
                       <autoMaxWidth>true</autoMaxWidth>
@@ -1931,6 +1944,10 @@
             <items xsi:type="form:FormField">
               <name>ПриоритетОбновления</name>
               <id>177</id>
+              <title>
+                <key>ru</key>
+                <value>Приоритет</value>
+              </title>
               <visible>true</visible>
               <enabled>true</enabled>
               <userVisible>
@@ -1949,8 +1966,8 @@
                 <id>179</id>
                 <title>
                   <key>ru</key>
-                  <value>&lt;b>• &lt;/>&lt;b>Работа пользователей&lt;/> - данные обрабатываются медленнее, но меньше нагрузка на сервер и влияние на работу пользователей в программе. 
-&lt;b>• &lt;/>&lt;b>Обработка данных&lt;/> - выше скорость обработки данных, но выше нагрузка на сервер, а так же существенное замедление работы пользователей в программе. Рекомендуется использовать в тех случаях, когда необходимо быстрее получить доступ к обрабатываемым данным.</value>
+                  <value>&lt;b>• &lt;/>&lt;b>Работа пользователей&lt;/> - данные обрабатываются медленнее, но меньше нагрузка на сервер и влияние на работу пользователей в приложении. 
+&lt;b>• &lt;/>&lt;b>Обработка данных&lt;/> - выше скорость обработки данных, но выше нагрузка на сервер, а так же существенное замедление работы пользователей в приложении. Рекомендуется использовать в тех случаях, когда необходимо быстрее получить доступ к обрабатываемым данным.</value>
                 </title>
                 <formatted>true</formatted>
                 <type>Label</type>
@@ -2017,8 +2034,8 @@
                 <id>246</id>
                 <title>
                   <key>ru</key>
-                  <value>&lt;b>● &lt;/>&lt;b>Работа пользователей&lt;/> - данные обрабатываются медленнее, но меньше нагрузка на сервер и влияние на работу пользователей в программе. 
-&lt;b>● &lt;/>&lt;b>Обработка данных&lt;/> - выше скорость обработки данных, но выше нагрузка на сервер, а так же существенное замедление работы пользователей в программе. Рекомендуется использовать в тех случаях, когда необходимо быстрее получить доступ к обрабатываемым данным.
+                  <value>&lt;b>● &lt;/>&lt;b>Работа пользователей&lt;/> - данные обрабатываются медленнее, но меньше нагрузка на сервер и влияние на работу пользователей в приложении. 
+&lt;b>● &lt;/>&lt;b>Обработка данных&lt;/> - выше скорость обработки данных, но выше нагрузка на сервер, а так же существенное замедление работы пользователей в приложении. Рекомендуется использовать в тех случаях, когда необходимо быстрее получить доступ к обрабатываемым данным.
 &lt;b>● &lt;/>&lt;b>&lt;fontsize 8>Количество&lt;/>&lt;/>&lt;b> потоков&lt;/> - это количество одновременно выполняющихся обработчиков обновления. Значение по умолчанию равно 8. Рекомендуемое значение:
 &lt;b>    •&lt;/> для штатного обновления до 50-75% от количества ядер, доступных кластеру  серверов; 
 &lt;b>    •&lt;/> для форсированного обновления в период минимальной активности пользователей - столько ядер, сколько доступно кластеру серверов.
@@ -2098,7 +2115,7 @@
               <common>true</common>
             </userVisible>
             <extendedTooltip>
-              <name>ИнформацияПодсказкаФайловаяБаза2ExtendedTooltip</name>
+              <name>ИнформацияПодсказкаФайловаяБаза2РасширеннаяПодсказка</name>
               <id>156</id>
               <type>Label</type>
               <autoMaxWidth>true</autoMaxWidth>
@@ -2139,7 +2156,7 @@
                 <common>true</common>
               </userVisible>
               <extendedTooltip>
-                <name>ПодсказкаПроПериодНаименьшейАктивностиПользователейExtendedTooltip</name>
+                <name>ПодсказкаПроПериодНаименьшейАктивностиПользователейРасширеннаяПодсказка</name>
                 <id>158</id>
                 <type>Label</type>
                 <autoMaxWidth>true</autoMaxWidth>
@@ -2179,7 +2196,7 @@
                   <common>true</common>
                 </userVisible>
                 <extendedTooltip>
-                  <name>ИзменитьРасписаниеExtendedTooltip</name>
+                  <name>ИзменитьРасписаниеРасширеннаяПодсказка</name>
                   <id>159</id>
                   <type>Label</type>
                   <autoMaxWidth>true</autoMaxWidth>
@@ -2206,7 +2223,7 @@
                 <value>Настройка расписания</value>
               </title>
               <extendedTooltip>
-                <name>ГруппаНастройкаРасписанияExtendedTooltip</name>
+                <name>ГруппаНастройкаРасписанияРасширеннаяПодсказка</name>
                 <id>174</id>
                 <type>Label</type>
                 <autoMaxWidth>true</autoMaxWidth>
@@ -2234,7 +2251,7 @@
               <value>Подсказка про период наименьшей активности пользователей</value>
             </title>
             <extendedTooltip>
-              <name>ГруппаПодсказкаПроПериодНаименьшейАктивностиПользователейExtendedTooltip</name>
+              <name>ГруппаПодсказкаПроПериодНаименьшейАктивностиПользователейРасширеннаяПодсказка</name>
               <id>157</id>
               <type>Label</type>
               <autoMaxWidth>true</autoMaxWidth>
@@ -2262,7 +2279,7 @@
             <value>Информация о прогрессе</value>
           </title>
           <extendedTooltip>
-            <name>ГруппаИнформацияОПрогрессеExtendedTooltip</name>
+            <name>ГруппаИнформацияОПрогрессеРасширеннаяПодсказка</name>
             <id>153</id>
             <type>Label</type>
             <autoMaxWidth>true</autoMaxWidth>
@@ -2290,7 +2307,7 @@
           <value>Ход обновления</value>
         </title>
         <extendedTooltip>
-          <name>ГруппаХодОбновленияExtendedTooltip</name>
+          <name>ГруппаХодОбновленияРасширеннаяПодсказка</name>
           <id>151</id>
           <type>Label</type>
           <autoMaxWidth>true</autoMaxWidth>
@@ -2319,7 +2336,7 @@
         <value>Обновление выполняется</value>
       </title>
       <extendedTooltip>
-        <name>ОбновлениеВыполняетсяExtendedTooltip</name>
+        <name>ОбновлениеВыполняетсяРасширеннаяПодсказка</name>
         <id>150</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
@@ -2365,12 +2382,12 @@
               <id>44</id>
               <autoFill>true</autoFill>
             </contextMenu>
-            <width>5</width>
+            <width>7</width>
             <autoMaxWidth>true</autoMaxWidth>
             <autoMaxHeight>true</autoMaxHeight>
             <extInfo xsi:type="form:PictureDecorationExtInfo">
               <picture xsi:type="core:PictureRef">
-                <picture>CommonPicture.Ошибка32</picture>
+                <picture>StdPicture.DialogStop</picture>
               </picture>
             </extInfo>
           </items>
@@ -2386,7 +2403,7 @@
               <common>true</common>
             </userVisible>
             <extendedTooltip>
-              <name>ИнформацияОтложенныеОбработчикиОтсутствуютExtendedTooltip</name>
+              <name>ИнформацияОтложенныеОбработчикиОтсутствуютРасширеннаяПодсказка</name>
               <id>167</id>
               <type>Label</type>
               <autoMaxWidth>true</autoMaxWidth>
@@ -2502,7 +2519,7 @@
                 <autoFill>true</autoFill>
               </contextMenu>
               <type>Label</type>
-              <width>5</width>
+              <width>7</width>
               <autoMaxWidth>true</autoMaxWidth>
               <autoMaxHeight>true</autoMaxHeight>
               <extInfo xsi:type="form:LabelDecorationExtInfo">
@@ -2514,6 +2531,10 @@
             <userVisible>
               <common>true</common>
             </userVisible>
+            <title>
+              <key>ru</key>
+              <value>Группа</value>
+            </title>
             <extendedTooltip>
               <name>Группа2РасширеннаяПодсказка</name>
               <id>336</id>
@@ -2765,7 +2786,7 @@
                   <common>true</common>
                 </userVisible>
                 <extendedTooltip>
-                  <name>ОткрытьСписокОтложенныхОбработчиковExtendedTooltip</name>
+                  <name>ОткрытьСписокОтложенныхОбработчиковРасширеннаяПодсказка</name>
                   <id>170</id>
                   <type>Label</type>
                   <autoMaxWidth>true</autoMaxWidth>
@@ -2824,7 +2845,7 @@
               </userVisible>
               <toolTipRepresentation>Button</toolTipRepresentation>
               <extendedTooltip>
-                <name>ГиперссылкаОсновноеОбновлениеExtendedTooltip</name>
+                <name>ГиперссылкаОсновноеОбновлениеРасширеннаяПодсказка</name>
                 <id>132</id>
                 <title>
                   <key>ru</key>
@@ -2858,6 +2879,10 @@
             <userVisible>
               <common>true</common>
             </userVisible>
+            <title>
+              <key>ru</key>
+              <value>Группа</value>
+            </title>
             <extendedTooltip>
               <name>Группа3РасширеннаяПодсказка</name>
               <id>338</id>
@@ -2915,7 +2940,7 @@
           <value>Отложенное обновление завершено</value>
         </title>
         <extendedTooltip>
-          <name>ГруппаОтложенноеОбновлениеЗавершеноExtendedTooltip</name>
+          <name>ГруппаОтложенноеОбновлениеЗавершеноРасширеннаяПодсказка</name>
           <id>164</id>
           <type>Label</type>
           <autoMaxWidth>true</autoMaxWidth>
@@ -2944,7 +2969,7 @@
         <value>Обновление завершено</value>
       </title>
       <extendedTooltip>
-        <name>ОбновлениеЗавершеноExtendedTooltip</name>
+        <name>ОбновлениеЗавершеноРасширеннаяПодсказка</name>
         <id>163</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
@@ -2969,7 +2994,7 @@
     </title>
     <horizontalStretch>true</horizontalStretch>
     <extendedTooltip>
-      <name>СтатусОбновленияExtendedTooltip</name>
+      <name>СтатусОбновленияРасширеннаяПодсказка</name>
       <id>133</id>
       <type>Label</type>
       <autoMaxWidth>true</autoMaxWidth>
@@ -2988,7 +3013,7 @@
     <id>74</id>
     <title>
       <key>ru</key>
-      <value>Сведения о результатах обновления версии программы можно также открыть
+      <value>Сведения о результатах обновления версии приложения можно также открыть
 из раздела &lt;b>Администрирование &lt;/>- &lt;b>Обслуживание&lt;/>.</value>
     </title>
     <visible>true</visible>
@@ -3110,7 +3135,7 @@
         <common>true</common>
       </userVisible>
       <extendedTooltip>
-        <name>ФормаЗакрытьExtendedTooltip</name>
+        <name>ФормаЗакрытьРасширеннаяПодсказка</name>
         <id>127</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
@@ -3129,6 +3154,10 @@
     <items xsi:type="form:Button">
       <name>ФормаПерезапуститьОтложенноеОбновление</name>
       <id>291</id>
+      <title>
+        <key>ru</key>
+        <value>Перезапустить отложенное обновление...</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>

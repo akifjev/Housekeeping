@@ -13,6 +13,10 @@
       <items xsi:type="form:FormField">
         <name>СерверHTTP</name>
         <id>4</id>
+        <title>
+          <key>ru</key>
+          <value>HTTP</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -26,13 +30,8 @@
           <name>СерверHTTPПриИзменении</name>
         </handlers>
         <extendedTooltip>
-          <name>СерверHTTPExtendedTooltip</name>
+          <name>СерверHTTPРасширеннаяПодсказка</name>
           <id>35</id>
-          <visible>true</visible>
-          <enabled>true</enabled>
-          <userVisible>
-            <common>true</common>
-          </userVisible>
           <type>Label</type>
           <autoMaxWidth>true</autoMaxWidth>
           <autoMaxHeight>true</autoMaxHeight>
@@ -43,11 +42,6 @@
         <contextMenu>
           <name>СерверHTTPКонтекстноеМеню</name>
           <id>5</id>
-          <visible>true</visible>
-          <enabled>true</enabled>
-          <userVisible>
-            <common>true</common>
-          </userVisible>
           <autoFill>true</autoFill>
         </contextMenu>
         <type>InputField</type>
@@ -67,6 +61,10 @@
       <items xsi:type="form:FormField">
         <name>ПортHTTP</name>
         <id>6</id>
+        <title>
+          <key>ru</key>
+          <value>Порт</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -76,13 +74,8 @@
           <segments>ПортHTTP</segments>
         </dataPath>
         <extendedTooltip>
-          <name>ПортHTTPExtendedTooltip</name>
+          <name>ПортHTTPРасширеннаяПодсказка</name>
           <id>36</id>
-          <visible>true</visible>
-          <enabled>true</enabled>
-          <userVisible>
-            <common>true</common>
-          </userVisible>
           <type>Label</type>
           <autoMaxWidth>true</autoMaxWidth>
           <autoMaxHeight>true</autoMaxHeight>
@@ -93,11 +86,6 @@
         <contextMenu>
           <name>ПортHTTPКонтекстноеМеню</name>
           <id>7</id>
-          <visible>true</visible>
-          <enabled>true</enabled>
-          <userVisible>
-            <common>true</common>
-          </userVisible>
           <autoFill>true</autoFill>
         </contextMenu>
         <type>InputField</type>
@@ -134,13 +122,8 @@
         <value>HTTP</value>
       </title>
       <extendedTooltip>
-        <name>ГруппаHTTPExtendedTooltip</name>
+        <name>ГруппаHTTPРасширеннаяПодсказка</name>
         <id>34</id>
-        <visible>true</visible>
-        <enabled>true</enabled>
-        <userVisible>
-          <common>true</common>
-        </userVisible>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
@@ -163,6 +146,10 @@
       <items xsi:type="form:FormField">
         <name>СерверHTTPS</name>
         <id>8</id>
+        <title>
+          <key>ru</key>
+          <value>HTTPS</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -176,13 +163,8 @@
           <name>СерверHTTPПриИзменении</name>
         </handlers>
         <extendedTooltip>
-          <name>СерверHTTPSExtendedTooltip</name>
+          <name>СерверHTTPSРасширеннаяПодсказка</name>
           <id>38</id>
-          <visible>true</visible>
-          <enabled>true</enabled>
-          <userVisible>
-            <common>true</common>
-          </userVisible>
           <type>Label</type>
           <autoMaxWidth>true</autoMaxWidth>
           <autoMaxHeight>true</autoMaxHeight>
@@ -193,11 +175,6 @@
         <contextMenu>
           <name>СерверHTTPSКонтекстноеМеню</name>
           <id>9</id>
-          <visible>true</visible>
-          <enabled>true</enabled>
-          <userVisible>
-            <common>true</common>
-          </userVisible>
           <autoFill>true</autoFill>
         </contextMenu>
         <type>InputField</type>
@@ -217,6 +194,10 @@
       <items xsi:type="form:FormField">
         <name>ПортHTTPS</name>
         <id>10</id>
+        <title>
+          <key>ru</key>
+          <value>Порт</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -226,13 +207,8 @@
           <segments>ПортHTTPS</segments>
         </dataPath>
         <extendedTooltip>
-          <name>ПортHTTPSExtendedTooltip</name>
+          <name>ПортHTTPSРасширеннаяПодсказка</name>
           <id>39</id>
-          <visible>true</visible>
-          <enabled>true</enabled>
-          <userVisible>
-            <common>true</common>
-          </userVisible>
           <type>Label</type>
           <autoMaxWidth>true</autoMaxWidth>
           <autoMaxHeight>true</autoMaxHeight>
@@ -243,11 +219,6 @@
         <contextMenu>
           <name>ПортHTTPSКонтекстноеМеню</name>
           <id>11</id>
-          <visible>true</visible>
-          <enabled>true</enabled>
-          <userVisible>
-            <common>true</common>
-          </userVisible>
           <autoFill>true</autoFill>
         </contextMenu>
         <type>InputField</type>
@@ -284,13 +255,8 @@
         <value>HTTP</value>
       </title>
       <extendedTooltip>
-        <name>ГруппаHTTPSExtendedTooltip</name>
+        <name>ГруппаHTTPSРасширеннаяПодсказка</name>
         <id>37</id>
-        <visible>true</visible>
-        <enabled>true</enabled>
-        <userVisible>
-          <common>true</common>
-        </userVisible>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
@@ -313,6 +279,10 @@
       <items xsi:type="form:FormField">
         <name>СерверFTP</name>
         <id>12</id>
+        <title>
+          <key>ru</key>
+          <value>FTP</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -326,13 +296,8 @@
           <name>СерверHTTPПриИзменении</name>
         </handlers>
         <extendedTooltip>
-          <name>СерверFTPExtendedTooltip</name>
+          <name>СерверFTPРасширеннаяПодсказка</name>
           <id>41</id>
-          <visible>true</visible>
-          <enabled>true</enabled>
-          <userVisible>
-            <common>true</common>
-          </userVisible>
           <type>Label</type>
           <autoMaxWidth>true</autoMaxWidth>
           <autoMaxHeight>true</autoMaxHeight>
@@ -343,11 +308,6 @@
         <contextMenu>
           <name>СерверFTPКонтекстноеМеню</name>
           <id>13</id>
-          <visible>true</visible>
-          <enabled>true</enabled>
-          <userVisible>
-            <common>true</common>
-          </userVisible>
           <autoFill>true</autoFill>
         </contextMenu>
         <type>InputField</type>
@@ -367,6 +327,10 @@
       <items xsi:type="form:FormField">
         <name>ПортFTP</name>
         <id>14</id>
+        <title>
+          <key>ru</key>
+          <value>Порт</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -376,13 +340,8 @@
           <segments>ПортFTP</segments>
         </dataPath>
         <extendedTooltip>
-          <name>ПортFTPExtendedTooltip</name>
+          <name>ПортFTPРасширеннаяПодсказка</name>
           <id>42</id>
-          <visible>true</visible>
-          <enabled>true</enabled>
-          <userVisible>
-            <common>true</common>
-          </userVisible>
           <type>Label</type>
           <autoMaxWidth>true</autoMaxWidth>
           <autoMaxHeight>true</autoMaxHeight>
@@ -393,11 +352,6 @@
         <contextMenu>
           <name>ПортFTPКонтекстноеМеню</name>
           <id>15</id>
-          <visible>true</visible>
-          <enabled>true</enabled>
-          <userVisible>
-            <common>true</common>
-          </userVisible>
           <autoFill>true</autoFill>
         </contextMenu>
         <type>InputField</type>
@@ -438,13 +392,8 @@
         <value>Группа HTTP</value>
       </toolTip>
       <extendedTooltip>
-        <name>ГруппаFTPExtendedTooltip</name>
+        <name>ГруппаFTPРасширеннаяПодсказка</name>
         <id>40</id>
-        <visible>true</visible>
-        <enabled>true</enabled>
-        <userVisible>
-          <common>true</common>
-        </userVisible>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
@@ -471,13 +420,8 @@
       <value>Прокси серверы</value>
     </title>
     <extendedTooltip>
-      <name>ГруппаПроксиСерверыExtendedTooltip</name>
+      <name>ГруппаПроксиСерверыРасширеннаяПодсказка</name>
       <id>33</id>
-      <visible>true</visible>
-      <enabled>true</enabled>
-      <userVisible>
-        <common>true</common>
-      </userVisible>
       <type>Label</type>
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
@@ -518,13 +462,8 @@
       <name>ОдинПроксиДляВсехПротоколовПриИзменении</name>
     </handlers>
     <extendedTooltip>
-      <name>ОдинПроксиДляВсехПротоколовExtendedTooltip</name>
+      <name>ОдинПроксиДляВсехПротоколовРасширеннаяПодсказка</name>
       <id>32</id>
-      <visible>true</visible>
-      <enabled>true</enabled>
-      <userVisible>
-        <common>true</common>
-      </userVisible>
       <type>Label</type>
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
@@ -535,11 +474,6 @@
     <contextMenu>
       <name>ОдинПроксиДляВсехПротоколовКонтекстноеМеню</name>
       <id>18</id>
-      <visible>true</visible>
-      <enabled>true</enabled>
-      <userVisible>
-        <common>true</common>
-      </userVisible>
       <autoFill>true</autoFill>
     </contextMenu>
     <type>CheckBoxField</type>
@@ -571,6 +505,10 @@
       <items xsi:type="form:FormField">
         <name>АдресаИсключенийАдресСервера</name>
         <id>23</id>
+        <title>
+          <key>ru</key>
+          <value>Адрес сервера</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -580,13 +518,8 @@
           <segments>АдресаИсключений.АдресСервера</segments>
         </dataPath>
         <extendedTooltip>
-          <name>АдресаИсключенийАдресСервераExtendedTooltip</name>
+          <name>АдресаИсключенийАдресСервераРасширеннаяПодсказка</name>
           <id>45</id>
-          <visible>true</visible>
-          <enabled>true</enabled>
-          <userVisible>
-            <common>true</common>
-          </userVisible>
           <type>Label</type>
           <autoMaxWidth>true</autoMaxWidth>
           <autoMaxHeight>true</autoMaxHeight>
@@ -597,11 +530,6 @@
         <contextMenu>
           <name>АдресаИсключенийАдресСервераКонтекстноеМеню</name>
           <id>24</id>
-          <visible>true</visible>
-          <enabled>true</enabled>
-          <userVisible>
-            <common>true</common>
-          </userVisible>
           <autoFill>true</autoFill>
         </contextMenu>
         <type>InputField</type>
@@ -621,30 +549,15 @@
       <autoCommandBar>
         <name>АдресаИсключенийКоманднаяПанель</name>
         <id>22</id>
-        <visible>true</visible>
-        <enabled>true</enabled>
-        <userVisible>
-          <common>true</common>
-        </userVisible>
         <horizontalAlign>Left</horizontalAlign>
         <autoFill>true</autoFill>
       </autoCommandBar>
       <searchStringAddition>
-        <visible>true</visible>
-        <enabled>true</enabled>
-        <userVisible>
-          <common>true</common>
-        </userVisible>
         <name>АдресаИсключенийСтрокаПоиска</name>
         <id>47</id>
         <extendedTooltip>
           <name>АдресаИсключенийСтрокаПоискаРасширеннаяПодсказка</name>
           <id>49</id>
-          <visible>true</visible>
-          <enabled>true</enabled>
-          <userVisible>
-            <common>true</common>
-          </userVisible>
           <type>Label</type>
           <autoMaxWidth>true</autoMaxWidth>
           <autoMaxHeight>true</autoMaxHeight>
@@ -655,11 +568,6 @@
         <contextMenu>
           <name>АдресаИсключенийСтрокаПоискаКонтекстноеМеню</name>
           <id>48</id>
-          <visible>true</visible>
-          <enabled>true</enabled>
-          <userVisible>
-            <common>true</common>
-          </userVisible>
           <autoFill>true</autoFill>
         </contextMenu>
         <source>АдресаИсключенийСтрокаПоиска</source>
@@ -668,21 +576,11 @@
         </extInfo>
       </searchStringAddition>
       <viewStatusAddition>
-        <visible>true</visible>
-        <enabled>true</enabled>
-        <userVisible>
-          <common>true</common>
-        </userVisible>
         <name>АдресаИсключенийСостояниеПросмотра</name>
         <id>50</id>
         <extendedTooltip>
           <name>АдресаИсключенийСостояниеПросмотраРасширеннаяПодсказка</name>
           <id>52</id>
-          <visible>true</visible>
-          <enabled>true</enabled>
-          <userVisible>
-            <common>true</common>
-          </userVisible>
           <type>Label</type>
           <autoMaxWidth>true</autoMaxWidth>
           <autoMaxHeight>true</autoMaxHeight>
@@ -693,11 +591,6 @@
         <contextMenu>
           <name>АдресаИсключенийСостояниеПросмотраКонтекстноеМеню</name>
           <id>51</id>
-          <visible>true</visible>
-          <enabled>true</enabled>
-          <userVisible>
-            <common>true</common>
-          </userVisible>
           <autoFill>true</autoFill>
         </contextMenu>
         <type>ViewStatusAddition</type>
@@ -707,21 +600,11 @@
         </extInfo>
       </viewStatusAddition>
       <searchControlAddition>
-        <visible>true</visible>
-        <enabled>true</enabled>
-        <userVisible>
-          <common>true</common>
-        </userVisible>
         <name>АдресаИсключенийУправлениеПоиском</name>
         <id>53</id>
         <extendedTooltip>
           <name>АдресаИсключенийУправлениеПоискомРасширеннаяПодсказка</name>
           <id>55</id>
-          <visible>true</visible>
-          <enabled>true</enabled>
-          <userVisible>
-            <common>true</common>
-          </userVisible>
           <type>Label</type>
           <autoMaxWidth>true</autoMaxWidth>
           <autoMaxHeight>true</autoMaxHeight>
@@ -732,11 +615,6 @@
         <contextMenu>
           <name>АдресаИсключенийУправлениеПоискомКонтекстноеМеню</name>
           <id>54</id>
-          <visible>true</visible>
-          <enabled>true</enabled>
-          <userVisible>
-            <common>true</common>
-          </userVisible>
           <autoFill>true</autoFill>
         </contextMenu>
         <type>SearchControlAddition</type>
@@ -746,13 +624,8 @@
         </extInfo>
       </searchControlAddition>
       <extendedTooltip>
-        <name>АдресаИсключенийExtendedTooltip</name>
+        <name>АдресаИсключенийРасширеннаяПодсказка</name>
         <id>44</id>
-        <visible>true</visible>
-        <enabled>true</enabled>
-        <userVisible>
-          <common>true</common>
-        </userVisible>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
@@ -763,11 +636,6 @@
       <contextMenu>
         <name>АдресаИсключенийКонтекстноеМеню</name>
         <id>21</id>
-        <visible>true</visible>
-        <enabled>true</enabled>
-        <userVisible>
-          <common>true</common>
-        </userVisible>
         <autoFill>true</autoFill>
       </contextMenu>
       <changeRowSet>true</changeRowSet>
@@ -804,13 +672,8 @@
         <common>true</common>
       </userVisible>
       <extendedTooltip>
-        <name>ДекорацияПредупреждениеДляСервераExtendedTooltip</name>
+        <name>ДекорацияПредупреждениеДляСервераРасширеннаяПодсказка</name>
         <id>46</id>
-        <visible>true</visible>
-        <enabled>true</enabled>
-        <userVisible>
-          <common>true</common>
-        </userVisible>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
@@ -821,11 +684,6 @@
       <contextMenu>
         <name>ДекорацияПредупреждениеДляСервераКонтекстноеМеню</name>
         <id>28</id>
-        <visible>true</visible>
-        <enabled>true</enabled>
-        <userVisible>
-          <common>true</common>
-        </userVisible>
         <autoFill>true</autoFill>
       </contextMenu>
       <type>Label</type>
@@ -848,13 +706,8 @@
       <value>Не использовать прокси-сервер для адресов</value>
     </title>
     <extendedTooltip>
-      <name>ГруппаАдресовИсключенийExtendedTooltip</name>
+      <name>ГруппаАдресовИсключенийРасширеннаяПодсказка</name>
       <id>43</id>
-      <visible>true</visible>
-      <enabled>true</enabled>
-      <userVisible>
-        <common>true</common>
-      </userVisible>
       <type>Label</type>
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
@@ -880,19 +733,18 @@
     <items xsi:type="form:Button">
       <name>ФормаКнопкаОК</name>
       <id>25</id>
+      <title>
+        <key>ru</key>
+        <value>ОК</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
         <common>true</common>
       </userVisible>
       <extendedTooltip>
-        <name>ФормаКнопкаОКExtendedTooltip</name>
+        <name>ФормаКнопкаОКРасширеннаяПодсказка</name>
         <id>30</id>
-        <visible>true</visible>
-        <enabled>true</enabled>
-        <userVisible>
-          <common>true</common>
-        </userVisible>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
@@ -917,13 +769,8 @@
         <common>true</common>
       </userVisible>
       <extendedTooltip>
-        <name>ФормаОтменаExtendedTooltip</name>
+        <name>ФормаОтменаРасширеннаяПодсказка</name>
         <id>31</id>
-        <visible>true</visible>
-        <enabled>true</enabled>
-        <userVisible>
-          <common>true</common>
-        </userVisible>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
@@ -938,11 +785,6 @@
       <placementArea>UserCmds</placementArea>
       <representationInContextMenu>Auto</representationInContextMenu>
     </items>
-    <visible>true</visible>
-    <enabled>true</enabled>
-    <userVisible>
-      <common>true</common>
-    </userVisible>
     <horizontalAlign>Right</horizontalAlign>
   </autoCommandBar>
   <handlers>

@@ -3,6 +3,10 @@
   <items xsi:type="form:FormField">
     <name>ВариантыИспользованияПроксиСервера</name>
     <id>20</id>
+    <title>
+      <key>ru</key>
+      <value>Вариант использования прокси-сервера</value>
+    </title>
     <visible>true</visible>
     <enabled>true</enabled>
     <userVisible>
@@ -17,13 +21,8 @@
       <name>ВариантыИспользованияПроксиСервераПриИзменении</name>
     </handlers>
     <extendedTooltip>
-      <name>ВариантыИспользованияПроксиСервераExtendedTooltip</name>
+      <name>ВариантыИспользованияПроксиСервераРасширеннаяПодсказка</name>
       <id>45</id>
-      <visible>true</visible>
-      <enabled>true</enabled>
-      <userVisible>
-        <common>true</common>
-      </userVisible>
       <type>Label</type>
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
@@ -34,11 +33,6 @@
     <contextMenu>
       <name>ВариантыИспользованияПроксиСервераКонтекстноеМеню</name>
       <id>21</id>
-      <visible>true</visible>
-      <enabled>true</enabled>
-      <userVisible>
-        <common>true</common>
-      </userVisible>
       <autoFill>true</autoFill>
     </contextMenu>
     <type>RadioButtonField</type>
@@ -86,6 +80,10 @@
       <items xsi:type="form:FormField">
         <name>ПроксиСервер</name>
         <id>9</id>
+        <title>
+          <key>ru</key>
+          <value>Адрес сервера</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -99,13 +97,8 @@
           <value>IP адрес или имя прокси сервера</value>
         </toolTip>
         <extendedTooltip>
-          <name>ПроксиСерверExtendedTooltip</name>
+          <name>ПроксиСерверРасширеннаяПодсказка</name>
           <id>48</id>
-          <visible>true</visible>
-          <enabled>true</enabled>
-          <userVisible>
-            <common>true</common>
-          </userVisible>
           <type>Label</type>
           <autoMaxWidth>true</autoMaxWidth>
           <autoMaxHeight>true</autoMaxHeight>
@@ -116,11 +109,6 @@
         <contextMenu>
           <name>ПроксиСерверКонтекстноеМеню</name>
           <id>10</id>
-          <visible>true</visible>
-          <enabled>true</enabled>
-          <userVisible>
-            <common>true</common>
-          </userVisible>
           <autoFill>true</autoFill>
         </contextMenu>
         <type>InputField</type>
@@ -139,6 +127,10 @@
       <items xsi:type="form:FormField">
         <name>Порт</name>
         <id>1</id>
+        <title>
+          <key>ru</key>
+          <value>Порт</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -152,13 +144,8 @@
           <value>Порт прокси сервера</value>
         </toolTip>
         <extendedTooltip>
-          <name>ПортExtendedTooltip</name>
+          <name>ПортРасширеннаяПодсказка</name>
           <id>49</id>
-          <visible>true</visible>
-          <enabled>true</enabled>
-          <userVisible>
-            <common>true</common>
-          </userVisible>
           <type>Label</type>
           <autoMaxWidth>true</autoMaxWidth>
           <autoMaxHeight>true</autoMaxHeight>
@@ -169,11 +156,6 @@
         <contextMenu>
           <name>ПортКонтекстноеМеню</name>
           <id>2</id>
-          <visible>true</visible>
-          <enabled>true</enabled>
-          <userVisible>
-            <common>true</common>
-          </userVisible>
           <autoFill>true</autoFill>
         </contextMenu>
         <type>InputField</type>
@@ -209,13 +191,8 @@
         <value>Адрес сервера</value>
       </title>
       <extendedTooltip>
-        <name>ГруппаАдресСервераExtendedTooltip</name>
+        <name>ГруппаАдресСервераРасширеннаяПодсказка</name>
         <id>47</id>
-        <visible>true</visible>
-        <enabled>true</enabled>
-        <userVisible>
-          <common>true</common>
-        </userVisible>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
@@ -261,11 +238,6 @@
 - Операционная система (NTLM Integrated Windows)
      в версии 1С:Предприятия под Windows</value>
           </title>
-          <visible>true</visible>
-          <enabled>true</enabled>
-          <userVisible>
-            <common>true</common>
-          </userVisible>
           <type>Label</type>
           <autoMaxWidth>true</autoMaxWidth>
           <autoMaxHeight>true</autoMaxHeight>
@@ -276,11 +248,6 @@
         <contextMenu>
           <name>ИспользоватьАутентификациюОСКонтекстноеМеню</name>
           <id>64</id>
-          <visible>true</visible>
-          <enabled>true</enabled>
-          <userVisible>
-            <common>true</common>
-          </userVisible>
           <autoFill>true</autoFill>
         </contextMenu>
         <type>InputField</type>
@@ -317,6 +284,10 @@
       <items xsi:type="form:FormField">
         <name>Пользователь</name>
         <id>5</id>
+        <title>
+          <key>ru</key>
+          <value>Пользователь</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -330,13 +301,8 @@
           <value>Логин для авторизации на прокси сервере</value>
         </toolTip>
         <extendedTooltip>
-          <name>ПользовательExtendedTooltip</name>
+          <name>ПользовательРасширеннаяПодсказка</name>
           <id>51</id>
-          <visible>true</visible>
-          <enabled>true</enabled>
-          <userVisible>
-            <common>true</common>
-          </userVisible>
           <type>Label</type>
           <autoMaxWidth>true</autoMaxWidth>
           <autoMaxHeight>true</autoMaxHeight>
@@ -347,11 +313,6 @@
         <contextMenu>
           <name>ПользовательКонтекстноеМеню</name>
           <id>6</id>
-          <visible>true</visible>
-          <enabled>true</enabled>
-          <userVisible>
-            <common>true</common>
-          </userVisible>
           <autoFill>true</autoFill>
         </contextMenu>
         <type>InputField</type>
@@ -370,6 +331,10 @@
       <items xsi:type="form:FormField">
         <name>Пароль</name>
         <id>3</id>
+        <title>
+          <key>ru</key>
+          <value>Пароль</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -383,13 +348,8 @@
           <value>Пароль для авторизации на прокси сервере</value>
         </toolTip>
         <extendedTooltip>
-          <name>ПарольExtendedTooltip</name>
+          <name>ПарольРасширеннаяПодсказка</name>
           <id>52</id>
-          <visible>true</visible>
-          <enabled>true</enabled>
-          <userVisible>
-            <common>true</common>
-          </userVisible>
           <type>Label</type>
           <autoMaxWidth>true</autoMaxWidth>
           <autoMaxHeight>true</autoMaxHeight>
@@ -400,11 +360,6 @@
         <contextMenu>
           <name>ПарольКонтекстноеМеню</name>
           <id>4</id>
-          <visible>true</visible>
-          <enabled>true</enabled>
-          <userVisible>
-            <common>true</common>
-          </userVisible>
           <autoFill>true</autoFill>
         </contextMenu>
         <type>InputField</type>
@@ -433,11 +388,6 @@
       <extendedTooltip>
         <name>ГруппаАутентификацияРасширеннаяПодсказка</name>
         <id>75</id>
-        <visible>true</visible>
-        <enabled>true</enabled>
-        <userVisible>
-          <common>true</common>
-        </userVisible>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
@@ -460,6 +410,10 @@
       <items xsi:type="form:FormField">
         <name>НеИспользоватьПроксиДляЛокальныхАдресов</name>
         <id>11</id>
+        <title>
+          <key>ru</key>
+          <value>Не использовать прокси для локальных адресов</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -470,13 +424,8 @@
         </dataPath>
         <titleLocation>Right</titleLocation>
         <extendedTooltip>
-          <name>НеИспользоватьПроксиДляЛокальныхАдресовExtendedTooltip</name>
+          <name>НеИспользоватьПроксиДляЛокальныхАдресовРасширеннаяПодсказка</name>
           <id>54</id>
-          <visible>true</visible>
-          <enabled>true</enabled>
-          <userVisible>
-            <common>true</common>
-          </userVisible>
           <type>Label</type>
           <autoMaxWidth>true</autoMaxWidth>
           <autoMaxHeight>true</autoMaxHeight>
@@ -487,11 +436,6 @@
         <contextMenu>
           <name>НеИспользоватьПроксиДляЛокальныхАдресовКонтекстноеМеню</name>
           <id>12</id>
-          <visible>true</visible>
-          <enabled>true</enabled>
-          <userVisible>
-            <common>true</common>
-          </userVisible>
           <autoFill>true</autoFill>
         </contextMenu>
         <type>CheckBoxField</type>
@@ -504,19 +448,18 @@
       <items xsi:type="form:Button">
         <name>ДополнительныеПараметрыПроксиСервера</name>
         <id>26</id>
+        <title>
+          <key>ru</key>
+          <value>Дополнительно</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
           <common>true</common>
         </userVisible>
         <extendedTooltip>
-          <name>ДополнительныеПараметрыПроксиСервераExtendedTooltip</name>
+          <name>ДополнительныеПараметрыПроксиСервераРасширеннаяПодсказка</name>
           <id>56</id>
-          <visible>true</visible>
-          <enabled>true</enabled>
-          <userVisible>
-            <common>true</common>
-          </userVisible>
           <type>Label</type>
           <autoMaxWidth>true</autoMaxWidth>
           <autoMaxHeight>true</autoMaxHeight>
@@ -543,13 +486,8 @@
         <value>Дополнительных параметров</value>
       </title>
       <extendedTooltip>
-        <name>ГруппаДополнительныхПараметровExtendedTooltip</name>
+        <name>ГруппаДополнительныхПараметровРасширеннаяПодсказка</name>
         <id>53</id>
-        <visible>true</visible>
-        <enabled>true</enabled>
-        <userVisible>
-          <common>true</common>
-        </userVisible>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
@@ -577,13 +515,8 @@
       <value>Параметры прокси</value>
     </title>
     <extendedTooltip>
-      <name>ПараметрыПроксиExtendedTooltip</name>
+      <name>ПараметрыПроксиРасширеннаяПодсказка</name>
       <id>46</id>
-      <visible>true</visible>
-      <enabled>true</enabled>
-      <userVisible>
-        <common>true</common>
-      </userVisible>
       <type>Label</type>
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
@@ -608,6 +541,10 @@
     <items xsi:type="form:Button">
       <name>Ок</name>
       <id>8</id>
+      <title>
+        <key>ru</key>
+        <value>ОК</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -615,13 +552,8 @@
       </userVisible>
       <skipOnInput>false</skipOnInput>
       <extendedTooltip>
-        <name>ОкExtendedTooltip</name>
+        <name>ОкРасширеннаяПодсказка</name>
         <id>43</id>
-        <visible>true</visible>
-        <enabled>true</enabled>
-        <userVisible>
-          <common>true</common>
-        </userVisible>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
@@ -640,19 +572,18 @@
     <items xsi:type="form:Button">
       <name>КнопкаОтмена</name>
       <id>34</id>
+      <title>
+        <key>ru</key>
+        <value>Отмена</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
         <common>true</common>
       </userVisible>
       <extendedTooltip>
-        <name>КнопкаОтменаExtendedTooltip</name>
+        <name>КнопкаОтменаРасширеннаяПодсказка</name>
         <id>44</id>
-        <visible>true</visible>
-        <enabled>true</enabled>
-        <userVisible>
-          <common>true</common>
-        </userVisible>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
@@ -667,11 +598,6 @@
       <placementArea>UserCmds</placementArea>
       <representationInContextMenu>Auto</representationInContextMenu>
     </items>
-    <visible>true</visible>
-    <enabled>true</enabled>
-    <userVisible>
-      <common>true</common>
-    </userVisible>
     <horizontalAlign>Right</horizontalAlign>
     <autoFill>true</autoFill>
   </autoCommandBar>

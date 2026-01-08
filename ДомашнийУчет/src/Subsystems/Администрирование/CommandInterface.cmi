@@ -84,10 +84,6 @@
       <visible/>
     </visibilityFragments>
     <visibilityFragments>
-      <command>0:dc5fc801-14e4-42e8-b396-76eb30b69eea</command>
-      <visible/>
-    </visibilityFragments>
-    <visibilityFragments>
       <command>0:2e0b331d-92d4-4250-94c6-9ced8cdcb1e4</command>
       <visible/>
     </visibilityFragments>
@@ -116,7 +112,7 @@
       <visible/>
     </visibilityFragments>
     <visibilityFragments>
-      <command>CommonCommand.ВремяТекущегоСеанса</command>
+      <command>CommonCommand.ВремяВПриложении</command>
       <visible/>
     </visibilityFragments>
     <visibilityFragments>
@@ -157,6 +153,10 @@
     </visibilityFragments>
     <visibilityFragments>
       <command>0:8b5358e9-5810-45a7-a49e-fe7fe63c73f3</command>
+      <visible/>
+    </visibilityFragments>
+    <visibilityFragments>
+      <command>Catalog.НаборыДополнительныхРеквизитовИСведений.Command.Метки</command>
       <visible/>
     </visibilityFragments>
     <visibilityFragments>
@@ -216,8 +216,18 @@
       <visible/>
     </visibilityFragments>
     <visibilityFragments>
+      <command>DataProcessor.ЖурналРегистрации.Command.ЖурналДоступаКДанным</command>
+      <visible/>
+    </visibilityFragments>
+    <visibilityFragments>
       <command>0:ea97b67e-1182-49c3-b95a-8fcce4cd3d09</command>
       <visible/>
+    </visibilityFragments>
+    <visibilityFragments>
+      <command>CommonCommand.ПанельОтчетовАдминистрирование</command>
+      <visible>
+        <common>true</common>
+      </visible>
     </visibilityFragments>
     <visibilityFragments>
       <command>Report.АнализЖурналаРегистрации.StandardCommand.Open</command>
@@ -233,6 +243,10 @@
     </visibilityFragments>
     <visibilityFragments>
       <command>Report.ОценкаПроизводительности.StandardCommand.Open</command>
+      <visible/>
+    </visibilityFragments>
+    <visibilityFragments>
+      <command>0:bd362ff9-3dec-4a4b-9595-8609de76e842</command>
       <visible/>
     </visibilityFragments>
     <visibilityFragments>
@@ -321,6 +335,10 @@
     </visibilityFragments>
     <visibilityFragments>
       <command>DataProcessor.НастройкиПользователей.StandardCommand.Open</command>
+      <visible/>
+    </visibilityFragments>
+    <visibilityFragments>
+      <command>CommonForm.НастройкиРегистрацииСобытийДоступаКДанным.StandardCommand.Open</command>
       <visible/>
     </visibilityFragments>
     <visibilityFragments>
@@ -444,34 +462,20 @@
       <visible/>
     </visibilityFragments>
     <visibilityFragments>
-      <command>0:53fb35a7-44ab-42e7-8dba-6fa08bf5ba2c</command>
-      <visible/>
-    </visibilityFragments>
-    <visibilityFragments>
-      <command>0:bd362ff9-3dec-4a4b-9595-8609de76e842</command>
-      <visible/>
-    </visibilityFragments>
-    <visibilityFragments>
       <command>100:cb81fb9f-16a2-4265-92a9-b827ca2fd588</command>
       <visible/>
     </visibilityFragments>
     <visibilityFragments>
-      <command>Catalog.НаборыДополнительныхРеквизитовИСведений.Command.Метки</command>
+      <command>0:53fb35a7-44ab-42e7-8dba-6fa08bf5ba2c</command>
       <visible/>
     </visibilityFragments>
     <visibilityFragments>
-      <command>DataProcessor.ПанельАдминистрированияБСП.Command.Органайзер</command>
+      <command>Report.ИзменениеУчетныхЗаписей.StandardCommand.Open</command>
       <visible/>
     </visibilityFragments>
     <visibilityFragments>
-      <command>DataProcessor.ПанельАдминистрированияБСП.Command.СинхронизацияДанных</command>
+      <command>Report.ДлительностьОтложенногоОбновления.StandardCommand.Open</command>
       <visible/>
-    </visibilityFragments>
-    <visibilityFragments>
-      <command>CommonCommand.ПанельОтчетовАдминистрирование</command>
-      <visible>
-        <common>true</common>
-      </visible>
     </visibilityFragments>
   </commandsVisibility>
   <commandsPlacement>
@@ -550,7 +554,7 @@
       <commands>Catalog.НаборыДополнительныхРеквизитовИСведений.Command.ДополнительныеСведения</commands>
       <commands>0:e25b2b10-bf08-42db-9642-861efc5e583b</commands>
       <commands>InformationRegister.НастройкиОчисткиФайлов.StandardCommand.OpenList</commands>
-      <commands>CommonCommand.ВремяТекущегоСеанса</commands>
+      <commands>CommonCommand.ВремяВПриложении</commands>
       <commands>Catalog.ПрофилиКлючевыхОпераций.StandardCommand.OpenList</commands>
       <commands>0:55bce105-51c0-452e-9eec-b960fe740db2</commands>
       <commands>InformationRegister.АдресныеОбъекты.StandardCommand.OpenList</commands>
@@ -562,6 +566,7 @@
       <commands>0:1610e73c-58df-41cc-8349-51b920806821</commands>
       <commands>0:1e14d062-1d5a-4939-8ce6-4d9514990376</commands>
       <commands>0:8b5358e9-5810-45a7-a49e-fe7fe63c73f3</commands>
+      <commands>Catalog.НаборыДополнительныхРеквизитовИСведений.Command.Метки</commands>
     </orderFragments>
     <orderFragments>
       <group>NavigationPanelSeeAlso</group>
@@ -579,6 +584,21 @@
       <commands>DataProcessor.УдалениеПомеченныхОбъектов.Command.УдалениеПомеченныхОбъектов</commands>
       <commands>0:8fa21575-177f-4b7c-94b5-dfeefe737cb4</commands>
       <commands>Catalog.УчетныеЗаписиЭлектроннойПочты.StandardCommand.OpenList</commands>
+      <commands>DataProcessor.ЖурналРегистрации.Command.ЖурналДоступаКДанным</commands>
+    </orderFragments>
+    <orderFragments>
+      <group>ActionsPanelReports</group>
+      <commands>CommonCommand.ПанельОтчетовАдминистрирование</commands>
+      <commands>CommonCommand.ДополнительныеОтчетыАдминистрирование</commands>
+      <commands>Report.АнализЖурналаРегистрации.StandardCommand.Open</commands>
+      <commands>0:8fbf9432-77e8-4951-87a1-4368e3a5e117</commands>
+      <commands>Report.ОбъемНенужныхФайлов.StandardCommand.Open</commands>
+      <commands>Report.ОценкаПроизводительности.StandardCommand.Open</commands>
+      <commands>0:bd362ff9-3dec-4a4b-9595-8609de76e842</commands>
+      <commands>Report.ПрогрессОтложенногоОбновления.StandardCommand.Open</commands>
+      <commands>Report.СведенияОПользователях.StandardCommand.Open</commands>
+      <commands>Report.УниверсальныйОтчет.StandardCommand.Open</commands>
+      <commands>Report.ДлительностьОтложенногоОбновления.StandardCommand.Open</commands>
     </orderFragments>
     <orderFragments>
       <group>ActionsPanelTools</group>
@@ -606,6 +626,7 @@
       <commands>CommonCommand.НастройкаСистемнойУчетнойЗаписиЭлектроннойПочты</commands>
       <commands>DataProcessor.ОценкаПроизводительности.Command.НастройкиОценкиПроизводительности</commands>
       <commands>DataProcessor.НастройкиПользователей.StandardCommand.Open</commands>
+      <commands>CommonForm.НастройкиРегистрацииСобытийДоступаКДанным.StandardCommand.Open</commands>
       <commands>100:fabbac92-cb98-4087-b3fa-387482ed0d86</commands>
       <commands>CommonForm.ОписаниеИзмененийПрограммы.StandardCommand.Open</commands>
       <commands>DataProcessor.ОценкаПроизводительности.StandardCommand.Open</commands>
@@ -636,19 +657,7 @@
       <commands>DataProcessor.НастройкаСтандартногоИнтерфейсаOData.StandardCommand.Open</commands>
       <commands>CommonForm.ВосстановлениеПаролей.StandardCommand.Open</commands>
       <commands>0:25741b39-1c6b-4851-8584-9711d25ef05a</commands>
-    </orderFragments>
-    <orderFragments>
-      <group>ActionsPanelReports</group>
-      <commands>CommonCommand.ПанельОтчетовАдминистрирование</commands>
-      <commands>CommonCommand.ДополнительныеОтчетыАдминистрирование</commands>
-      <commands>Report.АнализЖурналаРегистрации.StandardCommand.Open</commands>
-      <commands>0:8fbf9432-77e8-4951-87a1-4368e3a5e117</commands>
-      <commands>Report.ОбъемНенужныхФайлов.StandardCommand.Open</commands>
-      <commands>Report.ОценкаПроизводительности.StandardCommand.Open</commands>
-      <commands>0:bd362ff9-3dec-4a4b-9595-8609de76e842</commands>
-      <commands>Report.ПрогрессОтложенногоОбновления.StandardCommand.Open</commands>
-      <commands>Report.СведенияОПользователях.StandardCommand.Open</commands>
-      <commands>Report.УниверсальныйОтчет.StandardCommand.Open</commands>
+      <commands>100:cb81fb9f-16a2-4265-92a9-b827ca2fd588</commands>
     </orderFragments>
   </commandsOrder>
 </cmi:CommandInterface>

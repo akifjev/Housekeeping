@@ -5,9 +5,11 @@
     <key>ru</key>
     <value>Проверить безопасный режим перед записью</value>
   </synonym>
+  <comment>// АПК:1371 проверка применима для всех объектов метаданных, в т.ч. удаляемых</comment>
   <source>
     <types>ConstantValueManager.МаксимальныйРазмерФайла</types>
     <types>ConstantValueManager.НеИспользоватьРазделениеПоОбластямДанных</types>
+    <types>CatalogObject.ХранилищеДвоичныхДанных</types>
     <types>ConstantValueManager.ПользовательСтандартногоИнтерфейсаOData</types>
     <types>ConstantValueManager.СписокЗапрещенныхРасширений</types>
     <types>CatalogObject.ВерсииФайлов</types>
@@ -32,6 +34,7 @@
     <types>ConstantValueManager.СведенияОБлокируемыхОбъектах</types>
     <types>ConstantValueManager.ПутьКТомуБезУчетаРегиональныхНастроек</types>
     <types>ConstantValueManager.КаталогВременныхФайловДляWindows</types>
+    <types>ConstantValueManager.НастройкиРегистрацииСобытийДоступаКДанным</types>
     <types>ConstantValueManager.ХранитьФайлыВТомахНаДиске</types>
     <types>ConstantValueManager.ДоставлятьСерверныеОповещенияБезСистемыВзаимодействия</types>
     <types>ConstantValueManager.АдресПубликацииИнформационнойБазыВЛокальнойСети</types>
@@ -68,6 +71,7 @@
     <types>ConstantValueManager.ПорядокОбрабатываемыхДанных</types>
     <types>CatalogObject.ГруппыПользователей</types>
     <types>ConstantValueManager.КаталогВременныхФайловДляLinux</types>
+    <types>ConstantValueManager.РегистрироватьИзмененияПравДоступа</types>
     <types>ConstantValueManager.НастройкаПроксиСервера</types>
     <types>ConstantValueManager.ИспользоватьУдалениеПомеченныхОбъектов</types>
     <types>ConstantValueManager.УчетнаяЗаписьДляВосстановленияПароля</types>
