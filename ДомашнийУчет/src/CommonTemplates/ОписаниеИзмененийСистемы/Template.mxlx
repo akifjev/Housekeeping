@@ -312,7 +312,144 @@
 	<rowsItem>
 		<index>20</index>
 		<row>
+			<empty>true</empty>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>21</index>
+		<row>
+			<formatIndex>5</formatIndex>
+			<c>
+				<i>1</i>
+				<c>
+					<f>6</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Версия 1.0.1.3</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>22</index>
+		<row>
+			<formatIndex>3</formatIndex>
+			<c>
+				<i>1</i>
+				<c>
+					<f>7</f>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>23</index>
+		<row>
+			<formatIndex>8</formatIndex>
+			<c>
+				<i>1</i>
+				<c>
+					<f>6</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Домашний учет</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>24</index>
+		<row>
+			<formatIndex>3</formatIndex>
+			<c>
+				<i>1</i>
+				<c>
+					<f>7</f>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>25</index>
+		<row>
+			<formatIndex>9</formatIndex>
+			<c>
+				<i>1</i>
+				<c>
+					<f>10</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>БСП обновлена до 3.1.9.518</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>26</index>
+		<row>
+			<formatIndex>3</formatIndex>
+			<c>
+				<i>1</i>
+				<c>
+					<f>7</f>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>27</index>
+		<row>
+			<c>
+				<i>1</i>
+				<c>
+					<f>4</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Техническое обновление</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>28</index>
+		<row>
+			<formatIndex>3</formatIndex>
+			<c>
+				<i>1</i>
+				<c>
+					<f>7</f>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>29</index>
+		<row>
 			<formatIndex>12</formatIndex>
+			<c>
+				<i>1</i>
+				<c>
+					<f>4</f>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>30</index>
+		<row>
+			<formatIndex>13</formatIndex>
 			<c>
 				<i>1</i>
 				<c>
@@ -322,9 +459,9 @@
 		</row>
 	</rowsItem>
 	<templateMode>true</templateMode>
-	<defaultFormatIndex>13</defaultFormatIndex>
-	<height>21</height>
-	<vgRows>21</vgRows>
+	<defaultFormatIndex>14</defaultFormatIndex>
+	<height>31</height>
+	<vgRows>31</vgRows>
 	<namedItem xsi:type="NamedItemCells">
 		<name>_ДемоПримерГиперссылки</name>
 		<area>
@@ -356,11 +493,21 @@
 		</area>
 	</namedItem>
 	<namedItem xsi:type="NamedItemCells">
+		<name>Версия1_0_1_3</name>
+		<area>
+			<type>Rows</type>
+			<beginRow>22</beginRow>
+			<endRow>28</endRow>
+			<beginColumn>-1</beginColumn>
+			<endColumn>-1</endColumn>
+		</area>
+	</namedItem>
+	<namedItem xsi:type="NamedItemCells">
 		<name>Отступ</name>
 		<area>
 			<type>Rows</type>
-			<beginRow>20</beginRow>
-			<endRow>20</endRow>
+			<beginRow>30</beginRow>
+			<endRow>30</endRow>
 			<beginColumn>-1</beginColumn>
 			<endColumn>-1</endColumn>
 		</area>
@@ -381,6 +528,16 @@
 			<type>Rows</type>
 			<beginRow>12</beginRow>
 			<endRow>12</endRow>
+			<beginColumn>-1</beginColumn>
+			<endColumn>-1</endColumn>
+		</area>
+	</namedItem>
+	<namedItem xsi:type="NamedItemCells">
+		<name>Шапка1_0_1_3</name>
+		<area>
+			<type>Rows</type>
+			<beginRow>21</beginRow>
+			<endRow>21</endRow>
 			<beginColumn>-1</beginColumn>
 			<endColumn>-1</endColumn>
 		</area>
@@ -448,6 +605,9 @@
 	</format>
 	<format>
 		<height>42</height>
+	</format>
+	<format>
+		<height>74</height>
 	</format>
 	<format>
 		<width>72</width>

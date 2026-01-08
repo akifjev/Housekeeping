@@ -369,6 +369,13 @@
 		</right>
 	</object>
 	<object>
+		<name>Catalog.Номенклатура</name>
+		<right>
+			<name>Read</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
 		<name>SessionParameter.ВыполняетсяУдалениеОбъектов</name>
 		<right>
 			<name>Get</name>
@@ -976,6 +983,13 @@
 		</right>
 		<right>
 			<name>Update</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>Catalog.ВидыНоменклатуры</name>
+		<right>
+			<name>Read</name>
 			<value>true</value>
 		</right>
 	</object>
