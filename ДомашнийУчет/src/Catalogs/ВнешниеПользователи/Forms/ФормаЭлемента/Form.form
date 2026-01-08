@@ -1270,6 +1270,10 @@
                     <segments>ПользовательИБЗапрещеноВосстанавливатьПароль</segments>
                   </dataPath>
                   <titleLocation>Right</titleLocation>
+                  <handlers>
+                    <event>OnChange</event>
+                    <name>ПользовательИБЗапрещеноВосстанавливатьПарольПриИзменении</name>
+                  </handlers>
                   <extendedTooltip>
                     <name>ПользовательИБЗапрещеноВосстанавливатьПарольРасширеннаяПодсказка</name>
                     <id>363</id>
@@ -3216,19 +3220,6 @@
     </edit>
   </attributes>
   <attributes>
-    <name>ВходВПрограммуРазрешенЗначениеПрямогоИзменения</name>
-    <id>28</id>
-    <valueType>
-      <types>Boolean</types>
-    </valueType>
-    <view>
-      <common>true</common>
-    </view>
-    <edit>
-      <common>true</common>
-    </edit>
-  </attributes>
-  <attributes>
     <name>ПотребоватьСменуПароляПриВходе</name>
     <title>
       <key>ru</key>
@@ -3295,20 +3286,6 @@
     </edit>
   </attributes>
   <attributes>
-    <name>ПользовательИБИмяЗначениеПрямогоИзменения</name>
-    <id>37</id>
-    <valueType>
-      <types>String</types>
-      <stringQualifiers/>
-    </valueType>
-    <view>
-      <common>true</common>
-    </view>
-    <edit>
-      <common>true</common>
-    </edit>
-  </attributes>
-  <attributes>
     <name>ПользовательИБПароль</name>
     <id>38</id>
     <valueType/>
@@ -3345,19 +3322,6 @@
       <common>true</common>
     </edit>
     <savedData>true</savedData>
-  </attributes>
-  <attributes>
-    <name>ПользовательИБАутентификацияСтандартнаяЗначениеПрямогоИзменения</name>
-    <id>3</id>
-    <valueType>
-      <types>Boolean</types>
-    </valueType>
-    <view>
-      <common>true</common>
-    </view>
-    <edit>
-      <common>true</common>
-    </edit>
   </attributes>
   <attributes>
     <name>ПользовательИБАдресЭлектроннойПочты</name>
@@ -3482,6 +3446,30 @@
     <name>ПараметрыСвойств</name>
     <id>46</id>
     <valueType/>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+  </attributes>
+  <attributes>
+    <name>ЗначенияПрямогоИзменения</name>
+    <id>47</id>
+    <valueType/>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+  </attributes>
+  <attributes>
+    <name>ПотребоватьСменуПароляПриВходеБыло</name>
+    <id>3</id>
+    <valueType>
+      <types>Boolean</types>
+    </valueType>
     <view>
       <common>true</common>
     </view>

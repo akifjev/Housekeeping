@@ -580,6 +580,131 @@
 	<rowsItem>
 		<index>39</index>
 		<row>
+			<formatIndex>5</formatIndex>
+			<c>
+				<i>1</i>
+				<c>
+					<f>6</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Версия 1.0.1.5</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>40</index>
+		<row>
+			<formatIndex>3</formatIndex>
+			<c>
+				<i>1</i>
+				<c>
+					<f>7</f>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>41</index>
+		<row>
+			<formatIndex>8</formatIndex>
+			<c>
+				<i>1</i>
+				<c>
+					<f>6</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Домашний учет</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>42</index>
+		<row>
+			<formatIndex>3</formatIndex>
+			<c>
+				<i>1</i>
+				<c>
+					<f>7</f>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>43</index>
+		<row>
+			<formatIndex>9</formatIndex>
+			<c>
+				<i>1</i>
+				<c>
+					<f>10</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>БСП обновлена до 3.1.11.392</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>44</index>
+		<row>
+			<formatIndex>3</formatIndex>
+			<c>
+				<i>1</i>
+				<c>
+					<f>7</f>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>45</index>
+		<row>
+			<c>
+				<i>1</i>
+				<c>
+					<f>4</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Техническое обновление</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>46</index>
+		<row>
+			<formatIndex>3</formatIndex>
+			<c>
+				<i>1</i>
+				<c>
+					<f>7</f>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>47</index>
+		<row>
+			<empty>true</empty>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>48</index>
+		<row>
 			<formatIndex>13</formatIndex>
 			<c>
 				<i>1</i>
@@ -591,8 +716,8 @@
 	</rowsItem>
 	<templateMode>true</templateMode>
 	<defaultFormatIndex>14</defaultFormatIndex>
-	<height>40</height>
-	<vgRows>40</vgRows>
+	<height>49</height>
+	<vgRows>49</vgRows>
 	<namedItem xsi:type="NamedItemCells">
 		<name>_ДемоПримерГиперссылки</name>
 		<area>
@@ -644,11 +769,21 @@
 		</area>
 	</namedItem>
 	<namedItem xsi:type="NamedItemCells">
+		<name>Версия1_0_1_5</name>
+		<area>
+			<type>Rows</type>
+			<beginRow>40</beginRow>
+			<endRow>46</endRow>
+			<beginColumn>-1</beginColumn>
+			<endColumn>-1</endColumn>
+		</area>
+	</namedItem>
+	<namedItem xsi:type="NamedItemCells">
 		<name>Отступ</name>
 		<area>
 			<type>Rows</type>
-			<beginRow>39</beginRow>
-			<endRow>39</endRow>
+			<beginRow>48</beginRow>
+			<endRow>48</endRow>
 			<beginColumn>-1</beginColumn>
 			<endColumn>-1</endColumn>
 		</area>
@@ -689,6 +824,16 @@
 			<type>Rows</type>
 			<beginRow>30</beginRow>
 			<endRow>30</endRow>
+			<beginColumn>-1</beginColumn>
+			<endColumn>-1</endColumn>
+		</area>
+	</namedItem>
+	<namedItem xsi:type="NamedItemCells">
+		<name>Шапка1_0_1_5</name>
+		<area>
+			<type>Rows</type>
+			<beginRow>39</beginRow>
+			<endRow>39</endRow>
 			<beginColumn>-1</beginColumn>
 			<endColumn>-1</endColumn>
 		</area>
@@ -758,7 +903,7 @@
 		<height>42</height>
 	</format>
 	<format>
-		<height>74</height>
+		<height>54</height>
 	</format>
 	<format>
 		<width>72</width>

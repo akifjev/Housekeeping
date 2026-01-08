@@ -1345,18 +1345,18 @@
           </extInfo>
         </items>
         <items xsi:type="form:FormField">
-          <name>ВидСвойств</name>
+          <name>ВидСвойства</name>
           <id>20</id>
           <title>
             <key>ru</key>
-            <value>Вид свойств</value>
+            <value>Вид свойства</value>
           </title>
           <enabled>true</enabled>
           <userVisible>
             <common>true</common>
           </userVisible>
           <dataPath xsi:type="form:DataPath">
-            <segments>ВидСвойств</segments>
+            <segments>ВидСвойства</segments>
           </dataPath>
           <titleLocation>None</titleLocation>
           <handlers>
@@ -1364,7 +1364,7 @@
             <name>ВидСвойствПриИзменении</name>
           </handlers>
           <extendedTooltip>
-            <name>ВидСвойствРасширеннаяПодсказка</name>
+            <name>ВидСвойстваРасширеннаяПодсказка</name>
             <id>119</id>
             <type>Label</type>
             <autoMaxWidth>true</autoMaxWidth>
@@ -1374,7 +1374,7 @@
             </extInfo>
           </extendedTooltip>
           <contextMenu>
-            <name>ВидСвойствКонтекстноеМеню</name>
+            <name>ВидСвойстваКонтекстноеМеню</name>
             <id>21</id>
             <autoFill>true</autoFill>
           </contextMenu>
@@ -1959,7 +1959,7 @@
             <name>ГруппаЦветаСвойств</name>
             <id>498</id>
             <items xsi:type="form:Decoration">
-              <name>ДекорацияЦветСвойств</name>
+              <name>ДекорацияЦветСвойства</name>
               <id>500</id>
               <title>
                 <key>ru</key>
@@ -1972,7 +1972,7 @@
               </userVisible>
               <toolTipRepresentation>ShowLeft</toolTipRepresentation>
               <extendedTooltip>
-                <name>ДекорацияЦветСвойствРасширеннаяПодсказка</name>
+                <name>ДекорацияЦветСвойстваРасширеннаяПодсказка</name>
                 <id>502</id>
                 <type>Label</type>
                 <autoMaxWidth>true</autoMaxWidth>
@@ -1982,7 +1982,7 @@
                 </extInfo>
               </extendedTooltip>
               <contextMenu>
-                <name>ДекорацияЦветСвойствКонтекстноеМеню</name>
+                <name>ДекорацияЦветСвойстваКонтекстноеМеню</name>
                 <id>501</id>
                 <autoFill>true</autoFill>
               </contextMenu>
@@ -4981,10 +4981,10 @@
     <savedData>true</savedData>
   </attributes>
   <attributes>
-    <name>ВидСвойств</name>
+    <name>ВидСвойства</name>
     <title>
       <key>ru</key>
-      <value>Вид свойств</value>
+      <value>Вид свойства</value>
     </title>
     <id>3</id>
     <valueType>
@@ -5395,19 +5395,19 @@
 	ВЫБОР
 		КОГДА Наборы.ЭтоГруппа
 			ТОГДА Наборы.Наименование
-		КОГДА &amp;ВидСвойств = ЗНАЧЕНИЕ(Перечисление.ВидыСвойств.ДополнительныеСведения)
+		КОГДА &amp;ВидСвойства = ЗНАЧЕНИЕ(Перечисление.ВидыСвойств.ДополнительныеСведения)
 			ТОГДА ВЫБОР
 				КОГДА Наборы.КоличествоСведений = &quot;&quot;
 					ТОГДА Наборы.Наименование
 				ИНАЧЕ Наборы.Наименование + &quot; (&quot; + Наборы.КоличествоСведений + &quot;)&quot;
 			КОНЕЦ
-		КОГДА &amp;ВидСвойств = ЗНАЧЕНИЕ(Перечисление.ВидыСвойств.ДополнительныеРеквизиты)
+		КОГДА &amp;ВидСвойства = ЗНАЧЕНИЕ(Перечисление.ВидыСвойств.ДополнительныеРеквизиты)
 		ТОГДА ВЫБОР
 			КОГДА Наборы.КоличествоРеквизитов = &quot;&quot;
 				ТОГДА Наборы.Наименование
 			ИНАЧЕ Наборы.Наименование + &quot; (&quot; + Наборы.КоличествоРеквизитов + &quot;)&quot;
 		КОНЕЦ
-		КОГДА &amp;ВидСвойств = ЗНАЧЕНИЕ(Перечисление.ВидыСвойств.Метки)
+		КОГДА &amp;ВидСвойства = ЗНАЧЕНИЕ(Перечисление.ВидыСвойств.Метки)
 		ТОГДА ВЫБОР
 			КОГДА Наборы.КоличествоМеток = &quot;&quot;
 				ТОГДА Наборы.Наименование
@@ -5536,6 +5536,10 @@
           </localValue>
         </title>
       </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>ОтредактированныеПредопределенныеРеквизиты</dataPath>
+        <field>ОтредактированныеПредопределенныеРеквизиты</field>
+      </fields>
       <parameters>
         <name>ИсключаемыеНаборы</name>
         <title>
@@ -5563,12 +5567,12 @@
         <valueListAllowed>true</valueListAllowed>
       </parameters>
       <parameters>
-        <name>ВидСвойств</name>
+        <name>ВидСвойства</name>
         <title>
           <localValue>
             <content>
               <key>ru</key>
-              <value>Вид свойств</value>
+              <value>Вид свойства</value>
             </content>
           </localValue>
         </title>

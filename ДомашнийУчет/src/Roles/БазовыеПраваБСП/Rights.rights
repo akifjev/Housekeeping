@@ -239,7 +239,7 @@
 		</right>
 	</object>
 	<object>
-		<name>CommonForm.ВопросОбУстановкеРасширенияРаботыСФайлами</name>
+		<name>CommonForm.ВопросОбУстановкеРасширения1СПредприятия</name>
 		<right>
 			<name>View</name>
 			<value>true</value>
@@ -1714,6 +1714,13 @@
 	</object>
 	<object>
 		<name>CommonForm.ПустойРабочийСтол</name>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>CommonForm.ВыборОсновнойПечатнойФормы</name>
 		<right>
 			<name>View</name>
 			<value>true</value>

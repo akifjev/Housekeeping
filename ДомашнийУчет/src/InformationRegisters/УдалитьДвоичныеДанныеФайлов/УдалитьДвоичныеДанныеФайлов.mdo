@@ -85,22 +85,4 @@
     <master>true</master>
     <mainFilter>true</mainFilter>
   </dimensions>
-  <forms uuid="c013a650-bd4b-4e14-97cc-05df17dbb0d5">
-    <name>ФормаЗаписи</name>
-    <synonym>
-      <key>ru</key>
-      <value>Форма записи</value>
-    </synonym>
-    <usePurposes>PersonalComputer</usePurposes>
-    <usePurposes>MobileDevice</usePurposes>
-  </forms>
-  <forms uuid="00bc2e99-c7c9-4a4b-b0bc-c9babe17deda">
-    <name>ФормаСписка</name>
-    <synonym>
-      <key>ru</key>
-      <value>Форма списка</value>
-    </synonym>
-    <usePurposes>PersonalComputer</usePurposes>
-    <usePurposes>MobileDevice</usePurposes>
-  </forms>
 </mdclass:InformationRegister>

@@ -2110,6 +2110,14 @@
       <fields xsi:type="schema:DataCompositionSchemaDataSetField">
         <dataPath>Предопределенный</dataPath>
         <field>Предопределенный</field>
+        <title>
+          <localValue>
+            <content>
+              <key>ru</key>
+              <value>Предопределенный</value>
+            </content>
+          </localValue>
+        </title>
       </fields>
       <fields xsi:type="schema:DataCompositionSchemaDataSetField">
         <dataPath>ИмяПредопределенныхДанных</dataPath>

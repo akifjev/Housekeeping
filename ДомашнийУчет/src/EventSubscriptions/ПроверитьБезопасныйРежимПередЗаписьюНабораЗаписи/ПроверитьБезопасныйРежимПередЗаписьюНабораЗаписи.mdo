@@ -5,9 +5,9 @@
     <key>ru</key>
     <value>Проверить безопасный режим перед записью набора записи</value>
   </synonym>
+  <comment>// АПК:1371</comment>
   <source>
     <types>InformationRegisterRecordSet.НастройкиСинхронизацииФайлов</types>
-    <types>InformationRegisterRecordSet.БезопасноеХранилищеДанныхОбластейДанных</types>
     <types>InformationRegisterRecordSet.ВерсииПодсистем</types>
     <types>InformationRegisterRecordSet.ДанныеОбработанныеВЦентральномУзлеРИБ</types>
     <types>InformationRegisterRecordSet.НазначениеДополнительныхОбработок</types>
@@ -21,6 +21,7 @@
     <types>InformationRegisterRecordSet.ДлительныеОперации</types>
     <types>InformationRegisterRecordSet.НастройкиОчисткиФайлов</types>
     <types>InformationRegisterRecordSet.ПараметрыРаботыПрограммы</types>
+    <types>InformationRegisterRecordSet.БезопасноеХранилищеДанныхОбластейДанных</types>
     <types>InformationRegisterRecordSet.ПараметрыРаботыВерсийРасширений</types>
     <types>InformationRegisterRecordSet.ОтправленныеСерверныеОповещения</types>
     <types>InformationRegisterRecordSet.ФайлыВРабочемКаталоге</types>

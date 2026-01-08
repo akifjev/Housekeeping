@@ -8967,7 +8967,6 @@
                   <placementArea>UserCmds</placementArea>
                   <representationInContextMenu>Auto</representationInContextMenu>
                 </items>
-                <autoFill>true</autoFill>
               </contextMenu>
               <changeRowSet>true</changeRowSet>
               <changeRowOrder>true</changeRowOrder>
