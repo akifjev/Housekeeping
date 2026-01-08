@@ -1736,21 +1736,27 @@
                   <key>ru</key>
                   <value>Базовая подпись (CAdES-BES)</value>
                 </presentation>
-                <value xsi:type="core:ReferenceValue"/>
+                <value xsi:type="core:ReferenceValue">
+                  <value>102412a6-a3fb-47f1-840c-c7c3b4ad1d4d.d0d90cbf-21fc-47cb-8e1c-549e67a1bf0c</value>
+                </value>
               </choiceList>
               <choiceList>
                 <presentation>
                   <key>ru</key>
                   <value>Подпись с меткой доверенного времени (CAdES-T)</value>
                 </presentation>
-                <value xsi:type="core:ReferenceValue"/>
+                <value xsi:type="core:ReferenceValue">
+                  <value>102412a6-a3fb-47f1-840c-c7c3b4ad1d4d.cf48ae02-ecb0-4db9-92da-585f89cddb70</value>
+                </value>
               </choiceList>
               <choiceList>
                 <presentation>
                   <key>ru</key>
                   <value>Архивная подпись (CAdES-A)</value>
                 </presentation>
-                <value xsi:type="core:ReferenceValue"/>
+                <value xsi:type="core:ReferenceValue">
+                  <value>102412a6-a3fb-47f1-840c-c7c3b4ad1d4d.8bf95fa7-1067-45b3-82ea-286192f97e06</value>
+                </value>
               </choiceList>
             </extInfo>
           </items>
@@ -1831,15 +1837,53 @@
             <headerHorizontalAlign>Left</headerHorizontalAlign>
             <showInFooter>true</showInFooter>
             <extInfo xsi:type="form:InputFieldExtInfo">
+              <handlers>
+                <event>StartChoice</event>
+                <name>АдресаСерверовМетокВремениНачалоВыбора</name>
+              </handlers>
               <autoMaxWidth>true</autoMaxWidth>
               <maxHeight>2</maxHeight>
               <wrap>true</wrap>
               <multiLine>true</multiLine>
+              <choiceButton>true</choiceButton>
+              <choiceButtonPicture xsi:type="core:PictureRef">
+                <picture>StdPicture.MoveLeft</picture>
+              </choiceButtonPicture>
               <chooseType>true</chooseType>
               <typeDomainEnabled>true</typeDomainEnabled>
               <textEdit>true</textEdit>
               <heightControlVariant>InFormRows</heightControlVariant>
             </extInfo>
+          </items>
+          <items xsi:type="form:Button">
+            <name>ДиагностикаСерверовМетокВремени</name>
+            <id>2262</id>
+            <title>
+              <key>ru</key>
+              <value>Проверить подключение</value>
+            </title>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+            <extendedTooltip>
+              <name>ДиагностикаСерверовМетокВремениРасширеннаяПодсказка</name>
+              <id>2263</id>
+              <type>Label</type>
+              <autoMaxWidth>true</autoMaxWidth>
+              <autoMaxHeight>true</autoMaxHeight>
+              <extInfo xsi:type="form:LabelDecorationExtInfo">
+                <horizontalAlign>Left</horizontalAlign>
+              </extInfo>
+            </extendedTooltip>
+            <type>UsualButton</type>
+            <commandName>Form.Command.ДиагностикаСерверовМетокВремени</commandName>
+            <representation>Auto</representation>
+            <autoMaxWidth>true</autoMaxWidth>
+            <autoMaxHeight>true</autoMaxHeight>
+            <placementArea>UserCmds</placementArea>
+            <representationInContextMenu>Auto</representationInContextMenu>
           </items>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -3908,6 +3952,23 @@
     <action xsi:type="form:FormCommandHandlerContainer">
       <handler>
         <name>Метки</name>
+      </handler>
+    </action>
+    <currentRowUse>Auto</currentRowUse>
+  </formCommands>
+  <formCommands>
+    <name>ДиагностикаСерверовМетокВремени</name>
+    <title>
+      <key>ru</key>
+      <value>Диагностика серверов меток времени</value>
+    </title>
+    <id>10</id>
+    <use>
+      <common>true</common>
+    </use>
+    <action xsi:type="form:FormCommandHandlerContainer">
+      <handler>
+        <name>ДиагностикаСерверовМетокВремени</name>
       </handler>
     </action>
     <currentRowUse>Auto</currentRowUse>

@@ -379,5 +379,7 @@
   <content>CommonPicture.ВажностьНизкая</content>
   <content>CommonModule.ФизическиеЛицаКлиентСерверЛокализация</content>
   <content>CommonPicture.СерыйКрест</content>
+  <content>EventSubscription.ПроверитьБезопасныйРежимПередЗаписью</content>
+  <content>EventSubscription.ПроверитьБезопасныйРежимПередЗаписьюНабораЗаписи</content>
   <parentSubsystem>Subsystem.СтандартныеПодсистемы</parentSubsystem>
 </mdclass:Subsystem>

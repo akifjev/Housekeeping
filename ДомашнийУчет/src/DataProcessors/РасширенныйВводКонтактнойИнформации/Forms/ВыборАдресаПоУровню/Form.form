@@ -510,6 +510,9 @@
   <enabled>true</enabled>
   <showTitle>true</showTitle>
   <showCloseButton>true</showCloseButton>
+  <mobileDeviceCommandBarContent>
+    <value xsi:type="core:StringValue"/>
+  </mobileDeviceCommandBarContent>
   <attributes>
     <name>Объект</name>
     <id>1</id>

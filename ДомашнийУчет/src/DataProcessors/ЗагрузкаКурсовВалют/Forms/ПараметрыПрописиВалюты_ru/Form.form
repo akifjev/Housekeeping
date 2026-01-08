@@ -140,7 +140,7 @@
       </extInfo>
     </items>
     <items xsi:type="form:FormField">
-      <name>ЦелаяЧатьДва</name>
+      <name>ЦелаяЧастьДва</name>
       <id>11</id>
       <title>
         <key>ru</key>
@@ -152,14 +152,14 @@
         <common>true</common>
       </userVisible>
       <dataPath xsi:type="form:DataPath">
-        <segments>ЦелаяЧатьДва</segments>
+        <segments>ЦелаяЧастьДва</segments>
       </dataPath>
       <handlers>
         <event>OnChange</event>
         <name>ПолеВводаПриИзменении</name>
       </handlers>
       <extendedTooltip>
-        <name>ЦелаяЧатьДваРасширеннаяПодсказка</name>
+        <name>ЦелаяЧастьДваРасширеннаяПодсказка</name>
         <id>87</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
@@ -169,7 +169,7 @@
         </extInfo>
       </extendedTooltip>
       <contextMenu>
-        <name>ЦелаяЧатьДваКонтекстноеМеню</name>
+        <name>ЦелаяЧастьДваКонтекстноеМеню</name>
         <id>27</id>
         <autoFill>true</autoFill>
       </contextMenu>
@@ -936,10 +936,10 @@
     <savedData>true</savedData>
   </attributes>
   <attributes>
-    <name>ЦелаяЧатьДва</name>
+    <name>ЦелаяЧастьДва</name>
     <title>
       <key>ru</key>
-      <value>Целая чать два</value>
+      <value>Целая часть два</value>
     </title>
     <id>3</id>
     <valueType>

@@ -4769,6 +4769,13 @@
       <types>Boolean</types>
     </valueType>
   </parameters>
+  <parameters>
+    <name>ИзФормыИстории</name>
+    <valueType>
+      <types>Boolean</types>
+    </valueType>
+    <keyParameter>true</keyParameter>
+  </parameters>
   <commandInterface>
     <navigationPanel/>
     <commandBar/>

@@ -1005,6 +1005,19 @@
         <common>true</common>
       </edit>
     </columns>
+    <columns>
+      <name>Важное</name>
+      <id>10</id>
+      <valueType>
+        <types>Boolean</types>
+      </valueType>
+      <view>
+        <common>true</common>
+      </view>
+      <edit>
+        <common>true</common>
+      </edit>
+    </columns>
   </attributes>
   <attributes>
     <name>ТолькоВажныеДела</name>

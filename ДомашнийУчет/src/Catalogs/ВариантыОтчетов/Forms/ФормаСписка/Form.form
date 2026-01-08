@@ -1854,6 +1854,9 @@
     </value>
   </mobileDeviceCommandBarContent>
   <mobileDeviceCommandBarContent>
+    <value xsi:type="core:StringValue"/>
+  </mobileDeviceCommandBarContent>
+  <mobileDeviceCommandBarContent>
     <value xsi:type="core:StringValue">
       <value>КомандыСписка</value>
     </value>

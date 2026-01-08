@@ -114,8 +114,8 @@
           <id>144</id>
           <title>
             <key>ru</key>
-            <value>&lt;b>Основные&lt;/>&lt;b> &lt;/>&lt;b>в&lt;/>&lt;b> &lt;/>&lt;b>приложении&lt;/>&lt;b> &lt;/>&lt;b>-&lt;/> диалог сканера не открывается, а применяются настройки, заданные в приложении.
-&lt;b>Расширенные&lt;/>&lt;b> &lt;/>&lt;b>в&lt;/>&lt;b> &lt;/>&lt;b>диалоге&lt;/>&lt;b> &lt;/>&lt;b>сканера&lt;/> - отображается диалог сканера, в котором можно задать другие дополнительные настройки, специфичные для конкретного устройства.
+            <value>&lt;b>Основные в приложении&lt;/> - диалог сканера не открывается, а применяются настройки, заданные в приложении.
+&lt;b>Расширенные в диалоге сканера&lt;/> - отображается диалог сканера, в котором можно задать другие дополнительные настройки, специфичные для конкретного устройства.
 </value>
           </title>
           <formatted>true</formatted>
@@ -220,10 +220,10 @@
               <id>72</id>
               <title>
                 <key>ru</key>
-                <value>&lt;b>200&lt;/>&lt;b> &lt;/>&lt;b>dpi&lt;/> достаточно для отправки изображений по электронной почте, факсу, размещения на сайте или просмотра на экране.
-&lt;b>300&lt;/>&lt;b> &lt;/>&lt;b>dpi&lt;/> подходит для большинства документов и изображений, а также для распознавания текста.
-&lt;b>600&lt;/>&lt;b> &lt;/>&lt;b>dpi&lt;/> подходит для сканирования цветных изображений типографского качества, которые потом можно вывести на высококачественном или широкоформатном принтере. Изображения занимают большой объем.
-&lt;b>1200&lt;/>&lt;b> &lt;/>&lt;b>dpi&lt;/> для сканирования профессиональных фотографий типографского качества. Изображения занимают большой объем.</value>
+                <value>&lt;b>200 dpi&lt;/> достаточно для отправки изображений по электронной почте, факсу, размещения на сайте или просмотра на экране.
+&lt;b>300 dpi&lt;/> подходит для большинства документов и изображений, а также для распознавания текста.
+&lt;b>600 dpi&lt;/> подходит для сканирования цветных изображений типографского качества, которые потом можно вывести на высококачественном или широкоформатном принтере. Изображения занимают большой объем.
+&lt;b>1200 dpi&lt;/> для сканирования профессиональных фотографий типографского качества. Изображения занимают большой объем.</value>
               </title>
               <formatted>true</formatted>
               <type>Label</type>
@@ -590,13 +590,12 @@
                 <id>114</id>
                 <title>
                   <key>ru</key>
-                  <value>&lt;b>JPG&lt;/> подходит для большинства документов и изображений. Позволяет сжимать изображение с потерей качества. Можно настроить величину сжатия. 
-&lt;b>PNG&lt;/> подходит для большинства документов и изображений. Изображения без потери качества, файлы небольших размеров. 
-&lt;b>TIF&lt;/> позволяет сохранять изображение без потери качества, используется для хранения изображений для дальнейшей печати. Возможно хранение многостраничных изображений.
-&lt;b>GIF&lt;/> устаревший формат для хранения изображений в низком качестве. Файлы небольшого размера.
-&lt;b>BMP&lt;/> устаревший формат для хранения изображений без потери качества. Файлы больших размеров.
+                  <value>&lt;b>PNG&lt;/> подходит для большинства документов и изображений. Изображения без потери качества, файлы небольших размеров.
+&lt;b>JPG&lt;/> подходит для большинства документов и изображений. Позволяет сжимать изображение с потерей качества. Можно настроить величину сжатия. 
+&lt;b>TIF&lt;/> позволяет сохранять изображение без потери качества, используется для хранения изображений для дальнейшей печати. Возможно хранение многостраничных изображений.
+&lt;b>GIF&lt;/> устаревший формат для хранения изображений в низком качестве. Файлы небольшого размера.
 
-&lt;b>Преобразовать&lt;/>&lt;b> &lt;/>&lt;b>в&lt;/>&lt;b> &lt;/>&lt;b>PDF&lt;/> позволяет поместить отсканированное изображение в PDF-файл. Возможно хранение многостраничных изображений.</value>
+&lt;b>Преобразовать в PDF&lt;/> позволяет поместить отсканированное изображение в PDF-файл. Возможно хранение многостраничных изображений.</value>
                 </title>
                 <formatted>true</formatted>
                 <type>Label</type>
@@ -1312,73 +1311,156 @@ TIF - Не все браузеры отображают этот формат.</
     <items xsi:type="form:FormGroup">
       <name>ГруппаЖурнал</name>
       <id>160</id>
-      <items xsi:type="form:FormField">
-        <name>ИспользоватьКаталогЖурналаСканирования</name>
-        <id>162</id>
-        <title>
-          <key>ru</key>
-          <value>Сохранять информацию для технической поддержки:</value>
-        </title>
-        <visible>true</visible>
-        <enabled>true</enabled>
-        <userVisible>
-          <common>true</common>
-        </userVisible>
-        <dataPath xsi:type="form:DataPath">
-          <segments>ИспользоватьКаталогЖурналаСканирования</segments>
-        </dataPath>
-        <titleLocation>Right</titleLocation>
-        <handlers>
-          <event>OnChange</event>
-          <name>ИспользоватьКаталогЖурналаСканированияПриИзменении</name>
-        </handlers>
-        <extendedTooltip>
-          <name>ИспользоватьКаталогЖурналаСканированияРасширеннаяПодсказка</name>
-          <id>164</id>
-          <type>Label</type>
-          <autoMaxWidth>true</autoMaxWidth>
-          <autoMaxHeight>true</autoMaxHeight>
-          <extInfo xsi:type="form:LabelDecorationExtInfo">
-            <horizontalAlign>Left</horizontalAlign>
-          </extInfo>
-        </extendedTooltip>
-        <contextMenu>
-          <name>ИспользоватьКаталогЖурналаСканированияКонтекстноеМеню</name>
-          <id>163</id>
-          <autoFill>true</autoFill>
-        </contextMenu>
-        <type>CheckBoxField</type>
-        <editMode>Enter</editMode>
-        <showInHeader>true</showInHeader>
-        <headerHorizontalAlign>Left</headerHorizontalAlign>
-        <showInFooter>true</showInFooter>
-        <extInfo xsi:type="form:CheckBoxFieldExtInfo"/>
-      </items>
-      <items xsi:type="form:FormField">
-        <name>КаталогЖурналаСканирования</name>
-        <id>157</id>
-        <title>
-          <key>ru</key>
-          <value>Каталог журнала сканирования</value>
-        </title>
-        <visible>true</visible>
-        <enabled>true</enabled>
-        <userVisible>
-          <common>true</common>
-        </userVisible>
-        <dataPath xsi:type="form:DataPath">
-          <segments>КаталогЖурналаСканирования</segments>
-        </dataPath>
-        <titleLocation>None</titleLocation>
-        <toolTipRepresentation>Button</toolTipRepresentation>
-        <extendedTooltip>
-          <name>КаталогЖурналаСканированияРасширеннаяПодсказка</name>
-          <id>159</id>
+      <items xsi:type="form:FormGroup">
+        <name>ГруппаНастройкиЖурнала</name>
+        <id>165</id>
+        <items xsi:type="form:FormField">
+          <name>ИспользоватьКаталогЖурналаСканирования</name>
+          <id>162</id>
           <title>
             <key>ru</key>
-            <value>При аварийном завершении приложения в указанный каталог будет сохранена информация для технической поддержки. 
-Предоставьте ее в службу поддержки фирмы &quot;1С&quot;.</value>
+            <value>Сохранять информацию для технической поддержки:</value>
           </title>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <dataPath xsi:type="form:DataPath">
+            <segments>ИспользоватьКаталогЖурналаСканирования</segments>
+          </dataPath>
+          <titleLocation>Right</titleLocation>
+          <handlers>
+            <event>OnChange</event>
+            <name>ИспользоватьКаталогЖурналаСканированияПриИзменении</name>
+          </handlers>
+          <extendedTooltip>
+            <name>ИспользоватьКаталогЖурналаСканированияРасширеннаяПодсказка</name>
+            <id>164</id>
+            <type>Label</type>
+            <autoMaxWidth>true</autoMaxWidth>
+            <autoMaxHeight>true</autoMaxHeight>
+            <extInfo xsi:type="form:LabelDecorationExtInfo">
+              <horizontalAlign>Left</horizontalAlign>
+            </extInfo>
+          </extendedTooltip>
+          <contextMenu>
+            <name>ИспользоватьКаталогЖурналаСканированияКонтекстноеМеню</name>
+            <id>163</id>
+            <autoFill>true</autoFill>
+          </contextMenu>
+          <type>CheckBoxField</type>
+          <editMode>Enter</editMode>
+          <showInHeader>true</showInHeader>
+          <headerHorizontalAlign>Left</headerHorizontalAlign>
+          <showInFooter>true</showInFooter>
+          <extInfo xsi:type="form:CheckBoxFieldExtInfo"/>
+        </items>
+        <items xsi:type="form:FormField">
+          <name>КаталогЖурналаСканирования</name>
+          <id>157</id>
+          <title>
+            <key>ru</key>
+            <value>Каталог журнала сканирования</value>
+          </title>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <dataPath xsi:type="form:DataPath">
+            <segments>КаталогЖурналаСканирования</segments>
+          </dataPath>
+          <titleLocation>None</titleLocation>
+          <toolTipRepresentation>Button</toolTipRepresentation>
+          <extendedTooltip>
+            <name>КаталогЖурналаСканированияРасширеннаяПодсказка</name>
+            <id>159</id>
+            <title>
+              <key>ru</key>
+              <value>При аварийном завершении приложения в указанный каталог будет сохранена информация для технической поддержки. 
+Предоставьте ее в службу поддержки фирмы &quot;1С&quot;.</value>
+            </title>
+            <type>Label</type>
+            <autoMaxWidth>true</autoMaxWidth>
+            <autoMaxHeight>true</autoMaxHeight>
+            <extInfo xsi:type="form:LabelDecorationExtInfo">
+              <horizontalAlign>Left</horizontalAlign>
+            </extInfo>
+          </extendedTooltip>
+          <contextMenu>
+            <name>КаталогЖурналаСканированияКонтекстноеМеню</name>
+            <id>158</id>
+            <autoFill>true</autoFill>
+          </contextMenu>
+          <type>InputField</type>
+          <editMode>Enter</editMode>
+          <showInHeader>true</showInHeader>
+          <headerHorizontalAlign>Left</headerHorizontalAlign>
+          <showInFooter>true</showInFooter>
+          <extInfo xsi:type="form:InputFieldExtInfo">
+            <handlers>
+              <event>StartChoice</event>
+              <name>КаталогЖурналаСканированияНачалоВыбора</name>
+            </handlers>
+            <width>60</width>
+            <autoMaxHeight>true</autoMaxHeight>
+            <horizontalStretch>false</horizontalStretch>
+            <wrap>true</wrap>
+            <choiceButton>true</choiceButton>
+            <chooseType>true</chooseType>
+            <typeDomainEnabled>true</typeDomainEnabled>
+            <textEdit>true</textEdit>
+            <inputHint>
+              <key>ru</key>
+              <value>Каталог журнала диагностики</value>
+            </inputHint>
+          </extInfo>
+        </items>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <title>
+          <key>ru</key>
+          <value>Настройки журнала</value>
+        </title>
+        <extendedTooltip>
+          <name>ГруппаНастройкиЖурналаРасширеннаяПодсказка</name>
+          <id>166</id>
+          <type>Label</type>
+          <autoMaxWidth>true</autoMaxWidth>
+          <autoMaxHeight>true</autoMaxHeight>
+          <extInfo xsi:type="form:LabelDecorationExtInfo">
+            <horizontalAlign>Left</horizontalAlign>
+          </extInfo>
+        </extendedTooltip>
+        <type>UsualGroup</type>
+        <extInfo xsi:type="form:UsualGroupExtInfo">
+          <group>Vertical</group>
+          <behavior>Auto</behavior>
+          <showLeftMargin>true</showLeftMargin>
+          <united>true</united>
+          <throughAlign>Auto</throughAlign>
+          <currentRowUse>Auto</currentRowUse>
+        </extInfo>
+      </items>
+      <items xsi:type="form:Decoration">
+        <name>ИнформацияДляТехническойПоддержки</name>
+        <id>167</id>
+        <title>
+          <key>ru</key>
+          <value>Информация для технической поддержки</value>
+        </title>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <extendedTooltip>
+          <name>ИнформацияДляТехническойПоддержкиРасширеннаяПодсказка</name>
+          <id>169</id>
           <type>Label</type>
           <autoMaxWidth>true</autoMaxWidth>
           <autoMaxHeight>true</autoMaxHeight>
@@ -1387,32 +1469,20 @@ TIF - Не все браузеры отображают этот формат.</
           </extInfo>
         </extendedTooltip>
         <contextMenu>
-          <name>КаталогЖурналаСканированияКонтекстноеМеню</name>
-          <id>158</id>
+          <name>ИнформацияДляТехническойПоддержкиКонтекстноеМеню</name>
+          <id>168</id>
           <autoFill>true</autoFill>
         </contextMenu>
-        <type>InputField</type>
-        <editMode>Enter</editMode>
-        <showInHeader>true</showInHeader>
-        <headerHorizontalAlign>Left</headerHorizontalAlign>
-        <showInFooter>true</showInFooter>
-        <extInfo xsi:type="form:InputFieldExtInfo">
+        <type>Label</type>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <extInfo xsi:type="form:LabelDecorationExtInfo">
           <handlers>
-            <event>StartChoice</event>
-            <name>КаталогЖурналаСканированияНачалоВыбора</name>
+            <event>Click</event>
+            <name>ИнформацияДляТехническойПоддержкиНажатие</name>
           </handlers>
-          <width>40</width>
-          <autoMaxHeight>true</autoMaxHeight>
-          <horizontalStretch>false</horizontalStretch>
-          <wrap>true</wrap>
-          <choiceButton>true</choiceButton>
-          <chooseType>true</chooseType>
-          <typeDomainEnabled>true</typeDomainEnabled>
-          <textEdit>true</textEdit>
-          <inputHint>
-            <key>ru</key>
-            <value>Каталог журнала диагностики</value>
-          </inputHint>
+          <hyperlink>true</hyperlink>
+          <horizontalAlign>Left</horizontalAlign>
         </extInfo>
       </items>
       <visible>true</visible>
@@ -1437,7 +1507,7 @@ TIF - Не все браузеры отображают этот формат.</
       </extendedTooltip>
       <type>UsualGroup</type>
       <extInfo xsi:type="form:UsualGroupExtInfo">
-        <group>HorizontalIfPossible</group>
+        <group>Vertical</group>
         <behavior>Collapsible</behavior>
         <collapsedRepresentationTitle>
           <key>ru</key>
@@ -2094,19 +2164,6 @@ TIF - Не все браузеры отображают этот формат.</
     <savedData>true</savedData>
   </attributes>
   <attributes>
-    <name>ФорматХраненияОдностраничный</name>
-    <id>17</id>
-    <valueType>
-      <types>EnumRef.ФорматыХраненияОдностраничныхФайлов</types>
-    </valueType>
-    <view>
-      <common>true</common>
-    </view>
-    <edit>
-      <common>true</common>
-    </edit>
-  </attributes>
-  <attributes>
     <name>ФорматМногостраничныйTIF</name>
     <id>18</id>
     <valueType>
@@ -2254,10 +2311,6 @@ TIF - Не все браузеры отображают этот формат.</
       <value>ОК</value>
     </title>
     <id>2</id>
-    <toolTip>
-      <key>ru</key>
-      <value>ОК</value>
-    </toolTip>
     <use>
       <common>true</common>
     </use>
