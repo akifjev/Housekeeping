@@ -852,7 +852,7 @@
         <common>true</common>
       </userVisible>
       <dataPath xsi:type="form:DataPath">
-        <segments>Объект.Страна</segments>
+        <segments>Страна</segments>
       </dataPath>
       <extendedTooltip>
         <name>СтранаРасширеннаяПодсказка</name>
@@ -877,6 +877,46 @@
       <extInfo xsi:type="form:InputFieldExtInfo">
         <autoMaxHeight>true</autoMaxHeight>
         <horizontalStretch>false</horizontalStretch>
+        <wrap>true</wrap>
+        <chooseType>true</chooseType>
+        <typeDomainEnabled>true</typeDomainEnabled>
+        <textEdit>true</textEdit>
+      </extInfo>
+    </items>
+    <items xsi:type="form:FormField">
+      <name>КодСтраны</name>
+      <id>71</id>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <dataPath xsi:type="form:DataPath">
+        <segments>Объект.КодСтраны</segments>
+      </dataPath>
+      <extendedTooltip>
+        <name>КодСтраныРасширеннаяПодсказка</name>
+        <id>73</id>
+        <type>Label</type>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <extInfo xsi:type="form:LabelDecorationExtInfo">
+          <horizontalAlign>Left</horizontalAlign>
+        </extInfo>
+      </extendedTooltip>
+      <contextMenu>
+        <name>КодСтраныКонтекстноеМеню</name>
+        <id>72</id>
+        <autoFill>true</autoFill>
+      </contextMenu>
+      <type>InputField</type>
+      <editMode>Enter</editMode>
+      <showInHeader>true</showInHeader>
+      <headerHorizontalAlign>Left</headerHorizontalAlign>
+      <showInFooter>true</showInFooter>
+      <extInfo xsi:type="form:InputFieldExtInfo">
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
         <wrap>true</wrap>
         <chooseType>true</chooseType>
         <typeDomainEnabled>true</typeDomainEnabled>
@@ -947,6 +987,24 @@
     <main>true</main>
     <savedData>true</savedData>
   </attributes>
+  <attributes>
+    <name>Страна</name>
+    <title>
+      <key>ru</key>
+      <value>Страна</value>
+    </title>
+    <id>2</id>
+    <valueType>
+      <types>CatalogRef.СтраныМира</types>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+    <savedData>true</savedData>
+  </attributes>
   <commandInterface>
     <navigationPanel/>
     <commandBar/>
@@ -955,6 +1013,10 @@
     <handlers>
       <event>OnReadAtServer</event>
       <name>ПриЧтенииНаСервере</name>
+    </handlers>
+    <handlers>
+      <event>BeforeWriteAtServer</event>
+      <name>ПередЗаписьюНаСервере</name>
     </handlers>
   </extInfo>
 </form:Form>

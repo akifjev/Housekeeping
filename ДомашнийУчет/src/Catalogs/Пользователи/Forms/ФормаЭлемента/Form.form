@@ -1946,6 +1946,10 @@
                     <segments>ПользовательИБЗапрещеноВосстанавливатьПароль</segments>
                   </dataPath>
                   <titleLocation>Right</titleLocation>
+                  <handlers>
+                    <event>OnChange</event>
+                    <name>ПользовательИБЗапрещеноВосстанавливатьПарольПриИзменении</name>
+                  </handlers>
                   <extendedTooltip>
                     <name>ПользовательИБЗапрещеноВосстанавливатьПарольРасширеннаяПодсказка</name>
                     <id>368</id>
@@ -4181,19 +4185,6 @@
     </edit>
   </attributes>
   <attributes>
-    <name>ВходВПрограммуРазрешенЗначениеПрямогоИзменения</name>
-    <id>33</id>
-    <valueType>
-      <types>Boolean</types>
-    </valueType>
-    <view>
-      <common>true</common>
-    </view>
-    <edit>
-      <common>true</common>
-    </edit>
-  </attributes>
-  <attributes>
     <name>ПотребоватьСменуПароляПриВходе</name>
     <title>
       <key>ru</key>
@@ -4259,20 +4250,6 @@
     </edit>
   </attributes>
   <attributes>
-    <name>ПользовательИБИмяЗначениеПрямогоИзменения</name>
-    <id>39</id>
-    <valueType>
-      <types>String</types>
-      <stringQualifiers/>
-    </valueType>
-    <view>
-      <common>true</common>
-    </view>
-    <edit>
-      <common>true</common>
-    </edit>
-  </attributes>
-  <attributes>
     <name>ПользовательИБПароль</name>
     <id>40</id>
     <valueType/>
@@ -4329,19 +4306,6 @@
     <valueType>
       <types>String</types>
       <stringQualifiers/>
-    </valueType>
-    <view>
-      <common>true</common>
-    </view>
-    <edit>
-      <common>true</common>
-    </edit>
-  </attributes>
-  <attributes>
-    <name>ПользовательИБАутентификацияСтандартнаяЗначениеПрямогоИзменения</name>
-    <id>3</id>
-    <valueType>
-      <types>Boolean</types>
     </valueType>
     <view>
       <common>true</common>
@@ -4744,6 +4708,52 @@
     <name>ОшибкаРаботыССервисом</name>
     <id>57</id>
     <valueType/>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+  </attributes>
+  <attributes>
+    <name>ВидКонтактнойИнформацииEmailПользователя</name>
+    <id>59</id>
+    <valueType/>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+  </attributes>
+  <attributes>
+    <name>ВидКонтактнойИнформацииТелефонПользователя</name>
+    <id>60</id>
+    <valueType/>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+  </attributes>
+  <attributes>
+    <name>ЗначенияПрямогоИзменения</name>
+    <id>61</id>
+    <valueType/>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+  </attributes>
+  <attributes>
+    <name>ПотребоватьСменуПароляПриВходеБыло</name>
+    <id>3</id>
+    <valueType>
+      <types>Boolean</types>
+    </valueType>
     <view>
       <common>true</common>
     </view>

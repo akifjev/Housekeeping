@@ -285,6 +285,10 @@
       <stringQualifiers/>
     </valueType>
   </parameters>
+  <parameters>
+    <name>РасшифровкаИзОтчета</name>
+    <valueType/>
+  </parameters>
   <commandInterface>
     <navigationPanel/>
     <commandBar/>

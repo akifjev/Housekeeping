@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a429671f-a8d6-43bf-b51e-d52c95900d57">
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b2bd5a0e-d60c-411d-a001-ecdee0152b1a">
   <name>ПолучениеФайловИзИнтернетаЛокализация</name>
   <synonym>
     <key>ru</key>

@@ -306,7 +306,7 @@
       <visible/>
     </visibilityFragments>
     <visibilityFragments>
-      <command>0:4f0bda80-2246-43be-95f8-ae8480682cd5</command>
+      <command>0</command>
       <visible/>
     </visibilityFragments>
     <visibilityFragments>
@@ -618,7 +618,7 @@
       <commands>0:b40d32dd-ac4a-41b4-b009-86cb9cdb3370</commands>
       <commands>CommonCommand.ДополнительныеОбработкиАдминистрирование</commands>
       <commands>DataProcessor.ЖурналРегистрации.StandardCommand.Open</commands>
-      <commands>0:4f0bda80-2246-43be-95f8-ae8480682cd5</commands>
+      <commands>0</commands>
       <commands>DataProcessor.ЗагрузкаКурсовВалют.StandardCommand.Open</commands>
       <commands>DataProcessor.НастройкиПользователей.Command.КопированиеНастроекПользователей</commands>
       <commands>100:38bf6d3b-5435-4bac-b9fc-23b80afeb760</commands>

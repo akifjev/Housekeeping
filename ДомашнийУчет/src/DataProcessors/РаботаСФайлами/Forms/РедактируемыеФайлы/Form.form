@@ -1161,6 +1161,7 @@
       <key>ru</key>
       <value>Показывать занятые файлы при завершении работы</value>
     </title>
+    <visible>true</visible>
     <enabled>true</enabled>
     <userVisible>
       <common>true</common>
@@ -1253,6 +1254,7 @@
       <placementArea>UserCmds</placementArea>
       <representationInContextMenu>Auto</representationInContextMenu>
     </items>
+    <visible>true</visible>
     <enabled>true</enabled>
     <userVisible>
       <common>true</common>
@@ -1648,6 +1650,12 @@
     </action>
     <currentRowUse>DontUse</currentRowUse>
   </formCommands>
+  <parameters>
+    <name>ЗавершениеРаботыПрограммы</name>
+    <valueType>
+      <types>Boolean</types>
+    </valueType>
+  </parameters>
   <commandInterface>
     <navigationPanel/>
     <commandBar/>
