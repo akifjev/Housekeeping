@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <cmi:CommandInterface xmlns:cmi="http://g5.1c.ru/v8/dt/cmi">
   <subsystemsOrder>
-    <subsystems>Subsystem.Справочники</subsystems>
-    <subsystems>Subsystem.Кредиты</subsystems>
-    <subsystems>Subsystem.Отчеты</subsystems>
+    <subsystems>500bc412-7918-497c-8983-28b3ec7fa946</subsystems>
+    <subsystems>4cdbf6ad-2891-49da-8d02-d94b107f03b4</subsystems>
+    <subsystems>aa7723cd-506e-43e7-944d-e10f20591172</subsystems>
     <subsystems>Subsystem.Администрирование</subsystems>
   </subsystemsOrder>
 </cmi:CommandInterface>

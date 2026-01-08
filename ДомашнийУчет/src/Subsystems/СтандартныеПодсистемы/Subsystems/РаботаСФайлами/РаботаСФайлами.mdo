@@ -35,7 +35,6 @@
   <content>Enum.ДействияСФайламиПоДвойномуЩелчку</content>
   <content>Enum.ВариантыСжатияTIFF</content>
   <content>Enum.ФорматыХраненияМногостраничныхФайлов</content>
-  <content>Enum.ФорматыХраненияОдностраничныхФайлов</content>
   <content>CommonModule.РаботаСФайлами</content>
   <content>InformationRegister.УдалитьХранимыеФайлыВерсий</content>
   <content>EventSubscription.СкопироватьРеквизитыВерсииФайловВФайл</content>
@@ -88,7 +87,7 @@
   <content>CommonPicture.ПодписанЗашифрованСостояния</content>
   <content>CommonPicture.РабочийКаталогПоУмолчанию</content>
   <content>CommonPicture.РедактироватьФайл</content>
-  <content>CommonTemplate.КомпонентаСканированияДокументов_3_0_1_1027</content>
+  <content>CommonTemplate.КомпонентаСканированияДокументов_3_0_1_1031</content>
   <content>CommonCommand.СозданиеНачальногоОбразаСФайлами</content>
   <content>CommonCommand.ФайлыВТоме</content>
   <content>CommonCommand.РедактируемыеФайлы</content>
