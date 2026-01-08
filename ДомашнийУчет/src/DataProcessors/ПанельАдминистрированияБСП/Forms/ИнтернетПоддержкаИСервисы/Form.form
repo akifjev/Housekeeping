@@ -49,7 +49,7 @@
           <common>true</common>
         </userVisible>
         <extendedTooltip>
-          <name>СправкаExtendedTooltip</name>
+          <name>СправкаРасширеннаяПодсказка</name>
           <id>1604</id>
           <type>Label</type>
           <autoMaxWidth>true</autoMaxWidth>
@@ -75,7 +75,7 @@
         <value>Справка</value>
       </title>
       <extendedTooltip>
-        <name>ГруппаСправкаExtendedTooltip</name>
+        <name>ГруппаСправкаРасширеннаяПодсказка</name>
         <id>1603</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
@@ -99,7 +99,7 @@
       <value>Заголовок</value>
     </title>
     <extendedTooltip>
-      <name>ГруппаЗаголовокExtendedTooltip</name>
+      <name>ГруппаЗаголовокРасширеннаяПодсказка</name>
       <id>1600</id>
       <type>Label</type>
       <autoMaxWidth>true</autoMaxWidth>
@@ -129,6 +129,10 @@
         <items xsi:type="form:Button">
           <name>ЗагрузкаАдресногоКлассификатора</name>
           <id>1876</id>
+          <title>
+            <key>ru</key>
+            <value>Загрузка адресного классификатора</value>
+          </title>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -154,6 +158,10 @@
         <items xsi:type="form:Button">
           <name>ОчисткаАдресныхСведений</name>
           <id>1878</id>
+          <title>
+            <key>ru</key>
+            <value>Очистка</value>
+          </title>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -191,7 +199,7 @@
         </title>
         <toolTip>
           <key>ru</key>
-          <value>Для экономии трафика при автоподборе и проверке адресов, а также при работе без доступа к Интернету возможно загружать и обновлять адресные сведения в программу. Требуется до 2 Гб места на компьютере.</value>
+          <value>Для экономии трафика при автоподборе и проверке адресов, а также при работе без доступа к Интернету возможно загружать и обновлять адресные сведения в приложении. Требуется до 2 Гб места на компьютере.</value>
         </toolTip>
         <toolTipRepresentation>ShowBottom</toolTipRepresentation>
         <extendedTooltip>
@@ -217,6 +225,10 @@
       <items xsi:type="form:FormField">
         <name>ИспользоватьВебСервисАдресов</name>
         <id>1943</id>
+        <title>
+          <key>ru</key>
+          <value>Подбирать и проверять адреса через Интернет, которые не загружены в приложение</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -288,6 +300,10 @@
       <items xsi:type="form:Button">
         <name>ЗагрузкаКурсовВалют</name>
         <id>1645</id>
+        <title>
+          <key>ru</key>
+          <value>Загрузка курсов валют</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -327,7 +343,7 @@
       <width>43</width>
       <horizontalStretch>false</horizontalStretch>
       <extendedTooltip>
-        <name>ГруппаОбработкаЗагрузкаКурсовВалютExtendedTooltip</name>
+        <name>ГруппаОбработкаЗагрузкаКурсовВалютРасширеннаяПодсказка</name>
         <id>1644</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
@@ -355,7 +371,7 @@
       <value>Классификаторы и курсы валют</value>
     </title>
     <extendedTooltip>
-      <name>ГруппаКлассификаторыExtendedTooltip</name>
+      <name>ГруппаКлассификаторыРасширеннаяПодсказка</name>
       <id>1638</id>
       <type>Label</type>
       <autoMaxWidth>true</autoMaxWidth>
@@ -518,6 +534,10 @@
     <items xsi:type="form:Button">
       <name>ОбсужденияНастроитьИнтеграциюСВнешнимиСистемами</name>
       <id>1939</id>
+      <title>
+        <key>ru</key>
+        <value>Сообщения из других приложений</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -612,8 +632,8 @@
           <id>1711</id>
           <title>
             <key>ru</key>
-            <value>Разрешить использование внешнего сервиса &lt;link http://www.morpher.ru>Морфер&lt;/> для получения альтернативного варианта склонения представлений объектов в падежах (требуется подключение к Интернет).
-Если внешний сервис не используется, склонение представлений выполняется с применением встроенных возможностей программы.</value>
+            <value>Разрешить использование внешнего сервиса Морфер для получения альтернативного варианта склонения представлений объектов в падежах (требуется подключение к Интернет).
+Если внешний сервис не используется, склонение представлений выполняется с применением встроенных возможностей приложения.</value>
           </title>
           <formatted>true</formatted>
           <type>Label</type>
@@ -670,6 +690,10 @@
       <items xsi:type="form:Button">
         <name>НастройкаДоступаКСервисуMorpher</name>
         <id>1714</id>
+        <title>
+          <key>ru</key>
+          <value>Настройка доступа к сервису Морфер</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -772,9 +796,9 @@
         <id>1667</id>
         <title>
           <key>ru</key>
-          <value>Отчеты об использовании программы помогают нам определить, над чем следует поработать в первую очередь.
+          <value>Отчеты об использовании приложения помогают нам определить, над чем следует поработать в первую очередь.
 Собранные сведения являются обезличенными и содержат только статистические показатели. Подготовка
-и отправка отчетов не замедлит работу программы.</value>
+и отправка отчетов не замедлит работу приложения.</value>
         </title>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -842,6 +866,10 @@
         <items xsi:type="form:FormField">
           <name>ЦентрМониторингаРазрешитьОтправлятьДанные</name>
           <id>1675</id>
+          <title>
+            <key>ru</key>
+            <value>Центр мониторинга разрешить отправлять данные</value>
+          </title>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -881,7 +909,7 @@
             <choiceList>
               <presentation>
                 <key>ru</key>
-                <value>Разрешить автоматическую отправку сведений об использовании программы в фирму &quot;1С&quot;</value>
+                <value>Разрешить автоматическую отправку сведений об использовании приложения в фирму &quot;1С&quot;</value>
               </presentation>
               <value xsi:type="core:NumberValue">
                 <value>0</value>
@@ -954,6 +982,10 @@
         <items xsi:type="form:Button">
           <name>ЦентрМониторингаНастройки</name>
           <id>1840</id>
+          <title>
+            <key>ru</key>
+            <value>Настройки центра мониторинга</value>
+          </title>
           <visible>true</visible>
           <enabled>false</enabled>
           <userVisible>
@@ -1042,6 +1074,10 @@
         <items xsi:type="form:Button">
           <name>ЦентрМониторингаОтправитьКонтактнуюИнформацию</name>
           <id>1852</id>
+          <title>
+            <key>ru</key>
+            <value>Сообщить о проблемах производительности</value>
+          </title>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -1159,6 +1195,10 @@
       <items xsi:type="form:FormField">
         <name>ЦентрМониторингаРазрешитьОтправлятьДанныеСтороннему</name>
         <id>1837</id>
+        <title>
+          <key>ru</key>
+          <value>Центр мониторинга разрешить отправлять данные</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -1381,6 +1421,10 @@
       <items xsi:type="form:FormField">
         <name>ЦентрМониторингаЗапретитьОтправлятьДанные</name>
         <id>1691</id>
+        <title>
+          <key>ru</key>
+          <value>Центр мониторинга разрешить отправлять данные</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -1502,6 +1546,10 @@
       <items xsi:type="form:Button">
         <name>ОткрытьВнешниеКомпоненты</name>
         <id>1720</id>
+        <title>
+          <key>ru</key>
+          <value>Настройка внешних компонент</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -1512,7 +1560,7 @@
           <id>1721</id>
           <title>
             <key>ru</key>
-            <value>Настройка автообновления внешних компонент сторонних поставщиков, подключенных к программе.</value>
+            <value>Настройка автообновления внешних компонент сторонних поставщиков, подключенных к приложению.</value>
           </title>
           <type>Label</type>
           <autoMaxWidth>true</autoMaxWidth>
@@ -1804,7 +1852,7 @@
     <name>ОбсужденияНастроитьИнтеграциюСВнешнимиСистемами</name>
     <title>
       <key>ru</key>
-      <value>Сообщения из других программ</value>
+      <value>Сообщения из других приложений</value>
     </title>
     <id>13</id>
     <toolTip>

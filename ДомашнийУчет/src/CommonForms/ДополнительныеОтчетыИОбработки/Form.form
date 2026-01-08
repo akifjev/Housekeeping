@@ -35,6 +35,10 @@
         <items xsi:type="form:FormField">
           <name>ОбработкиПредставление</name>
           <id>26</id>
+          <title>
+            <key>ru</key>
+            <value>Представление</value>
+          </title>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -44,7 +48,7 @@
             <segments>ТаблицаКоманд.Представление</segments>
           </dataPath>
           <extendedTooltip>
-            <name>ОбработкиПредставлениеExtendedTooltip</name>
+            <name>ОбработкиПредставлениеРасширеннаяПодсказка</name>
             <id>57</id>
             <type>Label</type>
             <autoMaxWidth>true</autoMaxWidth>
@@ -155,7 +159,7 @@
           </extInfo>
         </searchControlAddition>
         <extendedTooltip>
-          <name>ТаблицаКомандExtendedTooltip</name>
+          <name>ТаблицаКомандРасширеннаяПодсказка</name>
           <id>56</id>
           <type>Label</type>
           <autoMaxWidth>true</autoMaxWidth>
@@ -200,7 +204,7 @@
         <value>Страница открыть обработку</value>
       </title>
       <extendedTooltip>
-        <name>СтраницаОткрытьОбработкуExtendedTooltip</name>
+        <name>СтраницаОткрытьОбработкуРасширеннаяПодсказка</name>
         <id>55</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
@@ -231,7 +235,7 @@
           <common>true</common>
         </userVisible>
         <extendedTooltip>
-          <name>ДекорацияДлительнаяОперацияExtendedTooltip</name>
+          <name>ДекорацияДлительнаяОперацияРасширеннаяПодсказка</name>
           <id>59</id>
           <type>Label</type>
           <autoMaxWidth>true</autoMaxWidth>
@@ -268,7 +272,7 @@
           <common>true</common>
         </userVisible>
         <extendedTooltip>
-          <name>ПоясняющаяДекорацияExtendedTooltip</name>
+          <name>ПоясняющаяДекорацияРасширеннаяПодсказка</name>
           <id>60</id>
           <type>Label</type>
           <autoMaxWidth>true</autoMaxWidth>
@@ -302,7 +306,7 @@
       </title>
       <verticalStretch>true</verticalStretch>
       <extendedTooltip>
-        <name>СтраницаВыполненияОбработкиExtendedTooltip</name>
+        <name>СтраницаВыполненияОбработкиРасширеннаяПодсказка</name>
         <id>58</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
@@ -328,7 +332,7 @@
       <value>Страницы</value>
     </title>
     <extendedTooltip>
-      <name>СтраницыExtendedTooltip</name>
+      <name>СтраницыРасширеннаяПодсказка</name>
       <id>54</id>
       <type>Label</type>
       <autoMaxWidth>true</autoMaxWidth>
@@ -348,6 +352,10 @@
     <items xsi:type="form:Button">
       <name>НастроитьСписок</name>
       <id>35</id>
+      <title>
+        <key>ru</key>
+        <value>Настроить список</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -355,7 +363,7 @@
       </userVisible>
       <skipOnInput>false</skipOnInput>
       <extendedTooltip>
-        <name>НастроитьСписокExtendedTooltip</name>
+        <name>НастроитьСписокРасширеннаяПодсказка</name>
         <id>63</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
@@ -378,6 +386,10 @@
       <items xsi:type="form:Button">
         <name>ВыполнитьОбработку</name>
         <id>28</id>
+        <title>
+          <key>ru</key>
+          <value>Выполнить</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -386,7 +398,7 @@
         <defaultItem>true</defaultItem>
         <skipOnInput>false</skipOnInput>
         <extendedTooltip>
-          <name>ВыполнитьОбработкуExtendedTooltip</name>
+          <name>ВыполнитьОбработкуРасширеннаяПодсказка</name>
           <id>65</id>
           <type>Label</type>
           <autoMaxWidth>true</autoMaxWidth>
@@ -439,7 +451,7 @@
         <value>Командная панель страницы открыть обработку</value>
       </title>
       <extendedTooltip>
-        <name>КоманднаяПанельСтраницыОткрытьОбработкуExtendedTooltip</name>
+        <name>КоманднаяПанельСтраницыОткрытьОбработкуРасширеннаяПодсказка</name>
         <id>64</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>

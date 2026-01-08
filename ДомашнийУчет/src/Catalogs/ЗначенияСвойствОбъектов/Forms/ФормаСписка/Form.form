@@ -34,6 +34,10 @@
   <items xsi:type="form:FormField">
     <name>Свойство</name>
     <id>6</id>
+    <title>
+      <key>ru</key>
+      <value>Свойство</value>
+    </title>
     <enabled>true</enabled>
     <userVisible>
       <common>true</common>
@@ -46,7 +50,7 @@
       <name>СвойствоПриИзменении</name>
     </handlers>
     <extendedTooltip>
-      <name>СвойствоExtendedTooltip</name>
+      <name>СвойствоРасширеннаяПодсказка</name>
       <id>31</id>
       <type>Label</type>
       <autoMaxWidth>true</autoMaxWidth>
@@ -109,7 +113,7 @@
       </dataPath>
       <defaultItem>true</defaultItem>
       <extendedTooltip>
-        <name>НаименованиеExtendedTooltip</name>
+        <name>НаименованиеРасширеннаяПодсказка</name>
         <id>33</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
@@ -189,7 +193,7 @@
         <segments>Список.Owner</segments>
       </dataPath>
       <extendedTooltip>
-        <name>ВладелецExtendedTooltip</name>
+        <name>ВладелецРасширеннаяПодсказка</name>
         <id>34</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
@@ -334,7 +338,7 @@
       </extInfo>
     </searchControlAddition>
     <extendedTooltip>
-      <name>СписокExtendedTooltip</name>
+      <name>СписокРасширеннаяПодсказка</name>
       <id>32</id>
       <type>Label</type>
       <autoMaxWidth>true</autoMaxWidth>
@@ -400,7 +404,7 @@
         </userVisible>
         <defaultItem>true</defaultItem>
         <extendedTooltip>
-          <name>ФормаВыбратьExtendedTooltip</name>
+          <name>ФормаВыбратьРасширеннаяПодсказка</name>
           <id>24</id>
           <type>Label</type>
           <autoMaxWidth>true</autoMaxWidth>
@@ -426,7 +430,7 @@
           <common>true</common>
         </userVisible>
         <extendedTooltip>
-          <name>ФормаСоздатьExtendedTooltip</name>
+          <name>ФормаСоздатьРасширеннаяПодсказка</name>
           <id>25</id>
           <type>Label</type>
           <autoMaxWidth>true</autoMaxWidth>
@@ -451,7 +455,7 @@
           <common>true</common>
         </userVisible>
         <extendedTooltip>
-          <name>ФормаСоздатьГруппуExtendedTooltip</name>
+          <name>ФормаСоздатьГруппуРасширеннаяПодсказка</name>
           <id>26</id>
           <type>Label</type>
           <autoMaxWidth>true</autoMaxWidth>
@@ -476,7 +480,7 @@
           <common>true</common>
         </userVisible>
         <extendedTooltip>
-          <name>ФормаСкопироватьExtendedTooltip</name>
+          <name>ФормаСкопироватьРасширеннаяПодсказка</name>
           <id>27</id>
           <type>Label</type>
           <autoMaxWidth>true</autoMaxWidth>
@@ -501,7 +505,7 @@
           <common>true</common>
         </userVisible>
         <extendedTooltip>
-          <name>ФормаИзменитьExtendedTooltip</name>
+          <name>ФормаИзменитьРасширеннаяПодсказка</name>
           <id>28</id>
           <type>Label</type>
           <autoMaxWidth>true</autoMaxWidth>
@@ -573,7 +577,7 @@
         <common>true</common>
       </userVisible>
       <extendedTooltip>
-        <name>ФормаСправкаExtendedTooltip</name>
+        <name>ФормаСправкаРасширеннаяПодсказка</name>
         <id>30</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>

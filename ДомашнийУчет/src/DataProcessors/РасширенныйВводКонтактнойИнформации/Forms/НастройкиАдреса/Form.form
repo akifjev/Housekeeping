@@ -10,6 +10,10 @@
     <items xsi:type="form:FormField">
       <name>ТолькоРоссийскийАдрес</name>
       <id>5</id>
+      <title>
+        <key>ru</key>
+        <value>Только российский адрес</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -85,6 +89,10 @@
         <items xsi:type="form:FormField">
           <name>ПроверятьКорректностьАдреса</name>
           <id>15</id>
+          <title>
+            <key>ru</key>
+            <value>Запрещать ввод некорректного адреса</value>
+          </title>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -119,6 +127,10 @@
         <items xsi:type="form:FormField">
           <name>СкрыватьНеактуальныеАдреса</name>
           <id>21</id>
+          <title>
+            <key>ru</key>
+            <value>Скрывать неактуальные адреса</value>
+          </title>
           <enabled>true</enabled>
           <userVisible>
             <common>true</common>
@@ -128,7 +140,7 @@
           </dataPath>
           <titleLocation>Right</titleLocation>
           <extendedTooltip>
-            <name>СкрыватьНеактуальныеАдресаExtendedTooltip</name>
+            <name>СкрыватьНеактуальныеАдресаРасширеннаяПодсказка</name>
             <id>23</id>
             <type>Label</type>
             <autoMaxWidth>true</autoMaxWidth>
@@ -152,6 +164,10 @@
         <items xsi:type="form:FormField">
           <name>УказыватьОКТМОВручную</name>
           <id>24</id>
+          <title>
+            <key>ru</key>
+            <value>Указывать ОКТМО</value>
+          </title>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -247,7 +263,7 @@
       <value>Адрес</value>
     </title>
     <extendedTooltip>
-      <name>АдресExtendedTooltip</name>
+      <name>АдресРасширеннаяПодсказка</name>
       <id>2</id>
       <type>Label</type>
       <autoMaxWidth>true</autoMaxWidth>
@@ -271,6 +287,10 @@
     <items xsi:type="form:FormField">
       <name>АвтоматическиИсправлятьУстаревшиеАдреса</name>
       <id>38</id>
+      <title>
+        <key>ru</key>
+        <value>Автоматически исправлять устаревшие адреса</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -342,6 +362,10 @@
     <items xsi:type="form:Button">
       <name>ОК</name>
       <id>32</id>
+      <title>
+        <key>ru</key>
+        <value>ОК</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>

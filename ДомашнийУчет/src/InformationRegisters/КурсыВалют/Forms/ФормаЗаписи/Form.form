@@ -3,6 +3,10 @@
   <items xsi:type="form:FormField">
     <name>ВалютаНадпись</name>
     <id>11</id>
+    <title>
+      <key>ru</key>
+      <value>Валюта</value>
+    </title>
     <visible>true</visible>
     <enabled>true</enabled>
     <userVisible>
@@ -12,7 +16,7 @@
       <segments>ВалютаНадпись</segments>
     </dataPath>
     <extendedTooltip>
-      <name>ВалютаНадписьExtendedTooltip</name>
+      <name>ВалютаНадписьРасширеннаяПодсказка</name>
       <id>13</id>
       <type>Label</type>
       <autoMaxWidth>true</autoMaxWidth>
@@ -39,6 +43,10 @@
   <items xsi:type="form:FormField">
     <name>ВалютаСписок</name>
     <id>9</id>
+    <title>
+      <key>ru</key>
+      <value>Валюта</value>
+    </title>
     <visible>true</visible>
     <enabled>true</enabled>
     <userVisible>
@@ -52,7 +60,7 @@
       <name>ВалютаПриИзменении</name>
     </handlers>
     <extendedTooltip>
-      <name>ВалютаСписокExtendedTooltip</name>
+      <name>ВалютаСписокРасширеннаяПодсказка</name>
       <id>14</id>
       <type>Label</type>
       <autoMaxWidth>true</autoMaxWidth>
@@ -93,7 +101,7 @@
       <segments>Запись.Period</segments>
     </dataPath>
     <extendedTooltip>
-      <name>ПериодExtendedTooltip</name>
+      <name>ПериодРасширеннаяПодсказка</name>
       <id>15</id>
       <type>Label</type>
       <autoMaxWidth>true</autoMaxWidth>
@@ -132,7 +140,7 @@
       <segments>Запись.Курс</segments>
     </dataPath>
     <extendedTooltip>
-      <name>КурсExtendedTooltip</name>
+      <name>КурсРасширеннаяПодсказка</name>
       <id>16</id>
       <type>Label</type>
       <autoMaxWidth>true</autoMaxWidth>
@@ -171,7 +179,7 @@
       <segments>Запись.Кратность</segments>
     </dataPath>
     <extendedTooltip>
-      <name>КратностьExtendedTooltip</name>
+      <name>КратностьРасширеннаяПодсказка</name>
       <id>17</id>
       <type>Label</type>
       <autoMaxWidth>true</autoMaxWidth>

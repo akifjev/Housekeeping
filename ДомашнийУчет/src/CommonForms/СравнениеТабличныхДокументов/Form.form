@@ -12,6 +12,10 @@
         <items xsi:type="form:Button">
           <name>ПредыдущееИзменениеЛевый</name>
           <id>114</id>
+          <title>
+            <key>ru</key>
+            <value>Предыдущее изменение</value>
+          </title>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -40,6 +44,10 @@
         <items xsi:type="form:Button">
           <name>СледующееИзменениеЛевый</name>
           <id>116</id>
+          <title>
+            <key>ru</key>
+            <value>Следующее изменение</value>
+          </title>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -93,6 +101,10 @@
       <items xsi:type="form:FormField">
         <name>ТабличныйДокументЛевый</name>
         <id>77</id>
+        <title>
+          <key>ru</key>
+          <value>Табличный документ левый</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -184,6 +196,10 @@
         <items xsi:type="form:Button">
           <name>ПредыдущееИзменениеПравый</name>
           <id>128</id>
+          <title>
+            <key>ru</key>
+            <value>Предыдущее изменение</value>
+          </title>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -212,6 +228,10 @@
         <items xsi:type="form:Button">
           <name>СледующееИзменениеПравый</name>
           <id>130</id>
+          <title>
+            <key>ru</key>
+            <value>Следующее изменение</value>
+          </title>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -264,6 +284,10 @@
       <items xsi:type="form:FormField">
         <name>ТабличныйДокументПравый</name>
         <id>80</id>
+        <title>
+          <key>ru</key>
+          <value>Табличный документ правый</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -381,6 +405,10 @@
     <horizontalAlign>Left</horizontalAlign>
     <autoFill>true</autoFill>
   </autoCommandBar>
+  <handlers>
+    <event>OnOpen</event>
+    <name>ПриОткрытии</name>
+  </handlers>
   <handlers>
     <event>OnCreateAtServer</event>
     <name>ПриСозданииНаСервере</name>

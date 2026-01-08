@@ -7,6 +7,10 @@
   <items xsi:type="form:FormField">
     <name>ПользовательСсылка</name>
     <id>1</id>
+    <title>
+      <key>ru</key>
+      <value>Скопировать настройки от пользователя</value>
+    </title>
     <visible>true</visible>
     <enabled>true</enabled>
     <userVisible>
@@ -25,7 +29,7 @@
       <name>ПользовательСсылкаПриИзменении</name>
     </handlers>
     <extendedTooltip>
-      <name>ПользовательСсылкаExtendedTooltip</name>
+      <name>ПользовательСсылкаРасширеннаяПодсказка</name>
       <id>72</id>
       <type>Label</type>
       <autoMaxWidth>true</autoMaxWidth>
@@ -86,7 +90,7 @@
           <name>ПереключательКомуКопироватьНастройкиПриИзменении</name>
         </handlers>
         <extendedTooltip>
-          <name>ПереключательКомуКопироватьНастройкиExtendedTooltip</name>
+          <name>ПереключательКомуКопироватьНастройкиРасширеннаяПодсказка</name>
           <id>74</id>
           <type>Label</type>
           <autoMaxWidth>true</autoMaxWidth>
@@ -140,7 +144,7 @@
           <common>true</common>
         </userVisible>
         <extendedTooltip>
-          <name>ВыбратьПользователейExtendedTooltip</name>
+          <name>ВыбратьПользователейРасширеннаяПодсказка</name>
           <id>76</id>
           <type>Label</type>
           <autoMaxWidth>true</autoMaxWidth>
@@ -177,7 +181,7 @@
         <value>Выбрать пользователей</value>
       </title>
       <extendedTooltip>
-        <name>ГруппаВыбратьПользователейExtendedTooltip</name>
+        <name>ГруппаВыбратьПользователейРасширеннаяПодсказка</name>
         <id>75</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
@@ -205,7 +209,7 @@
       <value>Кому копировать:</value>
     </title>
     <extendedTooltip>
-      <name>ГруппаКомуКопироватьExtendedTooltip</name>
+      <name>ГруппаКомуКопироватьРасширеннаяПодсказка</name>
       <id>73</id>
       <type>Label</type>
       <autoMaxWidth>true</autoMaxWidth>
@@ -234,6 +238,10 @@
       <items xsi:type="form:FormField">
         <name>ПереключательКопируемыеНастройки</name>
         <id>62</id>
+        <title>
+          <key>ru</key>
+          <value>Копируемые настройки</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -248,7 +256,7 @@
           <name>ПереключательКопируемыеНастройкиПриИзменении</name>
         </handlers>
         <extendedTooltip>
-          <name>ПереключательКопируемыеНастройкиExtendedTooltip</name>
+          <name>ПереключательКопируемыеНастройкиРасширеннаяПодсказка</name>
           <id>78</id>
           <type>Label</type>
           <autoMaxWidth>true</autoMaxWidth>
@@ -302,7 +310,7 @@
           <common>true</common>
         </userVisible>
         <extendedTooltip>
-          <name>ВыбратьНастройкиExtendedTooltip</name>
+          <name>ВыбратьНастройкиРасширеннаяПодсказка</name>
           <id>81</id>
           <type>Label</type>
           <autoMaxWidth>true</autoMaxWidth>
@@ -341,7 +349,7 @@
       </title>
       <verticalStretch>true</verticalStretch>
       <extendedTooltip>
-        <name>ГруппаВыбратьExtendedTooltip</name>
+        <name>ГруппаВыбратьРасширеннаяПодсказка</name>
         <id>79</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
@@ -369,7 +377,7 @@
       <value>Что копировать:</value>
     </title>
     <extendedTooltip>
-      <name>ГруппаКопируемыеНастройкиExtendedTooltip</name>
+      <name>ГруппаКопируемыеНастройкиРасширеннаяПодсказка</name>
       <id>77</id>
       <type>Label</type>
       <autoMaxWidth>true</autoMaxWidth>
@@ -396,13 +404,17 @@
     <items xsi:type="form:Button">
       <name>ФормаСкопироватьИЗакрыть</name>
       <id>57</id>
+      <title>
+        <key>ru</key>
+        <value>Скопировать и закрыть</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
         <common>true</common>
       </userVisible>
       <extendedTooltip>
-        <name>ФормаСкопироватьИЗакрытьExtendedTooltip</name>
+        <name>ФормаСкопироватьИЗакрытьРасширеннаяПодсказка</name>
         <id>69</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
@@ -422,13 +434,17 @@
     <items xsi:type="form:Button">
       <name>Скопировать</name>
       <id>10</id>
+      <title>
+        <key>ru</key>
+        <value>Скопировать</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
         <common>true</common>
       </userVisible>
       <extendedTooltip>
-        <name>СкопироватьExtendedTooltip</name>
+        <name>СкопироватьРасширеннаяПодсказка</name>
         <id>70</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
@@ -453,7 +469,7 @@
         <common>true</common>
       </userVisible>
       <extendedTooltip>
-        <name>ФормаЗакрытьExtendedTooltip</name>
+        <name>ФормаЗакрытьРасширеннаяПодсказка</name>
         <id>71</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>

@@ -35,6 +35,10 @@
       <items xsi:type="form:FormField">
         <name>ДеревоЗависимостейКартинка</name>
         <id>23</id>
+        <title>
+          <key>ru</key>
+          <value>Картинка</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -146,6 +150,10 @@
     <items xsi:type="form:FormField">
       <name>ДеревоЗависимостейВсегоОбъектов</name>
       <id>20</id>
+      <title>
+        <key>ru</key>
+        <value>Всего</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -191,6 +199,10 @@
     <items xsi:type="form:FormField">
       <name>ДеревоЗависимостейОсталосьОбработать</name>
       <id>29</id>
+      <title>
+        <key>ru</key>
+        <value>Осталось</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -236,6 +248,10 @@
     <items xsi:type="form:FormField">
       <name>ДеревоЗависимостейОбщийПрогресс</name>
       <id>32</id>
+      <title>
+        <key>ru</key>
+        <value>Прогресс, %</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -281,6 +297,10 @@
     <items xsi:type="form:FormField">
       <name>ДеревоЗависимостейОбработаноЗаИнтервал</name>
       <id>26</id>
+      <title>
+        <key>ru</key>
+        <value>Обработано за период</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -470,6 +490,10 @@
     <items xsi:type="form:Button">
       <name>ФормаЗарегистрированныеДанные</name>
       <id>39</id>
+      <title>
+        <key>ru</key>
+        <value>Зарегистрированные данные</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>

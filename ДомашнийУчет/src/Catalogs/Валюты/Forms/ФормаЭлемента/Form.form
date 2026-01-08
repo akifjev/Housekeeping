@@ -15,7 +15,7 @@
         <segments>Объект.НаименованиеПолное</segments>
       </dataPath>
       <extendedTooltip>
-        <name>НаименованиеПолноеExtendedTooltip</name>
+        <name>НаименованиеПолноеРасширеннаяПодсказка</name>
         <id>72</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
@@ -66,7 +66,7 @@
           <name>КодПриИзменении</name>
         </handlers>
         <extendedTooltip>
-          <name>КодExtendedTooltip</name>
+          <name>КодРасширеннаяПодсказка</name>
           <id>75</id>
           <type>Label</type>
           <autoMaxWidth>true</autoMaxWidth>
@@ -110,7 +110,7 @@
           <segments>Объект.Description</segments>
         </dataPath>
         <extendedTooltip>
-          <name>НаименованиеExtendedTooltip</name>
+          <name>НаименованиеРасширеннаяПодсказка</name>
           <id>76</id>
           <type>Label</type>
           <autoMaxWidth>true</autoMaxWidth>
@@ -400,7 +400,7 @@
           </dataPath>
           <titleLocation>None</titleLocation>
           <extendedTooltip>
-            <name>ОсновнаяВалютаExtendedTooltip</name>
+            <name>ОсновнаяВалютаРасширеннаяПодсказка</name>
             <id>81</id>
             <type>Label</type>
             <autoMaxWidth>true</autoMaxWidth>
@@ -458,7 +458,7 @@
               <value>Коэффициент, применяемый к курсу выбранной валюты для вычисления курса текущей валюты</value>
             </toolTip>
             <extendedTooltip>
-              <name>НаценкаExtendedTooltip</name>
+              <name>НаценкаРасширеннаяПодсказка</name>
               <id>82</id>
               <type>Label</type>
               <autoMaxWidth>true</autoMaxWidth>
@@ -953,20 +953,7 @@
     <currentRowUse>Auto</currentRowUse>
   </formCommands>
   <commandInterface>
-    <navigationPanel>
-      <cmiFragmentRecord>
-        <command>0</command>
-        <userVisible/>
-      </cmiFragmentRecord>
-      <cmiFragmentRecord>
-        <command>0</command>
-        <userVisible/>
-      </cmiFragmentRecord>
-      <cmiFragmentRecord>
-        <command>0</command>
-        <userVisible/>
-      </cmiFragmentRecord>
-    </navigationPanel>
+    <navigationPanel/>
     <commandBar/>
   </commandInterface>
   <extInfo xsi:type="form:CatalogFormExtInfo"/>

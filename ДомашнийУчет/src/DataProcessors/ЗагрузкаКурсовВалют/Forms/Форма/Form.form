@@ -6,13 +6,17 @@
     <items xsi:type="form:Button">
       <name>ФормаЗагрузитьКурсыВалют</name>
       <id>32</id>
+      <title>
+        <key>ru</key>
+        <value>Загрузить и закрыть</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
         <common>true</common>
       </userVisible>
       <extendedTooltip>
-        <name>ФормаЗагрузитьКурсыВалютExtendedTooltip</name>
+        <name>ФормаЗагрузитьКурсыВалютРасширеннаяПодсказка</name>
         <id>48</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
@@ -43,7 +47,7 @@
         <value>Командная панель левая</value>
       </title>
       <extendedTooltip>
-        <name>КоманднаяПанельЛеваяExtendedTooltip</name>
+        <name>КоманднаяПанельЛеваяРасширеннаяПодсказка</name>
         <id>47</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
@@ -73,7 +77,7 @@
         <segments>Объект.НачалоПериодаЗагрузки</segments>
       </dataPath>
       <extendedTooltip>
-        <name>НачалоПериодаExtendedTooltip</name>
+        <name>НачалоПериодаРасширеннаяПодсказка</name>
         <id>49</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
@@ -122,7 +126,7 @@
         <segments>Объект.ОкончаниеПериодаЗагрузки</segments>
       </dataPath>
       <extendedTooltip>
-        <name>ОкончаниеПериодаExtendedTooltip</name>
+        <name>ОкончаниеПериодаРасширеннаяПодсказка</name>
         <id>50</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
@@ -160,13 +164,17 @@
       <items xsi:type="form:Button">
         <name>ФормаВыбратьВсеВалюты</name>
         <id>35</id>
+        <title>
+          <key>ru</key>
+          <value>Выбрать все валюты</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
           <common>true</common>
         </userVisible>
         <extendedTooltip>
-          <name>ФормаВыбратьВсеВалютыExtendedTooltip</name>
+          <name>ФормаВыбратьВсеВалютыРасширеннаяПодсказка</name>
           <id>52</id>
           <type>Label</type>
           <autoMaxWidth>true</autoMaxWidth>
@@ -185,13 +193,17 @@
       <items xsi:type="form:Button">
         <name>ФормаСнятьВыбор</name>
         <id>36</id>
+        <title>
+          <key>ru</key>
+          <value>Снять выбор</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
           <common>true</common>
         </userVisible>
         <extendedTooltip>
-          <name>ФормаСнятьВыборExtendedTooltip</name>
+          <name>ФормаСнятьВыборРасширеннаяПодсказка</name>
           <id>53</id>
           <type>Label</type>
           <autoMaxWidth>true</autoMaxWidth>
@@ -249,7 +261,7 @@
         <value>Командная панель правая</value>
       </title>
       <extendedTooltip>
-        <name>КоманднаяПанельПраваяExtendedTooltip</name>
+        <name>КоманднаяПанельПраваяРасширеннаяПодсказка</name>
         <id>51</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
@@ -348,7 +360,7 @@
             <name>ЗагружатьПриИзменении</name>
           </handlers>
           <extendedTooltip>
-            <name>ЗагружатьExtendedTooltip</name>
+            <name>ЗагружатьРасширеннаяПодсказка</name>
             <id>56</id>
             <type>Label</type>
             <autoMaxWidth>true</autoMaxWidth>
@@ -385,7 +397,7 @@
             <segments>Объект.СписокВалют.КодВалюты</segments>
           </dataPath>
           <extendedTooltip>
-            <name>КодВалютыExtendedTooltip</name>
+            <name>КодВалютыРасширеннаяПодсказка</name>
             <id>57</id>
             <type>Label</type>
             <autoMaxWidth>true</autoMaxWidth>
@@ -429,7 +441,7 @@
             <segments>Объект.СписокВалют.СимвольныйКод</segments>
           </dataPath>
           <extendedTooltip>
-            <name>СписокВалютСимвольныйКодExtendedTooltip</name>
+            <name>СписокВалютСимвольныйКодРасширеннаяПодсказка</name>
             <id>58</id>
             <type>Label</type>
             <autoMaxWidth>true</autoMaxWidth>
@@ -471,7 +483,7 @@
             <segments>Объект.СписокВалют.Представление</segments>
           </dataPath>
           <extendedTooltip>
-            <name>СписокВалютПредставлениеExtendedTooltip</name>
+            <name>СписокВалютПредставлениеРасширеннаяПодсказка</name>
             <id>59</id>
             <type>Label</type>
             <autoMaxWidth>true</autoMaxWidth>
@@ -514,7 +526,7 @@
             <segments>Объект.СписокВалют.ДатаКурса</segments>
           </dataPath>
           <extendedTooltip>
-            <name>ДатаКурсаExtendedTooltip</name>
+            <name>ДатаКурсаРасширеннаяПодсказка</name>
             <id>60</id>
             <type>Label</type>
             <autoMaxWidth>true</autoMaxWidth>
@@ -554,7 +566,7 @@
             <segments>Объект.СписокВалют.Курс</segments>
           </dataPath>
           <extendedTooltip>
-            <name>КурсExtendedTooltip</name>
+            <name>КурсРасширеннаяПодсказка</name>
             <id>61</id>
             <type>Label</type>
             <autoMaxWidth>true</autoMaxWidth>
@@ -593,7 +605,7 @@
             <segments>Объект.СписокВалют.Кратность</segments>
           </dataPath>
           <extendedTooltip>
-            <name>КратностьExtendedTooltip</name>
+            <name>КратностьРасширеннаяПодсказка</name>
             <id>62</id>
             <type>Label</type>
             <autoMaxWidth>true</autoMaxWidth>
@@ -744,7 +756,7 @@
           </extInfo>
         </searchControlAddition>
         <extendedTooltip>
-          <name>СписокВалютExtendedTooltip</name>
+          <name>СписокВалютРасширеннаяПодсказка</name>
           <id>55</id>
           <type>Label</type>
           <autoMaxWidth>true</autoMaxWidth>
@@ -759,13 +771,17 @@
           <items xsi:type="form:Button">
             <name>СписокВалютКонтекстноеМенюОтключитьЗагрузкуИзИнтернета</name>
             <id>45</id>
+            <title>
+              <key>ru</key>
+              <value>Отключить загрузку курса этой валюты из сети Интернет</value>
+            </title>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
               <common>true</common>
             </userVisible>
             <extendedTooltip>
-              <name>СписокВалютКонтекстноеМенюОтключитьЗагрузкуИзИнтернетаExtendedTooltip</name>
+              <name>СписокВалютКонтекстноеМенюОтключитьЗагрузкуИзИнтернетаРасширеннаяПодсказка</name>
               <id>54</id>
               <type>Label</type>
               <autoMaxWidth>true</autoMaxWidth>
@@ -1126,6 +1142,12 @@
     <representation>TextPicture</representation>
     <currentRowUse>DontUse</currentRowUse>
   </formCommands>
+  <parameters>
+    <name>ОткрытиеИзСписка</name>
+    <valueType>
+      <types>Boolean</types>
+    </valueType>
+  </parameters>
   <commandInterface>
     <navigationPanel/>
     <commandBar/>

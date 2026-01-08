@@ -3,6 +3,10 @@
   <items xsi:type="form:FormField">
     <name>ЗаголовокГруппы</name>
     <id>1</id>
+    <title>
+      <key>ru</key>
+      <value>Заголовок</value>
+    </title>
     <visible>true</visible>
     <enabled>true</enabled>
     <userVisible>
@@ -48,6 +52,10 @@
   <items xsi:type="form:FormField">
     <name>Расположение</name>
     <id>4</id>
+    <title>
+      <key>ru</key>
+      <value>Расположение</value>
+    </title>
     <visible>true</visible>
     <enabled>true</enabled>
     <userVisible>
@@ -132,6 +140,10 @@
     <items xsi:type="form:Button">
       <name>ФормаОК</name>
       <id>7</id>
+      <title>
+        <key>ru</key>
+        <value>ОК</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>

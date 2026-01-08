@@ -12,7 +12,7 @@
       <segments>Объект.Description</segments>
     </dataPath>
     <extendedTooltip>
-      <name>НаименованиеExtendedTooltip</name>
+      <name>НаименованиеРасширеннаяПодсказка</name>
       <id>96</id>
       <type>Label</type>
       <autoMaxWidth>true</autoMaxWidth>
@@ -51,7 +51,7 @@
       <segments>Объект.Parent</segments>
     </dataPath>
     <extendedTooltip>
-      <name>РодительExtendedTooltip</name>
+      <name>РодительРасширеннаяПодсказка</name>
       <id>97</id>
       <type>Label</type>
       <autoMaxWidth>true</autoMaxWidth>
@@ -107,7 +107,7 @@
         <segments>Объект.ДополнительныеРеквизиты.Свойство</segments>
       </dataPath>
       <extendedTooltip>
-        <name>ДополнительныеРеквизитыСвойствоExtendedTooltip</name>
+        <name>ДополнительныеРеквизитыСвойствоРасширеннаяПодсказка</name>
         <id>99</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
@@ -214,7 +214,7 @@
       </extInfo>
     </searchControlAddition>
     <extendedTooltip>
-      <name>ДополнительныеРеквизитыExtendedTooltip</name>
+      <name>ДополнительныеРеквизитыРасширеннаяПодсказка</name>
       <id>98</id>
       <type>Label</type>
       <autoMaxWidth>true</autoMaxWidth>
@@ -279,7 +279,7 @@
         <segments>Объект.ДополнительныеСведения.Свойство</segments>
       </dataPath>
       <extendedTooltip>
-        <name>ДополнительныеСведенияСвойствоExtendedTooltip</name>
+        <name>ДополнительныеСведенияСвойствоРасширеннаяПодсказка</name>
         <id>102</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
@@ -386,7 +386,7 @@
       </extInfo>
     </searchControlAddition>
     <extendedTooltip>
-      <name>ДополнительныеСведенияExtendedTooltip</name>
+      <name>ДополнительныеСведенияРасширеннаяПодсказка</name>
       <id>101</id>
       <type>Label</type>
       <autoMaxWidth>true</autoMaxWidth>

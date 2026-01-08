@@ -37,13 +37,17 @@
     <items xsi:type="form:Button">
       <name>ФормаЗагрузитьКлассификатор</name>
       <id>16</id>
+      <title>
+        <key>ru</key>
+        <value>Загрузить классификатор...</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
         <common>true</common>
       </userVisible>
       <extendedTooltip>
-        <name>ФормаЗагрузитьКлассификаторExtendedTooltip</name>
+        <name>ФормаЗагрузитьКлассификаторРасширеннаяПодсказка</name>
         <id>17</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
@@ -120,7 +124,7 @@
       </dataPath>
       <defaultItem>true</defaultItem>
       <extendedTooltip>
-        <name>НаименованиеExtendedTooltip</name>
+        <name>НаименованиеРасширеннаяПодсказка</name>
         <id>19</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
@@ -167,7 +171,7 @@
         <segments>Список.Code</segments>
       </dataPath>
       <extendedTooltip>
-        <name>КодExtendedTooltip</name>
+        <name>КодРасширеннаяПодсказка</name>
         <id>20</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
@@ -209,7 +213,7 @@
         <segments>Список.КоррСчет</segments>
       </dataPath>
       <extendedTooltip>
-        <name>КоррСчетExtendedTooltip</name>
+        <name>КоррСчетРасширеннаяПодсказка</name>
         <id>21</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
@@ -248,7 +252,7 @@
         <segments>Список.Город</segments>
       </dataPath>
       <extendedTooltip>
-        <name>ГородExtendedTooltip</name>
+        <name>ГородРасширеннаяПодсказка</name>
         <id>22</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
@@ -288,7 +292,7 @@
         <segments>Список.Адрес</segments>
       </dataPath>
       <extendedTooltip>
-        <name>АдресExtendedTooltip</name>
+        <name>АдресРасширеннаяПодсказка</name>
         <id>23</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
@@ -428,7 +432,7 @@
       </extInfo>
     </searchControlAddition>
     <extendedTooltip>
-      <name>СписокExtendedTooltip</name>
+      <name>СписокРасширеннаяПодсказка</name>
       <id>18</id>
       <type>Label</type>
       <autoMaxWidth>true</autoMaxWidth>

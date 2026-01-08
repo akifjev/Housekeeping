@@ -146,6 +146,10 @@
   <items xsi:type="form:FormField">
     <name>Наименование</name>
     <id>560</id>
+    <title>
+      <key>ru</key>
+      <value>Наименование</value>
+    </title>
     <visible>true</visible>
     <enabled>true</enabled>
     <userVisible>
@@ -190,6 +194,10 @@
     <items xsi:type="form:Button">
       <name>ФормаЗавершитьРедактирование</name>
       <id>556</id>
+      <title>
+        <key>ru</key>
+        <value>Завершить редактирование</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -216,6 +224,10 @@
     <items xsi:type="form:Button">
       <name>ФормаПроверитьФормулу</name>
       <id>558</id>
+      <title>
+        <key>ru</key>
+        <value>Проверить формулу</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>

@@ -10,6 +10,10 @@
     <items xsi:type="form:Button">
       <name>КомандаОК</name>
       <id>39</id>
+      <title>
+        <key>ru</key>
+        <value>Выбрать</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -37,6 +41,10 @@
     <items xsi:type="form:FormField">
       <name>ПереключательВездеВРазделах</name>
       <id>1</id>
+      <title>
+        <key>ru</key>
+        <value>Переключатель везде в разделах</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -129,6 +137,10 @@
         <items xsi:type="form:Button">
           <name>УстановитьФлажки</name>
           <id>37</id>
+          <title>
+            <key>ru</key>
+            <value>Установить флажки</value>
+          </title>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -154,6 +166,10 @@
         <items xsi:type="form:Button">
           <name>СнятьФлажки</name>
           <id>35</id>
+          <title>
+            <key>ru</key>
+            <value>Снять флажки</value>
+          </title>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -181,6 +197,10 @@
         <userVisible>
           <common>true</common>
         </userVisible>
+        <title>
+          <key>ru</key>
+          <value>Команды</value>
+        </title>
         <extendedTooltip>
           <name>КомандыРасширеннаяПодсказка</name>
           <id>34</id>
@@ -198,6 +218,10 @@
       <items xsi:type="form:Button">
         <name>РазвернутьВсе</name>
         <id>41</id>
+        <title>
+          <key>ru</key>
+          <value>Развернуть</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -224,6 +248,10 @@
       <items xsi:type="form:Button">
         <name>СвернутьВсе</name>
         <id>43</id>
+        <title>
+          <key>ru</key>
+          <value>Свернуть</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -335,6 +363,10 @@
       <items xsi:type="form:FormField">
         <name>Пометка</name>
         <id>20</id>
+        <title>
+          <key>ru</key>
+          <value>Пометка</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -375,6 +407,10 @@
       <items xsi:type="form:FormField">
         <name>Картинка</name>
         <id>45</id>
+        <title>
+          <key>ru</key>
+          <value>Картинка</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -418,6 +454,10 @@
       <items xsi:type="form:FormField">
         <name>Раздел</name>
         <id>17</id>
+        <title>
+          <key>ru</key>
+          <value>Раздел</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -461,6 +501,10 @@
       <userVisible>
         <common>true</common>
       </userVisible>
+      <title>
+        <key>ru</key>
+        <value>Группа</value>
+      </title>
       <extendedTooltip>
         <name>ГруппаРасширеннаяПодсказка</name>
         <id>24</id>
@@ -744,6 +788,7 @@
       <name>ОбъектМД</name>
       <id>5</id>
       <valueType>
+        <types>CatalogRef.ИдентификаторыОбъектовРасширений</types>
         <types>CatalogRef.ИдентификаторыОбъектовМетаданных</types>
       </valueType>
       <view>

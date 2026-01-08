@@ -34,7 +34,7 @@
       <autoMaxHeight>true</autoMaxHeight>
       <extInfo xsi:type="form:PictureDecorationExtInfo">
         <picture xsi:type="core:PictureRef">
-          <picture>CommonPicture.Предупреждение32</picture>
+          <picture>StdPicture.DialogExclamation</picture>
         </picture>
       </extInfo>
     </items>
@@ -110,7 +110,7 @@
     <title>
       <key>ru</key>
       <value>- Для восстановления связи с главным узлом нажмите &quot;Восстановить&quot;.
-- Для того чтобы подтвердить отмену связи и начать работу в программе как с самостоятельной информационной базой, нажмите &quot;Отключить&quot;.
+- Для того чтобы подтвердить отмену связи и начать работу в приложении, как с самостоятельной информационной базой, нажмите &quot;Отключить&quot;.
 </value>
     </title>
     <visible>true</visible>
@@ -147,6 +147,10 @@
     <items xsi:type="form:Button">
       <name>Восстановить</name>
       <id>16</id>
+      <title>
+        <key>ru</key>
+        <value>Восстановить</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -173,6 +177,10 @@
     <items xsi:type="form:Button">
       <name>Отключить</name>
       <id>18</id>
+      <title>
+        <key>ru</key>
+        <value>Отключить</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -198,6 +206,10 @@
     <items xsi:type="form:Button">
       <name>ЗавершитьРаботу</name>
       <id>22</id>
+      <title>
+        <key>ru</key>
+        <value>Завершить работу</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>

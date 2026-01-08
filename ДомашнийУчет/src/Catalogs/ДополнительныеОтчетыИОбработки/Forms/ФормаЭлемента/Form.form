@@ -15,7 +15,7 @@
         <segments>Объект.Description</segments>
       </dataPath>
       <extendedTooltip>
-        <name>НаименованиеExtendedTooltip</name>
+        <name>НаименованиеРасширеннаяПодсказка</name>
         <id>178</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
@@ -65,8 +65,8 @@
           <id>376</id>
           <title>
             <key>ru</key>
-            <value>Этот отчет или обработка будет подключаться к программе в небезопасном режиме!
-Подробно о режимах подключения дополнительных отчетов и обработок к программе см. информацию в справке к форме.</value>
+            <value>Этот отчет или обработка будет подключаться к приложению в небезопасном режиме!
+Подробно о режимах подключения дополнительных отчетов и обработок к приложению см. информацию в справке к форме.</value>
           </title>
           <type>Label</type>
           <autoMaxWidth>true</autoMaxWidth>
@@ -105,7 +105,7 @@
           <id>381</id>
           <title>
             <key>ru</key>
-            <value>Этот отчет или обработка будет подключаться к программе в безопасном режиме.
+            <value>Этот отчет или обработка будет подключаться к приложению в безопасном режиме.
 Подробно о режимах подключения дополнительных отчетов и обработок см. информацию в справке к форме.</value>
           </title>
           <type>Label</type>
@@ -199,7 +199,7 @@
       </dataPath>
       <titleLocation>Left</titleLocation>
       <extendedTooltip>
-        <name>ПубликацияExtendedTooltip</name>
+        <name>ПубликацияРасширеннаяПодсказка</name>
         <id>180</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
@@ -247,7 +247,7 @@
       <value>Публикация ответственный</value>
     </title>
     <extendedTooltip>
-      <name>ГруппаПубликацияОтветственныйExtendedTooltip</name>
+      <name>ГруппаПубликацияОтветственныйРасширеннаяПодсказка</name>
       <id>179</id>
       <type>Label</type>
       <autoMaxWidth>true</autoMaxWidth>
@@ -348,7 +348,7 @@
               <common>true</common>
             </userVisible>
             <extendedTooltip>
-              <name>ВариантыИнформационнаяНадписьExtendedTooltip</name>
+              <name>ВариантыИнформационнаяНадписьРасширеннаяПодсказка</name>
               <id>192</id>
               <type>Label</type>
               <autoMaxWidth>true</autoMaxWidth>
@@ -374,6 +374,10 @@
           <items xsi:type="form:Button">
             <name>КомандаЗаписатьДляВариантовОтчетов</name>
             <id>248</id>
+            <title>
+              <key>ru</key>
+              <value>Записать</value>
+            </title>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
@@ -408,7 +412,7 @@
           </title>
           <enableContentChange>true</enableContentChange>
           <extendedTooltip>
-            <name>ВариантыСкрытьДоЗаписиExtendedTooltip</name>
+            <name>ВариантыСкрытьДоЗаписиРасширеннаяПодсказка</name>
             <id>191</id>
             <type>Label</type>
             <autoMaxWidth>true</autoMaxWidth>
@@ -451,6 +455,10 @@
             <items xsi:type="form:FormField">
               <name>ВариантыДополнительногоОтчетаНаименование</name>
               <id>98</id>
+              <title>
+                <key>ru</key>
+                <value>Наименование</value>
+              </title>
               <visible>true</visible>
               <enabled>true</enabled>
               <userVisible>
@@ -460,7 +468,7 @@
                 <segments>ВариантыДополнительногоОтчета.Наименование</segments>
               </dataPath>
               <extendedTooltip>
-                <name>ВариантыДополнительногоОтчетаНаименованиеExtendedTooltip</name>
+                <name>ВариантыДополнительногоОтчетаНаименованиеРасширеннаяПодсказка</name>
                 <id>208</id>
                 <type>Label</type>
                 <autoMaxWidth>true</autoMaxWidth>
@@ -499,7 +507,7 @@
                     <common>true</common>
                   </userVisible>
                   <extendedTooltip>
-                    <name>ВариантыДополнительногоОтчетаНайтиExtendedTooltip</name>
+                    <name>ВариантыДополнительногоОтчетаНайтиРасширеннаяПодсказка</name>
                     <id>200</id>
                     <type>Label</type>
                     <autoMaxWidth>true</autoMaxWidth>
@@ -525,7 +533,7 @@
                     <common>true</common>
                   </userVisible>
                   <extendedTooltip>
-                    <name>ВариантыДополнительногоОтчетаОтменитьПоискExtendedTooltip</name>
+                    <name>ВариантыДополнительногоОтчетаОтменитьПоискРасширеннаяПодсказка</name>
                     <id>201</id>
                     <type>Label</type>
                     <autoMaxWidth>true</autoMaxWidth>
@@ -551,7 +559,7 @@
                     <common>true</common>
                   </userVisible>
                   <extendedTooltip>
-                    <name>ВариантыДополнительногоОтчетаВывестиСписокExtendedTooltip</name>
+                    <name>ВариантыДополнительногоОтчетаВывестиСписокРасширеннаяПодсказка</name>
                     <id>202</id>
                     <type>Label</type>
                     <autoMaxWidth>true</autoMaxWidth>
@@ -577,7 +585,7 @@
                   <value>Группа поиск и вывести список</value>
                 </title>
                 <extendedTooltip>
-                  <name>ВариантыДополнительногоОтчетаПоискИВывестиСписокExtendedTooltip</name>
+                  <name>ВариантыДополнительногоОтчетаПоискИВывестиСписокРасширеннаяПодсказка</name>
                   <id>199</id>
                   <type>Label</type>
                   <autoMaxWidth>true</autoMaxWidth>
@@ -591,13 +599,17 @@
               <items xsi:type="form:Button">
                 <name>ВариантыДополнительногоОтчетаОткрыть</name>
                 <id>94</id>
+                <title>
+                  <key>ru</key>
+                  <value>Открыть...</value>
+                </title>
                 <visible>true</visible>
                 <enabled>true</enabled>
                 <userVisible>
                   <common>true</common>
                 </userVisible>
                 <extendedTooltip>
-                  <name>ВариантыДополнительногоОтчетаОткрытьExtendedTooltip</name>
+                  <name>ВариантыДополнительногоОтчетаОткрытьРасширеннаяПодсказка</name>
                   <id>203</id>
                   <type>Label</type>
                   <autoMaxWidth>true</autoMaxWidth>
@@ -626,7 +638,7 @@
                   <common>true</common>
                 </userVisible>
                 <extendedTooltip>
-                  <name>ВариантыДополнительногоОтчетаИзменитьExtendedTooltip</name>
+                  <name>ВариантыДополнительногоОтчетаИзменитьРасширеннаяПодсказка</name>
                   <id>204</id>
                   <type>Label</type>
                   <autoMaxWidth>true</autoMaxWidth>
@@ -646,13 +658,17 @@
               <items xsi:type="form:Button">
                 <name>ВариантыДополнительногоОтчетаРазместитьВРазделах</name>
                 <id>103</id>
+                <title>
+                  <key>ru</key>
+                  <value>Разместить в разделах...</value>
+                </title>
                 <visible>true</visible>
                 <enabled>true</enabled>
                 <userVisible>
                   <common>true</common>
                 </userVisible>
                 <extendedTooltip>
-                  <name>ВариантыДополнительногоОтчетаРазместитьВРазделахExtendedTooltip</name>
+                  <name>ВариантыДополнительногоОтчетаРазместитьВРазделахРасширеннаяПодсказка</name>
                   <id>205</id>
                   <type>Label</type>
                   <autoMaxWidth>true</autoMaxWidth>
@@ -677,7 +693,7 @@
                   <common>true</common>
                 </userVisible>
                 <extendedTooltip>
-                  <name>ВариантыДополнительногоОтчетаУдалитьExtendedTooltip</name>
+                  <name>ВариантыДополнительногоОтчетаУдалитьРасширеннаяПодсказка</name>
                   <id>206</id>
                   <type>Label</type>
                   <autoMaxWidth>true</autoMaxWidth>
@@ -783,7 +799,7 @@
               </extInfo>
             </searchControlAddition>
             <extendedTooltip>
-              <name>ВариантыДополнительногоОтчетаExtendedTooltip</name>
+              <name>ВариантыДополнительногоОтчетаРасширеннаяПодсказка</name>
               <id>207</id>
               <type>Label</type>
               <autoMaxWidth>true</autoMaxWidth>
@@ -798,13 +814,17 @@
               <items xsi:type="form:Button">
                 <name>ВариантыДополнительногоОтчетаОткрыть1</name>
                 <id>114</id>
+                <title>
+                  <key>ru</key>
+                  <value>Открыть...</value>
+                </title>
                 <visible>true</visible>
                 <enabled>true</enabled>
                 <userVisible>
                   <common>true</common>
                 </userVisible>
                 <extendedTooltip>
-                  <name>ВариантыДополнительногоОтчетаОткрыть1ExtendedTooltip</name>
+                  <name>ВариантыДополнительногоОтчетаОткрыть1РасширеннаяПодсказка</name>
                   <id>195</id>
                   <type>Label</type>
                   <autoMaxWidth>true</autoMaxWidth>
@@ -833,7 +853,7 @@
                   <common>true</common>
                 </userVisible>
                 <extendedTooltip>
-                  <name>ВариантыДополнительногоОтчетаИзменить1ExtendedTooltip</name>
+                  <name>ВариантыДополнительногоОтчетаИзменить1РасширеннаяПодсказка</name>
                   <id>196</id>
                   <type>Label</type>
                   <autoMaxWidth>true</autoMaxWidth>
@@ -852,13 +872,17 @@
               <items xsi:type="form:Button">
                 <name>ВариантыДополнительногоОтчетаРазместитьВРазделах1</name>
                 <id>116</id>
+                <title>
+                  <key>ru</key>
+                  <value>Разместить в разделах...</value>
+                </title>
                 <visible>true</visible>
                 <enabled>true</enabled>
                 <userVisible>
                   <common>true</common>
                 </userVisible>
                 <extendedTooltip>
-                  <name>ВариантыДополнительногоОтчетаРазместитьВРазделах1ExtendedTooltip</name>
+                  <name>ВариантыДополнительногоОтчетаРазместитьВРазделах1РасширеннаяПодсказка</name>
                   <id>197</id>
                   <type>Label</type>
                   <autoMaxWidth>true</autoMaxWidth>
@@ -883,7 +907,7 @@
                   <common>true</common>
                 </userVisible>
                 <extendedTooltip>
-                  <name>ВариантыДополнительногоОтчетаУдалить1ExtendedTooltip</name>
+                  <name>ВариантыДополнительногоОтчетаУдалить1РасширеннаяПодсказка</name>
                   <id>198</id>
                   <type>Label</type>
                   <autoMaxWidth>true</autoMaxWidth>
@@ -937,7 +961,7 @@
           </title>
           <enableContentChange>true</enableContentChange>
           <extendedTooltip>
-            <name>ВариантыПоказатьExtendedTooltip</name>
+            <name>ВариантыПоказатьРасширеннаяПодсказка</name>
             <id>194</id>
             <type>Label</type>
             <autoMaxWidth>true</autoMaxWidth>
@@ -963,7 +987,7 @@
         </title>
         <enableContentChange>true</enableContentChange>
         <extendedTooltip>
-          <name>СтраницыВариантыExtendedTooltip</name>
+          <name>СтраницыВариантыРасширеннаяПодсказка</name>
           <id>190</id>
           <type>Label</type>
           <autoMaxWidth>true</autoMaxWidth>
@@ -987,7 +1011,7 @@
         <value>Варианты отчета</value>
       </title>
       <extendedTooltip>
-        <name>СтраницаВариантыExtendedTooltip</name>
+        <name>СтраницаВариантыРасширеннаяПодсказка</name>
         <id>189</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
@@ -1024,7 +1048,7 @@
             <segments>ПредставлениеНазначения</segments>
           </dataPath>
           <extendedTooltip>
-            <name>РазмещениеКомандExtendedTooltip</name>
+            <name>РазмещениеКомандРасширеннаяПодсказка</name>
             <id>210</id>
             <type>Label</type>
             <autoMaxWidth>true</autoMaxWidth>
@@ -1055,6 +1079,10 @@
         <items xsi:type="form:Button">
           <name>НастроитьВидимость</name>
           <id>400</id>
+          <title>
+            <key>ru</key>
+            <value>Настроить видимость...</value>
+          </title>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -1122,7 +1150,7 @@
             <common>true</common>
           </userVisible>
           <extendedTooltip>
-            <name>ПоказыватьExtendedTooltip</name>
+            <name>ПоказыватьРасширеннаяПодсказка</name>
             <id>183</id>
             <type>Label</type>
             <autoMaxWidth>true</autoMaxWidth>
@@ -1162,7 +1190,7 @@
             <name>ИспользоватьДляФормыСпискаПриИзменении</name>
           </handlers>
           <extendedTooltip>
-            <name>ИспользоватьДляФормыСпискаExtendedTooltip</name>
+            <name>ИспользоватьДляФормыСпискаРасширеннаяПодсказка</name>
             <id>184</id>
             <type>Label</type>
             <autoMaxWidth>true</autoMaxWidth>
@@ -1204,7 +1232,7 @@
             <name>ИспользоватьДляФормыОбъектаПриИзменении</name>
           </handlers>
           <extendedTooltip>
-            <name>ИспользоватьДляФормыОбъектаExtendedTooltip</name>
+            <name>ИспользоватьДляФормыОбъектаРасширеннаяПодсказка</name>
             <id>185</id>
             <type>Label</type>
             <autoMaxWidth>true</autoMaxWidth>
@@ -1235,7 +1263,7 @@
           <value>Типы форм</value>
         </title>
         <extendedTooltip>
-          <name>ТипыФормExtendedTooltip</name>
+          <name>ТипыФормРасширеннаяПодсказка</name>
           <id>182</id>
           <type>Label</type>
           <autoMaxWidth>true</autoMaxWidth>
@@ -1259,6 +1287,10 @@
         <items xsi:type="form:Button">
           <name>ВыполнитьКоманду</name>
           <id>407</id>
+          <title>
+            <key>ru</key>
+            <value>Выполнить</value>
+          </title>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -1347,7 +1379,7 @@
             <segments>Объект.Команды.Представление</segments>
           </dataPath>
           <extendedTooltip>
-            <name>ОбъектКомандыПредставлениеExtendedTooltip</name>
+            <name>ОбъектКомандыПредставлениеРасширеннаяПодсказка</name>
             <id>214</id>
             <type>Label</type>
             <autoMaxWidth>true</autoMaxWidth>
@@ -1392,7 +1424,7 @@
             <value>Пользователи, которым выведена команда.</value>
           </toolTip>
           <extendedTooltip>
-            <name>ОбъектКомандыБыстрыйДоступПредставлениеExtendedTooltip</name>
+            <name>ОбъектКомандыБыстрыйДоступПредставлениеРасширеннаяПодсказка</name>
             <id>215</id>
             <type>Label</type>
             <autoMaxWidth>true</autoMaxWidth>
@@ -1451,7 +1483,7 @@
             <name>ОбъектКомандыРегламентноеЗаданиеИспользованиеПриИзменении</name>
           </handlers>
           <extendedTooltip>
-            <name>ОбъектКомандыРегламентноеЗаданиеИспользованиеExtendedTooltip</name>
+            <name>ОбъектКомандыРегламентноеЗаданиеИспользованиеРасширеннаяПодсказка</name>
             <id>216</id>
             <type>Label</type>
             <autoMaxWidth>true</autoMaxWidth>
@@ -1491,7 +1523,7 @@
             <value>Расписание выполнения команды.</value>
           </toolTip>
           <extendedTooltip>
-            <name>ОбъектКомандыРегламентноеЗаданиеПредставлениеExtendedTooltip</name>
+            <name>ОбъектКомандыРегламентноеЗаданиеПредставлениеРасширеннаяПодсказка</name>
             <id>217</id>
             <type>Label</type>
             <autoMaxWidth>true</autoMaxWidth>
@@ -1657,7 +1689,7 @@
           </extInfo>
         </searchControlAddition>
         <extendedTooltip>
-          <name>ОбъектКомандыExtendedTooltip</name>
+          <name>ОбъектКомандыРасширеннаяПодсказка</name>
           <id>213</id>
           <type>Label</type>
           <autoMaxWidth>true</autoMaxWidth>
@@ -1672,13 +1704,17 @@
           <items xsi:type="form:Button">
             <name>ОбъектКомандыНастроитьБыстрыйДоступ</name>
             <id>165</id>
+            <title>
+              <key>ru</key>
+              <value>Настроить быстрый доступ...</value>
+            </title>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
               <common>true</common>
             </userVisible>
             <extendedTooltip>
-              <name>ОбъектКомандыНастроитьБыстрыйДоступExtendedTooltip</name>
+              <name>ОбъектКомандыНастроитьБыстрыйДоступРасширеннаяПодсказка</name>
               <id>211</id>
               <type>Label</type>
               <autoMaxWidth>true</autoMaxWidth>
@@ -1697,13 +1733,17 @@
           <items xsi:type="form:Button">
             <name>ОбъектКомандыНастроитьРасписание</name>
             <id>166</id>
+            <title>
+              <key>ru</key>
+              <value>Настроить расписание...</value>
+            </title>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
               <common>true</common>
             </userVisible>
             <extendedTooltip>
-              <name>ОбъектКомандыНастроитьРасписаниеExtendedTooltip</name>
+              <name>ОбъектКомандыНастроитьРасписаниеРасширеннаяПодсказка</name>
               <id>212</id>
               <type>Label</type>
               <autoMaxWidth>true</autoMaxWidth>
@@ -1749,7 +1789,7 @@
         <value>Команды</value>
       </title>
       <extendedTooltip>
-        <name>СтраницаКомандыExtendedTooltip</name>
+        <name>СтраницаКомандыРасширеннаяПодсказка</name>
         <id>209</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
@@ -1817,7 +1857,7 @@
               <id>295</id>
               <title>
                 <key>ru</key>
-                <value>Дополнительный отчет или обработка будет подключаться к программе с использованием &quot;персонального&quot;
+                <value>Дополнительный отчет или обработка будет подключаться к приложению с использованием &quot;персонального&quot;
 профиля безопасности %1, в котором будут разрешены только следующие операции:</value>
               </title>
               <visible>true</visible>
@@ -1883,7 +1923,7 @@
               <id>298</id>
               <title>
                 <key>ru</key>
-                <value>Дополнительный отчет или обработка будет подключаться к программе без установки безопасного режима,
+                <value>Дополнительный отчет или обработка будет подключаться к приложению без установки безопасного режима,
 т.к. для корректной работы дополнительного отчета или обработки требуется выполнение следующих операций
 с внешними ресурсами:</value>
               </title>
@@ -1950,7 +1990,7 @@
               <id>301</id>
               <title>
                 <key>ru</key>
-                <value>Дополнительный отчет или обработка будет подключаться к программе в безопасном режиме с предоставлением
+                <value>Дополнительный отчет или обработка будет подключаться к приложению в безопасном режиме с предоставлением
 дополнительных разрешений:</value>
               </title>
               <visible>true</visible>
@@ -2069,6 +2109,10 @@
           <items xsi:type="form:FormField">
             <name>ПредставлениеРазрешений_2_2_2</name>
             <id>252</id>
+            <title>
+              <key>ru</key>
+              <value>Представление разрешений 2 2 2</value>
+            </title>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
@@ -2175,8 +2219,8 @@
             <value>Для того, чтобы &quot;изолировать&quot; возможность обращения к внешних ресурсам из кода дополнительного отчета
 или обработки только вышеперечисленными операциями, требуется &lt;link int://sp-on>включить использование профилей безопасности&lt;/>.
 При этом для дополнительного отчета или обработки будет создан &quot;персональный&quot; профиль безопасности, содержащий
-разрешения только на выполнение явно одобренных операций и подключение дополнительного отчета или обработке к
-программе без установки безопасного режима больше не будет требоваться.</value>
+разрешения только на выполнение явно одобренных операций и подключение дополнительного отчета или обработки к
+приложению без установки безопасного режима больше не будет требоваться.</value>
           </title>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -2516,7 +2560,7 @@
         <skipOnInput>true</skipOnInput>
         <titleLocation>None</titleLocation>
         <extendedTooltip>
-          <name>ИнформацияExtendedTooltip</name>
+          <name>ИнформацияРасширеннаяПодсказка</name>
           <id>236</id>
           <type>Label</type>
           <autoMaxWidth>true</autoMaxWidth>
@@ -2562,7 +2606,7 @@
         </dataPath>
         <skipOnInput>true</skipOnInput>
         <extendedTooltip>
-          <name>ВерсияExtendedTooltip</name>
+          <name>ВерсияРасширеннаяПодсказка</name>
           <id>234</id>
           <type>Label</type>
           <autoMaxWidth>true</autoMaxWidth>
@@ -2605,7 +2649,7 @@
         </dataPath>
         <skipOnInput>true</skipOnInput>
         <extendedTooltip>
-          <name>ВидExtendedTooltip</name>
+          <name>ВидРасширеннаяПодсказка</name>
           <id>232</id>
           <type>Label</type>
           <autoMaxWidth>true</autoMaxWidth>
@@ -2652,7 +2696,7 @@
         </dataPath>
         <skipOnInput>true</skipOnInput>
         <extendedTooltip>
-          <name>ИмяФайлаExtendedTooltip</name>
+          <name>ИмяФайлаРасширеннаяПодсказка</name>
           <id>233</id>
           <type>Label</type>
           <autoMaxWidth>true</autoMaxWidth>
@@ -2695,7 +2739,7 @@
         </dataPath>
         <skipOnInput>true</skipOnInput>
         <extendedTooltip>
-          <name>ИмяОбъектаExtendedTooltip</name>
+          <name>ИмяОбъектаРасширеннаяПодсказка</name>
           <id>235</id>
           <type>Label</type>
           <autoMaxWidth>true</autoMaxWidth>
@@ -2744,7 +2788,7 @@
             <segments>Объект.Parent</segments>
           </dataPath>
           <extendedTooltip>
-            <name>ГруппаExtendedTooltip</name>
+            <name>ГруппаРасширеннаяПодсказка</name>
             <id>237</id>
             <type>Label</type>
             <autoMaxWidth>true</autoMaxWidth>
@@ -2901,7 +2945,7 @@
       </dataPath>
       <skipOnInput>true</skipOnInput>
       <extendedTooltip>
-        <name>ОтветственныйExtendedTooltip</name>
+        <name>ОтветственныйРасширеннаяПодсказка</name>
         <id>238</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
@@ -3003,6 +3047,10 @@
     <items xsi:type="form:Button">
       <name>КомандаЗаписатьИЗакрыть</name>
       <id>240</id>
+      <title>
+        <key>ru</key>
+        <value>Записать и закрыть</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -3029,6 +3077,10 @@
     <items xsi:type="form:Button">
       <name>КомандаЗаписать</name>
       <id>242</id>
+      <title>
+        <key>ru</key>
+        <value>Записать</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -3057,6 +3109,10 @@
       <items xsi:type="form:Button">
         <name>ЗагрузитьИзФайла</name>
         <id>10</id>
+        <title>
+          <key>ru</key>
+          <value>Обновить из файла...</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -3083,6 +3139,10 @@
       <items xsi:type="form:Button">
         <name>ВыгрузитьВФайл</name>
         <id>11</id>
+        <title>
+          <key>ru</key>
+          <value>Сохранить как...</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -4032,20 +4092,7 @@
   </formCommands>
   <commandInterface>
     <navigationPanel/>
-    <commandBar>
-      <cmiFragmentRecord>
-        <command>0</command>
-        <userVisible/>
-      </cmiFragmentRecord>
-      <cmiFragmentRecord>
-        <command>0</command>
-        <userVisible/>
-      </cmiFragmentRecord>
-      <cmiFragmentRecord>
-        <command>0</command>
-        <userVisible/>
-      </cmiFragmentRecord>
-    </commandBar>
+    <commandBar/>
   </commandInterface>
   <extInfo xsi:type="form:CatalogFormExtInfo">
     <handlers>

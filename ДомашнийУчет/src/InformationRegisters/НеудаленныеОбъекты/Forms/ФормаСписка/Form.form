@@ -309,6 +309,10 @@
     <items xsi:type="form:Button">
       <name>ФормаОткрыть</name>
       <id>31</id>
+      <title>
+        <key>ru</key>
+        <value>Открыть</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -334,6 +338,10 @@
     <items xsi:type="form:Button">
       <name>ФормаОчистить</name>
       <id>33</id>
+      <title>
+        <key>ru</key>
+        <value>Очистить</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>

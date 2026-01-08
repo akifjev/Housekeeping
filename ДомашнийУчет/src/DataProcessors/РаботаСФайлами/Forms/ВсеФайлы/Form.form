@@ -668,7 +668,7 @@
       </extInfo>
     </searchControlAddition>
     <extendedTooltip>
-      <name>СписокExtendedTooltip</name>
+      <name>СписокРасширеннаяПодсказка</name>
       <id>100</id>
       <type>Label</type>
       <autoMaxWidth>true</autoMaxWidth>
@@ -683,6 +683,10 @@
       <items xsi:type="form:Button">
         <name>СписокКонтекстноеМенюПросмотреть</name>
         <id>80</id>
+        <title>
+          <key>ru</key>
+          <value>Просмотреть</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -712,6 +716,10 @@
         <items xsi:type="form:Button">
           <name>СписокКонтекстноеМенюОсвободить</name>
           <id>83</id>
+          <title>
+            <key>ru</key>
+            <value>Отменить редактирование</value>
+          </title>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -738,6 +746,10 @@
         <items xsi:type="form:Button">
           <name>СписокОткрытьСвойстваФайла</name>
           <id>153</id>
+          <title>
+            <key>ru</key>
+            <value>Открыть свойства файла</value>
+          </title>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -787,6 +799,10 @@
         <items xsi:type="form:Button">
           <name>СписокКонтекстноеМенюСохранитьКак</name>
           <id>81</id>
+          <title>
+            <key>ru</key>
+            <value>Сохранить как...</value>
+          </title>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -813,6 +829,10 @@
         <items xsi:type="form:Button">
           <name>СписокКонтекстноеМенюУстановитьПометкуУдаления</name>
           <id>130</id>
+          <title>
+            <key>ru</key>
+            <value>Пометить на удаление / Снять пометку</value>
+          </title>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -838,6 +858,10 @@
         <items xsi:type="form:Button">
           <name>СписокКонтекстноеМенюУдалить</name>
           <id>161</id>
+          <title>
+            <key>ru</key>
+            <value>Удалить</value>
+          </title>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -981,6 +1005,10 @@
       <items xsi:type="form:Button">
         <name>ФормаПросмотреть</name>
         <id>69</id>
+        <title>
+          <key>ru</key>
+          <value>Просмотреть</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -1006,6 +1034,10 @@
       <items xsi:type="form:Button">
         <name>ФормаОсвободить</name>
         <id>82</id>
+        <title>
+          <key>ru</key>
+          <value>Отменить редактирование</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -1112,6 +1144,10 @@
       <items xsi:type="form:Button">
         <name>ФормаУстановитьПометкуУдаления</name>
         <id>128</id>
+        <title>
+          <key>ru</key>
+          <value>Пометить на удаление / Снять пометку</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -1138,6 +1174,10 @@
       <items xsi:type="form:Button">
         <name>ФормаУдалить</name>
         <id>157</id>
+        <title>
+          <key>ru</key>
+          <value>Удалить</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -1236,6 +1276,10 @@
     <items xsi:type="form:Button">
       <name>ПоказыватьПомеченныеФайлы</name>
       <id>159</id>
+      <title>
+        <key>ru</key>
+        <value>Показывать помеченные файлы</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -1262,6 +1306,10 @@
     <items xsi:type="form:Button">
       <name>ПоказыватьСлужебныеФайлы</name>
       <id>155</id>
+      <title>
+        <key>ru</key>
+        <value>Показывать служебные файлы</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -1294,7 +1342,7 @@
         <common>true</common>
       </userVisible>
       <extendedTooltip>
-        <name>ФормаСправкаExtendedTooltip</name>
+        <name>ФормаСправкаРасширеннаяПодсказка</name>
         <id>96</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>

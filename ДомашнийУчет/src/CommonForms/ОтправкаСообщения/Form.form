@@ -3,6 +3,10 @@
   <items xsi:type="form:FormField">
     <name>УчетнаяЗапись</name>
     <id>76</id>
+    <title>
+      <key>ru</key>
+      <value>От</value>
+    </title>
     <visible>true</visible>
     <enabled>true</enabled>
     <userVisible>
@@ -86,6 +90,10 @@
       <items xsi:type="form:FormField">
         <name>ПочтовыйАдресПолучателейВариантОтправки</name>
         <id>100</id>
+        <title>
+          <key>ru</key>
+          <value>Вариант отправки</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -155,6 +163,10 @@
       <items xsi:type="form:FormField">
         <name>ПочтовыйАдресПолучателейПредставление</name>
         <id>110</id>
+        <title>
+          <key>ru</key>
+          <value>Представление</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -326,6 +338,10 @@
       <items xsi:type="form:FormField">
         <name>ТемаПисьма</name>
         <id>11</id>
+        <title>
+          <key>ru</key>
+          <value>Тема</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -343,7 +359,7 @@
           <name>УстановитьПризнакМодифицированностиФормы</name>
         </handlers>
         <extendedTooltip>
-          <name>ТемаПисьмаExtendedTooltip</name>
+          <name>ТемаПисьмаРасширеннаяПодсказка</name>
           <id>53</id>
           <type>Label</type>
           <autoMaxWidth>true</autoMaxWidth>
@@ -380,6 +396,10 @@
           <items xsi:type="form:Button">
             <name>ВажностьВысокая</name>
             <id>119</id>
+            <title>
+              <key>ru</key>
+              <value>Высокая важность</value>
+            </title>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
@@ -405,6 +425,10 @@
           <items xsi:type="form:Button">
             <name>ВажностьОбычная</name>
             <id>121</id>
+            <title>
+              <key>ru</key>
+              <value>Обычная важность</value>
+            </title>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
@@ -430,6 +454,10 @@
           <items xsi:type="form:Button">
             <name>ВажностьНизкая</name>
             <id>123</id>
+            <title>
+              <key>ru</key>
+              <value>Низкая важность</value>
+            </title>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
@@ -513,7 +541,7 @@
       </userVisible>
       <title>
         <key>ru</key>
-        <value>Группа тема письма</value>
+        <value>Тема письма</value>
       </title>
       <extendedTooltip>
         <name>ГруппаТемаПисьмаРасширеннаяПодсказка</name>
@@ -584,7 +612,7 @@
         <name>УстановитьПризнакМодифицированностиФормы</name>
       </handlers>
       <extendedTooltip>
-        <name>ТелоПисьмаExtendedTooltip</name>
+        <name>ТелоПисьмаРасширеннаяПодсказка</name>
         <id>54</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
@@ -639,6 +667,10 @@
         <items xsi:type="form:FormField">
           <name>Вложение1</name>
           <id>34</id>
+          <title>
+            <key>ru</key>
+            <value>Вложение1</value>
+          </title>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -648,7 +680,7 @@
             <segments>ПредставлениеВложений.Вложение1</segments>
           </dataPath>
           <extendedTooltip>
-            <name>Вложение1ExtendedTooltip</name>
+            <name>Вложение1РасширеннаяПодсказка</name>
             <id>62</id>
             <type>Label</type>
             <autoMaxWidth>true</autoMaxWidth>
@@ -678,6 +710,10 @@
         <items xsi:type="form:FormField">
           <name>Вложение2</name>
           <id>36</id>
+          <title>
+            <key>ru</key>
+            <value>Вложение2</value>
+          </title>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -687,7 +723,7 @@
             <segments>ПредставлениеВложений.Вложение2</segments>
           </dataPath>
           <extendedTooltip>
-            <name>Вложение2ExtendedTooltip</name>
+            <name>Вложение2РасширеннаяПодсказка</name>
             <id>63</id>
             <type>Label</type>
             <autoMaxWidth>true</autoMaxWidth>
@@ -720,6 +756,10 @@
           <items xsi:type="form:Button">
             <name>ПриложитьФайл</name>
             <id>40</id>
+            <title>
+              <key>ru</key>
+              <value>Приложить файл...</value>
+            </title>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
@@ -727,7 +767,7 @@
             </userVisible>
             <skipOnInput>false</skipOnInput>
             <extendedTooltip>
-              <name>ПриложитьФайлExtendedTooltip</name>
+              <name>ПриложитьФайлРасширеннаяПодсказка</name>
               <id>60</id>
               <type>Label</type>
               <autoMaxWidth>true</autoMaxWidth>
@@ -841,7 +881,7 @@
           </extInfo>
         </searchControlAddition>
         <extendedTooltip>
-          <name>ВложенияExtendedTooltip</name>
+          <name>ВложенияРасширеннаяПодсказка</name>
           <id>61</id>
           <type>Label</type>
           <autoMaxWidth>true</autoMaxWidth>
@@ -859,6 +899,10 @@
             <items xsi:type="form:Button">
               <name>КонтекстноеМенюВложенияПриложитьФайл</name>
               <id>44</id>
+              <title>
+                <key>ru</key>
+                <value>Приложить файл...</value>
+              </title>
               <visible>true</visible>
               <enabled>true</enabled>
               <userVisible>
@@ -866,7 +910,7 @@
               </userVisible>
               <skipOnInput>false</skipOnInput>
               <extendedTooltip>
-                <name>КонтекстноеМенюВложенияПриложитьФайлExtendedTooltip</name>
+                <name>КонтекстноеМенюВложенияПриложитьФайлРасширеннаяПодсказка</name>
                 <id>57</id>
                 <type>Label</type>
                 <autoMaxWidth>true</autoMaxWidth>
@@ -892,7 +936,7 @@
               </userVisible>
               <skipOnInput>false</skipOnInput>
               <extendedTooltip>
-                <name>КонтекстноеМенюВложенияУдалитьExtendedTooltip</name>
+                <name>КонтекстноеМенюВложенияУдалитьРасширеннаяПодсказка</name>
                 <id>58</id>
                 <type>Label</type>
                 <autoMaxWidth>true</autoMaxWidth>
@@ -918,7 +962,7 @@
               <value>Приложить файл</value>
             </title>
             <extendedTooltip>
-              <name>ГруппаПриложитьФайлExtendedTooltip</name>
+              <name>ГруппаПриложитьФайлРасширеннаяПодсказка</name>
               <id>56</id>
               <type>Label</type>
               <autoMaxWidth>true</autoMaxWidth>
@@ -932,6 +976,10 @@
           <items xsi:type="form:Button">
             <name>КонтекстноеМенюВложенияОткрытьФайл</name>
             <id>46</id>
+            <title>
+              <key>ru</key>
+              <value>Открыть файл</value>
+            </title>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
@@ -939,7 +987,7 @@
             </userVisible>
             <skipOnInput>false</skipOnInput>
             <extendedTooltip>
-              <name>КонтекстноеМенюВложенияОткрытьФайлExtendedTooltip</name>
+              <name>КонтекстноеМенюВложенияОткрытьФайлРасширеннаяПодсказка</name>
               <id>59</id>
               <type>Label</type>
               <autoMaxWidth>true</autoMaxWidth>
@@ -984,7 +1032,7 @@
         <value>Вложения</value>
       </title>
       <extendedTooltip>
-        <name>ГруппаВложенияExtendedTooltip</name>
+        <name>ГруппаВложенияРасширеннаяПодсказка</name>
         <id>55</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
@@ -1005,6 +1053,10 @@
     <items xsi:type="form:FormField">
       <name>АдресОтвета</name>
       <id>47</id>
+      <title>
+        <key>ru</key>
+        <value>Адрес ответа</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -1022,7 +1074,7 @@
         <name>УстановитьПризнакМодифицированностиФормы</name>
       </handlers>
       <extendedTooltip>
-        <name>АдресОтветаExtendedTooltip</name>
+        <name>АдресОтветаРасширеннаяПодсказка</name>
         <id>66</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
@@ -1071,7 +1123,7 @@
       <value>Основная группа тела письма</value>
     </title>
     <extendedTooltip>
-      <name>ОсновнаяГруппаТелаПисьмаExtendedTooltip</name>
+      <name>ОсновнаяГруппаТелаПисьмаРасширеннаяПодсказка</name>
       <id>51</id>
       <type>Label</type>
       <autoMaxWidth>true</autoMaxWidth>
@@ -1096,6 +1148,10 @@
     <items xsi:type="form:Button">
       <name>ОтправитьПисьмо</name>
       <id>1</id>
+      <title>
+        <key>ru</key>
+        <value>Отправить</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -1103,7 +1159,7 @@
       </userVisible>
       <skipOnInput>false</skipOnInput>
       <extendedTooltip>
-        <name>ОтправитьПисьмоExtendedTooltip</name>
+        <name>ОтправитьПисьмоРасширеннаяПодсказка</name>
         <id>49</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
@@ -1123,6 +1179,10 @@
     <items xsi:type="form:Button">
       <name>ФормаСформироватьПоШаблону</name>
       <id>106</id>
+      <title>
+        <key>ru</key>
+        <value>Сформировать по шаблону</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -1155,7 +1215,7 @@
       </userVisible>
       <skipOnInput>false</skipOnInput>
       <extendedTooltip>
-        <name>СправкаExtendedTooltip</name>
+        <name>СправкаРасширеннаяПодсказка</name>
         <id>50</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
@@ -1174,6 +1234,10 @@
     <items xsi:type="form:Button">
       <name>ФормаСохранитьКакШаблон</name>
       <id>108</id>
+      <title>
+        <key>ru</key>
+        <value>Сохранить как шаблон...</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>

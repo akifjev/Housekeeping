@@ -80,7 +80,7 @@
           <autoMaxHeight>true</autoMaxHeight>
           <extInfo xsi:type="form:PictureDecorationExtInfo">
             <picture xsi:type="core:PictureRef">
-              <picture>CommonPicture.Предупреждение32</picture>
+              <picture>StdPicture.DialogExclamation</picture>
             </picture>
           </extInfo>
         </items>
@@ -90,6 +90,10 @@
           <items xsi:type="form:FormField">
             <name>СообщенияОбОшибках</name>
             <id>238</id>
+            <title>
+              <key>ru</key>
+              <value>Сообщения об ошибках</value>
+            </title>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
@@ -305,7 +309,7 @@
               <id>46</id>
               <title>
                 <key>ru</key>
-                <value>Электронная почта для рассылки уведомлений из программы.</value>
+                <value>Электронная почта для рассылки уведомлений из приложения.</value>
               </title>
               <type>Label</type>
               <maxWidth>30</maxWidth>
@@ -369,12 +373,16 @@
         <items xsi:type="form:FormField">
           <name>СпособАутентификации</name>
           <id>362</id>
+          <title>
+            <key>ru</key>
+            <value>Способ аутентификации</value>
+          </title>
           <enabled>true</enabled>
           <userVisible>
             <common>true</common>
           </userVisible>
           <dataPath xsi:type="form:DataPath">
-            <segments>СпособАутентификации</segments>
+            <segments>ВариантАутентификации</segments>
           </dataPath>
           <titleLocation>None</titleLocation>
           <extendedTooltip>
@@ -426,13 +434,17 @@
           <items xsi:type="form:FormField">
             <name>СпособАутентификацииПароль</name>
             <id>302</id>
+            <title>
+              <key>ru</key>
+              <value>Способ аутентификации</value>
+            </title>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
               <common>true</common>
             </userVisible>
             <dataPath xsi:type="form:DataPath">
-              <segments>СпособАутентификации</segments>
+              <segments>ВариантАутентификации</segments>
             </dataPath>
             <titleLocation>None</titleLocation>
             <handlers>
@@ -491,7 +503,7 @@
             <titleHeight>1</titleHeight>
             <toolTip>
               <key>ru</key>
-              <value>В целях безопасности рекомендуется создать на сайте почтового сервиса отдельный пароль приложения и использовать его в программе вместо основного пароля.</value>
+              <value>В целях безопасности рекомендуется создать на сайте почтового сервиса отдельный пароль приложения и использовать его в приложении вместо основного пароля.</value>
             </toolTip>
             <toolTipRepresentation>Button</toolTipRepresentation>
             <handlers>
@@ -571,13 +583,17 @@
         <items xsi:type="form:FormField">
           <name>СпособАутентификацииПочтовыйСервис</name>
           <id>305</id>
+          <title>
+            <key>ru</key>
+            <value>Способ аутентификации</value>
+          </title>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
             <common>true</common>
           </userVisible>
           <dataPath xsi:type="form:DataPath">
-            <segments>СпособАутентификации</segments>
+            <segments>ВариантАутентификации</segments>
           </dataPath>
           <titleLocation>None</titleLocation>
           <shortcut>Ctrl+S</shortcut>
@@ -762,6 +778,10 @@
         <items xsi:type="form:FormField">
           <name>ВидУчетнойЗаписи</name>
           <id>249</id>
+          <title>
+            <key>ru</key>
+            <value>Вид почты</value>
+          </title>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -1154,6 +1174,10 @@
         <items xsi:type="form:FormField">
           <name>ШифрованиеПриПолученииПочты</name>
           <id>265</id>
+          <title>
+            <key>ru</key>
+            <value>Шифрование</value>
+          </title>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -1336,6 +1360,10 @@
         <items xsi:type="form:FormField">
           <name>ШифрованиеПриОтправкеПочты</name>
           <id>262</id>
+          <title>
+            <key>ru</key>
+            <value>Шифрование</value>
+          </title>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -1469,6 +1497,10 @@
           <items xsi:type="form:FormField">
             <name>УдалятьПисьмаССервера</name>
             <id>244</id>
+            <title>
+              <key>ru</key>
+              <value>Удалять письма с сервера через:</value>
+            </title>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
@@ -1507,6 +1539,10 @@
           <items xsi:type="form:FormField">
             <name>ПериодХраненияСообщенийНаСервере</name>
             <id>241</id>
+            <title>
+              <key>ru</key>
+              <value>Период хранения сообщений на сервере</value>
+            </title>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
@@ -2004,6 +2040,10 @@
           <items xsi:type="form:FormField">
             <name>ВебСтраница</name>
             <id>327</id>
+            <title>
+              <key>ru</key>
+              <value>Веб страница</value>
+            </title>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
@@ -2112,6 +2152,10 @@
           <items xsi:type="form:FormField">
             <name>КодПодтверждения</name>
             <id>356</id>
+            <title>
+              <key>ru</key>
+              <value>Код подтверждения</value>
+            </title>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
@@ -2382,7 +2426,7 @@
         <autoMaxHeight>true</autoMaxHeight>
         <extInfo xsi:type="form:PictureDecorationExtInfo">
           <picture xsi:type="core:PictureRef">
-            <picture>CommonPicture.Предупреждение32</picture>
+            <picture>StdPicture.DialogExclamation</picture>
           </picture>
         </extInfo>
       </items>
@@ -2392,6 +2436,10 @@
         <items xsi:type="form:FormField">
           <name>ТекстТехническиеПодробностиОшибки</name>
           <id>284</id>
+          <title>
+            <key>ru</key>
+            <value>Сообщения об ошибках</value>
+          </title>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -2742,13 +2790,17 @@
           <autoMaxHeight>true</autoMaxHeight>
           <extInfo xsi:type="form:PictureDecorationExtInfo">
             <picture xsi:type="core:PictureRef">
-              <picture>CommonPicture.Предупреждение32</picture>
+              <picture>StdPicture.DialogExclamation</picture>
             </picture>
           </extInfo>
         </items>
         <items xsi:type="form:FormField">
           <name>ТекстСообщенияОбОшибках</name>
           <id>402</id>
+          <title>
+            <key>ru</key>
+            <value>Сообщения об ошибках</value>
+          </title>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -3093,6 +3145,10 @@
       <items xsi:type="form:Button">
         <name>КнопкаНазад</name>
         <id>20</id>
+        <title>
+          <key>ru</key>
+          <value>&lt; Назад</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -3145,6 +3201,10 @@
       <items xsi:type="form:Button">
         <name>КнопкаПерейтиКНастройкам</name>
         <id>156</id>
+        <title>
+          <key>ru</key>
+          <value>Перейти к настройкам</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -3200,6 +3260,10 @@
       <items xsi:type="form:Button">
         <name>КнопкаОтмена</name>
         <id>268</id>
+        <title>
+          <key>ru</key>
+          <value>Отмена</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -3968,7 +4032,7 @@
     </edit>
   </attributes>
   <attributes>
-    <name>СпособАутентификации</name>
+    <name>ВариантАутентификации</name>
     <title>
       <key>ru</key>
       <value>Способ аутентификации</value>
@@ -4092,9 +4156,7 @@
       <types>String</types>
       <stringQualifiers/>
     </valueType>
-    <view>
-      <common>true</common>
-    </view>
+    <view/>
     <edit>
       <common>true</common>
     </edit>
@@ -4106,9 +4168,7 @@
       <types>String</types>
       <stringQualifiers/>
     </valueType>
-    <view>
-      <common>true</common>
-    </view>
+    <view/>
     <edit>
       <common>true</common>
     </edit>
@@ -4310,6 +4370,12 @@
     <name>ТолькоАвторизация</name>
     <valueType>
       <types>Boolean</types>
+    </valueType>
+  </parameters>
+  <parameters>
+    <name>Ключ</name>
+    <valueType>
+      <types>CatalogRef.УчетныеЗаписиЭлектроннойПочты</types>
     </valueType>
   </parameters>
   <commandInterface>

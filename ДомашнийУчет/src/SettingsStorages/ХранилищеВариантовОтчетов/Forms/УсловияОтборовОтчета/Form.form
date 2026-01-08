@@ -36,6 +36,10 @@
     <items xsi:type="form:FormField">
       <name>ОтборыПредставлениеПользовательскойНастройки</name>
       <id>41</id>
+      <title>
+        <key>ru</key>
+        <value>Поле</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -77,6 +81,10 @@
     <items xsi:type="form:FormField">
       <name>ОтборыВидСравнения</name>
       <id>44</id>
+      <title>
+        <key>ru</key>
+        <value>Условие</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -240,6 +248,10 @@
     <items xsi:type="form:Button">
       <name>ФормаВыбрать</name>
       <id>26</id>
+      <title>
+        <key>ru</key>
+        <value>ОК</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>

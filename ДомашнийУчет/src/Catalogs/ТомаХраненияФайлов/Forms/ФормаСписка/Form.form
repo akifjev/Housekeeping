@@ -63,6 +63,10 @@
     <items xsi:type="form:Button">
       <name>ФормаУстановкаПометкиУдаления</name>
       <id>28</id>
+      <title>
+        <key>ru</key>
+        <value>Установить/снять пометку удаления</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -87,33 +91,12 @@
       <locationInCommandBar>InAdditionalSubmenu</locationInCommandBar>
     </items>
     <items xsi:type="form:Button">
-      <name>ФормаСправка</name>
-      <id>54</id>
-      <visible>true</visible>
-      <enabled>true</enabled>
-      <userVisible>
-        <common>true</common>
-      </userVisible>
-      <extendedTooltip>
-        <name>ФормаСправкаРасширеннаяПодсказка</name>
-        <id>55</id>
-        <type>Label</type>
-        <autoMaxWidth>true</autoMaxWidth>
-        <autoMaxHeight>true</autoMaxHeight>
-        <extInfo xsi:type="form:LabelDecorationExtInfo">
-          <horizontalAlign>Left</horizontalAlign>
-        </extInfo>
-      </extendedTooltip>
-      <commandName>Form.StandardCommand.Help</commandName>
-      <representation>Auto</representation>
-      <autoMaxWidth>true</autoMaxWidth>
-      <autoMaxHeight>true</autoMaxHeight>
-      <placementArea>UserCmds</placementArea>
-      <representationInContextMenu>Auto</representationInContextMenu>
-    </items>
-    <items xsi:type="form:Button">
       <name>ПеренестиВсеФайлыВТома</name>
       <id>75</id>
+      <title>
+        <key>ru</key>
+        <value>Перенести файлы</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -139,6 +122,10 @@
     <items xsi:type="form:Button">
       <name>ПроверитьЦелостность</name>
       <id>79</id>
+      <title>
+        <key>ru</key>
+        <value>Проверить целостность</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -570,6 +557,10 @@
       <id>3</id>
       <horizontalAlign>Left</horizontalAlign>
     </autoCommandBar>
+    <handlers>
+      <event>OnActivateRow</event>
+      <name>СписокПриАктивизацииСтроки</name>
+    </handlers>
     <searchStringAddition>
       <name>СписокСтрокаПоиска</name>
       <id>66</id>
@@ -642,7 +633,7 @@
       </extInfo>
     </searchControlAddition>
     <extendedTooltip>
-      <name>СписокExtendedTooltip</name>
+      <name>СписокРасширеннаяПодсказка</name>
       <id>18</id>
       <type>Label</type>
       <autoMaxWidth>true</autoMaxWidth>
@@ -657,6 +648,10 @@
       <items xsi:type="form:Button">
         <name>СписокКонтекстноеМенюУстановкаПометкиУдаления</name>
         <id>77</id>
+        <title>
+          <key>ru</key>
+          <value>Установка пометки удаления</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -778,12 +773,12 @@
     <name>УстановкаПометкиУдаления</name>
     <title>
       <key>ru</key>
-      <value>Установка пометки удаления</value>
+      <value>Установить/снять пометку удаления</value>
     </title>
     <id>1</id>
     <toolTip>
       <key>ru</key>
-      <value>Установка пометки удаления</value>
+      <value>Установить/снять пометку удаления</value>
     </toolTip>
     <use>
       <common>true</common>

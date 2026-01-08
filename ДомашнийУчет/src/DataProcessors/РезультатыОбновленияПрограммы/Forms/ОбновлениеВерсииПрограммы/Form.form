@@ -2,7 +2,7 @@
 <form:Form xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:form="http://g5.1c.ru/v8/dt/form">
   <title>
     <key>ru</key>
-    <value>Обновление версии программы</value>
+    <value>Обновление версии приложения</value>
   </title>
   <items xsi:type="form:FormGroup">
     <name>РежимЗапуска</name>
@@ -23,7 +23,7 @@
           <common>true</common>
         </userVisible>
         <extendedTooltip>
-          <name>ТекстСообщенияОбновляемаяКонфигурацияExtendedTooltip</name>
+          <name>ТекстСообщенияОбновляемаяКонфигурацияРасширеннаяПодсказка</name>
           <id>14</id>
           <type>Label</type>
           <autoMaxWidth>true</autoMaxWidth>
@@ -57,7 +57,7 @@
           <common>true</common>
         </userVisible>
         <extendedTooltip>
-          <name>ТекстПоясненияExtendedTooltip</name>
+          <name>ТекстПоясненияРасширеннаяПодсказка</name>
           <id>15</id>
           <type>Label</type>
           <autoMaxWidth>true</autoMaxWidth>
@@ -84,7 +84,7 @@
       </userVisible>
       <title>
         <key>ru</key>
-        <value>Обновление версии программы</value>
+        <value>Обновление версии приложения</value>
       </title>
       <toolTipRepresentation>None</toolTipRepresentation>
       <extendedTooltip>
@@ -110,7 +110,7 @@
         <id>8</id>
         <title>
           <key>ru</key>
-          <value>Выполняется подготовка к запуску программы.</value>
+          <value>Выполняется подготовка к запуску приложения.</value>
         </title>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -118,7 +118,7 @@
           <common>true</common>
         </userVisible>
         <extendedTooltip>
-          <name>ТекстПодготовкаКЗапускуExtendedTooltip</name>
+          <name>ТекстПодготовкаКЗапускуРасширеннаяПодсказка</name>
           <id>17</id>
           <type>Label</type>
           <autoMaxWidth>true</autoMaxWidth>
@@ -151,7 +151,7 @@
           <common>true</common>
         </userVisible>
         <extendedTooltip>
-          <name>ТекстПоясненияПодготовкаКЗапускуExtendedTooltip</name>
+          <name>ТекстПоясненияПодготовкаКЗапускуРасширеннаяПодсказка</name>
           <id>18</id>
           <type>Label</type>
           <autoMaxWidth>true</autoMaxWidth>
@@ -181,7 +181,7 @@
         <value>Начальное заполнение</value>
       </title>
       <extendedTooltip>
-        <name>НачальноеЗаполнениеExtendedTooltip</name>
+        <name>НачальноеЗаполнениеРасширеннаяПодсказка</name>
         <id>16</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
@@ -272,7 +272,7 @@
       </userVisible>
       <title>
         <key>ru</key>
-        <value>Переход с другой программы</value>
+        <value>Переход с другого приложения</value>
       </title>
       <toolTipRepresentation>None</toolTipRepresentation>
       <extendedTooltip>
@@ -394,7 +394,7 @@
       <value>Режим запуска</value>
     </title>
     <extendedTooltip>
-      <name>РежимЗапускаExtendedTooltip</name>
+      <name>РежимЗапускаРасширеннаяПодсказка</name>
       <id>12</id>
       <type>Label</type>
       <autoMaxWidth>true</autoMaxWidth>
@@ -411,6 +411,10 @@
   <items xsi:type="form:FormField">
     <name>ПрогрессВыполнения</name>
     <id>24</id>
+    <title>
+      <key>ru</key>
+      <value>Прогресс выполнения</value>
+    </title>
     <visible>true</visible>
     <enabled>true</enabled>
     <userVisible>

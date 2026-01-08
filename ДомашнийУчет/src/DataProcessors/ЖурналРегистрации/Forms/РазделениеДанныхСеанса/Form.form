@@ -26,6 +26,10 @@
       <items xsi:type="form:FormField">
         <name>РазделениеДанныхСеансаФлажок</name>
         <id>5</id>
+        <title>
+          <key>ru</key>
+          <value>Флажок</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -129,6 +133,10 @@
     <items xsi:type="form:FormField">
       <name>РазделениеДанныхСеансаЗначениеРазделителя</name>
       <id>11</id>
+      <title>
+        <key>ru</key>
+        <value>Значение разделителя</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -162,6 +170,10 @@
       <headerHorizontalAlign>Left</headerHorizontalAlign>
       <showInFooter>true</showInFooter>
       <extInfo xsi:type="form:InputFieldExtInfo">
+        <handlers>
+          <event>StartChoice</event>
+          <name>РазделениеДанныхСеансаЗначениеРазделителяНачалоВыбора</name>
+        </handlers>
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
         <wrap>true</wrap>
@@ -291,6 +303,10 @@
     <items xsi:type="form:Button">
       <name>КомандаОк</name>
       <id>20</id>
+      <title>
+        <key>ru</key>
+        <value>ОК</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -317,6 +333,10 @@
     <items xsi:type="form:Button">
       <name>КомандаОтмена</name>
       <id>22</id>
+      <title>
+        <key>ru</key>
+        <value>Отмена</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -370,6 +390,10 @@
     <items xsi:type="form:Button">
       <name>ФормаОтметитьВсе</name>
       <id>16</id>
+      <title>
+        <key>ru</key>
+        <value>Отметить все</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -395,6 +419,10 @@
     <items xsi:type="form:Button">
       <name>ФормаСнятьФлажки</name>
       <id>18</id>
+      <title>
+        <key>ru</key>
+        <value>Снять флажки</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -419,6 +447,10 @@
     </items>
     <horizontalAlign>Left</horizontalAlign>
   </autoCommandBar>
+  <handlers>
+    <event>NotificationProcessing</event>
+    <name>ОбработкаОповещения</name>
+  </handlers>
   <handlers>
     <event>OnCreateAtServer</event>
     <name>ПриСозданииНаСервере</name>
@@ -501,8 +533,7 @@
       </title>
       <id>3</id>
       <valueType>
-        <types>String</types>
-        <stringQualifiers/>
+        <types>ValueList</types>
       </valueType>
       <view>
         <common>true</common>

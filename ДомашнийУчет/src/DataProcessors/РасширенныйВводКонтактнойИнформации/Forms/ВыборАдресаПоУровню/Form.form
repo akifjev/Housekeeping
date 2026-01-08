@@ -65,6 +65,10 @@
     <items xsi:type="form:FormField">
       <name>ПоискВВебСервисе</name>
       <id>95</id>
+      <title>
+        <key>ru</key>
+        <value>Поиск в веб сервисе</value>
+      </title>
       <enabled>true</enabled>
       <userVisible>
         <common>true</common>
@@ -195,6 +199,10 @@
     <items xsi:type="form:FormField">
       <name>ВариантыАдресаПредставление</name>
       <id>15</id>
+      <title>
+        <key>ru</key>
+        <value>Представление</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -376,6 +384,10 @@
     <items xsi:type="form:Button">
       <name>Предыдущие</name>
       <id>85</id>
+      <title>
+        <key>ru</key>
+        <value>Предыдущие</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -403,6 +415,10 @@
     <items xsi:type="form:Button">
       <name>Следующие</name>
       <id>87</id>
+      <title>
+        <key>ru</key>
+        <value>Следующие</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>

@@ -54,6 +54,10 @@
         <items xsi:type="form:FormField">
           <name>ВидТелефонаПолучателей</name>
           <id>26</id>
+          <title>
+            <key>ru</key>
+            <value>Телефон</value>
+          </title>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -440,6 +444,10 @@
           <items xsi:type="form:FormField">
             <name>ПолучателиПолучатель</name>
             <id>14</id>
+            <title>
+              <key>ru</key>
+              <value>Получатель</value>
+            </title>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
@@ -481,6 +489,10 @@
           <items xsi:type="form:FormField">
             <name>ПолучателиНомерТелефона</name>
             <id>17</id>
+            <title>
+              <key>ru</key>
+              <value>Телефон</value>
+            </title>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
@@ -671,6 +683,10 @@
         <items xsi:type="form:Button">
           <name>Отправить</name>
           <id>38</id>
+          <title>
+            <key>ru</key>
+            <value>Отправить</value>
+          </title>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -1317,6 +1333,10 @@
         <items xsi:type="form:FormField">
           <name>РезультатРассылкиSMSПолучатель</name>
           <id>95</id>
+          <title>
+            <key>ru</key>
+            <value>Получатель</value>
+          </title>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -1357,6 +1377,10 @@
         <items xsi:type="form:FormField">
           <name>РезультатРассылкиSMSКомментарий</name>
           <id>98</id>
+          <title>
+            <key>ru</key>
+            <value>Комментарий</value>
+          </title>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -1527,6 +1551,10 @@
           <items xsi:type="form:FormField">
             <name>КоличествоОтправлено</name>
             <id>164</id>
+            <title>
+              <key>ru</key>
+              <value>Отправлено</value>
+            </title>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
@@ -1569,6 +1597,10 @@
           <items xsi:type="form:FormField">
             <name>КоличествоНеОтправлено</name>
             <id>167</id>
+            <title>
+              <key>ru</key>
+              <value>Не отправлено</value>
+            </title>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>

@@ -23,7 +23,7 @@
         <name>ИнтервалВремениВыполненияПриИзменении</name>
       </handlers>
       <extendedTooltip>
-        <name>ИнтервалВремениВыполненияExtendedTooltip</name>
+        <name>ИнтервалВремениВыполненияРасширеннаяПодсказка</name>
         <id>26</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
@@ -65,7 +65,7 @@
         <common>true</common>
       </userVisible>
       <extendedTooltip>
-        <name>ДекорацияСекExtendedTooltip</name>
+        <name>ДекорацияСекРасширеннаяПодсказка</name>
         <id>27</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
@@ -96,7 +96,7 @@
       <value>Интервал времени</value>
     </title>
     <extendedTooltip>
-      <name>ГруппаИнтервалВремениExtendedTooltip</name>
+      <name>ГруппаИнтервалВремениРасширеннаяПодсказка</name>
       <id>25</id>
       <type>Label</type>
       <autoMaxWidth>true</autoMaxWidth>
@@ -117,6 +117,10 @@
   <items xsi:type="form:FormField">
     <name>КоличествоФайловВПорции</name>
     <id>15</id>
+    <title>
+      <key>ru</key>
+      <value>Количество файлов в одной порции</value>
+    </title>
     <visible>true</visible>
     <enabled>true</enabled>
     <userVisible>
@@ -130,7 +134,7 @@
       <name>КоличествоФайловВПорцииПриИзменении</name>
     </handlers>
     <extendedTooltip>
-      <name>КоличествоФайловВПорцииExtendedTooltip</name>
+      <name>КоличествоФайловВПорцииРасширеннаяПодсказка</name>
       <id>28</id>
       <type>Label</type>
       <autoMaxWidth>true</autoMaxWidth>
@@ -198,6 +202,10 @@
     <items xsi:type="form:FormField">
       <name>Статус</name>
       <id>4</id>
+      <title>
+        <key>ru</key>
+        <value>Статус</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -208,7 +216,7 @@
       </dataPath>
       <titleLocation>None</titleLocation>
       <extendedTooltip>
-        <name>СтатусExtendedTooltip</name>
+        <name>СтатусРасширеннаяПодсказка</name>
         <id>31</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
@@ -243,7 +251,7 @@
       <value>Статуса</value>
     </title>
     <extendedTooltip>
-      <name>ГруппаСтатусаExtendedTooltip</name>
+      <name>ГруппаСтатусаРасширеннаяПодсказка</name>
       <id>30</id>
       <type>Label</type>
       <autoMaxWidth>true</autoMaxWidth>
@@ -269,13 +277,17 @@
     <items xsi:type="form:Button">
       <name>Старт</name>
       <id>18</id>
+      <title>
+        <key>ru</key>
+        <value>Старт</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
         <common>true</common>
       </userVisible>
       <extendedTooltip>
-        <name>СтартExtendedTooltip</name>
+        <name>СтартРасширеннаяПодсказка</name>
         <id>21</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
@@ -294,13 +306,17 @@
     <items xsi:type="form:Button">
       <name>Стоп</name>
       <id>19</id>
+      <title>
+        <key>ru</key>
+        <value>Стоп</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
         <common>true</common>
       </userVisible>
       <extendedTooltip>
-        <name>СтопExtendedTooltip</name>
+        <name>СтопРасширеннаяПодсказка</name>
         <id>22</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
@@ -319,13 +335,17 @@
     <items xsi:type="form:Button">
       <name>ИзвлечьТекстИзВсехФайлов</name>
       <id>20</id>
+      <title>
+        <key>ru</key>
+        <value>Извлечь все</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
         <common>true</common>
       </userVisible>
       <extendedTooltip>
-        <name>ИзвлечьТекстИзВсехФайловExtendedTooltip</name>
+        <name>ИзвлечьТекстИзВсехФайловРасширеннаяПодсказка</name>
         <id>23</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
@@ -351,7 +371,7 @@
       </userVisible>
       <skipOnInput>false</skipOnInput>
       <extendedTooltip>
-        <name>ЗакрытьExtendedTooltip</name>
+        <name>ЗакрытьРасширеннаяПодсказка</name>
         <id>24</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>

@@ -12,7 +12,7 @@
       <segments>Объект.Description</segments>
     </dataPath>
     <extendedTooltip>
-      <name>НаименованиеExtendedTooltip</name>
+      <name>НаименованиеРасширеннаяПодсказка</name>
       <id>5</id>
       <type>Label</type>
       <autoMaxWidth>true</autoMaxWidth>
@@ -52,7 +52,7 @@
       <segments>Объект.Parent</segments>
     </dataPath>
     <extendedTooltip>
-      <name>РодительExtendedTooltip</name>
+      <name>РодительРасширеннаяПодсказка</name>
       <id>6</id>
       <type>Label</type>
       <autoMaxWidth>true</autoMaxWidth>

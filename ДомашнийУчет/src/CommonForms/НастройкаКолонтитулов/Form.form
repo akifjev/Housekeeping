@@ -9,6 +9,10 @@
       <items xsi:type="form:Button">
         <name>ВремяВерхнегоКолонтитула</name>
         <id>58</id>
+        <title>
+          <key>ru</key>
+          <value>Время</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -34,6 +38,10 @@
       <items xsi:type="form:Button">
         <name>ДатаВерхнегоКолонтитула</name>
         <id>59</id>
+        <title>
+          <key>ru</key>
+          <value>Дата</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -59,6 +67,10 @@
       <items xsi:type="form:Button">
         <name>НазваниеОтчетаВерхнегоКолонтитула</name>
         <id>60</id>
+        <title>
+          <key>ru</key>
+          <value>Название отчета</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -84,6 +96,10 @@
       <items xsi:type="form:Button">
         <name>ПользовательВерхнегоКолонтитула</name>
         <id>62</id>
+        <title>
+          <key>ru</key>
+          <value>Пользователь</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -109,6 +125,10 @@
       <items xsi:type="form:Button">
         <name>НомерСтраницыВерхнегоКолонтитула</name>
         <id>61</id>
+        <title>
+          <key>ru</key>
+          <value>Номер страницы</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -134,6 +154,10 @@
       <items xsi:type="form:Button">
         <name>СтраницВсегоВерхнегоКолонтитула</name>
         <id>63</id>
+        <title>
+          <key>ru</key>
+          <value>Страниц всего</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -181,13 +205,17 @@
     <items xsi:type="form:Button">
       <name>ШрифтВерхнегоКолонтитула</name>
       <id>21</id>
+      <title>
+        <key>ru</key>
+        <value>Шрифт...</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
         <common>true</common>
       </userVisible>
       <extendedTooltip>
-        <name>ШрифтВерхнегоКолонтитулаExtendedTooltip</name>
+        <name>ШрифтВерхнегоКолонтитулаРасширеннаяПодсказка</name>
         <id>104</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
@@ -210,13 +238,17 @@
       <items xsi:type="form:Button">
         <name>ВертикальноеПоложениеВерхнегоКолонтитулаВерх</name>
         <id>79</id>
+        <title>
+          <key>ru</key>
+          <value>Верх</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
           <common>true</common>
         </userVisible>
         <extendedTooltip>
-          <name>ВертикальноеПоложениеВерхнегоКолонтитулаВерхExtendedTooltip</name>
+          <name>ВертикальноеПоложениеВерхнегоКолонтитулаВерхРасширеннаяПодсказка</name>
           <id>106</id>
           <type>Label</type>
           <autoMaxWidth>true</autoMaxWidth>
@@ -235,13 +267,17 @@
       <items xsi:type="form:Button">
         <name>ВертикальноеПоложениеВерхнегоКолонтитулаЦентр</name>
         <id>80</id>
+        <title>
+          <key>ru</key>
+          <value>Центр</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
           <common>true</common>
         </userVisible>
         <extendedTooltip>
-          <name>ВертикальноеПоложениеВерхнегоКолонтитулаЦентрExtendedTooltip</name>
+          <name>ВертикальноеПоложениеВерхнегоКолонтитулаЦентрРасширеннаяПодсказка</name>
           <id>107</id>
           <type>Label</type>
           <autoMaxWidth>true</autoMaxWidth>
@@ -260,13 +296,17 @@
       <items xsi:type="form:Button">
         <name>ВертикальноеПоложениеВерхнегоКолонтитулаНиз</name>
         <id>81</id>
+        <title>
+          <key>ru</key>
+          <value>Низ</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
           <common>true</common>
         </userVisible>
         <extendedTooltip>
-          <name>ВертикальноеПоложениеВерхнегоКолонтитулаНизExtendedTooltip</name>
+          <name>ВертикальноеПоложениеВерхнегоКолонтитулаНизРасширеннаяПодсказка</name>
           <id>108</id>
           <type>Label</type>
           <autoMaxWidth>true</autoMaxWidth>
@@ -336,6 +376,10 @@
     <items xsi:type="form:FormField">
       <name>ТекстСлеваСверху</name>
       <id>1</id>
+      <title>
+        <key>ru</key>
+        <value>Текст слева сверху</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -350,7 +394,7 @@
         <name>ТекстПриИзменении</name>
       </handlers>
       <extendedTooltip>
-        <name>ТекстСлеваСверхуExtendedTooltip</name>
+        <name>ТекстСлеваСверхуРасширеннаяПодсказка</name>
         <id>110</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
@@ -384,6 +428,10 @@
     <items xsi:type="form:FormField">
       <name>ТекстВЦентреСверху</name>
       <id>4</id>
+      <title>
+        <key>ru</key>
+        <value>Текст в центре сверху</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -398,7 +446,7 @@
         <name>ТекстПриИзменении</name>
       </handlers>
       <extendedTooltip>
-        <name>ТекстВЦентреСверхуExtendedTooltip</name>
+        <name>ТекстВЦентреСверхуРасширеннаяПодсказка</name>
         <id>111</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
@@ -432,6 +480,10 @@
     <items xsi:type="form:FormField">
       <name>ТекстСправаСверху</name>
       <id>6</id>
+      <title>
+        <key>ru</key>
+        <value>Текст справа сверху</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -446,7 +498,7 @@
         <name>ТекстПриИзменении</name>
       </handlers>
       <extendedTooltip>
-        <name>ТекстСправаСверхуExtendedTooltip</name>
+        <name>ТекстСправаСверхуРасширеннаяПодсказка</name>
         <id>112</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
@@ -487,7 +539,7 @@
       <value>Текст верхнего колонтитула</value>
     </title>
     <extendedTooltip>
-      <name>ГруппаТекстВерхнегоКолонтитулаExtendedTooltip</name>
+      <name>ГруппаТекстВерхнегоКолонтитулаРасширеннаяПодсказка</name>
       <id>109</id>
       <type>Label</type>
       <autoMaxWidth>true</autoMaxWidth>
@@ -507,6 +559,10 @@
   <items xsi:type="form:FormField">
     <name>ВыводитьВерхнийКолонтитулСоСтраницы</name>
     <id>17</id>
+    <title>
+      <key>ru</key>
+      <value>Выводить верхний колонтитул со страницы</value>
+    </title>
     <visible>true</visible>
     <enabled>true</enabled>
     <userVisible>
@@ -520,7 +576,7 @@
       <name>ВыводитьВерхнийКолонтитулСоСтраницыПриИзменении</name>
     </handlers>
     <extendedTooltip>
-      <name>ВыводитьВерхнийКолонтитулСоСтраницыExtendedTooltip</name>
+      <name>ВыводитьВерхнийКолонтитулСоСтраницыРасширеннаяПодсказка</name>
       <id>113</id>
       <type>Label</type>
       <autoMaxWidth>true</autoMaxWidth>
@@ -552,6 +608,10 @@
   <items xsi:type="form:FormField">
     <name>Образец</name>
     <id>15</id>
+    <title>
+      <key>ru</key>
+      <value>Образец</value>
+    </title>
     <visible>true</visible>
     <enabled>true</enabled>
     <userVisible>
@@ -562,7 +622,7 @@
     </dataPath>
     <titleLocation>None</titleLocation>
     <extendedTooltip>
-      <name>ОбразецExtendedTooltip</name>
+      <name>ОбразецРасширеннаяПодсказка</name>
       <id>114</id>
       <type>Label</type>
       <autoMaxWidth>true</autoMaxWidth>
@@ -603,6 +663,10 @@
     <items xsi:type="form:FormField">
       <name>ПримерСтраницы</name>
       <id>35</id>
+      <title>
+        <key>ru</key>
+        <value>Пример страницы</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -616,7 +680,7 @@
         <name>ПримерСтраницыПриИзменении</name>
       </handlers>
       <extendedTooltip>
-        <name>ПримерСтраницыExtendedTooltip</name>
+        <name>ПримерСтраницыРасширеннаяПодсказка</name>
         <id>117</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
@@ -660,7 +724,7 @@
     </title>
     <groupHorizontalAlign>Right</groupHorizontalAlign>
     <extendedTooltip>
-      <name>ГруппаСнизуExtendedTooltip</name>
+      <name>ГруппаСнизуРасширеннаяПодсказка</name>
       <id>115</id>
       <type>Label</type>
       <autoMaxWidth>true</autoMaxWidth>
@@ -686,6 +750,10 @@
       <items xsi:type="form:Button">
         <name>ВремяНижнегоКолонтитула</name>
         <id>44</id>
+        <title>
+          <key>ru</key>
+          <value>Время</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -711,6 +779,10 @@
       <items xsi:type="form:Button">
         <name>ДатаНижнегоКолонтитула</name>
         <id>45</id>
+        <title>
+          <key>ru</key>
+          <value>Дата</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -736,6 +808,10 @@
       <items xsi:type="form:Button">
         <name>НазваниеОтчетаНижнегоКолонтитула</name>
         <id>46</id>
+        <title>
+          <key>ru</key>
+          <value>Название отчета</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -761,6 +837,10 @@
       <items xsi:type="form:Button">
         <name>ПользовательНижнегоКолонтитула</name>
         <id>49</id>
+        <title>
+          <key>ru</key>
+          <value>Пользователь</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -786,6 +866,10 @@
       <items xsi:type="form:Button">
         <name>НомерСтраницыНижнегоКолонтитула</name>
         <id>47</id>
+        <title>
+          <key>ru</key>
+          <value>Номер страницы</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -811,6 +895,10 @@
       <items xsi:type="form:Button">
         <name>СтраницВсегоНижнегоКолонтитула</name>
         <id>50</id>
+        <title>
+          <key>ru</key>
+          <value>Страниц всего</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -857,13 +945,17 @@
     <items xsi:type="form:Button">
       <name>ШрифтНижнегоКолонтитула</name>
       <id>34</id>
+      <title>
+        <key>ru</key>
+        <value>Шрифт...</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
         <common>true</common>
       </userVisible>
       <extendedTooltip>
-        <name>ШрифтНижнегоКолонтитулаExtendedTooltip</name>
+        <name>ШрифтНижнегоКолонтитулаРасширеннаяПодсказка</name>
         <id>127</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
@@ -885,13 +977,17 @@
       <items xsi:type="form:Button">
         <name>ВертикальноеПоложениеНижнегоКолонтитулаВерх</name>
         <id>87</id>
+        <title>
+          <key>ru</key>
+          <value>Верх</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
           <common>true</common>
         </userVisible>
         <extendedTooltip>
-          <name>ВертикальноеПоложениеНижнегоКолонтитулаВерхExtendedTooltip</name>
+          <name>ВертикальноеПоложениеНижнегоКолонтитулаВерхРасширеннаяПодсказка</name>
           <id>129</id>
           <type>Label</type>
           <autoMaxWidth>true</autoMaxWidth>
@@ -910,13 +1006,17 @@
       <items xsi:type="form:Button">
         <name>ВертикальноеПоложениеНижнегоКолонтитулаЦентр</name>
         <id>88</id>
+        <title>
+          <key>ru</key>
+          <value>Центр</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
           <common>true</common>
         </userVisible>
         <extendedTooltip>
-          <name>ВертикальноеПоложениеНижнегоКолонтитулаЦентрExtendedTooltip</name>
+          <name>ВертикальноеПоложениеНижнегоКолонтитулаЦентрРасширеннаяПодсказка</name>
           <id>130</id>
           <type>Label</type>
           <autoMaxWidth>true</autoMaxWidth>
@@ -935,13 +1035,17 @@
       <items xsi:type="form:Button">
         <name>ВертикальноеПоложениеНижнегоКолонтитулаНиз</name>
         <id>89</id>
+        <title>
+          <key>ru</key>
+          <value>Низ</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
           <common>true</common>
         </userVisible>
         <extendedTooltip>
-          <name>ВертикальноеПоложениеНижнегоКолонтитулаНизExtendedTooltip</name>
+          <name>ВертикальноеПоложениеНижнегоКолонтитулаНизРасширеннаяПодсказка</name>
           <id>131</id>
           <type>Label</type>
           <autoMaxWidth>true</autoMaxWidth>
@@ -1010,6 +1114,10 @@
     <items xsi:type="form:FormField">
       <name>ТекстСлеваСнизу</name>
       <id>9</id>
+      <title>
+        <key>ru</key>
+        <value>Текст слева снизу</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -1024,7 +1132,7 @@
         <name>ТекстПриИзменении</name>
       </handlers>
       <extendedTooltip>
-        <name>ТекстСлеваСнизуExtendedTooltip</name>
+        <name>ТекстСлеваСнизуРасширеннаяПодсказка</name>
         <id>133</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
@@ -1058,6 +1166,10 @@
     <items xsi:type="form:FormField">
       <name>ТекстВЦентреСнизу</name>
       <id>11</id>
+      <title>
+        <key>ru</key>
+        <value>Текст в центре снизу</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -1072,7 +1184,7 @@
         <name>ТекстПриИзменении</name>
       </handlers>
       <extendedTooltip>
-        <name>ТекстВЦентреСнизуExtendedTooltip</name>
+        <name>ТекстВЦентреСнизуРасширеннаяПодсказка</name>
         <id>134</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
@@ -1106,6 +1218,10 @@
     <items xsi:type="form:FormField">
       <name>ТекстСправаСнизу</name>
       <id>13</id>
+      <title>
+        <key>ru</key>
+        <value>Текст справа снизу</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -1120,7 +1236,7 @@
         <name>ТекстПриИзменении</name>
       </handlers>
       <extendedTooltip>
-        <name>ТекстСправаСнизуExtendedTooltip</name>
+        <name>ТекстСправаСнизуРасширеннаяПодсказка</name>
         <id>135</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
@@ -1161,7 +1277,7 @@
       <value>Текст нижнего колонтитула</value>
     </title>
     <extendedTooltip>
-      <name>ГруппаТекстНижнегоКолонтитулаExtendedTooltip</name>
+      <name>ГруппаТекстНижнегоКолонтитулаРасширеннаяПодсказка</name>
       <id>132</id>
       <type>Label</type>
       <autoMaxWidth>true</autoMaxWidth>
@@ -1181,6 +1297,10 @@
   <items xsi:type="form:FormField">
     <name>ВыводитьНижнийКолонтитулСоСтраницы</name>
     <id>19</id>
+    <title>
+      <key>ru</key>
+      <value>Выводить нижний колонтитул со страницы</value>
+    </title>
     <visible>true</visible>
     <enabled>true</enabled>
     <userVisible>
@@ -1194,7 +1314,7 @@
       <name>ВыводитьНижнийКолонтитулСоСтраницыПриИзменении</name>
     </handlers>
     <extendedTooltip>
-      <name>ВыводитьНижнийКолонтитулСоСтраницыExtendedTooltip</name>
+      <name>ВыводитьНижнийКолонтитулСоСтраницыРасширеннаяПодсказка</name>
       <id>136</id>
       <type>Label</type>
       <autoMaxWidth>true</autoMaxWidth>
@@ -1229,6 +1349,10 @@
     <items xsi:type="form:Button">
       <name>ФормаОК</name>
       <id>67</id>
+      <title>
+        <key>ru</key>
+        <value>Записать и закрыть</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -1260,7 +1384,7 @@
         <common>true</common>
       </userVisible>
       <extendedTooltip>
-        <name>ФормаОтменаExtendedTooltip</name>
+        <name>ФормаОтменаРасширеннаяПодсказка</name>
         <id>93</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
@@ -1279,6 +1403,10 @@
     <items xsi:type="form:Button">
       <name>ФормаУстановитьСтандартныеНастройки</name>
       <id>137</id>
+      <title>
+        <key>ru</key>
+        <value>Установить стандартные настройки</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>

@@ -193,7 +193,7 @@
         </userVisible>
         <title>
           <key>ru</key>
-          <value>Группа ссылки</value>
+          <value>Ссылки</value>
         </title>
         <extendedTooltip>
           <name>ГруппаСсылкиРасширеннаяПодсказка</name>
@@ -223,7 +223,7 @@
       </userVisible>
       <title>
         <key>ru</key>
-        <value>Группа инструкции</value>
+        <value>Инструкции</value>
       </title>
       <extendedTooltip>
         <name>ГруппаИнструкцииРасширеннаяПодсказка</name>
@@ -253,7 +253,7 @@
     </userVisible>
     <title>
       <key>ru</key>
-      <value>Группа предупреждение</value>
+      <value>Предупреждение</value>
     </title>
     <extendedTooltip>
       <name>ГруппаПредупреждениеРасширеннаяПодсказка</name>
@@ -282,6 +282,10 @@
     <items xsi:type="form:Button">
       <name>ФормаПерезапустить</name>
       <id>24</id>
+      <title>
+        <key>ru</key>
+        <value>Перезапустить</value>
+      </title>
       <enabled>true</enabled>
       <userVisible>
         <common>true</common>

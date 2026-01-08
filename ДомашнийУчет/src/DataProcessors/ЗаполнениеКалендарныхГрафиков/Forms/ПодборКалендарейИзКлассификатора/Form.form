@@ -32,6 +32,10 @@
     <items xsi:type="form:FormField">
       <name>Код</name>
       <id>4</id>
+      <title>
+        <key>ru</key>
+        <value>Код</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -71,6 +75,10 @@
     <items xsi:type="form:FormField">
       <name>Наименование</name>
       <id>8</id>
+      <title>
+        <key>ru</key>
+        <value>Наименование</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -80,7 +88,7 @@
         <segments>Календари.Наименование</segments>
       </dataPath>
       <extendedTooltip>
-        <name>НаименованиеExtendedTooltip</name>
+        <name>НаименованиеРасширеннаяПодсказка</name>
         <id>31</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
@@ -206,6 +214,10 @@
       <items xsi:type="form:Button">
         <name>СписокКалендарейКонтекстноеМенюВыбрать</name>
         <id>18</id>
+        <title>
+          <key>ru</key>
+          <value>Выбрать</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -310,6 +322,10 @@
     <items xsi:type="form:Button">
       <name>Выбрать</name>
       <id>14</id>
+      <title>
+        <key>ru</key>
+        <value>Выбрать</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -317,7 +333,7 @@
       </userVisible>
       <skipOnInput>false</skipOnInput>
       <extendedTooltip>
-        <name>ВыбратьExtendedTooltip</name>
+        <name>ВыбратьРасширеннаяПодсказка</name>
         <id>24</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
@@ -346,7 +362,7 @@
         </userVisible>
         <skipOnInput>false</skipOnInput>
         <extendedTooltip>
-          <name>НайтиExtendedTooltip</name>
+          <name>НайтиРасширеннаяПодсказка</name>
           <id>25</id>
           <type>Label</type>
           <autoMaxWidth>true</autoMaxWidth>
@@ -372,7 +388,7 @@
         </userVisible>
         <skipOnInput>false</skipOnInput>
         <extendedTooltip>
-          <name>ОтменитьПоискExtendedTooltip</name>
+          <name>ОтменитьПоискРасширеннаяПодсказка</name>
           <id>26</id>
           <type>Label</type>
           <autoMaxWidth>true</autoMaxWidth>
@@ -418,7 +434,7 @@
         <common>true</common>
       </userVisible>
       <extendedTooltip>
-        <name>ФормаСправкаExtendedTooltip</name>
+        <name>ФормаСправкаРасширеннаяПодсказка</name>
         <id>27</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
@@ -535,10 +551,6 @@
       <value>Выбрать</value>
     </title>
     <id>1</id>
-    <toolTip>
-      <key>ru</key>
-      <value>Создание новой валюты на основании выбора</value>
-    </toolTip>
     <use>
       <common>true</common>
     </use>

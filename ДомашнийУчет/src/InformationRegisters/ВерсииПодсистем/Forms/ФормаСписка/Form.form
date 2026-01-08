@@ -332,6 +332,10 @@
     <items xsi:type="form:Button">
       <name>ФормаВключитьВозможностьРедактирования</name>
       <id>28</id>
+      <title>
+        <key>ru</key>
+        <value>Включить возможность редактирования</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -358,6 +362,10 @@
     <items xsi:type="form:Button">
       <name>ФормаПерезапуститьОтложенноеОбновление</name>
       <id>30</id>
+      <title>
+        <key>ru</key>
+        <value>Перезапустить отложенное обновление...</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>

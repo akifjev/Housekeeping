@@ -7,6 +7,10 @@
   <items xsi:type="form:FormField">
     <name>АдресСайта</name>
     <id>1</id>
+    <title>
+      <key>ru</key>
+      <value>Адрес</value>
+    </title>
     <visible>true</visible>
     <enabled>true</enabled>
     <userVisible>
@@ -47,6 +51,10 @@
   <items xsi:type="form:FormField">
     <name>Представление</name>
     <id>7</id>
+    <title>
+      <key>ru</key>
+      <value>Наименование</value>
+    </title>
     <visible>true</visible>
     <enabled>true</enabled>
     <userVisible>
@@ -87,6 +95,10 @@
   <items xsi:type="form:FormField">
     <name>Комментарий</name>
     <id>4</id>
+    <title>
+      <key>ru</key>
+      <value>Комментарий</value>
+    </title>
     <visible>true</visible>
     <enabled>true</enabled>
     <userVisible>
@@ -133,6 +145,10 @@
     <items xsi:type="form:Button">
       <name>ФормаОК</name>
       <id>14</id>
+      <title>
+        <key>ru</key>
+        <value>ОК</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -309,6 +325,20 @@
   </parameters>
   <parameters>
     <name>Заголовок</name>
+    <valueType>
+      <types>String</types>
+      <stringQualifiers/>
+    </valueType>
+  </parameters>
+  <parameters>
+    <name>Значение</name>
+    <valueType>
+      <types>String</types>
+      <stringQualifiers/>
+    </valueType>
+  </parameters>
+  <parameters>
+    <name>ЗначенияПолей</name>
     <valueType>
       <types>String</types>
       <stringQualifiers/>

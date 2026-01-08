@@ -40,6 +40,10 @@
           <items xsi:type="form:FormField">
             <name>СубъектыРФОчищать</name>
             <id>20</id>
+            <title>
+              <key>ru</key>
+              <value>Очищать</value>
+            </title>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
@@ -77,6 +81,10 @@
           <items xsi:type="form:FormField">
             <name>СубъектыРФПредставление</name>
             <id>17</id>
+            <title>
+              <key>ru</key>
+              <value>Субъект РФ</value>
+            </title>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
@@ -146,6 +154,10 @@
             <items xsi:type="form:Button">
               <name>СубъектыРФОтметьЗагруженные</name>
               <id>136</id>
+              <title>
+                <key>ru</key>
+                <value>Отметить загруженные</value>
+              </title>
               <visible>true</visible>
               <enabled>true</enabled>
               <userVisible>
@@ -196,6 +208,10 @@
             <items xsi:type="form:Button">
               <name>СубъектыРФУстановитьФлажки</name>
               <id>47</id>
+              <title>
+                <key>ru</key>
+                <value>Установить флажки</value>
+              </title>
               <visible>true</visible>
               <enabled>true</enabled>
               <userVisible>
@@ -221,6 +237,10 @@
             <items xsi:type="form:Button">
               <name>СубъектыРФСнятьФлажки</name>
               <id>49</id>
+              <title>
+                <key>ru</key>
+                <value>Снять флажки</value>
+              </title>
               <visible>true</visible>
               <enabled>true</enabled>
               <userVisible>
@@ -438,6 +458,10 @@
         <items xsi:type="form:FormField">
           <name>ПоказыватьТолькоЗагруженныеРегионы</name>
           <id>140</id>
+          <title>
+            <key>ru</key>
+            <value>Показывать только загруженные регионы</value>
+          </title>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -479,6 +503,10 @@
           <items xsi:type="form:FormField">
             <name>ВыбраноРегионовДляОчистки</name>
             <id>51</id>
+            <title>
+              <key>ru</key>
+              <value>Регионов</value>
+            </title>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
@@ -585,6 +613,10 @@
           <items xsi:type="form:Button">
             <name>Очистить</name>
             <id>10</id>
+            <title>
+              <key>ru</key>
+              <value>Очистить адресные сведения</value>
+            </title>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
@@ -725,6 +757,10 @@
         <items xsi:type="form:FormField">
           <name>ТекстОписанияОчистки</name>
           <id>73</id>
+          <title>
+            <key>ru</key>
+            <value>Текст описания очистки</value>
+          </title>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -797,6 +833,10 @@
         <items xsi:type="form:FormField">
           <name>ТекстСостоянияЗагрузки</name>
           <id>88</id>
+          <title>
+            <key>ru</key>
+            <value>Текст состояния очистки</value>
+          </title>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -837,6 +877,10 @@
           <items xsi:type="form:Button">
             <name>ПрерватьОчистку</name>
             <id>78</id>
+            <title>
+              <key>ru</key>
+              <value>Прервать</value>
+            </title>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
@@ -982,6 +1026,10 @@
         <items xsi:type="form:FormField">
           <name>ТекстОписанияОчисткиЗавершения</name>
           <id>98</id>
+          <title>
+            <key>ru</key>
+            <value>Текст описания очистки</value>
+          </title>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>

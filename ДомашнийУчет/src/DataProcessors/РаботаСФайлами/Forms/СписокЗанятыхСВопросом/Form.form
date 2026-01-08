@@ -40,6 +40,10 @@
       <name>ФормаОткрытьФайл</name>
       <id>53</id>
       <displayImportance>VeryLow</displayImportance>
+      <title>
+        <key>ru</key>
+        <value>Просмотреть</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -66,6 +70,10 @@
     <items xsi:type="form:Button">
       <name>ФормаЗакончитьРедактирование</name>
       <id>52</id>
+      <title>
+        <key>ru</key>
+        <value>Закончить редактирование</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -186,6 +194,10 @@
   <items xsi:type="form:FormField">
     <name>СообщениеЗаголовок</name>
     <id>64</id>
+    <title>
+      <key>ru</key>
+      <value>Сообщение заголовок</value>
+    </title>
     <visible>true</visible>
     <enabled>true</enabled>
     <userVisible>
@@ -196,7 +208,7 @@
     </dataPath>
     <titleLocation>None</titleLocation>
     <extendedTooltip>
-      <name>СообщениеЗаголовокExtendedTooltip</name>
+      <name>СообщениеЗаголовокРасширеннаяПодсказка</name>
       <id>78</id>
       <type>Label</type>
       <autoMaxWidth>true</autoMaxWidth>
@@ -536,7 +548,7 @@
       </extInfo>
     </searchControlAddition>
     <extendedTooltip>
-      <name>СписокExtendedTooltip</name>
+      <name>СписокРасширеннаяПодсказка</name>
       <id>89</id>
       <type>Label</type>
       <autoMaxWidth>true</autoMaxWidth>
@@ -554,6 +566,10 @@
         <items xsi:type="form:Button">
           <name>СписокКонтекстноеМенюОткрытьФайл</name>
           <id>54</id>
+          <title>
+            <key>ru</key>
+            <value>Просмотреть</value>
+          </title>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -580,6 +596,10 @@
         <items xsi:type="form:Button">
           <name>СписокКонтекстноеМенюСохранитьИзменения</name>
           <id>57</id>
+          <title>
+            <key>ru</key>
+            <value>Сохранить изменения</value>
+          </title>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible/>
@@ -604,6 +624,10 @@
         <items xsi:type="form:Button">
           <name>СписокКонтекстноеМенюЗакончитьРедактирование</name>
           <id>55</id>
+          <title>
+            <key>ru</key>
+            <value>Закончить редактирование</value>
+          </title>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -654,6 +678,10 @@
         <items xsi:type="form:Button">
           <name>СписокКонтекстноеМенюСохранитьКак</name>
           <id>59</id>
+          <title>
+            <key>ru</key>
+            <value>Сохранить как...</value>
+          </title>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -710,6 +738,10 @@
         <items xsi:type="form:Button">
           <name>СписокКонтекстноеМенюОбновитьИзФайлаНаДиске</name>
           <id>63</id>
+          <title>
+            <key>ru</key>
+            <value>Обновить из файла на компьютере...</value>
+          </title>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -736,6 +768,10 @@
         <items xsi:type="form:Button">
           <name>СписокКонтекстноеМенюОткрытьКаталогФайла</name>
           <id>58</id>
+          <title>
+            <key>ru</key>
+            <value>Открыть каталог файла</value>
+          </title>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -904,6 +940,10 @@
   <items xsi:type="form:FormField">
     <name>ПоказыватьЗанятыеФайлыПриЗавершенииРаботы</name>
     <id>72</id>
+    <title>
+      <key>ru</key>
+      <value>Показывать занятые файлы при завершении работы</value>
+    </title>
     <enabled>true</enabled>
     <userVisible>
       <common>true</common>
@@ -913,7 +953,7 @@
     </dataPath>
     <titleLocation>Right</titleLocation>
     <extendedTooltip>
-      <name>ПоказыватьЗанятыеФайлыПриЗавершенииРаботыExtendedTooltip</name>
+      <name>ПоказыватьЗанятыеФайлыПриЗавершенииРаботыРасширеннаяПодсказка</name>
       <id>94</id>
       <type>Label</type>
       <autoMaxWidth>true</autoMaxWidth>
@@ -937,6 +977,10 @@
   <items xsi:type="form:FormField">
     <name>СообщениеВопрос</name>
     <id>66</id>
+    <title>
+      <key>ru</key>
+      <value>Сообщение вопрос</value>
+    </title>
     <visible>true</visible>
     <enabled>true</enabled>
     <userVisible>
@@ -947,7 +991,7 @@
     </dataPath>
     <titleLocation>None</titleLocation>
     <extendedTooltip>
-      <name>СообщениеВопросExtendedTooltip</name>
+      <name>СообщениеВопросРасширеннаяПодсказка</name>
       <id>95</id>
       <type>Label</type>
       <autoMaxWidth>true</autoMaxWidth>
@@ -988,7 +1032,7 @@
       </userVisible>
       <skipOnInput>false</skipOnInput>
       <extendedTooltip>
-        <name>ДаExtendedTooltip</name>
+        <name>ДаРасширеннаяПодсказка</name>
         <id>97</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
@@ -1019,7 +1063,7 @@
       </userVisible>
       <skipOnInput>false</skipOnInput>
       <extendedTooltip>
-        <name>НетExtendedTooltip</name>
+        <name>НетРасширеннаяПодсказка</name>
         <id>98</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
@@ -1049,7 +1093,7 @@
       </userVisible>
       <skipOnInput>false</skipOnInput>
       <extendedTooltip>
-        <name>СправкаExtendedTooltip</name>
+        <name>СправкаРасширеннаяПодсказка</name>
         <id>99</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
@@ -1075,7 +1119,7 @@
       <value>Основная командная панель</value>
     </title>
     <extendedTooltip>
-      <name>ОсновнаяКоманднаяПанельExtendedTooltip</name>
+      <name>ОсновнаяКоманднаяПанельРасширеннаяПодсказка</name>
       <id>96</id>
       <type>Label</type>
       <autoMaxWidth>true</autoMaxWidth>

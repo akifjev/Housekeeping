@@ -35,7 +35,7 @@
       </dataPath>
       <defaultItem>true</defaultItem>
       <extendedTooltip>
-        <name>НаименованиеExtendedTooltip</name>
+        <name>НаименованиеРасширеннаяПодсказка</name>
         <id>24</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
@@ -79,7 +79,7 @@
         <segments>Список.Code</segments>
       </dataPath>
       <extendedTooltip>
-        <name>КодExtendedTooltip</name>
+        <name>КодРасширеннаяПодсказка</name>
         <id>25</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
@@ -120,7 +120,7 @@
         <segments>Список.КоррСчет</segments>
       </dataPath>
       <extendedTooltip>
-        <name>КоррСчетExtendedTooltip</name>
+        <name>КоррСчетРасширеннаяПодсказка</name>
         <id>26</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
@@ -157,7 +157,7 @@
         <segments>Список.Город</segments>
       </dataPath>
       <extendedTooltip>
-        <name>ГородExtendedTooltip</name>
+        <name>ГородРасширеннаяПодсказка</name>
         <id>27</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
@@ -197,7 +197,7 @@
         <segments>Список.Адрес</segments>
       </dataPath>
       <extendedTooltip>
-        <name>АдресExtendedTooltip</name>
+        <name>АдресРасширеннаяПодсказка</name>
         <id>28</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
@@ -234,7 +234,7 @@
         <segments>Список.Телефоны</segments>
       </dataPath>
       <extendedTooltip>
-        <name>ТелефоныExtendedTooltip</name>
+        <name>ТелефоныРасширеннаяПодсказка</name>
         <id>29</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
@@ -371,7 +371,7 @@
       </extInfo>
     </searchControlAddition>
     <extendedTooltip>
-      <name>СписокExtendedTooltip</name>
+      <name>СписокРасширеннаяПодсказка</name>
       <id>23</id>
       <type>Label</type>
       <autoMaxWidth>true</autoMaxWidth>
@@ -424,13 +424,17 @@
     <items xsi:type="form:Button">
       <name>ФормаЗагрузитьКлассификатор</name>
       <id>20</id>
+      <title>
+        <key>ru</key>
+        <value>Загрузить классификатор</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
         <common>true</common>
       </userVisible>
       <extendedTooltip>
-        <name>ФормаЗагрузитьКлассификаторExtendedTooltip</name>
+        <name>ФормаЗагрузитьКлассификаторРасширеннаяПодсказка</name>
         <id>21</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
@@ -449,13 +453,17 @@
     <items xsi:type="form:Button">
       <name>ФормаПоказыватьНедействующиеБанки</name>
       <id>19</id>
+      <title>
+        <key>ru</key>
+        <value>Показывать недействующие банки</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
         <common>true</common>
       </userVisible>
       <extendedTooltip>
-        <name>ФормаПоказыватьНедействующиеБанкиExtendedTooltip</name>
+        <name>ФормаПоказыватьНедействующиеБанкиРасширеннаяПодсказка</name>
         <id>22</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>

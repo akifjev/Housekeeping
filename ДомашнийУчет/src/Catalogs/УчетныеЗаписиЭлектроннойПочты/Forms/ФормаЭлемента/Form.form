@@ -561,13 +561,17 @@
       <name>СпособАутентификацииПочтовыйСервис</name>
       <id>296</id>
       <displayImportance>VeryHigh</displayImportance>
+      <title>
+        <key>ru</key>
+        <value>Способ аутентификации</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
         <common>true</common>
       </userVisible>
       <dataPath xsi:type="form:DataPath">
-        <segments>СпособАутентификации</segments>
+        <segments>ВариантАутентификации</segments>
       </dataPath>
       <titleLocation>None</titleLocation>
       <handlers>
@@ -615,13 +619,17 @@
         <name>СпособАутентификацииПароль</name>
         <id>280</id>
         <displayImportance>VeryHigh</displayImportance>
+        <title>
+          <key>ru</key>
+          <value>Способ аутентификации</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
           <common>true</common>
         </userVisible>
         <dataPath xsi:type="form:DataPath">
-          <segments>СпособАутентификации</segments>
+          <segments>ВариантАутентификации</segments>
         </dataPath>
         <titleLocation>None</titleLocation>
         <handlers>
@@ -665,6 +673,10 @@
         <name>Пароль</name>
         <id>105</id>
         <displayImportance>VeryHigh</displayImportance>
+        <title>
+          <key>ru</key>
+          <value>Пароль</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -801,6 +813,10 @@
         <items xsi:type="form:FormField">
           <name>УдалятьПисьмаССервера</name>
           <id>214</id>
+          <title>
+            <key>ru</key>
+            <value>Удалять письма с сервера через:</value>
+          </title>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -1102,6 +1118,10 @@
       <items xsi:type="form:FormField">
         <name>ШифрованиеПриПолученииПочты</name>
         <id>260</id>
+        <title>
+          <key>ru</key>
+          <value>Шифрование</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -1285,6 +1305,10 @@
       <items xsi:type="form:FormField">
         <name>ШифрованиеПриОтправкеПочты</name>
         <id>255</id>
+        <title>
+          <key>ru</key>
+          <value>Шифрование</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -1489,6 +1513,10 @@
           <items xsi:type="form:FormField">
             <name>СпособАвторизацииПриОтправкеПочты</name>
             <id>238</id>
+            <title>
+              <key>ru</key>
+              <value>Способ авторизации при отправке почты</value>
+            </title>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
@@ -1705,6 +1733,10 @@
     <items xsi:type="form:Button">
       <name>ФормаЗаписатьИЗакрыть</name>
       <id>208</id>
+      <title>
+        <key>ru</key>
+        <value>Записать и закрыть</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -1782,6 +1814,10 @@
     <items xsi:type="form:Button">
       <name>ФормаПроверитьНастройки</name>
       <id>265</id>
+      <title>
+        <key>ru</key>
+        <value>Проверить настройки</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -1807,6 +1843,10 @@
     <items xsi:type="form:Button">
       <name>ФормаОткрытьПомощникНастройки</name>
       <id>272</id>
+      <title>
+        <key>ru</key>
+        <value>Перенастроить...</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -2135,7 +2175,7 @@
     </edit>
   </attributes>
   <attributes>
-    <name>СпособАутентификации</name>
+    <name>ВариантАутентификации</name>
     <title>
       <key>ru</key>
       <value>Способ аутентификации</value>

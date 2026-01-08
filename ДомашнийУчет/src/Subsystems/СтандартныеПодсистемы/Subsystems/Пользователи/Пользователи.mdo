@@ -83,5 +83,10 @@
   <content>CommonPicture.СостояниеПользователя16</content>
   <content>CommonPicture.СостояниеПользователя17</content>
   <content>CommonPicture.СостояниеПользователя18</content>
+  <content>Report.УчастникиГруппПользователей</content>
+  <content>Report.ПользователиПоПодразделениям</content>
+  <content>InformationRegister.ИерархияГруппПользователей</content>
+  <content>CommonPicture.СостояниеПользователя20</content>
+  <content>CommonPicture.СостояниеПользователя19</content>
   <parentSubsystem>Subsystem.СтандартныеПодсистемы</parentSubsystem>
 </mdclass:Subsystem>

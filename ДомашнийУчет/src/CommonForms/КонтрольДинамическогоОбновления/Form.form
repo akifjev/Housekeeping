@@ -128,6 +128,10 @@
         <items xsi:type="form:FormField">
           <name>ВариантПерезапуск</name>
           <id>26</id>
+          <title>
+            <key>ru</key>
+            <value>Вариант действия</value>
+          </title>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -179,6 +183,10 @@
           <items xsi:type="form:FormField">
             <name>ВариантЗапланировать</name>
             <id>29</id>
+            <title>
+              <key>ru</key>
+              <value>Вариант действия</value>
+            </title>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
@@ -227,6 +235,10 @@
           <items xsi:type="form:FormField">
             <name>ВремяПерезапуска</name>
             <id>37</id>
+            <title>
+              <key>ru</key>
+              <value>Время перезапуска</value>
+            </title>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
@@ -279,7 +291,7 @@
           </userVisible>
           <title>
             <key>ru</key>
-            <value>Группа запланировать</value>
+            <value>Запланировать</value>
           </title>
           <extendedTooltip>
             <name>ГруппаЗапланироватьРасширеннаяПодсказка</name>
@@ -304,6 +316,10 @@
         <items xsi:type="form:FormField">
           <name>ВариантНапомнитьЗавтра</name>
           <id>32</id>
+          <title>
+            <key>ru</key>
+            <value>Вариант действия</value>
+          </title>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -356,7 +372,7 @@
         </userVisible>
         <title>
           <key>ru</key>
-          <value>Группа варианты действия</value>
+          <value>Варианты действия</value>
         </title>
         <extendedTooltip>
           <name>ГруппаВариантыДействияРасширеннаяПодсказка</name>
@@ -518,6 +534,10 @@
     <items xsi:type="form:Button">
       <name>ФормаВыполнитьДействие</name>
       <id>40</id>
+      <title>
+        <key>ru</key>
+        <value>Выполнить действие</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -544,6 +564,10 @@
     <items xsi:type="form:Button">
       <name>ФормаБольшеНеПоказывать</name>
       <id>8</id>
+      <title>
+        <key>ru</key>
+        <value>Больше не напоминать</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>

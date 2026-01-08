@@ -13,6 +13,10 @@
       <items xsi:type="form:Button">
         <name>ПерейтиНаГодНазадДоступно</name>
         <id>90</id>
+        <title>
+          <key>ru</key>
+          <value>&lt;</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -108,6 +112,10 @@
     <items xsi:type="form:FormField">
       <name>ДатаНачалаГода</name>
       <id>92</id>
+      <title>
+        <key>ru</key>
+        <value>Дата начала года</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -150,6 +158,10 @@
     <items xsi:type="form:Button">
       <name>ПерейтиНаГодВперед</name>
       <id>95</id>
+      <title>
+        <key>ru</key>
+        <value>></value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -219,6 +231,10 @@
         <items xsi:type="form:Button">
           <name>ВыбратьМесяц1</name>
           <id>101</id>
+          <title>
+            <key>ru</key>
+            <value>январь</value>
+          </title>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -247,6 +263,10 @@
         <items xsi:type="form:Button">
           <name>ВыбратьМесяц2</name>
           <id>103</id>
+          <title>
+            <key>ru</key>
+            <value>февраль</value>
+          </title>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -275,6 +295,10 @@
         <items xsi:type="form:Button">
           <name>ВыбратьМесяц3</name>
           <id>105</id>
+          <title>
+            <key>ru</key>
+            <value>март</value>
+          </title>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -332,6 +356,10 @@
         <items xsi:type="form:Button">
           <name>ВыбратьМесяц4</name>
           <id>109</id>
+          <title>
+            <key>ru</key>
+            <value>апрель</value>
+          </title>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -360,6 +388,10 @@
         <items xsi:type="form:Button">
           <name>ВыбратьМесяц5</name>
           <id>111</id>
+          <title>
+            <key>ru</key>
+            <value>май</value>
+          </title>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -388,6 +420,10 @@
         <items xsi:type="form:Button">
           <name>ВыбратьМесяц6</name>
           <id>113</id>
+          <title>
+            <key>ru</key>
+            <value>июнь</value>
+          </title>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -445,6 +481,10 @@
         <items xsi:type="form:Button">
           <name>ВыбратьМесяц7</name>
           <id>117</id>
+          <title>
+            <key>ru</key>
+            <value>июль</value>
+          </title>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -473,6 +513,10 @@
         <items xsi:type="form:Button">
           <name>ВыбратьМесяц8</name>
           <id>119</id>
+          <title>
+            <key>ru</key>
+            <value>август</value>
+          </title>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -501,6 +545,10 @@
         <items xsi:type="form:Button">
           <name>ВыбратьМесяц9</name>
           <id>121</id>
+          <title>
+            <key>ru</key>
+            <value>сентябрь</value>
+          </title>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -558,6 +606,10 @@
         <items xsi:type="form:Button">
           <name>ВыбратьМесяц10</name>
           <id>125</id>
+          <title>
+            <key>ru</key>
+            <value>октябрь</value>
+          </title>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -586,6 +638,10 @@
         <items xsi:type="form:Button">
           <name>ВыбратьМесяц11</name>
           <id>127</id>
+          <title>
+            <key>ru</key>
+            <value>ноябрь</value>
+          </title>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -614,6 +670,10 @@
         <items xsi:type="form:Button">
           <name>ВыбратьМесяц12</name>
           <id>129</id>
+          <title>
+            <key>ru</key>
+            <value>декабрь</value>
+          </title>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -700,6 +760,10 @@
       <items xsi:type="form:Button">
         <name>ВыбратьКвартал1</name>
         <id>107</id>
+        <title>
+          <key>ru</key>
+          <value>1 квартал</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -731,6 +795,10 @@
       <items xsi:type="form:Button">
         <name>ВыбратьКвартал2</name>
         <id>115</id>
+        <title>
+          <key>ru</key>
+          <value>2 квартал</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -762,6 +830,10 @@
       <items xsi:type="form:Button">
         <name>ВыбратьКвартал3</name>
         <id>123</id>
+        <title>
+          <key>ru</key>
+          <value>3 квартал</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -793,6 +865,10 @@
       <items xsi:type="form:Button">
         <name>ВыбратьКвартал4</name>
         <id>131</id>
+        <title>
+          <key>ru</key>
+          <value>4 квартал</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -857,6 +933,10 @@
       <items xsi:type="form:Button">
         <name>ВыбратьДень</name>
         <id>174</id>
+        <title>
+          <key>ru</key>
+          <value>день...</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -917,6 +997,10 @@
       <items xsi:type="form:Button">
         <name>Выбрать9Месяцев</name>
         <id>137</id>
+        <title>
+          <key>ru</key>
+          <value>9 месяцев</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -945,6 +1029,10 @@
       <items xsi:type="form:Button">
         <name>ВыбратьГод</name>
         <id>139</id>
+        <title>
+          <key>ru</key>
+          <value>год</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -1033,6 +1121,10 @@
     <items xsi:type="form:Button">
       <name>ОчиститьПериод</name>
       <id>189</id>
+      <title>
+        <key>ru</key>
+        <value>за все время</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -1060,6 +1152,10 @@
     <items xsi:type="form:Button">
       <name>ПерейтиКСтандартномуВариантуПериода</name>
       <id>195</id>
+      <title>
+        <key>ru</key>
+        <value>Стандартный вариант</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>

@@ -26,7 +26,7 @@
             <common>true</common>
           </userVisible>
           <extendedTooltip>
-            <name>РеквизитПредупреждениеКартинкаExtendedTooltip</name>
+            <name>РеквизитПредупреждениеКартинкаРасширеннаяПодсказка</name>
             <id>64</id>
             <type>Label</type>
             <autoMaxWidth>true</autoMaxWidth>
@@ -44,7 +44,7 @@
           <autoMaxHeight>true</autoMaxHeight>
           <extInfo xsi:type="form:PictureDecorationExtInfo">
             <picture xsi:type="core:PictureRef">
-              <picture>CommonPicture.Предупреждение32</picture>
+              <picture>StdPicture.DialogExclamation</picture>
             </picture>
           </extInfo>
         </items>
@@ -62,7 +62,7 @@
             <common>true</common>
           </userVisible>
           <extendedTooltip>
-            <name>РеквизитПредупреждениеКомментарийExtendedTooltip</name>
+            <name>РеквизитПредупреждениеКомментарийРасширеннаяПодсказка</name>
             <id>65</id>
             <type>Label</type>
             <autoMaxWidth>true</autoMaxWidth>
@@ -97,7 +97,7 @@
           <value>Реквизит предупреждение</value>
         </title>
         <extendedTooltip>
-          <name>РеквизитПредупреждениеExtendedTooltip</name>
+          <name>РеквизитПредупреждениеРасширеннаяПодсказка</name>
           <id>63</id>
           <type>Label</type>
           <autoMaxWidth>true</autoMaxWidth>
@@ -118,6 +118,10 @@
       <items xsi:type="form:FormField">
         <name>ОтдельныеЗначенияРеквизита</name>
         <id>8</id>
+        <title>
+          <key>ru</key>
+          <value>Отдельное свойство с отдельным списком значений</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -132,7 +136,7 @@
           <name>ВидПриИзменении</name>
         </handlers>
         <extendedTooltip>
-          <name>ОтдельныеЗначенияРеквизитаExtendedTooltip</name>
+          <name>ОтдельныеЗначенияРеквизитаРасширеннаяПодсказка</name>
           <id>66</id>
           <type>Label</type>
           <autoMaxWidth>true</autoMaxWidth>
@@ -176,7 +180,7 @@
           <common>true</common>
         </userVisible>
         <extendedTooltip>
-          <name>ОтдельныеЗначенияРеквизитаКомментарийExtendedTooltip</name>
+          <name>ОтдельныеЗначенияРеквизитаКомментарийРасширеннаяПодсказка</name>
           <id>67</id>
           <type>Label</type>
           <autoMaxWidth>true</autoMaxWidth>
@@ -209,6 +213,10 @@
           <items xsi:type="form:FormField">
             <name>ОбщиеЗначенияРеквизитов</name>
             <id>6</id>
+            <title>
+              <key>ru</key>
+              <value>Отдельное свойство с общим списком значений</value>
+            </title>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
@@ -223,7 +231,7 @@
               <name>ВидПриИзменении</name>
             </handlers>
             <extendedTooltip>
-              <name>ОбщиеЗначенияРеквизитовExtendedTooltip</name>
+              <name>ОбщиеЗначенияРеквизитовРасширеннаяПодсказка</name>
               <id>70</id>
               <type>Label</type>
               <autoMaxWidth>true</autoMaxWidth>
@@ -267,7 +275,7 @@
               <common>true</common>
             </userVisible>
             <extendedTooltip>
-              <name>ОбщиеЗначенияРеквизитовКомментарийExtendedTooltip</name>
+              <name>ОбщиеЗначенияРеквизитовКомментарийРасширеннаяПодсказка</name>
               <id>71</id>
               <type>Label</type>
               <autoMaxWidth>true</autoMaxWidth>
@@ -301,7 +309,7 @@
             <value>Вид общие значения реквизитов</value>
           </title>
           <extendedTooltip>
-            <name>ВидОбщиеЗначенияРеквизитовExtendedTooltip</name>
+            <name>ВидОбщиеЗначенияРеквизитовРасширеннаяПодсказка</name>
             <id>69</id>
             <type>Label</type>
             <autoMaxWidth>true</autoMaxWidth>
@@ -322,6 +330,10 @@
           <items xsi:type="form:FormField">
             <name>ОбщийРеквизит</name>
             <id>4</id>
+            <title>
+              <key>ru</key>
+              <value>Общее свойство</value>
+            </title>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
@@ -336,7 +348,7 @@
               <name>ВидПриИзменении</name>
             </handlers>
             <extendedTooltip>
-              <name>ОбщийРеквизитExtendedTooltip</name>
+              <name>ОбщийРеквизитРасширеннаяПодсказка</name>
               <id>73</id>
               <type>Label</type>
               <autoMaxWidth>true</autoMaxWidth>
@@ -383,7 +395,7 @@
               <common>true</common>
             </userVisible>
             <extendedTooltip>
-              <name>ОбщийРеквизитКомментарийExtendedTooltip</name>
+              <name>ОбщийРеквизитКомментарийРасширеннаяПодсказка</name>
               <id>74</id>
               <type>Label</type>
               <autoMaxWidth>true</autoMaxWidth>
@@ -417,7 +429,7 @@
             <value>Вид общий реквизит</value>
           </title>
           <extendedTooltip>
-            <name>ВидОбщийРеквизитExtendedTooltip</name>
+            <name>ВидОбщийРеквизитРасширеннаяПодсказка</name>
             <id>72</id>
             <type>Label</type>
             <autoMaxWidth>true</autoMaxWidth>
@@ -442,7 +454,7 @@
           <value>Виды реквизита</value>
         </title>
         <extendedTooltip>
-          <name>ВидыРеквизитаExtendedTooltip</name>
+          <name>ВидыРеквизитаРасширеннаяПодсказка</name>
           <id>68</id>
           <type>Label</type>
           <autoMaxWidth>true</autoMaxWidth>
@@ -500,7 +512,7 @@
             <common>true</common>
           </userVisible>
           <extendedTooltip>
-            <name>СведениеПредупреждениеКартинкаExtendedTooltip</name>
+            <name>СведениеПредупреждениеКартинкаРасширеннаяПодсказка</name>
             <id>77</id>
             <type>Label</type>
             <autoMaxWidth>true</autoMaxWidth>
@@ -518,7 +530,7 @@
           <autoMaxHeight>true</autoMaxHeight>
           <extInfo xsi:type="form:PictureDecorationExtInfo">
             <picture xsi:type="core:PictureRef">
-              <picture>CommonPicture.Предупреждение32</picture>
+              <picture>StdPicture.DialogExclamation</picture>
             </picture>
           </extInfo>
         </items>
@@ -536,7 +548,7 @@
             <common>true</common>
           </userVisible>
           <extendedTooltip>
-            <name>СведениеПредупреждениеКомментарийExtendedTooltip</name>
+            <name>СведениеПредупреждениеКомментарийРасширеннаяПодсказка</name>
             <id>78</id>
             <type>Label</type>
             <autoMaxWidth>true</autoMaxWidth>
@@ -571,7 +583,7 @@
           <value>Сведение предупреждение</value>
         </title>
         <extendedTooltip>
-          <name>СведениеПредупреждениеExtendedTooltip</name>
+          <name>СведениеПредупреждениеРасширеннаяПодсказка</name>
           <id>76</id>
           <type>Label</type>
           <autoMaxWidth>true</autoMaxWidth>
@@ -592,6 +604,10 @@
       <items xsi:type="form:FormField">
         <name>ОтдельныеЗначенияСведения</name>
         <id>26</id>
+        <title>
+          <key>ru</key>
+          <value>Отдельное свойство с отдельным списком значений</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -606,7 +622,7 @@
           <name>ВидПриИзменении</name>
         </handlers>
         <extendedTooltip>
-          <name>ОтдельныеЗначенияСведенияExtendedTooltip</name>
+          <name>ОтдельныеЗначенияСведенияРасширеннаяПодсказка</name>
           <id>79</id>
           <type>Label</type>
           <autoMaxWidth>true</autoMaxWidth>
@@ -650,7 +666,7 @@
           <common>true</common>
         </userVisible>
         <extendedTooltip>
-          <name>ОтдельныеЗначенияСведенияКомментарийExtendedTooltip</name>
+          <name>ОтдельныеЗначенияСведенияКомментарийРасширеннаяПодсказка</name>
           <id>80</id>
           <type>Label</type>
           <autoMaxWidth>true</autoMaxWidth>
@@ -683,6 +699,10 @@
           <items xsi:type="form:FormField">
             <name>ОбщиеЗначенияСведений</name>
             <id>22</id>
+            <title>
+              <key>ru</key>
+              <value>Отдельное свойство с общим списком значений</value>
+            </title>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
@@ -697,7 +717,7 @@
               <name>ВидПриИзменении</name>
             </handlers>
             <extendedTooltip>
-              <name>ОбщиеЗначенияСведенийExtendedTooltip</name>
+              <name>ОбщиеЗначенияСведенийРасширеннаяПодсказка</name>
               <id>83</id>
               <type>Label</type>
               <autoMaxWidth>true</autoMaxWidth>
@@ -741,7 +761,7 @@
               <common>true</common>
             </userVisible>
             <extendedTooltip>
-              <name>ОбщиеЗначенияСведенийКомментарийExtendedTooltip</name>
+              <name>ОбщиеЗначенияСведенийКомментарийРасширеннаяПодсказка</name>
               <id>84</id>
               <type>Label</type>
               <autoMaxWidth>true</autoMaxWidth>
@@ -775,7 +795,7 @@
             <value>Вид общие значения сведений</value>
           </title>
           <extendedTooltip>
-            <name>ВидОбщиеЗначенияСведенийExtendedTooltip</name>
+            <name>ВидОбщиеЗначенияСведенийРасширеннаяПодсказка</name>
             <id>82</id>
             <type>Label</type>
             <autoMaxWidth>true</autoMaxWidth>
@@ -796,6 +816,10 @@
           <items xsi:type="form:FormField">
             <name>ОбщееСведение</name>
             <id>18</id>
+            <title>
+              <key>ru</key>
+              <value>Общее свойство</value>
+            </title>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
@@ -810,7 +834,7 @@
               <name>ВидПриИзменении</name>
             </handlers>
             <extendedTooltip>
-              <name>ОбщееСведениеExtendedTooltip</name>
+              <name>ОбщееСведениеРасширеннаяПодсказка</name>
               <id>86</id>
               <type>Label</type>
               <autoMaxWidth>true</autoMaxWidth>
@@ -857,7 +881,7 @@
               <common>true</common>
             </userVisible>
             <extendedTooltip>
-              <name>ОбщееСведениеКомментарийExtendedTooltip</name>
+              <name>ОбщееСведениеКомментарийРасширеннаяПодсказка</name>
               <id>87</id>
               <type>Label</type>
               <autoMaxWidth>true</autoMaxWidth>
@@ -891,7 +915,7 @@
             <value>Вид общее сведение</value>
           </title>
           <extendedTooltip>
-            <name>ВидОбщееСведениеExtendedTooltip</name>
+            <name>ВидОбщееСведениеРасширеннаяПодсказка</name>
             <id>85</id>
             <type>Label</type>
             <autoMaxWidth>true</autoMaxWidth>
@@ -916,7 +940,7 @@
           <value>Виды сведения</value>
         </title>
         <extendedTooltip>
-          <name>ВидыСведенияExtendedTooltip</name>
+          <name>ВидыСведенияРасширеннаяПодсказка</name>
           <id>81</id>
           <type>Label</type>
           <autoMaxWidth>true</autoMaxWidth>
@@ -965,7 +989,7 @@
       <value>Типы свойства</value>
     </title>
     <extendedTooltip>
-      <name>ТипыСвойстваExtendedTooltip</name>
+      <name>ТипыСвойстваРасширеннаяПодсказка</name>
       <id>61</id>
       <type>Label</type>
       <autoMaxWidth>true</autoMaxWidth>
@@ -985,13 +1009,17 @@
     <items xsi:type="form:Button">
       <name>ФормаЗаписатьИЗакрыть</name>
       <id>41</id>
+      <title>
+        <key>ru</key>
+        <value>Записать и закрыть</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
         <common>true</common>
       </userVisible>
       <extendedTooltip>
-        <name>ФормаЗаписатьИЗакрытьExtendedTooltip</name>
+        <name>ФормаЗаписатьИЗакрытьРасширеннаяПодсказка</name>
         <id>60</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>

@@ -31,6 +31,10 @@
       <items xsi:type="form:FormField">
         <name>БыстрыеНастройкиПометка</name>
         <id>14</id>
+        <title>
+          <key>ru</key>
+          <value>Пометка</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -69,6 +73,10 @@
       <items xsi:type="form:FormField">
         <name>БыстрыеНастройкиКартинкаНастройки</name>
         <id>56</id>
+        <title>
+          <key>ru</key>
+          <value>Картинка настройки</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -184,6 +192,10 @@
     <items xsi:type="form:FormField">
       <name>БыстрыеНастройкиВидСравнения</name>
       <id>93</id>
+      <title>
+        <key>ru</key>
+        <value>Условие</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -233,6 +245,10 @@
         <items xsi:type="form:Button">
           <name>БыстрыеНастройкиУстановитьПометку</name>
           <id>42</id>
+          <title>
+            <key>ru</key>
+            <value>Установить пометку</value>
+          </title>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -259,6 +275,10 @@
         <items xsi:type="form:Button">
           <name>БыстрыеНастройкиСнятьПометку</name>
           <id>44</id>
+          <title>
+            <key>ru</key>
+            <value>Снять пометку</value>
+          </title>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -795,6 +815,10 @@
   <items xsi:type="form:FormField">
     <name>ВыводитьЗаголовкиНастроек</name>
     <id>106</id>
+    <title>
+      <key>ru</key>
+      <value>Выводить заголовки настроек</value>
+    </title>
     <visible>true</visible>
     <enabled>true</enabled>
     <userVisible>
@@ -835,6 +859,10 @@
       <items xsi:type="form:Button">
         <name>ПерейтиКРасширеннымНастройкам</name>
         <id>104</id>
+        <title>
+          <key>ru</key>
+          <value>Больше возможностей...</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -894,6 +922,10 @@
       <items xsi:type="form:Button">
         <name>Применить</name>
         <id>100</id>
+        <title>
+          <key>ru</key>
+          <value>Применить</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>

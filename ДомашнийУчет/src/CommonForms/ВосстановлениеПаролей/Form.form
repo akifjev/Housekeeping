@@ -7,6 +7,10 @@
   <items xsi:type="form:FormField">
     <name>ОтображатьГиперссылкуПомощи</name>
     <id>1</id>
+    <title>
+      <key>ru</key>
+      <value>Отображать гиперссылку &quot;Нужна помощь?&quot; в диалоге аутентификации:</value>
+    </title>
     <visible>true</visible>
     <enabled>true</enabled>
     <userVisible>
@@ -45,6 +49,10 @@
   <items xsi:type="form:FormField">
     <name>НавигационнаяСсылкаПомощи</name>
     <id>4</id>
+    <title>
+      <key>ru</key>
+      <value>Навигационная ссылка помощи</value>
+    </title>
     <visible>true</visible>
     <enabled>true</enabled>
     <userVisible>
@@ -98,6 +106,10 @@
     <items xsi:type="form:FormField">
       <name>ВосстанавливатьПароль</name>
       <id>45</id>
+      <title>
+        <key>ru</key>
+        <value>Отображать гиперссылку &quot;Забыли пароль?&quot;:</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -352,6 +364,10 @@
               <items xsi:type="form:FormField">
                 <name>УчетнаяЗаписьПочты</name>
                 <id>35</id>
+                <title>
+                  <key>ru</key>
+                  <value>Почта</value>
+                </title>
                 <visible>true</visible>
                 <enabled>true</enabled>
                 <userVisible>
@@ -536,6 +552,10 @@
             <items xsi:type="form:FormField">
               <name>АдресСервераSMTP</name>
               <id>85</id>
+              <title>
+                <key>ru</key>
+                <value>Сервер SMTP</value>
+              </title>
               <visible>true</visible>
               <enabled>true</enabled>
               <userVisible>
@@ -577,6 +597,10 @@
             <items xsi:type="form:FormField">
               <name>ШифрованиеПриОтправкеПочты</name>
               <id>113</id>
+              <title>
+                <key>ru</key>
+                <value>Шифрование</value>
+              </title>
               <visible>true</visible>
               <enabled>true</enabled>
               <userVisible>
@@ -634,6 +658,10 @@
             <items xsi:type="form:FormField">
               <name>ПортSMTP</name>
               <id>73</id>
+              <title>
+                <key>ru</key>
+                <value>Порт</value>
+              </title>
               <visible>true</visible>
               <enabled>true</enabled>
               <userVisible>
@@ -705,6 +733,10 @@
             <items xsi:type="form:FormField">
               <name>ПользовательSMTP</name>
               <id>76</id>
+              <title>
+                <key>ru</key>
+                <value>Пользователь</value>
+              </title>
               <visible>true</visible>
               <enabled>true</enabled>
               <userVisible>
@@ -746,6 +778,10 @@
             <items xsi:type="form:FormField">
               <name>ПарольSMTP</name>
               <id>79</id>
+              <title>
+                <key>ru</key>
+                <value>Пароль</value>
+              </title>
               <visible>true</visible>
               <enabled>true</enabled>
               <userVisible>
@@ -816,6 +852,10 @@
           <items xsi:type="form:FormField">
             <name>ИмяОтправителя</name>
             <id>82</id>
+            <title>
+              <key>ru</key>
+              <value>Отправитель</value>
+            </title>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
@@ -926,6 +966,10 @@
                 <items xsi:type="form:Button">
                   <name>ТемаПисьмаКонтекстноеМенюИмяПользователя</name>
                   <id>118</id>
+                  <title>
+                    <key>ru</key>
+                    <value>Имя пользователя</value>
+                  </title>
                   <visible>true</visible>
                   <enabled>true</enabled>
                   <userVisible>
@@ -951,6 +995,10 @@
                 <items xsi:type="form:Button">
                   <name>ТемаПисьмаКонтекстноеМенюНаименованиеКонфигурации</name>
                   <id>124</id>
+                  <title>
+                    <key>ru</key>
+                    <value>Наименование конфигурации</value>
+                  </title>
                   <visible>true</visible>
                   <enabled>true</enabled>
                   <userVisible>
@@ -976,6 +1024,10 @@
                 <items xsi:type="form:Button">
                   <name>ТемаПисьмаКонтекстноеМенюКодПодтверждения</name>
                   <id>122</id>
+                  <title>
+                    <key>ru</key>
+                    <value>Код подтверждения</value>
+                  </title>
                   <visible>true</visible>
                   <enabled>true</enabled>
                   <userVisible>
@@ -1047,6 +1099,10 @@
               <items xsi:type="form:Button">
                 <name>ИмяПользователя</name>
                 <id>94</id>
+                <title>
+                  <key>ru</key>
+                  <value>Имя пользователя</value>
+                </title>
                 <visible>true</visible>
                 <enabled>true</enabled>
                 <userVisible>
@@ -1072,6 +1128,10 @@
               <items xsi:type="form:Button">
                 <name>ИмяКонфигурации</name>
                 <id>96</id>
+                <title>
+                  <key>ru</key>
+                  <value>Наименование конфигурации</value>
+                </title>
                 <visible>true</visible>
                 <enabled>true</enabled>
                 <userVisible>
@@ -1097,6 +1157,10 @@
               <items xsi:type="form:Button">
                 <name>КодПодтверждения</name>
                 <id>98</id>
+                <title>
+                  <key>ru</key>
+                  <value>Код подтверждения</value>
+                </title>
                 <visible>true</visible>
                 <enabled>true</enabled>
                 <userVisible>
@@ -1196,6 +1260,10 @@
           <items xsi:type="form:FormField">
             <name>ТекстСообщения</name>
             <id>62</id>
+            <title>
+              <key>ru</key>
+              <value>Текст сообщения</value>
+            </title>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
@@ -1224,6 +1292,10 @@
                 <items xsi:type="form:Button">
                   <name>ТекстСообщенияКонтекстноеМенюИмяПользователя</name>
                   <id>126</id>
+                  <title>
+                    <key>ru</key>
+                    <value>Имя пользователя</value>
+                  </title>
                   <visible>true</visible>
                   <enabled>true</enabled>
                   <userVisible>
@@ -1249,6 +1321,10 @@
                 <items xsi:type="form:Button">
                   <name>ТекстСообщенияКонтекстноеМенюНаименованиеКонфигурации</name>
                   <id>130</id>
+                  <title>
+                    <key>ru</key>
+                    <value>Наименование конфигурации</value>
+                  </title>
                   <visible>true</visible>
                   <enabled>true</enabled>
                   <userVisible>
@@ -1274,6 +1350,10 @@
                 <items xsi:type="form:Button">
                   <name>ТекстСообщенияКонтекстноеМенюКодПодтверждения</name>
                   <id>128</id>
+                  <title>
+                    <key>ru</key>
+                    <value>Код подтверждения</value>
+                  </title>
                   <visible>true</visible>
                   <enabled>true</enabled>
                   <userVisible>
@@ -1373,6 +1453,10 @@
           <items xsi:type="form:FormField">
             <name>ДлинаКода</name>
             <id>12</id>
+            <title>
+              <key>ru</key>
+              <value>Длина генерируемого кода</value>
+            </title>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
@@ -1417,6 +1501,10 @@
             <items xsi:type="form:FormField">
               <name>ДлительностьБлокировкиЗапроса</name>
               <id>23</id>
+              <title>
+                <key>ru</key>
+                <value>Минимальное время между повторными запросами</value>
+              </title>
               <visible>true</visible>
               <enabled>true</enabled>
               <userVisible>
@@ -1520,6 +1608,10 @@
           <items xsi:type="form:FormField">
             <name>МаксимальноеКоличествоПопыток</name>
             <id>26</id>
+            <title>
+              <key>ru</key>
+              <value>Допустимое количество неудачных попыток ввода</value>
+            </title>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
@@ -1752,6 +1844,10 @@
     <items xsi:type="form:Button">
       <name>ФормаЗаписатьИЗакрыть</name>
       <id>43</id>
+      <title>
+        <key>ru</key>
+        <value>Записать и закрыть</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -1779,6 +1875,10 @@
     <items xsi:type="form:Button">
       <name>ФормаЗаписать</name>
       <id>116</id>
+      <title>
+        <key>ru</key>
+        <value>Записать</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>

@@ -13,6 +13,10 @@
       <items xsi:type="form:FormField">
         <name>СерверHTTP</name>
         <id>4</id>
+        <title>
+          <key>ru</key>
+          <value>HTTP</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -26,7 +30,7 @@
           <name>СерверHTTPПриИзменении</name>
         </handlers>
         <extendedTooltip>
-          <name>СерверHTTPExtendedTooltip</name>
+          <name>СерверHTTPРасширеннаяПодсказка</name>
           <id>35</id>
           <type>Label</type>
           <autoMaxWidth>true</autoMaxWidth>
@@ -57,6 +61,10 @@
       <items xsi:type="form:FormField">
         <name>ПортHTTP</name>
         <id>6</id>
+        <title>
+          <key>ru</key>
+          <value>Порт</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -66,7 +74,7 @@
           <segments>ПортHTTP</segments>
         </dataPath>
         <extendedTooltip>
-          <name>ПортHTTPExtendedTooltip</name>
+          <name>ПортHTTPРасширеннаяПодсказка</name>
           <id>36</id>
           <type>Label</type>
           <autoMaxWidth>true</autoMaxWidth>
@@ -114,7 +122,7 @@
         <value>HTTP</value>
       </title>
       <extendedTooltip>
-        <name>ГруппаHTTPExtendedTooltip</name>
+        <name>ГруппаHTTPРасширеннаяПодсказка</name>
         <id>34</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
@@ -138,6 +146,10 @@
       <items xsi:type="form:FormField">
         <name>СерверHTTPS</name>
         <id>8</id>
+        <title>
+          <key>ru</key>
+          <value>HTTPS</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -151,7 +163,7 @@
           <name>СерверHTTPПриИзменении</name>
         </handlers>
         <extendedTooltip>
-          <name>СерверHTTPSExtendedTooltip</name>
+          <name>СерверHTTPSРасширеннаяПодсказка</name>
           <id>38</id>
           <type>Label</type>
           <autoMaxWidth>true</autoMaxWidth>
@@ -182,6 +194,10 @@
       <items xsi:type="form:FormField">
         <name>ПортHTTPS</name>
         <id>10</id>
+        <title>
+          <key>ru</key>
+          <value>Порт</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -191,7 +207,7 @@
           <segments>ПортHTTPS</segments>
         </dataPath>
         <extendedTooltip>
-          <name>ПортHTTPSExtendedTooltip</name>
+          <name>ПортHTTPSРасширеннаяПодсказка</name>
           <id>39</id>
           <type>Label</type>
           <autoMaxWidth>true</autoMaxWidth>
@@ -239,7 +255,7 @@
         <value>HTTP</value>
       </title>
       <extendedTooltip>
-        <name>ГруппаHTTPSExtendedTooltip</name>
+        <name>ГруппаHTTPSРасширеннаяПодсказка</name>
         <id>37</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
@@ -263,6 +279,10 @@
       <items xsi:type="form:FormField">
         <name>СерверFTP</name>
         <id>12</id>
+        <title>
+          <key>ru</key>
+          <value>FTP</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -276,7 +296,7 @@
           <name>СерверHTTPПриИзменении</name>
         </handlers>
         <extendedTooltip>
-          <name>СерверFTPExtendedTooltip</name>
+          <name>СерверFTPРасширеннаяПодсказка</name>
           <id>41</id>
           <type>Label</type>
           <autoMaxWidth>true</autoMaxWidth>
@@ -307,6 +327,10 @@
       <items xsi:type="form:FormField">
         <name>ПортFTP</name>
         <id>14</id>
+        <title>
+          <key>ru</key>
+          <value>Порт</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -316,7 +340,7 @@
           <segments>ПортFTP</segments>
         </dataPath>
         <extendedTooltip>
-          <name>ПортFTPExtendedTooltip</name>
+          <name>ПортFTPРасширеннаяПодсказка</name>
           <id>42</id>
           <type>Label</type>
           <autoMaxWidth>true</autoMaxWidth>
@@ -368,7 +392,7 @@
         <value>Группа HTTP</value>
       </toolTip>
       <extendedTooltip>
-        <name>ГруппаFTPExtendedTooltip</name>
+        <name>ГруппаFTPРасширеннаяПодсказка</name>
         <id>40</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
@@ -396,7 +420,7 @@
       <value>Прокси серверы</value>
     </title>
     <extendedTooltip>
-      <name>ГруппаПроксиСерверыExtendedTooltip</name>
+      <name>ГруппаПроксиСерверыРасширеннаяПодсказка</name>
       <id>33</id>
       <type>Label</type>
       <autoMaxWidth>true</autoMaxWidth>
@@ -438,7 +462,7 @@
       <name>ОдинПроксиДляВсехПротоколовПриИзменении</name>
     </handlers>
     <extendedTooltip>
-      <name>ОдинПроксиДляВсехПротоколовExtendedTooltip</name>
+      <name>ОдинПроксиДляВсехПротоколовРасширеннаяПодсказка</name>
       <id>32</id>
       <type>Label</type>
       <autoMaxWidth>true</autoMaxWidth>
@@ -481,6 +505,10 @@
       <items xsi:type="form:FormField">
         <name>АдресаИсключенийАдресСервера</name>
         <id>23</id>
+        <title>
+          <key>ru</key>
+          <value>Адрес сервера</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -490,7 +518,7 @@
           <segments>АдресаИсключений.АдресСервера</segments>
         </dataPath>
         <extendedTooltip>
-          <name>АдресаИсключенийАдресСервераExtendedTooltip</name>
+          <name>АдресаИсключенийАдресСервераРасширеннаяПодсказка</name>
           <id>45</id>
           <type>Label</type>
           <autoMaxWidth>true</autoMaxWidth>
@@ -596,7 +624,7 @@
         </extInfo>
       </searchControlAddition>
       <extendedTooltip>
-        <name>АдресаИсключенийExtendedTooltip</name>
+        <name>АдресаИсключенийРасширеннаяПодсказка</name>
         <id>44</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
@@ -644,7 +672,7 @@
         <common>true</common>
       </userVisible>
       <extendedTooltip>
-        <name>ДекорацияПредупреждениеДляСервераExtendedTooltip</name>
+        <name>ДекорацияПредупреждениеДляСервераРасширеннаяПодсказка</name>
         <id>46</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
@@ -678,7 +706,7 @@
       <value>Не использовать прокси-сервер для адресов</value>
     </title>
     <extendedTooltip>
-      <name>ГруппаАдресовИсключенийExtendedTooltip</name>
+      <name>ГруппаАдресовИсключенийРасширеннаяПодсказка</name>
       <id>43</id>
       <type>Label</type>
       <autoMaxWidth>true</autoMaxWidth>
@@ -705,13 +733,17 @@
     <items xsi:type="form:Button">
       <name>ФормаКнопкаОК</name>
       <id>25</id>
+      <title>
+        <key>ru</key>
+        <value>ОК</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
         <common>true</common>
       </userVisible>
       <extendedTooltip>
-        <name>ФормаКнопкаОКExtendedTooltip</name>
+        <name>ФормаКнопкаОКРасширеннаяПодсказка</name>
         <id>30</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
@@ -737,7 +769,7 @@
         <common>true</common>
       </userVisible>
       <extendedTooltip>
-        <name>ФормаОтменаExtendedTooltip</name>
+        <name>ФормаОтменаРасширеннаяПодсказка</name>
         <id>31</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>

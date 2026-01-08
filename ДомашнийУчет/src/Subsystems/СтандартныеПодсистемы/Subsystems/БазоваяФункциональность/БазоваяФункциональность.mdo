@@ -140,7 +140,7 @@
   <content>CommonPicture.РазделАдминистрирование48</content>
   <content>CommonModule.СтандартныеПодсистемыПовтИсп</content>
   <content>EventSubscription.ВыполнитьДействияПослеПолученияДанныхУзлаВРаспределеннойИнформационнойБазе</content>
-  <content>EventSubscription.ЗапретитьПометкуУдаленияПредопределенныхЭлементов</content>
+  <content>EventSubscription.ОбработкаПредопределенныхЭлементовПередЗаписью</content>
   <content>StyleItem.ЗаблокированныйРеквизитЦвет</content>
   <content>CommonPicture.ЦветФона</content>
   <content>CommonPicture.ТолстаяГраницаСнизу</content>
@@ -238,7 +238,7 @@
   <content>CommonPicture.МетаданныеКритерииОтбора</content>
   <content>Constant.АдресПубликацииИнформационнойБазыВЛокальнойСети</content>
   <content>CommonPicture.СостоянияРасширенийКонфигурации</content>
-  <content>CommonCommand.ВремяТекущегоСеанса</content>
+  <content>CommonCommand.ВремяВПриложении</content>
   <content>Enum.СпособыРедактированияЭлектронныхПисем</content>
   <content>StyleItem.ИзмененноеЗначениеРеквизитаЦвет</content>
   <content>StyleItem.УдаленныйРеквизитФон</content>
@@ -358,6 +358,7 @@
   <content>CommonModule.СерверныеОповещенияГлобальный</content>
   <content>CommonModule.СерверныеОповещенияКлиент</content>
   <content>CommonModule.СерверныеОповещенияСлужебныйВызовСервера</content>
+  <content>CommonModule.СерверныеОповещенияСлужебныйКлиентСервер</content>
   <content>CommonModule.СерверныеОповещенияСлужебныйПовтИсп</content>
   <content>InformationRegister.ОтправленныеСерверныеОповещения</content>
   <content>InformationRegister.ПериодическиеСерверныеОповещения</content>
@@ -379,6 +380,11 @@
   <content>CommonPicture.ВажностьНизкая</content>
   <content>CommonModule.ФизическиеЛицаКлиентСерверЛокализация</content>
   <content>CommonPicture.СерыйКрест</content>
+  <content>InformationRegister.СвойстваРасширений</content>
+  <content>CommonModule.СтроковыеФункцииКлиентСерверЛокализация</content>
+  <content>CommonModule.СтандартныеПодсистемыСерверЛокализация</content>
+  <content>StyleItem.ШрифтОченьКрупныйШрифтТекста</content>
+  <content>CommonModule.СтандартныеПодсистемыКлиентСервер</content>
   <content>EventSubscription.ПроверитьБезопасныйРежимПередЗаписью</content>
   <content>EventSubscription.ПроверитьБезопасныйРежимПередЗаписьюНабораЗаписи</content>
   <parentSubsystem>Subsystem.СтандартныеПодсистемы</parentSubsystem>

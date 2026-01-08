@@ -16,55 +16,54 @@
   </picture>
   <content>CommonCommand.НастройкаСистемнойУчетнойЗаписиЭлектроннойПочты</content>
   <content>DataProcessor.ЖурналРегистрации</content>
-  <content>Catalog.КлассификаторБанков</content>
   <content>DataProcessor.РегламентныеИФоновыеЗадания</content>
-  <content>CommonCommand.ДополнительныеОтчетыАдминистрирование</content>
-  <content>Catalog.ВидыКонтактнойИнформации</content>
   <content>DataProcessor.УдалениеПомеченныхОбъектов</content>
   <content>DataProcessor.НастройкиПользователей</content>
   <content>Catalog.Пользователи</content>
-  <content>DataProcessor.УправлениеИтогамиИАгрегатами</content>
   <content>Catalog.ГруппыПользователей</content>
-  <content>Catalog.ГруппыВнешнихПользователей</content>
-  <content>DataProcessor.ПереносФайлов</content>
-  <content>CommonForm.НастройкаКомандПечати</content>
-  <content>Catalog.КлючевыеОперации</content>
-  <content>DataProcessor.ЗагрузкаКурсовВалют</content>
   <content>Catalog.ВнешниеПользователи</content>
+  <content>Catalog.ГруппыВнешнихПользователей</content>
   <content>Catalog.ТомаХраненияФайлов</content>
-  <content>CommonForm.Расширения</content>
+  <content>Catalog.ВидыКонтактнойИнформации</content>
   <content>Catalog.НаборыДополнительныхРеквизитовИСведений</content>
   <content>InformationRegister.ПользовательскиеМакетыПечати</content>
   <content>Catalog.УчетныеЗаписиЭлектроннойПочты</content>
   <content>Catalog.ДополнительныеОтчетыИОбработки</content>
   <content>CommonForm.ОписаниеИзмененийПрограммы</content>
   <content>DataProcessor.АвтоматическоеИзвлечениеТекстов</content>
-  <content>Catalog.РассылкиОтчетов</content>
-  <content>CommonForm.ПараметрыПроксиСервера</content>
+  <content>DataProcessor.УправлениеИтогамиИАгрегатами</content>
   <content>Catalog.ВариантыОтчетов</content>
   <content>CommonPicture.РазделАдминистрирование48</content>
-  <content>Report.АнализЖурналаРегистрации</content>
-  <content>Report.УниверсальныйОтчет</content>
-  <content>DataProcessor.СдвигГраницыИтогов</content>
+  <content>Catalog.РассылкиОтчетов</content>
   <content>DataProcessor.ПанельАдминистрированияБСП</content>
+  <content>CommonForm.ПараметрыПроксиСервера</content>
   <content>InformationRegister.НомераОтсканированныхФайлов</content>
   <content>Catalog.Валюты</content>
   <content>DataProcessor.ОценкаПроизводительности</content>
+  <content>DataProcessor.ЗагрузкаКурсовВалют</content>
+  <content>Catalog.КлассификаторБанков</content>
   <content>DataProcessor.РезультатыОбновленияПрограммы</content>
-  <content>CommonForm.НастройкиВходаПользователей</content>
-  <content>Report.СведенияОПользователях</content>
-  <content>CommonForm.НастройкаДоступаКСервисуMorpher</content>
-  <content>CommonCommand.ДополнительныеОбработкиАдминистрирование</content>
+  <content>Catalog.КлючевыеОперации</content>
   <content>CommonCommand.ПанельОтчетовАдминистрирование</content>
+  <content>CommonCommand.ДополнительныеОбработкиАдминистрирование</content>
+  <content>CommonCommand.ДополнительныеОтчетыАдминистрирование</content>
+  <content>DataProcessor.СдвигГраницыИтогов</content>
+  <content>DataProcessor.ПереносФайлов</content>
   <content>Report.ОбъемНенужныхФайлов</content>
   <content>Report.ПрогрессОтложенногоОбновления</content>
+  <content>Report.УниверсальныйОтчет</content>
+  <content>CommonForm.НастройкаДоступаКСервисуMorpher</content>
+  <content>CommonForm.НастройкаКомандПечати</content>
+  <content>CommonForm.Расширения</content>
   <content>InformationRegister.НастройкиОчисткиФайлов</content>
-  <content>CommonCommand.ВремяТекущегоСеанса</content>
+  <content>CommonCommand.ВремяВПриложении</content>
+  <content>CommonForm.НастройкиВходаПользователей</content>
   <content>Catalog.ПрофилиКлючевыхОпераций</content>
   <content>Report.ОценкаПроизводительности</content>
   <content>InformationRegister.АдресныеОбъекты</content>
   <content>DataProcessor.НастройкаСтандартногоИнтерфейсаOData</content>
   <content>CommonForm.ВосстановлениеПаролей</content>
   <content>Report.ДлительностьОтложенногоОбновления</content>
-  <content>a3720a0f-cf95-4acb-89dc-c4e6e38f72ca</content>
+  <content>CommonForm.НастройкиРегистрацииСобытийДоступаКДанным</content>
+  <subsystems>КонтрольРаботыПользователей</subsystems>
 </mdclass:Subsystem>

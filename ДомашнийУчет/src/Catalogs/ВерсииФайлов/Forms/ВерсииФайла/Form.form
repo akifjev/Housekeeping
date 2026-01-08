@@ -485,7 +485,7 @@
       </extInfo>
     </searchControlAddition>
     <extendedTooltip>
-      <name>СписокExtendedTooltip</name>
+      <name>СписокРасширеннаяПодсказка</name>
       <id>89</id>
       <type>Label</type>
       <autoMaxWidth>true</autoMaxWidth>
@@ -500,6 +500,10 @@
       <items xsi:type="form:Button">
         <name>КонтекстноеМенюСписокОткрытьВерсию</name>
         <id>63</id>
+        <title>
+          <key>ru</key>
+          <value>Просмотреть</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -507,7 +511,7 @@
         </userVisible>
         <skipOnInput>false</skipOnInput>
         <extendedTooltip>
-          <name>КонтекстноеМенюСписокОткрытьВерсиюExtendedTooltip</name>
+          <name>КонтекстноеМенюСписокОткрытьВерсиюРасширеннаяПодсказка</name>
           <id>82</id>
           <type>Label</type>
           <autoMaxWidth>true</autoMaxWidth>
@@ -526,6 +530,10 @@
       <items xsi:type="form:Button">
         <name>КонтекстноеМенюСписокОткрытьКарточку</name>
         <id>43</id>
+        <title>
+          <key>ru</key>
+          <value>Открыть карточку</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -533,7 +541,7 @@
         </userVisible>
         <skipOnInput>false</skipOnInput>
         <extendedTooltip>
-          <name>КонтекстноеМенюСписокОткрытьКарточкуExtendedTooltip</name>
+          <name>КонтекстноеМенюСписокОткрытьКарточкуРасширеннаяПодсказка</name>
           <id>83</id>
           <type>Label</type>
           <autoMaxWidth>true</autoMaxWidth>
@@ -552,6 +560,10 @@
       <items xsi:type="form:Button">
         <name>КонтекстноеМенюСписокСделатьАктивной</name>
         <id>44</id>
+        <title>
+          <key>ru</key>
+          <value>Сделать активной</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -559,7 +571,7 @@
         </userVisible>
         <skipOnInput>false</skipOnInput>
         <extendedTooltip>
-          <name>КонтекстноеМенюСписокСделатьАктивнойExtendedTooltip</name>
+          <name>КонтекстноеМенюСписокСделатьАктивнойРасширеннаяПодсказка</name>
           <id>84</id>
           <type>Label</type>
           <autoMaxWidth>true</autoMaxWidth>
@@ -578,6 +590,10 @@
       <items xsi:type="form:Button">
         <name>КонтекстноеМенюСписокСравнить</name>
         <id>64</id>
+        <title>
+          <key>ru</key>
+          <value>Показать отличия</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -585,7 +601,7 @@
         </userVisible>
         <skipOnInput>false</skipOnInput>
         <extendedTooltip>
-          <name>КонтекстноеМенюСписокСравнитьExtendedTooltip</name>
+          <name>КонтекстноеМенюСписокСравнитьРасширеннаяПодсказка</name>
           <id>85</id>
           <type>Label</type>
           <autoMaxWidth>true</autoMaxWidth>
@@ -604,13 +620,17 @@
       <items xsi:type="form:Button">
         <name>КонтекстноеМенюСписокСохранитьКак</name>
         <id>71</id>
+        <title>
+          <key>ru</key>
+          <value>Сохранить как...</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
           <common>true</common>
         </userVisible>
         <extendedTooltip>
-          <name>КонтекстноеМенюСписокСохранитьКакExtendedTooltip</name>
+          <name>КонтекстноеМенюСписокСохранитьКакРасширеннаяПодсказка</name>
           <id>86</id>
           <type>Label</type>
           <autoMaxWidth>true</autoMaxWidth>
@@ -636,7 +656,7 @@
         </userVisible>
         <skipOnInput>false</skipOnInput>
         <extendedTooltip>
-          <name>КонтекстноеМенюСписокКопироватьExtendedTooltip</name>
+          <name>КонтекстноеМенюСписокКопироватьРасширеннаяПодсказка</name>
           <id>88</id>
           <type>Label</type>
           <autoMaxWidth>true</autoMaxWidth>
@@ -680,6 +700,10 @@
       <items xsi:type="form:Button">
         <name>СписокКонтекстноеМенюУдалить</name>
         <id>122</id>
+        <title>
+          <key>ru</key>
+          <value>Удалить</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -754,6 +778,10 @@
     <items xsi:type="form:Button">
       <name>ФормаОткрытьВерсию</name>
       <id>62</id>
+      <title>
+        <key>ru</key>
+        <value>Просмотреть</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -761,7 +789,7 @@
       </userVisible>
       <skipOnInput>false</skipOnInput>
       <extendedTooltip>
-        <name>ФормаОткрытьВерсиюExtendedTooltip</name>
+        <name>ФормаОткрытьВерсиюРасширеннаяПодсказка</name>
         <id>74</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
@@ -779,6 +807,10 @@
     <items xsi:type="form:Button">
       <name>ФормаОткрытьКарточку</name>
       <id>36</id>
+      <title>
+        <key>ru</key>
+        <value>Открыть карточку</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -786,7 +818,7 @@
       </userVisible>
       <skipOnInput>false</skipOnInput>
       <extendedTooltip>
-        <name>ФормаОткрытьКарточкуExtendedTooltip</name>
+        <name>ФормаОткрытьКарточкуРасширеннаяПодсказка</name>
         <id>75</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
@@ -804,6 +836,10 @@
     <items xsi:type="form:Button">
       <name>ФормаСделатьАктивной</name>
       <id>35</id>
+      <title>
+        <key>ru</key>
+        <value>Сделать активной</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -811,7 +847,7 @@
       </userVisible>
       <skipOnInput>false</skipOnInput>
       <extendedTooltip>
-        <name>ФормаСделатьАктивнойExtendedTooltip</name>
+        <name>ФормаСделатьАктивнойРасширеннаяПодсказка</name>
         <id>76</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
@@ -830,6 +866,10 @@
     <items xsi:type="form:Button">
       <name>ФормаСравнить</name>
       <id>61</id>
+      <title>
+        <key>ru</key>
+        <value>Показать отличия</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -837,7 +877,7 @@
       </userVisible>
       <skipOnInput>false</skipOnInput>
       <extendedTooltip>
-        <name>ФормаСравнитьExtendedTooltip</name>
+        <name>ФормаСравнитьРасширеннаяПодсказка</name>
         <id>78</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
@@ -856,13 +896,17 @@
     <items xsi:type="form:Button">
       <name>ФормаСохранитьКак</name>
       <id>70</id>
+      <title>
+        <key>ru</key>
+        <value>Сохранить как...</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
         <common>true</common>
       </userVisible>
       <extendedTooltip>
-        <name>ФормаСохранитьКакExtendedTooltip</name>
+        <name>ФормаСохранитьКакРасширеннаяПодсказка</name>
         <id>79</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
@@ -910,6 +954,10 @@
       <items xsi:type="form:Button">
         <name>ФормаУдалить</name>
         <id>118</id>
+        <title>
+          <key>ru</key>
+          <value>Удалить</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -943,7 +991,7 @@
         <value>Форма стандартные команды</value>
       </title>
       <extendedTooltip>
-        <name>ФормаСтандартныеКомандыExtendedTooltip</name>
+        <name>ФормаСтандартныеКомандыРасширеннаяПодсказка</name>
         <id>80</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
@@ -957,6 +1005,10 @@
     <items xsi:type="form:Button">
       <name>ПоказыватьПомеченныеФайлы</name>
       <id>120</id>
+      <title>
+        <key>ru</key>
+        <value>Показывать помеченные файлы</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -1014,7 +1066,7 @@
         <common>true</common>
       </userVisible>
       <extendedTooltip>
-        <name>ФормаСправкаExtendedTooltip</name>
+        <name>ФормаСправкаРасширеннаяПодсказка</name>
         <id>81</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>

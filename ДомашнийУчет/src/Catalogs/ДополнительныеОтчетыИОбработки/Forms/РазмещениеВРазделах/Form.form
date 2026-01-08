@@ -36,6 +36,10 @@
       <items xsi:type="form:FormField">
         <name>Используется</name>
         <id>6</id>
+        <title>
+          <key>ru</key>
+          <value>Используется</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -46,7 +50,7 @@
         </dataPath>
         <titleLocation>None</titleLocation>
         <extendedTooltip>
-          <name>ИспользуетсяExtendedTooltip</name>
+          <name>ИспользуетсяРасширеннаяПодсказка</name>
           <id>17</id>
           <type>Label</type>
           <autoMaxWidth>true</autoMaxWidth>
@@ -70,6 +74,10 @@
       <items xsi:type="form:FormField">
         <name>Представление</name>
         <id>10</id>
+        <title>
+          <key>ru</key>
+          <value>Представление</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -79,7 +87,7 @@
           <segments>Разделы.Представление</segments>
         </dataPath>
         <extendedTooltip>
-          <name>ПредставлениеExtendedTooltip</name>
+          <name>ПредставлениеРасширеннаяПодсказка</name>
           <id>18</id>
           <type>Label</type>
           <autoMaxWidth>true</autoMaxWidth>
@@ -117,7 +125,7 @@
         <value>Колонок</value>
       </title>
       <extendedTooltip>
-        <name>ГруппаКолонокExtendedTooltip</name>
+        <name>ГруппаКолонокРасширеннаяПодсказка</name>
         <id>16</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
@@ -208,7 +216,7 @@
       </extInfo>
     </searchControlAddition>
     <extendedTooltip>
-      <name>РазделыExtendedTooltip</name>
+      <name>РазделыРасширеннаяПодсказка</name>
       <id>15</id>
       <type>Label</type>
       <autoMaxWidth>true</autoMaxWidth>
@@ -249,6 +257,10 @@
     <items xsi:type="form:Button">
       <name>ОК</name>
       <id>8</id>
+      <title>
+        <key>ru</key>
+        <value>ОК</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -257,7 +269,7 @@
       <defaultItem>true</defaultItem>
       <skipOnInput>false</skipOnInput>
       <extendedTooltip>
-        <name>ОКExtendedTooltip</name>
+        <name>ОКРасширеннаяПодсказка</name>
         <id>13</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
@@ -284,7 +296,7 @@
       </userVisible>
       <skipOnInput>false</skipOnInput>
       <extendedTooltip>
-        <name>ОтменаExtendedTooltip</name>
+        <name>ОтменаРасширеннаяПодсказка</name>
         <id>14</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>

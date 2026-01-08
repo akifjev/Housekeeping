@@ -201,6 +201,10 @@
       <items xsi:type="form:Button">
         <name>СписокСоздатьГруппу</name>
         <id>31</id>
+        <title>
+          <key>ru</key>
+          <value>Создать группу</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>

@@ -6,6 +6,10 @@
     <items xsi:type="form:FormField">
       <name>КоличествоЛишнихФайлов</name>
       <id>13</id>
+      <title>
+        <key>ru</key>
+        <value>Количество лишних файлов</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -126,7 +130,7 @@
         <common>true</common>
       </userVisible>
       <extendedTooltip>
-        <name>ДекорацияИконкаExtendedTooltip</name>
+        <name>ДекорацияИконкаРасширеннаяПодсказка</name>
         <id>9</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
@@ -145,7 +149,7 @@
       <skipOnInput>false</skipOnInput>
       <extInfo xsi:type="form:PictureDecorationExtInfo">
         <picture xsi:type="core:PictureRef">
-          <picture>CommonPicture.Информация32</picture>
+          <picture>StdPicture.DialogInformation</picture>
         </picture>
       </extInfo>
     </items>
@@ -154,7 +158,7 @@
       <id>10</id>
       <title>
         <key>ru</key>
-        <value>Если в файлах в томе, о которых в программе нет сведений, может содержаться полезная информация,
+        <value>Если в файлах в томе, о которых в приложении нет сведений, может содержаться полезная информация,
 то рекомендуется скопировать их в другой каталог.</value>
       </title>
       <visible>true</visible>
@@ -163,7 +167,7 @@
         <common>true</common>
       </userVisible>
       <extendedTooltip>
-        <name>ДекорацияИнфоExtendedTooltip</name>
+        <name>ДекорацияИнфоРасширеннаяПодсказка</name>
         <id>12</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
@@ -222,6 +226,10 @@
     <items xsi:type="form:FormField">
       <name>СкопироватьФайлыПередУдалением</name>
       <id>24</id>
+      <title>
+        <key>ru</key>
+        <value>Скопировать файлы перед удалением в папку:</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -260,6 +268,10 @@
     <items xsi:type="form:FormField">
       <name>ПутьКПапкеДляКопирования</name>
       <id>21</id>
+      <title>
+        <key>ru</key>
+        <value>Путь к папке для копирования</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -344,6 +356,10 @@
     <items xsi:type="form:Button">
       <name>ФормаУдалитьЛишниеФайлы</name>
       <id>1</id>
+      <title>
+        <key>ru</key>
+        <value>Удалить лишние файлы</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>

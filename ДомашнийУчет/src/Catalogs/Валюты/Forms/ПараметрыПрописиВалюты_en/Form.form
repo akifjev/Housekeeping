@@ -284,6 +284,10 @@
     <items xsi:type="form:FormField">
       <name>ДлинаДробнойЧасти</name>
       <id>20</id>
+      <title>
+        <key>ru</key>
+        <value>Число разрядов дробной части</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -297,7 +301,7 @@
         <name>ПолеВводаПриИзменении</name>
       </handlers>
       <extendedTooltip>
-        <name>ДлинаДробнойЧастиExtendedTooltip</name>
+        <name>ДлинаДробнойЧастиРасширеннаяПодсказка</name>
         <id>96</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
@@ -365,7 +369,7 @@
       <value>Число разрядов дробной части</value>
     </title>
     <extendedTooltip>
-      <name>ГруппаЧислоРазрядовДробнойЧастиExtendedTooltip</name>
+      <name>ГруппаЧислоРазрядовДробнойЧастиРасширеннаяПодсказка</name>
       <id>95</id>
       <type>Label</type>
       <autoMaxWidth>true</autoMaxWidth>
@@ -407,7 +411,7 @@
         <name>ПолеВводаПриИзменении</name>
       </handlers>
       <extendedTooltip>
-        <name>СуммаЧислоExtendedTooltip</name>
+        <name>СуммаЧислоРасширеннаяПодсказка</name>
         <id>98</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
@@ -438,6 +442,10 @@
     <items xsi:type="form:FormField">
       <name>СуммаПрописью</name>
       <id>62</id>
+      <title>
+        <key>ru</key>
+        <value>Сумма прописью</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -447,7 +455,7 @@
         <segments>СуммаПрописью</segments>
       </dataPath>
       <extendedTooltip>
-        <name>СуммаПрописьюExtendedTooltip</name>
+        <name>СуммаПрописьюРасширеннаяПодсказка</name>
         <id>99</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
@@ -485,7 +493,7 @@
       <value>Пример прописи суммы</value>
     </title>
     <extendedTooltip>
-      <name>ГруппаПримерПрописиExtendedTooltip</name>
+      <name>ГруппаПримерПрописиРасширеннаяПодсказка</name>
       <id>97</id>
       <type>Label</type>
       <autoMaxWidth>true</autoMaxWidth>
@@ -512,6 +520,10 @@
     <items xsi:type="form:Button">
       <name>ФормаЗаписатьИЗакрыть</name>
       <id>116</id>
+      <title>
+        <key>ru</key>
+        <value>Записать и закрыть</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -538,6 +550,10 @@
     <items xsi:type="form:Button">
       <name>ФормаЗаписать</name>
       <id>118</id>
+      <title>
+        <key>ru</key>
+        <value>Записать</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>

@@ -40,7 +40,7 @@
       <autoMaxHeight>true</autoMaxHeight>
       <extInfo xsi:type="form:PictureDecorationExtInfo">
         <picture xsi:type="core:PictureRef">
-          <picture>CommonPicture.Вопрос32</picture>
+          <picture>StdPicture.DialogQuestion</picture>
         </picture>
       </extInfo>
     </items>
@@ -59,7 +59,7 @@
             <title>
               <key>ru</key>
               <value>Будет разрешен доступ к %1 &quot;%2&quot; с помощью автоматического REST-сервиса.
-Для того чтобы сторонние программы смогли работать с ним через автоматический REST-сервис, требуется дополнительно разрешить доступ к зависимым объектам.</value>
+Для того чтобы сторонние приложения смогли работать с ним через автоматический REST-сервис, требуется дополнительно разрешить доступ к зависимым объектам.</value>
             </title>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -122,7 +122,7 @@
             <title>
               <key>ru</key>
               <value>Вы решили запретить доступ к %1 &quot;%2&quot; с помощью автоматического REST-сервиса.
-Однако этот объект должен быть разрешен для того, чтобы сторонние программы могли взаимодействовать с зависимыми объектами.</value>
+Однако этот объект должен быть разрешен для того, чтобы сторонние приложения могли взаимодействовать с зависимыми объектами.</value>
             </title>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -420,6 +420,10 @@
           <items xsi:type="form:FormField">
             <name>ОбъектыМетаданныхПредставление</name>
             <id>33</id>
+            <title>
+              <key>ru</key>
+              <value>Зависимый объект</value>
+            </title>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>

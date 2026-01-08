@@ -90,7 +90,7 @@
         <name>СуммаЧислоПриИзменении</name>
       </handlers>
       <extendedTooltip>
-        <name>СуммаЧислоExtendedTooltip</name>
+        <name>СуммаЧислоРасширеннаяПодсказка</name>
         <id>23</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
@@ -121,6 +121,10 @@
     <items xsi:type="form:FormField">
       <name>СуммаПрописью</name>
       <id>24</id>
+      <title>
+        <key>ru</key>
+        <value>Сумма прописью</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -131,7 +135,7 @@
       </dataPath>
       <titleLocation>Left</titleLocation>
       <extendedTooltip>
-        <name>СуммаПрописьюExtendedTooltip</name>
+        <name>СуммаПрописьюРасширеннаяПодсказка</name>
         <id>26</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
@@ -169,7 +173,7 @@
       <value>Пример прописи суммы</value>
     </title>
     <extendedTooltip>
-      <name>ГруппаПримерПрописиExtendedTooltip</name>
+      <name>ГруппаПримерПрописиРасширеннаяПодсказка</name>
       <id>20</id>
       <type>Label</type>
       <autoMaxWidth>true</autoMaxWidth>
@@ -196,6 +200,10 @@
     <items xsi:type="form:Button">
       <name>ФормаЗаписатьИЗакрыть</name>
       <id>27</id>
+      <title>
+        <key>ru</key>
+        <value>Записать и закрыть</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -222,6 +230,10 @@
     <items xsi:type="form:Button">
       <name>ФормаЗаписать</name>
       <id>29</id>
+      <title>
+        <key>ru</key>
+        <value>Записать</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>

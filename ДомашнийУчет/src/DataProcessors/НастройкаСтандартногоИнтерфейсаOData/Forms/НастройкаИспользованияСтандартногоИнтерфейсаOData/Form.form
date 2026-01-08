@@ -19,6 +19,10 @@
           <items xsi:type="form:FormField">
             <name>СоздатьПользователяСтандартногоИнтерфейсаOData</name>
             <id>74</id>
+            <title>
+              <key>ru</key>
+              <value>Создать для использования автоматического REST-сервиса отдельные имя пользователя и пароль</value>
+            </title>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
@@ -101,6 +105,10 @@
           <items xsi:type="form:FormField">
             <name>ИмяПользователя</name>
             <id>41</id>
+            <title>
+              <key>ru</key>
+              <value>Имя пользователя</value>
+            </title>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
@@ -143,6 +151,10 @@
             <items xsi:type="form:FormField">
               <name>Пароль</name>
               <id>44</id>
+              <title>
+                <key>ru</key>
+                <value>Пароль</value>
+              </title>
               <visible>true</visible>
               <enabled>true</enabled>
               <userVisible>
@@ -183,6 +195,10 @@
             <items xsi:type="form:FormField">
               <name>ПодтверждениеПароля</name>
               <id>57</id>
+              <title>
+                <key>ru</key>
+                <value>Подтверждение</value>
+              </title>
               <visible>true</visible>
               <enabled>true</enabled>
               <userVisible>
@@ -262,7 +278,7 @@
             <id>40</id>
             <title>
               <key>ru</key>
-              <value>В целях безопасности при использовании автоматического REST-сервиса, не передавайте имя и пароль этого пользователя третьим лицам без необходимости, так как использование REST-сервиса позволяет выполнять чтение и изменение данных приложения. Сообщайте их только надежным лицам и используйте в сторонних программах, которым доверяете.</value>
+              <value>В целях безопасности при использовании автоматического REST-сервиса, не передавайте имя и пароль этого пользователя третьим лицам без необходимости, так как использование REST-сервиса позволяет выполнять чтение и изменение данных приложения. Сообщайте их только надежным лицам и используйте в сторонних приложениях, которым доверяете.</value>
             </title>
             <type>Label</type>
             <autoMaxHeight>true</autoMaxHeight>
@@ -334,6 +350,10 @@
             <items xsi:type="form:FormField">
               <name>ОбъектыМетаданныхКартинка</name>
               <id>26</id>
+              <title>
+                <key>ru</key>
+                <value>Картинка</value>
+              </title>
               <visible>true</visible>
               <enabled>true</enabled>
               <userVisible>
@@ -378,6 +398,10 @@
             <items xsi:type="form:FormField">
               <name>ОбъектыМетаданныхИспользование</name>
               <id>29</id>
+              <title>
+                <key>ru</key>
+                <value>Использование</value>
+              </title>
               <visible>true</visible>
               <enabled>true</enabled>
               <userVisible>
@@ -536,6 +560,10 @@
             <items xsi:type="form:FormField">
               <name>ОбъектыМетаданныхТолькоЧтение</name>
               <id>101</id>
+              <title>
+                <key>ru</key>
+                <value>Только чтение</value>
+              </title>
               <visible>true</visible>
               <enabled>true</enabled>
               <userVisible>
@@ -608,6 +636,10 @@
             <items xsi:type="form:Button">
               <name>ОбъектыМетаданныхЗагрузитьМетаданные</name>
               <id>127</id>
+              <title>
+                <key>ru</key>
+                <value>Загрузить метаданные</value>
+              </title>
               <visible>true</visible>
               <enabled>true</enabled>
               <userVisible>
@@ -755,7 +787,7 @@
               <value>· &lt;b>Подчиненный объект&lt;/> - объект используется при работе пользователей с приложением не непосредственно, а при работе с другими объектами. Предоставление доступа к таким объектам является штатной ситуацией.
 · &lt;b>Доступен только для чтения&lt;/> - данные объекта могут быть только прочитаны через REST-сервис.
 
-В списке отображаются только объекты, доступные при текущих настройках программы.</value>
+В списке отображаются только объекты, доступные при текущих настройках приложения.</value>
             </title>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -835,7 +867,7 @@
           <title>
             <key>ru</key>
             <value>В списке перечислены объекты, доступ к которым может быть предоставлен через автоматический REST-сервис.
-Требуемый состав объектов можно уточнить у разработчика сторонней программы, которая будет подключаться к приложению через автоматический REST-сервис. &lt;link https://its.1c.eu/db/v8323doc#bookmark:dev:ti000001358>Информация для разработчиков&lt;/></value>
+Требуемый состав объектов можно уточнить у разработчика стороннего приложения, которое будет подключаться к этому приложению через автоматический REST-сервис. &lt;link https://its.1c.eu/db/v8323doc#bookmark:dev:ti000001358>Информация для разработчиков&lt;/></value>
           </title>
           <formatted>true</formatted>
           <type>Label</type>
@@ -916,6 +948,10 @@
     <items xsi:type="form:Button">
       <name>ФормаСохранитьИЗакрыть</name>
       <id>34</id>
+      <title>
+        <key>ru</key>
+        <value>Сохранить и закрыть</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -942,6 +978,10 @@
     <items xsi:type="form:Button">
       <name>ФормаСохранить</name>
       <id>79</id>
+      <title>
+        <key>ru</key>
+        <value>Сохранить</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>

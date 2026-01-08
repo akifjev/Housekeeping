@@ -7,6 +7,10 @@
   <items xsi:type="form:FormField">
     <name>День</name>
     <id>1</id>
+    <title>
+      <key>ru</key>
+      <value>День</value>
+    </title>
     <visible>true</visible>
     <enabled>true</enabled>
     <userVisible>

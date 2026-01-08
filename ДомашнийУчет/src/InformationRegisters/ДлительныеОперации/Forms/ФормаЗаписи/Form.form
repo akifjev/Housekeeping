@@ -49,6 +49,10 @@
       <items xsi:type="form:FormField">
         <name>ИдентификаторПроцесса</name>
         <id>36</id>
+        <title>
+          <key>ru</key>
+          <value>Идентификатор процесса</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -90,6 +94,10 @@
       <items xsi:type="form:FormField">
         <name>ИдентификаторПотока</name>
         <id>39</id>
+        <title>
+          <key>ru</key>
+          <value>Идентификатор потока</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -211,6 +219,10 @@
       <items xsi:type="form:FormField">
         <name>ИдентификаторЗадания</name>
         <id>42</id>
+        <title>
+          <key>ru</key>
+          <value>Идентификатор задания</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -605,6 +617,10 @@
     <items xsi:type="form:Button">
       <name>ФормаВключитьВозможностьРедактирования</name>
       <id>45</id>
+      <title>
+        <key>ru</key>
+        <value>Включить возможность редактирования</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>

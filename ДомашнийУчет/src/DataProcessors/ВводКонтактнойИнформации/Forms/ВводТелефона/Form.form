@@ -10,6 +10,10 @@
     <items xsi:type="form:FormField">
       <name>НомерТелефонаПоМаске</name>
       <id>60</id>
+      <title>
+        <key>ru</key>
+        <value>Номер телефона</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -58,6 +62,10 @@
       <items xsi:type="form:FormField">
         <name>КодСтраны</name>
         <id>5</id>
+        <title>
+          <key>ru</key>
+          <value>Код страны</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -76,7 +84,7 @@
           <name>КодСтраныПриИзменении</name>
         </handlers>
         <extendedTooltip>
-          <name>КодСтраныExtendedTooltip</name>
+          <name>КодСтраныРасширеннаяПодсказка</name>
           <id>41</id>
           <type>Label</type>
           <autoMaxWidth>true</autoMaxWidth>
@@ -109,6 +117,10 @@
       <items xsi:type="form:FormField">
         <name>КодГорода</name>
         <id>3</id>
+        <title>
+          <key>ru</key>
+          <value>Код города</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -127,7 +139,7 @@
           <name>КодГородаПриИзменении</name>
         </handlers>
         <extendedTooltip>
-          <name>КодГородаExtendedTooltip</name>
+          <name>КодГородаРасширеннаяПодсказка</name>
           <id>42</id>
           <type>Label</type>
           <autoMaxWidth>true</autoMaxWidth>
@@ -161,6 +173,10 @@
       <items xsi:type="form:FormField">
         <name>НомерТелефона</name>
         <id>9</id>
+        <title>
+          <key>ru</key>
+          <value>Номер</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -179,7 +195,7 @@
           <name>НомерТелефонаПриИзменении</name>
         </handlers>
         <extendedTooltip>
-          <name>НомерТелефонаExtendedTooltip</name>
+          <name>НомерТелефонаРасширеннаяПодсказка</name>
           <id>43</id>
           <type>Label</type>
           <autoMaxWidth>true</autoMaxWidth>
@@ -212,6 +228,10 @@
       <items xsi:type="form:FormField">
         <name>Добавочный</name>
         <id>1</id>
+        <title>
+          <key>ru</key>
+          <value>Добавочный</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -230,7 +250,7 @@
           <name>ДобавочныйПриИзменении</name>
         </handlers>
         <extendedTooltip>
-          <name>ДобавочныйExtendedTooltip</name>
+          <name>ДобавочныйРасширеннаяПодсказка</name>
           <id>44</id>
           <type>Label</type>
           <autoMaxWidth>true</autoMaxWidth>
@@ -291,6 +311,10 @@
     <items xsi:type="form:FormField">
       <name>Комментарий</name>
       <id>7</id>
+      <title>
+        <key>ru</key>
+        <value>Комментарий</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -305,7 +329,7 @@
         <value>Дополнительный комментарий, не попадающий в представление</value>
       </toolTip>
       <extendedTooltip>
-        <name>КомментарийExtendedTooltip</name>
+        <name>КомментарийРасширеннаяПодсказка</name>
         <id>47</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
@@ -367,6 +391,10 @@
     <name>Представление</name>
     <id>11</id>
     <displayImportance>VeryLow</displayImportance>
+    <title>
+      <key>ru</key>
+      <value>Представление</value>
+    </title>
     <visible>true</visible>
     <enabled>true</enabled>
     <userVisible>
@@ -377,7 +405,7 @@
     </dataPath>
     <titleLocation>None</titleLocation>
     <extendedTooltip>
-      <name>ПредставлениеExtendedTooltip</name>
+      <name>ПредставлениеРасширеннаяПодсказка</name>
       <id>45</id>
       <type>Label</type>
       <autoMaxWidth>true</autoMaxWidth>
@@ -418,13 +446,17 @@
     <items xsi:type="form:Button">
       <name>КомандаОК</name>
       <id>32</id>
+      <title>
+        <key>ru</key>
+        <value>ОК</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
         <common>true</common>
       </userVisible>
       <extendedTooltip>
-        <name>КомандаОКExtendedTooltip</name>
+        <name>КомандаОКРасширеннаяПодсказка</name>
         <id>49</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
@@ -444,13 +476,17 @@
     <items xsi:type="form:Button">
       <name>Отмена</name>
       <id>30</id>
+      <title>
+        <key>ru</key>
+        <value>Отмена</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
         <common>true</common>
       </userVisible>
       <extendedTooltip>
-        <name>ОтменаExtendedTooltip</name>
+        <name>ОтменаРасширеннаяПодсказка</name>
         <id>50</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
@@ -469,13 +505,17 @@
     <items xsi:type="form:Button">
       <name>ОчиститьТелефон</name>
       <id>34</id>
+      <title>
+        <key>ru</key>
+        <value>Очистить номер телефона</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
         <common>true</common>
       </userVisible>
       <extendedTooltip>
-        <name>ОчиститьТелефонExtendedTooltip</name>
+        <name>ОчиститьТелефонРасширеннаяПодсказка</name>
         <id>53</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
@@ -501,7 +541,7 @@
         <common>true</common>
       </userVisible>
       <extendedTooltip>
-        <name>ИзменитьФормуExtendedTooltip</name>
+        <name>ИзменитьФормуРасширеннаяПодсказка</name>
         <id>55</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
@@ -527,7 +567,7 @@
         <common>true</common>
       </userVisible>
       <extendedTooltip>
-        <name>СправкаExtendedTooltip</name>
+        <name>СправкаРасширеннаяПодсказка</name>
         <id>51</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
@@ -1104,7 +1144,10 @@
   </parameters>
   <parameters>
     <name>ЗначенияПолей</name>
-    <valueType/>
+    <valueType>
+      <types>String</types>
+      <stringQualifiers/>
+    </valueType>
   </parameters>
   <parameters>
     <name>Представление</name>
@@ -1125,6 +1168,17 @@
     <name>ТолькоПросмотр</name>
     <valueType>
       <types>Boolean</types>
+    </valueType>
+  </parameters>
+  <parameters>
+    <name>КонтактнаяИнформацияОписаниеДополнительныхРеквизитов</name>
+    <valueType/>
+  </parameters>
+  <parameters>
+    <name>Значение</name>
+    <valueType>
+      <types>String</types>
+      <stringQualifiers/>
     </valueType>
   </parameters>
   <commandInterface>
