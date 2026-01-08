@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a5f42cee-425e-4382-abcc-3f4342e84536">
+  <name>Основное</name>
+  <synonym>
+    <key>ru</key>
+    <value>Основное</value>
+  </synonym>
+  <content>FunctionalOption.ИспользоватьДополнительныеРеквизитыИСведенияДомашнийУчет</content>
+</mdclass:Subsystem>

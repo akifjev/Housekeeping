@@ -120,6 +120,7 @@
     <types>CatalogRef.ЗначенияСвойствОбъектовИерархия</types>
     <types>Boolean</types>
     <types>CatalogRef.ЗначенияСвойствОбъектов</types>
+    <types>CatalogRef.Номенклатура</types>
     <types>String</types>
     <types>Date</types>
     <types>Number</types>

@@ -14,4 +14,6 @@
   <content>Catalog.СтраныМира</content>
   <content>Catalog.Валюты</content>
   <content>Catalog.ЕдиницыИзмерения</content>
+  <content>Catalog.ВидыНоменклатуры</content>
+  <content>Catalog.Номенклатура</content>
 </mdclass:Subsystem>

@@ -20,7 +20,7 @@
   <defaultRoles>Role.АдминистраторСистемы</defaultRoles>
   <defaultRoles>Role.ИнтерактивноеОткрытиеВнешнихОтчетовИОбработок</defaultRoles>
   <vendor>Акифьев Д.А.</vendor>
-  <version>1.0.1.1</version>
+  <version>1.0.1.2</version>
   <usedMobileApplicationFunctionalities>
     <functionality>
       <use>true</use>
@@ -47,6 +47,7 @@
   </languages>
   <subsystems>Subsystem.Администрирование</subsystems>
   <subsystems>Subsystem.Кредиты</subsystems>
+  <subsystems>Subsystem.Основное</subsystems>
   <subsystems>Subsystem.Отчеты</subsystems>
   <subsystems>Subsystem.ПодключаемыеОтчетыИОбработки</subsystems>
   <subsystems>Subsystem.Справочники</subsystems>
@@ -845,6 +846,7 @@
   <commonModules>CommonModule.УправлениеПечатьюСлужебный</commonModules>
   <commonModules>CommonModule.УправлениеПечатьюСлужебныйКлиент</commonModules>
   <commonModules>CommonModule.УправлениеСвойствами</commonModules>
+  <commonModules>CommonModule.УправлениеСвойствамиДомашнийУчет</commonModules>
   <commonModules>CommonModule.УправлениеСвойствамиКлиент</commonModules>
   <commonModules>CommonModule.УправлениеСвойствамиПереопределяемый</commonModules>
   <commonModules>CommonModule.УправлениеСвойствамиПовтИсп</commonModules>
@@ -932,6 +934,7 @@
   <functionalOptions>FunctionalOption.ИспользоватьДополнительныеОбработкиСозданияСвязанныхОбъектов</functionalOptions>
   <functionalOptions>FunctionalOption.ИспользоватьДополнительныеОтчетыИОбработки</functionalOptions>
   <functionalOptions>FunctionalOption.ИспользоватьДополнительныеРеквизитыИСведения</functionalOptions>
+  <functionalOptions>FunctionalOption.ИспользоватьДополнительныеРеквизитыИСведенияДомашнийУчет</functionalOptions>
   <functionalOptions>FunctionalOption.ИспользоватьНапоминанияПользователя</functionalOptions>
   <functionalOptions>FunctionalOption.ИспользоватьНесколькоПроизводственныхКалендарей</functionalOptions>
   <functionalOptions>FunctionalOption.ИспользоватьСинхронизациюФайлов</functionalOptions>
@@ -1133,6 +1136,7 @@
   <catalogs>Catalog.ВерсииРасширений</catalogs>
   <catalogs>Catalog.ВерсииФайлов</catalogs>
   <catalogs>Catalog.ВидыКонтактнойИнформации</catalogs>
+  <catalogs>Catalog.ВидыНоменклатуры</catalogs>
   <catalogs>Catalog.ВнешниеПользователи</catalogs>
   <catalogs>Catalog.ГруппыВнешнихПользователей</catalogs>
   <catalogs>Catalog.ГруппыПользователей</catalogs>
@@ -1148,6 +1152,7 @@
   <catalogs>Catalog.МакетыПечатныхФорм</catalogs>
   <catalogs>Catalog.НаборыДополнительныхРеквизитовИСведений</catalogs>
   <catalogs>Catalog.НастройкиАвторизацииИнтернетСервисов</catalogs>
+  <catalogs>Catalog.Номенклатура</catalogs>
   <catalogs>Catalog.ПапкиФайлов</catalogs>
   <catalogs>Catalog.Пользователи</catalogs>
   <catalogs>Catalog.ПользовательскиеНастройкиОтчетов</catalogs>
