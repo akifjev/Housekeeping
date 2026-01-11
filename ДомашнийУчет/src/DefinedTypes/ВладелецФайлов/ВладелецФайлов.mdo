@@ -10,5 +10,6 @@
   </synonym>
   <type>
     <types>CatalogRef.ПапкиФайлов</types>
+    <types>CatalogRef.Номенклатура</types>
   </type>
 </mdclass:DefinedType>

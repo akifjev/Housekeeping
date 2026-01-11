@@ -156,6 +156,21 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <attributes uuid="1b8c6a36-a94f-4503-a0f4-48452a6a7529">
+    <name>ФайлКартинки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Файл картинки</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Файлы</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
   <tabularSections uuid="a911b5a9-d92f-46a6-8795-81892fae1b3e">
     <producedTypes>
       <objectType typeId="c892b5af-a190-493c-b409-fc8edb124d71" valueTypeId="78e1c81d-db78-4fab-87e9-1cd5cce50779"/>
