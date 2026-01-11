@@ -16,4 +16,5 @@
   <content>Catalog.ЕдиницыИзмерения</content>
   <content>Catalog.ВидыНоменклатуры</content>
   <content>Catalog.Номенклатура</content>
+  <content>Enum.ТипыНоменклатуры</content>
 </mdclass:Subsystem>

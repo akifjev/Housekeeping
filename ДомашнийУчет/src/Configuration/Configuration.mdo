@@ -1254,6 +1254,7 @@
   <enums>Enum.ЦветаСвойств</enums>
   <enums>Enum.ЦветностиИзображения</enums>
   <enums>Enum.ФорматыВыгрузкиОбъектов</enums>
+  <enums>Enum.ТипыНоменклатуры</enums>
   <reports>Report.АнализЖурналаРегистрации</reports>
   <reports>Report.ДвиженияДокумента</reports>
   <reports>Report.ДлительностьОтложенногоОбновления</reports>
